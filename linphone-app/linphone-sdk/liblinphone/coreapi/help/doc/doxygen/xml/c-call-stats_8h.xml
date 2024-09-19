@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-call-stats_8h" kind="file" language="C++">
+    <compoundname>c-call-stats.h</compoundname>
+    <includes local="no">ortp/rtp.h</includes>
+    <includes refid="c-callbacks_8h" local="yes">linphone/api/c-callbacks.h</includes>
+    <includes refid="c-types_8h" local="yes">linphone/api/c-types.h</includes>
+    <includedby refid="c-api_8h" local="yes">c-api.h</includedby>
+    <includedby refid="call_8h" local="yes">call.h</includedby>
+    <includedby refid="call__stats_8h" local="yes">call_stats.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>c-call-stats.h</label>
+        <link refid="c-call-stats_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ortp/rtp.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <member refid="group__call__misc_1ga3aaf768a67bef73e3798ff1352a03523" kind="define"><name>LINPHONE_CALL_STATS_AUDIO</name></member>
+      <member refid="group__call__misc_1ga7e84e05e3fa3bac2517ce5921558b4db" kind="define"><name>LINPHONE_CALL_STATS_VIDEO</name></member>
+      <member refid="group__call__misc_1gafff083100e9c3c915325df68a5d4eafb" kind="define"><name>LINPHONE_CALL_STATS_TEXT</name></member>
+      <member refid="group__call__misc_1ga7bb50ca7cd1f49ebea13eec5136ef00e" kind="define"><name>LINPHONE_CALL_STATS_RECEIVED_RTCP_UPDATE</name></member>
+      <member refid="group__call__misc_1ga4418b7518b1479e9329b6de4129ed8c9" kind="define"><name>LINPHONE_CALL_STATS_SENT_RTCP_UPDATE</name></member>
+      <member refid="group__call__misc_1ga0cb8916aede3c1a00a6e9aa176bf4093" kind="define"><name>LINPHONE_CALL_STATS_PERIODICAL_UPDATE</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__misc_1ga108ee459de3694e0dc51804021f3a3c9" kind="function"><name>linphone_call_stats_ref</name></member>
+      <member refid="group__misc_1gae46ca73d5fa732490f569c70c0a48b3b" kind="function"><name>linphone_call_stats_unref</name></member>
+      <member refid="group__misc_1ga1108923071bb4f941c8a773706d59c4c" kind="function"><name>linphone_call_stats_get_user_data</name></member>
+      <member refid="group__misc_1ga03c8005d412046bc5d515f21b0c7a67f" kind="function"><name>linphone_call_stats_set_user_data</name></member>
+      <member refid="group__call__misc_1ga170aa3e2a5f7deb7e43e4cfe1aabb9cd" kind="function"><name>linphone_call_stats_get_type</name></member>
+      <member refid="group__call__misc_1ga4f67c9815b880887550873c592174b97" kind="function"><name>linphone_call_stats_get_sender_loss_rate</name></member>
+      <member refid="group__call__misc_1ga09496e326d7e82e4b15dbc427d384aa0" kind="function"><name>linphone_call_stats_get_receiver_loss_rate</name></member>
+      <member refid="group__call__misc_1ga104bc8aa663b6dd37620bc3dfffaf2db" kind="function"><name>linphone_call_stats_get_local_loss_rate</name></member>
+      <member refid="group__call__misc_1gaa92d37ad6efc20f9236db1e9d357014b" kind="function"><name>linphone_call_stats_get_local_late_rate</name></member>
+      <member refid="group__call__misc_1gad83339416964a8b8b4a49cf17fc6cab1" kind="function"><name>linphone_call_stats_get_sender_interarrival_jitter</name></member>
+      <member refid="group__call__misc_1gab8971fd9762ed6d98efc6bed24c46f2c" kind="function"><name>linphone_call_stats_get_receiver_interarrival_jitter</name></member>
+      <member refid="group__call__misc_1gacd032cb75cd5200e21517b7de1bf4da3" kind="function"><name>linphone_call_stats_get_rtp_stats</name></member>
+      <member refid="group__call__misc_1ga96bb81b7deab4a7225524fa8a85c2a09" kind="function"><name>linphone_call_stats_get_late_packets_cumulative_number</name></member>
+      <member refid="group__call__misc_1gae8435a45f96caefc4284575ead6ec636" kind="function"><name>linphone_call_stats_get_download_bandwidth</name></member>
+      <member refid="group__call__misc_1ga75d75cf70afffebed65b9bca234120db" kind="function"><name>linphone_call_stats_get_upload_bandwidth</name></member>
+      <member refid="group__call__misc_1gaeb5560a000beb9fb6f821f01c4d56fde" kind="function"><name>linphone_call_stats_get_rtcp_download_bandwidth</name></member>
+      <member refid="group__call__misc_1ga18ff4c10a9408edf5ab866e82f06bd50" kind="function"><name>linphone_call_stats_get_rtcp_upload_bandwidth</name></member>
+      <member refid="group__call__misc_1gab00ca0a997c7f740948d474062fc663c" kind="function"><name>linphone_call_stats_get_ice_state</name></member>
+      <member refid="group__call__misc_1gab475f621ff3a8a2e2d6faee0ca608f79" kind="function"><name>linphone_call_stats_get_upnp_state</name></member>
+      <member refid="group__call__misc_1gaddfcf9f63906d60b775ae5d080c27ca2" kind="function"><name>linphone_call_stats_get_ip_family_of_remote</name></member>
+      <member refid="group__call__misc_1ga3978b332ce2cb55bdbdc50c7e203de3d" kind="function"><name>linphone_call_stats_get_jitter_buffer_size_ms</name></member>
+      <member refid="group__call__misc_1gabca589928a87a1de7d8f13ee44988023" kind="function"><name>linphone_call_stats_get_round_trip_delay</name></member>
+      <member refid="group__call__misc_1gae9f4560816c26a37a8c6bd49e41e13bd" kind="function"><name>linphone_call_stats_get_estimated_download_bandwidth</name></member>
+      <member refid="group__call__misc_1gac89ecd62632199e4bc1ebaf243380388" kind="function"><name>linphone_call_stats_set_estimated_download_bandwidth</name></member>
+      <member refid="group__call__misc_1gad0f5e3f12fd99009ff285c8d16235911" kind="function"><name>linphone_call_stats_get_zrtp_cipher_algo</name></member>
+      <member refid="group__call__misc_1ga96ff37b28fb136e11ea66661dcb460b4" kind="function"><name>linphone_call_stats_get_zrtp_key_agreement_algo</name></member>
+      <member refid="group__call__misc_1gae272a90b5536bf71835ae98a02e27abd" kind="function"><name>linphone_call_stats_is_zrtp_key_agreement_algo_post_quantum</name></member>
+      <member refid="group__call__misc_1ga8b40692f027cab9bec490076e0793fd6" kind="function"><name>linphone_call_stats_get_zrtp_hash_algo</name></member>
+      <member refid="group__call__misc_1ga56f5b58caf42ee128d2606f4d83f4146" kind="function"><name>linphone_call_stats_get_zrtp_auth_tag_algo</name></member>
+      <member refid="group__call__misc_1gab74da13bc988fdc596c8c06c200181c6" kind="function"><name>linphone_call_stats_get_zrtp_sas_algo</name></member>
+      <member refid="group__call__misc_1ga84593b12b0cdc82e6a8915805a75895a" kind="function"><name>linphone_call_stats_get_srtp_suite</name></member>
+      <member refid="group__call__misc_1ga262a313550f248301cce3f54b384688d" kind="function"><name>linphone_call_stats_get_srtp_source</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_C_CALL_STATS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_C_CALL_STATS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ortp/rtp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-callbacks.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_CALL_STATS_AUDIO<sp/>((int)LinphoneStreamTypeAudio)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_CALL_STATS_VIDEO<sp/>((int)LinphoneStreamTypeVideo)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_CALL_STATS_TEXT<sp/>((int)LinphoneStreamTypeText)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_CALL_STATS_RECEIVED_RTCP_UPDATE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="45"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>0)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_CALL_STATS_SENT_RTCP_UPDATE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>1)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_CALL_STATS_PERIODICAL_UPDATE<sp/>(1<sp/>&lt;&lt;<sp/>2)<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*<ref refid="group__misc_1ga108ee459de3694e0dc51804021f3a3c9" kindref="member">linphone_call_stats_ref</ref>(<ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gae46ca73d5fa732490f569c70c0a48b3b" kindref="member">linphone_call_stats_unref</ref>(<ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1ga1108923071bb4f941c8a773706d59c4c" kindref="member">linphone_call_stats_get_user_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga03c8005d412046bc5d515f21b0c7a67f" kindref="member">linphone_call_stats_set_user_data</ref>(<ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__initializing_1ga9a98644da41a4a2b6bf9ee57a94844ea" kindref="member">LinphoneStreamType</ref><sp/><ref refid="group__call__misc_1ga170aa3e2a5f7deb7e43e4cfe1aabb9cd" kindref="member">linphone_call_stats_get_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4f67c9815b880887550873c592174b97" kindref="member">linphone_call_stats_get_sender_loss_rate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga09496e326d7e82e4b15dbc427d384aa0" kindref="member">linphone_call_stats_get_receiver_loss_rate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga104bc8aa663b6dd37620bc3dfffaf2db" kindref="member">linphone_call_stats_get_local_loss_rate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1gaa92d37ad6efc20f9236db1e9d357014b" kindref="member">linphone_call_stats_get_local_late_rate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1gad83339416964a8b8b4a49cf17fc6cab1" kindref="member">linphone_call_stats_get_sender_interarrival_jitter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1gab8971fd9762ed6d98efc6bed24c46f2c" kindref="member">linphone_call_stats_get_receiver_interarrival_jitter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>rtp_stats_t<sp/>*linphone_call_stats_get_rtp_stats(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">LINPHONE_PUBLIC<sp/>uint64_t<sp/><ref refid="group__call__misc_1ga96bb81b7deab4a7225524fa8a85c2a09" kindref="member">linphone_call_stats_get_late_packets_cumulative_number</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1gae8435a45f96caefc4284575ead6ec636" kindref="member">linphone_call_stats_get_download_bandwidth</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga75d75cf70afffebed65b9bca234120db" kindref="member">linphone_call_stats_get_upload_bandwidth</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1gaeb5560a000beb9fb6f821f01c4d56fde" kindref="member">linphone_call_stats_get_rtcp_download_bandwidth</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga18ff4c10a9408edf5ab866e82f06bd50" kindref="member">linphone_call_stats_get_rtcp_upload_bandwidth</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__initializing_1gaf4faffc512588eda7db03fab8b03adfb" kindref="member">LinphoneIceState</ref><sp/><ref refid="group__call__misc_1gab00ca0a997c7f740948d474062fc663c" kindref="member">linphone_call_stats_get_ice_state</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__initializing_1ga2c19554a0988f7600aec5c3a7588d61a" kindref="member">LinphoneUpnpState</ref><sp/><ref refid="group__call__misc_1gab475f621ff3a8a2e2d6faee0ca608f79" kindref="member">linphone_call_stats_get_upnp_state</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__initializing_1gafcd47f04afe4346b58f3ec48cde4c71d" kindref="member">LinphoneAddressFamily</ref><sp/><ref refid="group__call__misc_1gaddfcf9f63906d60b775ae5d080c27ca2" kindref="member">linphone_call_stats_get_ip_family_of_remote</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga3978b332ce2cb55bdbdc50c7e203de3d" kindref="member">linphone_call_stats_get_jitter_buffer_size_ms</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1gabca589928a87a1de7d8f13ee44988023" kindref="member">linphone_call_stats_get_round_trip_delay</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1gae9f4560816c26a37a8c6bd49e41e13bd" kindref="member">linphone_call_stats_get_estimated_download_bandwidth</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>linphone_call_stats_set_estimated_download_bandwidth(<ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>estimated_value);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__call__misc_1gad0f5e3f12fd99009ff285c8d16235911" kindref="member">linphone_call_stats_get_zrtp_cipher_algo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__call__misc_1ga96ff37b28fb136e11ea66661dcb460b4" kindref="member">linphone_call_stats_get_zrtp_key_agreement_algo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__call__misc_1gae272a90b5536bf71835ae98a02e27abd" kindref="member">linphone_call_stats_is_zrtp_key_agreement_algo_post_quantum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__call__misc_1ga8b40692f027cab9bec490076e0793fd6" kindref="member">linphone_call_stats_get_zrtp_hash_algo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__call__misc_1ga56f5b58caf42ee128d2606f4d83f4146" kindref="member">linphone_call_stats_get_zrtp_auth_tag_algo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__call__misc_1gab74da13bc988fdc596c8c06c200181c6" kindref="member">linphone_call_stats_get_zrtp_sas_algo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__media__parameters_1gaf3b477c654766aae9392742fd44883b0" kindref="member">LinphoneSrtpSuite</ref><sp/><ref refid="group__call__misc_1ga84593b12b0cdc82e6a8915805a75895a" kindref="member">linphone_call_stats_get_srtp_suite</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__media__parameters_1ga61f5a2961ec43a0bd91eb1a664a6f111" kindref="member">LinphoneMediaEncryption</ref><sp/><ref refid="group__call__misc_1ga262a313550f248301cce3f54b384688d" kindref="member">linphone_call_stats_get_srtp_source</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref><sp/>*stats);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifndef<sp/>_L_C_CALL_STATS_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h"/>
+  </compounddef>
+</doxygen>

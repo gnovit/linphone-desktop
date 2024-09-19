@@ -1,0 +1,995 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term>Global <ref refid="struct__LinphoneCoreVTable_1a4accf023348cc96fd0ee9faa33ba99e0" kindref="member">_LinphoneCoreVTable::auth_info_requested</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000182"/>21/09/2016 Use authentication_requested instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="struct__LinphoneCoreVTable_1a2b8d6909518b2ab8dadf9c3208ae179e" kindref="member">_LinphoneCoreVTable::file_transfer_progress_indication</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000186"/>19/11/2015  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="struct__LinphoneCoreVTable_1aa0a2528da1c12b9ba6a7dae22cbe64e9" kindref="member">_LinphoneCoreVTable::file_transfer_recv</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000184"/>19/11/2015  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="struct__LinphoneCoreVTable_1ab1feeaa1140c156442dae0e4653bf167" kindref="member">_LinphoneCoreVTable::file_transfer_send</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000185"/>19/11/2015  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="struct__LinphoneCoreVTable_1a5b101f313df29f3ddedcfdba885b4757" kindref="member">_LinphoneCoreVTable::text_received</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000183"/>19/11/2015 Use <ref refid="struct__LinphoneCoreVTable_1a24426be17d09718b7827fee56d5a54d4" kindref="member">message_received</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Struct <ref refid="struct__LinphoneSipTransports" kindref="compound">_LinphoneSipTransports</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000276"/>18/04/2017  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account__creator_1ga640c418476f809013d10d73e534c534f" kindref="member">linphone_account_creator_configure</ref>  (const LinphoneAccountCreator *creator)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000004"/>13/04/2017 Use <ref refid="group__account__creator_1ga6cf9d3ed596e13dd67b96bf790f524bd" kindref="member">linphone_account_creator_create_proxy_config()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account__creator_1ga6cf9d3ed596e13dd67b96bf790f524bd" kindref="member">linphone_account_creator_create_proxy_config</ref>  (const LinphoneAccountCreator *creator)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000002"/>05/05/2023 Use <ref refid="group__account__creator_1ga7e74c913698c2a46bb0264cc7a26550b" kindref="member">linphone_account_creator_create_account_in_core()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account__creator_1ga83fa2c649eeeb170c8e25946ced20fb9" kindref="member">linphone_account_creator_get_callbacks</ref>  (const LinphoneAccountCreator *creator)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000003"/>19/02/2019 use add_callbacks / remove_callbacks instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account__creator_1gab61c38901855c51b0654b9f1dd0d5dfd" kindref="member">linphone_account_creator_new</ref>  (LinphoneCore *core, const char *xmlrpc_url)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000001"/>13/04/2020 Use <ref refid="group__account__creator_1ga5e35b0fc417a429666fed6325a8b3205" kindref="member">linphone_account_creator_create()</ref> instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1gaacf8ad39eaa6bbbc2c563742cea1e5e4" kindref="member">linphone_account_get_transport</ref>  (LinphoneAccount *account)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000283"/>01/03/2021 Use Linphone_account_params_get_transport() instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1ga1a0d485b54127a3d52c884e7ef36ade2" kindref="member">linphone_account_is_avpf_enabled</ref>  (LinphoneAccount *account)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000284"/>16/12/2021 Use <ref refid="group__account_1ga1bc266efe91adf415edc999ee6cf7358" kindref="member">linphone_account_avpf_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1ga7d1d81c2b985901e7878cae34e976ddf" kindref="member">linphone_account_params_get_dial_escape_plus_enabled</ref>  (const LinphoneAccountParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000295"/>16/12/2021 Use <ref refid="group__account_1ga0814bb3c45218a47555f85a6c559ccb6" kindref="member">linphone_account_params_dial_escape_plus_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1gaf9a4914b7aa4cdc1b9a0394c13944f20" kindref="member">linphone_account_params_get_identity</ref>  (const LinphoneAccountParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000291"/>01/03/2021 Use <ref refid="group__account_1gaf1812cb7128069e7e96c6e1cbbad2a51" kindref="member">linphone_account_params_get_identity_address()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1ga5864d90231a41aba8d30b397e772b257" kindref="member">linphone_account_params_get_outbound_proxy_enabled</ref>  (const LinphoneAccountParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000298"/>16/12/2021 Use <ref refid="group__account_1ga473660e4d5e87b97c1b24aaeef836131" kindref="member">linphone_account_params_outbound_proxy_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1gad4b99d359fe7d72cfcdb5330c362683b" kindref="member">linphone_account_params_get_publish_enabled</ref>  (const LinphoneAccountParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000292"/>16/12/2021 Use <ref refid="group__account_1ga051e1ea019319d3fd57edbc6a3d7eea2" kindref="member">linphone_account_params_publish_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1ga4d27c624469676586b66ac64382c0974" kindref="member">linphone_account_params_get_quality_reporting_enabled</ref>  (const LinphoneAccountParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000290"/>16/12/2021 Use <ref refid="group__account_1ga6a50c6771b9ac60d166abda5da98706c" kindref="member">linphone_account_params_quality_reporting_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1ga3f7a1bf4c081eaba56272aae4100d833" kindref="member">linphone_account_params_get_register_enabled</ref>  (const LinphoneAccountParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000294"/>16/12/2021 Use <ref refid="group__account_1ga4d54a6944e93b6c4a77439d093841a35" kindref="member">linphone_account_params_register_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1gaf4382f0a9fcf5f6425e5c663f148dad0" kindref="member">linphone_account_params_get_server_addr</ref>  (const LinphoneAccountParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000293"/>01/03/2021 Use <ref refid="group__account_1gaf2abd926280e58a5dc65ef11be0b21ba" kindref="member">linphone_account_params_get_server_address()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1ga5a702e9828625c135429fdbdc0b37a51" kindref="member">linphone_account_params_set_conference_factory_uri</ref>  (LinphoneAccountParams *params, const char *uri)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000296"/>16/08/2023 Use <ref refid="group__account_1gabe20cf3761aed982ae301d5d194b3f75" kindref="member">linphone_account_params_set_conference_factory_address()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1gaffad338a761f66040216c5eb409e527e" kindref="member">linphone_account_params_set_dial_escape_plus_enabled</ref>  (LinphoneAccountParams *params, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000288"/>16/12/2021 Use <ref refid="group__account_1gad598abe415eb509cc373af5851f68168" kindref="member">linphone_account_params_enable_dial_escape_plus()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1ga4ba568dd655d7ff811e7a55921f15620" kindref="member">linphone_account_params_set_outbound_proxy_enabled</ref>  (LinphoneAccountParams *params, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000297"/>16/12/2021 Use <ref refid="group__account_1ga5319b2ad185c0c3e3c18851584750b8e" kindref="member">linphone_account_params_enable_outbound_proxy()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1gab91b6e01ecf45585e0fc6ca0b6fca10a" kindref="member">linphone_account_params_set_publish_enabled</ref>  (LinphoneAccountParams *params, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000287"/>16/12/2021 Use <ref refid="group__account_1ga0efd0aa70eebc4ab4139ebb080af9ba1" kindref="member">linphone_account_params_enable_publish()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1ga310b222ed59b39dfbf119164c81341df" kindref="member">linphone_account_params_set_quality_reporting_enabled</ref>  (LinphoneAccountParams *params, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000289"/>16/12/2021 Use <ref refid="group__account_1gaa7d3d08d6aa9d23302121d8659690fc4" kindref="member">linphone_account_params_enable_quality_reporting()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1ga01a64263eabc0b538d4b2ab5ef093054" kindref="member">linphone_account_params_set_register_enabled</ref>  (LinphoneAccountParams *params, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000286"/>16/12/2021 Use <ref refid="group__account_1gaf89301fbb9d2c5b7de391d0aefc922b0" kindref="member">linphone_account_params_enable_register()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__account_1gacd17b1b6fa21b2acaa43108eb5370e6e" kindref="member">linphone_account_params_set_server_addr</ref>  (LinphoneAccountParams *params, const char *server_address)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000285"/>01/03/2021 Use <ref refid="group__account_1ga41c122051a223f9df2595901da83b3ef" kindref="member">linphone_account_params_set_server_address()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__linphone__address_1ga5fde60c2d1d0323fc16820a11b8076c0" kindref="member">linphone_address_destroy</ref>  (LinphoneAddress *address)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000299"/>04/09/17 Use <ref refid="group__linphone__address_1gad3eedee43741f903a38264a2e69641eb" kindref="member">linphone_address_unref()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__linphone__address_1gaa52081f6a14903d3fd37b78a0ecb8c5a" kindref="member">linphone_address_is_secure</ref>  (const LinphoneAddress *address)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000300"/>04/09/17 use <ref refid="group__linphone__address_1ga3e4d90b1b364c0dd84da84c3bb858ffe" kindref="member">linphone_address_get_secure()</ref>  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__authentication_1ga1b72633f814ef376fc7e5f2a1628b80b" kindref="member">linphone_auth_info_destroy</ref>  (LinphoneAuthInfo *auth_info)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000303"/>13/10/2017 use <ref refid="group__authentication_1ga9fdf9803e3d1a3d5325d809fc88a8e8f" kindref="member">linphone_auth_info_unref()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__authentication_1ga2f2ce0b94c5291ca1f597e87bea574e5" kindref="member">linphone_auth_info_get_passwd</ref>  (const LinphoneAuthInfo *auth_info)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000302"/>13/10/2017 use linphone_auth_info_get_password instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__authentication_1ga08238f0bee5085360eded97218c1a318" kindref="member">linphone_auth_info_set_passwd</ref>  (LinphoneAuthInfo *auth_info, const char *passwd)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000301"/>13/10/2017 use linphone_auth_info_set_password instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__misc_1ga2596e3158862614488c1f61bb29b67bd" kindref="member">linphone_call_get_remote_address_as_string</ref>  (const LinphoneCall *call)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000307"/>06/07/2020 use <ref refid="group__call__control_1ga3db6329fc26bd971bbff1d754a455938" kindref="member">linphone_call_get_remote_address()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga3e0a0862b4a3699ac344ffccd5cd99a0" kindref="member">linphone_call_get_to_header</ref>  (const LinphoneCall *call, const char *header_name)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000304"/>27/10/2020. Use <ref refid="group__call__control_1ga3c52381c3e1cfef8a8e3233a35914739" kindref="member">linphone_call_params_get_custom_header()</ref> on <ref refid="group__call__control_1ga864ca8e55f7a1e798168207c9efd709c" kindref="member">linphone_call_get_remote_params()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__misc_1gae2b51ebde1d5ee6948e9a3f45f0761c6" kindref="member">linphone_call_is_in_conference</ref>  (const LinphoneCall *call)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000310"/>21/09/2017 Use <ref refid="group__call__control_1ga5c960f2f823dbd4c3147eeda451d6938" kindref="member">linphone_call_get_conference()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__misc_1gaf15689118e68b1acba07363e036f0059" kindref="member">linphone_call_is_recording</ref>  (LinphoneCall *call)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000311"/>15/09/2021 Use <ref refid="group__call__control_1gac455b4dc9c9b050f5514eb2b3b9bd631" kindref="member">linphone_call_params_is_recording()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga76619771ca85894797e23d96a512a5c6" kindref="member">linphone_call_params_capability_negotiation_reinvite_enabled</ref>  (const LinphoneCallParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000006"/>16/12/2021 Use <ref refid="group__media__parameters_1ga76619771ca85894797e23d96a512a5c6" kindref="member">linphone_call_params_capability_negotiation_reinvite_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1gac4e05dd7f4c198ded8a4ba01f11a8cc7" kindref="member">linphone_call_params_copy</ref>  (const LinphoneCallParams *call_params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000005"/>use exclusively <ref refid="group__call__control_1ga17731d486af1c77fb97872d6332aba54" kindref="member">linphone_core_create_call_params()</ref> to create <ref refid="group__call__control_1gaa91f7e76e8f038ae9acdf42d1bc80a22" kindref="member">LinphoneCallParams</ref> object.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga3c40361edfe2fd9caaeec8e86bd1d364" kindref="member">linphone_call_params_enable_rtp_bundle</ref>  (LinphoneCallParams *params, bool_t value)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000007"/>This property can no longer be controlled via <ref refid="group__call__control_1gaa91f7e76e8f038ae9acdf42d1bc80a22" kindref="member">LinphoneCallParams</ref>. Use <ref refid="group__account_1ga807fceb04771fd4237cbb6cdb19e3381" kindref="member">linphone_account_params_enable_rtp_bundle()</ref>.</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga16a14b9bd1b3e553f41f1312ebfe68c6" kindref="member">linphone_call_params_get_proxy_config</ref>  (const LinphoneCallParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000012"/>28/02/2021 Use <ref refid="group__call__control_1gabb038c4d8399565c85d5cc2fdbcdc673" kindref="member">linphone_call_params_get_account()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga757531246468132e4c03016abab04c21" kindref="member">linphone_call_params_get_received_video_size</ref>  (const LinphoneCallParams *call_params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000009"/>22/11/2017 Use <ref refid="group__call__control_1ga8f3229cccb258912196e45ee82140db5" kindref="member">linphone_call_params_get_received_video_definition()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga7ba2eb80c654f50e9301914a7e53c4f1" kindref="member">linphone_call_params_get_sent_video_size</ref>  (const LinphoneCallParams *call_params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000010"/>22/11/2017 Use <ref refid="group__call__control_1gae0a9cfb2e43c51ce8ae41160518c6316" kindref="member">linphone_call_params_get_sent_video_definition()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gad24d5fcd6efd2c28983c00ec53c8a4a4" kindref="member">linphone_call_params_is_capability_negotiation_reinvite_enabled</ref>  (const LinphoneCallParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000008"/>16/12/2021 Use <ref refid="group__media__parameters_1ga76619771ca85894797e23d96a512a5c6" kindref="member">linphone_call_params_capability_negotiation_reinvite_enabled()</ref> instead.</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1gaeaae28d07f17606e905b3d4a63a6f155" kindref="member">linphone_call_params_set_proxy_config</ref>  (LinphoneCallParams *params, LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000011"/>28/02/2021 Use <ref refid="group__call__control_1gae2159d8b4cbfb9a50f460583e9c35947" kindref="member">linphone_call_params_set_account()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__misc_1ga930edd930ae08222499dbf29afc1158a" kindref="member">linphone_call_redirect</ref>  (LinphoneCall *call, const char *redirect_uri)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000305"/>27/10/2020. Use <ref refid="group__call__control_1ga00f6545da1fcf2f071542d6a0af46b99" kindref="member">linphone_call_redirect_to()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__misc_1gac1daa0e142fd2b121fb285f0d8ede73b" kindref="member">linphone_call_set_next_video_frame_decoded_callback</ref>  (LinphoneCall *call, LinphoneCallCbFunc cb, void *user_data)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000308"/>23/05/2018  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__misc_1gabc82ea0fde212db0ca3db1936cbeab37" kindref="member">linphone_call_transfer</ref>  (LinphoneCall *call, const char *refer_to)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000306"/>27/10/2020. Use <ref refid="group__call__control_1ga6402eecbe3ca7c3cce317dc86e82ea0a" kindref="member">linphone_call_transfer_to()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__misc_1ga176687394df6d30f5dcd82ca43081dd6" kindref="member">linphone_call_zoom_video</ref>  (LinphoneCall *call, float zoom_factor, float *cx, float *cy)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000309"/>16/10/2017 use linphone_call_zoom instead  <donotwrap />  cx and cy are updated in return in case their coordinates were too excentrated for the requested zoom factor. The zoom ensures that all the screen is fullfilled with the video.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1ga164a867073b324e86c69b6314e82da06" kindref="member">linphone_chat_message_add_text_content</ref>  (LinphoneChatMessage *message, const char *text)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000326"/>01/07/2020. Use <ref refid="group__chatmessage_1gaf0ad1c8561d9996e798e9a49e9ec137f" kindref="member">linphone_chat_message_add_utf8_text_content()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1gaf9f3fc3866a3f3f0f74a05a85e8a4a5c" kindref="member">linphone_chat_message_cbs_get_file_transfer_send</ref>  (const LinphoneChatMessageCbs *cbs)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000314"/>17/08/2020 Use <ref refid="group__chatroom_1ga9949c1cdfe45b76a10a954fc284863ed" kindref="member">linphone_chat_message_cbs_get_file_transfer_send_chunk()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1gac954da1b1f2bdf4d1fb58f727363c3d0" kindref="member">linphone_chat_message_cbs_set_file_transfer_send</ref>  (LinphoneChatMessageCbs *cbs, LinphoneChatMessageCbsFileTransferSendCb cb)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000315"/>17/08/2020 Use <ref refid="group__chatroom_1ga1a0b3f66c6b5ffa6e9632318f599256a" kindref="member">linphone_chat_message_cbs_set_file_transfer_send_chunk()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1ga7e3c2ede7ba03fbd49734d7668964d2d" kindref="member">linphone_chat_message_download_file</ref>  (LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000320"/>12/07/2018 Use <ref refid="group__chatmessage_1gae9869a6d0ab57e6ad069e9510a6f4b02" kindref="member">linphone_chat_message_download_content()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1ga8f9a355e23adb82d6b674f42d6aeb27c" kindref="member">linphone_chat_message_get_callbacks</ref>  (const LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000323"/>19/02/2019  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1ga8d5b5654690a8d8cbe46051581b5e985" kindref="member">linphone_chat_message_get_file_transfer_filepath</ref>  (const LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000318"/>12/07/2018 use <ref refid="group__misc_1ga525f09426c9e860609f04543797c6f1d" kindref="member">linphone_content_get_file_path()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1gac06542ae72c495bb3b637b1445c594b2" kindref="member">linphone_chat_message_get_text</ref>  (const LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000317"/>07/11/2017 use <ref refid="group__chatmessage_1ga914211be790d1d458c1ae499857b1dca" kindref="member">linphone_chat_message_get_utf8_text()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1ga9362fad69c3f0afe29143f5b8ba62081" kindref="member">linphone_chat_message_get_text_content</ref>  (const LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000325"/>01/07/2020. Use <ref refid="group__chatmessage_1ga914211be790d1d458c1ae499857b1dca" kindref="member">linphone_chat_message_get_utf8_text()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1gab4091d3547ae9f4fafc69aad099cc6c4" kindref="member">linphone_chat_message_has_text_content</ref>  (const LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000316"/>27/10/2020. Check if <ref refid="group__chatmessage_1gaf30c1156672e0a4f8b9f001e530145e0" kindref="member">linphone_chat_message_get_contents()</ref> contains a <ref refid="group__misc_1gaec435ed53168e70535e64b69a906304b" kindref="member">LinphoneContent</ref> for which it&apos;s content type is PlainText.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1gaa39268a68352506a1344db6353c2ab71" kindref="member">linphone_chat_message_is_file_transfer</ref>  (const LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000327"/>06/07/2020 check if <ref refid="group__chatmessage_1gaf30c1156672e0a4f8b9f001e530145e0" kindref="member">linphone_chat_message_get_contents()</ref> contains a <ref refid="group__misc_1gaec435ed53168e70535e64b69a906304b" kindref="member">LinphoneContent</ref> for which <ref refid="group__misc_1gafc7c820a2b3b0bf072062f1978e8bc28" kindref="member">linphone_content_is_file_transfer()</ref> returns TRUE.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1gadb9f9d3b2f071203aa2845d3b98a3bc4" kindref="member">linphone_chat_message_is_text</ref>  (const LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000328"/>06/07/2020 check if <ref refid="group__chatmessage_1gaf30c1156672e0a4f8b9f001e530145e0" kindref="member">linphone_chat_message_get_contents()</ref> contains a <ref refid="group__misc_1gaec435ed53168e70535e64b69a906304b" kindref="member">LinphoneContent</ref> with a PlainText content type.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1ga3fac09a6ddd418b66bf70cd4071e8a0b" kindref="member">linphone_chat_message_resend</ref>  (LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000321"/>13/10/2017 Use linphone_chat_message_send instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__wrapper_1ga4f4fc78b28e61221ddb91f49d41d7a36" kindref="member">linphone_chat_message_resend_2</ref>  (LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000281"/>08/07/2020 Use linphone_chat_message_send instead.  <donotwrap />  It doesn&apos;t says what the doc says it does  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1ga72ae7e05d9e916c606ed86426db6e81d" kindref="member">linphone_chat_message_set_file_transfer_filepath</ref>  (LinphoneChatMessage *message, const char *filepath)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000322"/>12/07/2018 use <ref refid="group__misc_1ga5bc05dfd7cbca9a342240a1ef3c89225" kindref="member">linphone_content_set_file_path()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1gadb2f8a5843a572a03ac87d30829a070e" kindref="member">linphone_chat_message_set_text</ref>  (LinphoneChatMessage *message, const char *text)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000324"/>01/07/2020. Use <ref refid="group__chatmessage_1ga80d2d0338749407ec0bd76aff3585070" kindref="member">linphone_chat_message_set_utf8_text()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatmessage_1gad0eb4e1f80f4d936518c41b2ab329e45" kindref="member">linphone_chat_message_start_file_download</ref>  (LinphoneChatMessage *message, LinphoneChatMessageStateChangedCb status_cb, void *user_data)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000319"/>21/09/2017 Use <ref refid="group__chatmessage_1ga7e3c2ede7ba03fbd49734d7668964d2d" kindref="member">linphone_chat_message_download_file()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga4b5680cb9e3ed83ca94f143330d17d9b" kindref="member">linphone_chat_room_create_message</ref>  (LinphoneChatRoom *chat_room, const char *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000334"/>01/07/2020. Use <ref refid="group__chatroom_1ga261e4ce98b576592d25bb63832a3836e" kindref="member">linphone_chat_room_create_message_from_utf8()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga1813e61883f3e04b0274b6e4576e2125" kindref="member">linphone_chat_room_create_message_2</ref>  (LinphoneChatRoom *chat_room, const char *message, const char *external_body_url, LinphoneChatMessageState state, time_t time, bool_t is_read, bool_t is_incoming)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000330"/>14/11/2017 Use <ref refid="group__chatroom_1ga261e4ce98b576592d25bb63832a3836e" kindref="member">linphone_chat_room_create_message_from_utf8()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga4056ee49b15a6e6d9598cf702841e451" kindref="member">linphone_chat_room_get_lc</ref>  (const LinphoneChatRoom *chat_room)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000331"/>15/09/2017 use <ref refid="group__chatroom_1ga91262781d2128913ee1027f05fdb37fc" kindref="member">linphone_chat_room_get_core()</ref>  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1gac0a51b752dc697575073f2497c3c459a" kindref="member">linphone_chat_room_has_been_left</ref>  (const LinphoneChatRoom *chat_room)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000329"/>16/03/2022 use <ref refid="group__chatroom_1ga5f03a32bf6187b3eb801777b66fdccfa" kindref="member">linphone_chat_room_is_read_only()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1gae958041ab2b93946acd17fcce82be2a8" kindref="member">linphone_chat_room_send_chat_message</ref>  (LinphoneChatRoom *chat_room, LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000333"/>13/10/2017 Use <ref refid="group__chatmessage_1gaa9367044579681fd3b59b6e8af977570" kindref="member">linphone_chat_message_send()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__wrapper_1ga764c7d9ed6f5acc09af0b7ffca9c6207" kindref="member">linphone_chat_room_send_chat_message_2</ref>  (LinphoneChatRoom *chat_room, LinphoneChatMessage *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000280"/>08/07/2020 Use <ref refid="group__chatmessage_1gaa9367044579681fd3b59b6e8af977570" kindref="member">linphone_chat_message_send()</ref> instead.  <donotwrap />  It doesn&apos;t says what the doc says it does  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1gae3b796553b9f58c76662f74ca0884e20" kindref="member">linphone_chat_room_send_message</ref>  (LinphoneChatRoom *chat_room, const char *msg)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000332"/>13/10/2017 Use <ref refid="group__chatmessage_1gaa9367044579681fd3b59b6e8af977570" kindref="member">linphone_chat_message_send()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga034030f9829a79e03f5ba009db95882d" kindref="member">linphone_conference_get_ID</ref>  (const LinphoneConference *conference)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000031"/>10/07/2020 Use <ref refid="group__conference_1ga81518d413c02f647956bfa4e3b167585" kindref="member">linphone_conference_get_conference_address()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga904e58834720865de208091ccdc29588" kindref="member">linphone_conference_get_participants</ref>  (const LinphoneConference *conference)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000028"/>10/07/2020 Use <ref refid="group__call__control_1ga5993a0f8e4c32e40545920b300499dc9" kindref="member">linphone_conference_get_participant_list()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__conference_1gabc864cc991884a377f7c460d0cbff706" kindref="member">linphone_conference_info_get_participants</ref>  (const LinphoneConferenceInfo *conference_info)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000338"/>24/08/2023 use linphone_conference_info_get_participant_infos instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__conference_1gadef6f63c42e43236034175f36775b998" kindref="member">linphone_conference_info_set_participants</ref>  (LinphoneConferenceInfo *conference_info, const bctbx_list_t *participants)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000339"/>24/08/2023 use linphone_conference_info_set_participant_infos instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga94178978f4e999e65d4a4f16af805209" kindref="member">linphone_conference_params_free</ref>  (LinphoneConferenceParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000016"/>17/03/2017 Use <ref refid="group__call__control_1ga7e671f48cd55b1fdba0d7fcf8791f965" kindref="member">linphone_conference_params_unref()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga0ce19acf155aa4727d56e4e51b085530" kindref="member">linphone_conference_params_get_proxy_cfg</ref>  (const LinphoneConferenceParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000023"/>11/01/2022 Use <ref refid="group__call__control_1ga88876b9f0580f89233e0ab2c506b61ba" kindref="member">linphone_conference_params_get_account()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga23551e67e5d6a99ced8091a0806879f0" kindref="member">linphone_conference_params_is_audio_enabled</ref>  (const LinphoneConferenceParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000018"/>16/12/2021 Use <ref refid="group__call__control_1ga914e1cfaf1c0a977664992a8bf13da1d" kindref="member">linphone_conference_params_audio_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga0d778a8a8c6e6f6e6688e9c9215edba1" kindref="member">linphone_conference_params_is_chat_enabled</ref>  (const LinphoneConferenceParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000022"/>16/12/2021 Use <ref refid="group__call__control_1gab4df2e34c79ac6f594895f8b16e7ecce" kindref="member">linphone_conference_params_chat_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1gae153d2bb07a1877de807befa790836be" kindref="member">linphone_conference_params_is_local_participant_enabled</ref>  (const LinphoneConferenceParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000025"/>16/12/2021 Use <ref refid="group__call__control_1gad675f861111d511fa979d1cb6d8de2fa" kindref="member">linphone_conference_params_local_participant_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga0fe53c2e99b9c0be64a92885e6430d25" kindref="member">linphone_conference_params_is_one_participant_conference_enabled</ref>  (const LinphoneConferenceParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000027"/>16/12/2021 Use <ref refid="group__call__control_1ga4dfef24419e700353642e5722291f7f6" kindref="member">linphone_conference_params_one_participant_conference_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1gaa09120dab312d69f47a047f261d389cf" kindref="member">linphone_conference_params_is_video_enabled</ref>  (const LinphoneConferenceParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000020"/>16/12/2021 Use <ref refid="group__call__control_1gaa377888b42d39a2837a7f4ff99a43c11" kindref="member">linphone_conference_params_video_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga088cf486217ea0915e0b76fbac227404" kindref="member">linphone_conference_params_set_audio_enabled</ref>  (LinphoneConferenceParams *params, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000017"/>16/12/2021 Use <ref refid="group__call__control_1ga4a492577d305ec4977c8b025d55196e8" kindref="member">linphone_conference_params_enable_audio()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1gafa6e726498189b828e13bd15ffe9c020" kindref="member">linphone_conference_params_set_chat_enabled</ref>  (LinphoneConferenceParams *params, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000021"/>16/12/2021 Use <ref refid="group__call__control_1ga407ab3530b7a99ddf6a711470fac553b" kindref="member">linphone_conference_params_enable_chat()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1gaa43842a69b0fe8ee93d368bf09508a0e" kindref="member">linphone_conference_params_set_local_participant_enabled</ref>  (LinphoneConferenceParams *params, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000024"/>16/12/2021 Use <ref refid="group__call__control_1ga2f37fbec963f2ed3c5bec3de259c60cc" kindref="member">linphone_conference_params_enable_local_participant()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga75f4cea4bdfc30579a7d888e0af1addc" kindref="member">linphone_conference_params_set_one_participant_conference_enabled</ref>  (LinphoneConferenceParams *params, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000026"/>16/12/2021 Use <ref refid="group__call__control_1ga1ae6d1681a66ef59bdc3a616711a17d5" kindref="member">linphone_conference_params_enable_one_participant_conference()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga22d583d6733729449cfd0c19abf5e694" kindref="member">linphone_conference_params_set_video_enabled</ref>  (LinphoneConferenceParams *params, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000019"/>16/12/2021 Use <ref refid="group__call__control_1gaeeed37eeda03fcc94b2642636c5f6a9e" kindref="member">linphone_conference_params_enable_video()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga6049291b4a355dc633121b70b6b90fd8" kindref="member">linphone_conference_remove_participant</ref>  (LinphoneConference *conference, const LinphoneAddress *uri)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000029"/>10/07/2020 Use <ref refid="group__call__control_1gafe79cb5e7a9bdf02e344a1b70634f934" kindref="member">linphone_conference_remove_participant_2()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga499e8fdbd2d5cbec0ec92ecaddd3f13b" kindref="member">linphone_conference_remove_participant_3</ref>  (LinphoneConference *conference, LinphoneCall *call)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000030"/>10/07/2020 Use <ref refid="group__call__control_1gafe79cb5e7a9bdf02e344a1b70634f934" kindref="member">linphone_conference_remove_participant_2()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga3903910c6871fefe0e438b11e3d602b2" kindref="member">linphone_conference_set_ID</ref>  (LinphoneConference *conference, const char *conference_id)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000032"/>10/07/2020 Use <ref refid="group__conference_1gaf617380a0f57b2cbf3c5e72f404d59b9" kindref="member">linphone_conference_set_conference_address()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga9ff7a4ccfc60be313ebbc9fca5629fb5" kindref="member">linphone_config_get_sections_names</ref>  (LinphoneConfig *config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000195"/>12/10/2017 use linphone_config_get_sections_names_list instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga7f768a11fc5b07e38ba2017d18660d12" kindref="member">linphone_content_get_plain_file_path</ref>  (const LinphoneContent *content)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000337"/>2022-01-07. Use <ref refid="group__misc_1gaff560ac429fa3d39bb0016205abbeba8" kindref="member">linphone_content_export_plain_file()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga96ddb061e4d1cdf8f97aa5e57bbbf13e" kindref="member">linphone_content_get_string_buffer</ref>  (const LinphoneContent *content)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000335"/>2020-07-01. Use <ref refid="group__misc_1ga926fbd8b57413bb1184ec1882d6adc0c" kindref="member">linphone_content_get_utf8_text()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga051d4c09c1a9b1431d8a3f3023624272" kindref="member">linphone_content_set_string_buffer</ref>  (LinphoneContent *content, const char *buffer)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000336"/>2020-07-01. Use <ref refid="group__misc_1gae42a6a56520dc7abf7b9bd4fcf81ffcd" kindref="member">linphone_content_set_utf8_text()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1gaa46807e46e08b959b2910d6a20efeb8a" kindref="member">linphone_core_accept_call</ref>  (LinphoneCore *core, LinphoneCall *call)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000085"/>13/02/2017 Use <ref refid="group__call__control_1ga560e5223603ddd425a06e945e177dbdb" kindref="member">linphone_call_accept()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1gad37557bcf7e2aefc08cf4c8ff4a23df9" kindref="member">linphone_core_accept_call_update</ref>  (LinphoneCore *core, LinphoneCall *call, const LinphoneCallParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000096"/>13/02/2017 Use <ref refid="group__call__control_1gac1b2a3f049a2351195d54035db63c789" kindref="member">linphone_call_accept_update()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga26c35787c08603d18dddfd90b97b8f90" kindref="member">linphone_core_accept_call_with_params</ref>  (LinphoneCore *core, LinphoneCall *call, const LinphoneCallParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000086"/>13/02/2017 Use <ref refid="group__call__control_1ga0a39c513c2e89cdddd034195342befbd" kindref="member">linphone_call_accept_with_params()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga8479eb1cce1f1d6fcaa2cbbc8473e5be" kindref="member">linphone_core_accept_early_media</ref>  (LinphoneCore *core, LinphoneCall *call)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000088"/>13/02/2017 Use <ref refid="group__call__control_1ga447f3caa41ebdf6a9cef01c599d623b0" kindref="member">linphone_call_accept_early_media()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga756808f81934c5ec1b587fa96e5c562e" kindref="member">linphone_core_accept_early_media_with_params</ref>  (LinphoneCore *core, LinphoneCall *call, const LinphoneCallParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000087"/>10/10/2017 Use <ref refid="group__call__control_1gae7252bc7a303a5155f276ca4ca4b8a57" kindref="member">linphone_call_accept_early_media_with_params()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1gaaedfa0e84d7d07f1bcbb3d2ea5b8b5b0" kindref="member">linphone_core_add_listener</ref>  (LinphoneCore *core, LinphoneCoreVTable *vtable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000081"/>12/01/2017 Use <ref refid="group__initializing_1ga6402c37fb79c74a7c9468275aa5ee81e" kindref="member">linphone_core_add_callbacks()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__IOS_1ga300c4e022c534664e68375b16d9c9eb0" kindref="member">linphone_core_audio_route_changed</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000034"/>07/01/2020 now handled in the linphone SDK directly  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1gad6de04544a5799548eed725b0e8e005e" kindref="member">linphone_core_cbs_get_registration_state_changed</ref>  (LinphoneCoreCbs *cbs)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000036"/>30/09/2020. see <ref refid="group__account_1ga3c286b9f253b9d5765976fd9380e28a8" kindref="member">linphone_account_cbs_get_registration_state_changed()</ref>  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1gab4d794b82a5f513084efc495c5e47b40" kindref="member">linphone_core_cbs_set_registration_state_changed</ref>  (LinphoneCoreCbs *cbs, LinphoneCoreCbsRegistrationStateChangedCb cb)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000035"/>30/09/2020. see <ref refid="group__account_1gaaef92e2089e07f32f36c393266057934" kindref="member">linphone_account_cbs_set_registration_state_changed()</ref>  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga037dcf8e173d4d711ee136b1894d64e0" kindref="member">linphone_core_check_payload_type_usability</ref>  (LinphoneCore *core, const OrtpPayloadType *pt)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000117"/>31/03/2017 Use <ref refid="group__media__parameters_1gaacd2d94d6f1dbc926e106220bdadbb2e" kindref="member">linphone_payload_type_is_usable()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__authentication_1gacbb0aa7ed991c4de69ba7986f020e2cd" kindref="member">linphone_core_create_auth_info</ref>  (LinphoneCore *core, const char *username, const char *userid, const char *passwd, const char *ha1, const char *realm, const char *domain)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000119"/>13/02/2019 use <ref refid="group__initializing_1gac73ee087c6cd6fbe50093bb5421126ae" kindref="member">linphone_factory_create_auth_info()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga1288096dd3a21f6eafd8df5b0cae337d" kindref="member">linphone_core_create_chat_room</ref>  (LinphoneCore *core, const LinphoneChatRoomParams *params, const LinphoneAddress *localAddr, const char *subject, const bctbx_list_t *participants)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000162"/>02/07/2020, use <ref refid="group__chatroom_1ga56d275547b733de11b1b4d91249fe377" kindref="member">linphone_core_create_chat_room_6()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga3957d768de38d92d6e35ebcf81002026" kindref="member">linphone_core_create_chat_room_2</ref>  (LinphoneCore *core, const LinphoneChatRoomParams *params, const char *subject, const bctbx_list_t *participants)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000163"/>02/07/2020, use <ref refid="group__chatroom_1ga56d275547b733de11b1b4d91249fe377" kindref="member">linphone_core_create_chat_room_6()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1gaed38c9e4ae25acf2d9a51742e1887306" kindref="member">linphone_core_create_chat_room_3</ref>  (LinphoneCore *core, const char *subject, const bctbx_list_t *participants)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000164"/>02/07/2020, use <ref refid="group__chatroom_1ga56d275547b733de11b1b4d91249fe377" kindref="member">linphone_core_create_chat_room_6()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1gad361d29a9d096abeaff6c4747a5ae8cb" kindref="member">linphone_core_create_chat_room_4</ref>  (LinphoneCore *core, const LinphoneChatRoomParams *params, const LinphoneAddress *localAddr, const LinphoneAddress *participant)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000165"/>02/07/2020, use <ref refid="group__chatroom_1ga56d275547b733de11b1b4d91249fe377" kindref="member">linphone_core_create_chat_room_6()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1gaf52c940e21db85fbd8c96dd580c212ee" kindref="member">linphone_core_create_chat_room_5</ref>  (LinphoneCore *core, const LinphoneAddress *participant)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000166"/>02/07/2020, use <ref refid="group__chatroom_1ga56d275547b733de11b1b4d91249fe377" kindref="member">linphone_core_create_chat_room_6()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga0da69bf58de051eea44ce2d9e2e1787c" kindref="member">linphone_core_create_client_group_chat_room</ref>  (LinphoneCore *core, const char *subject, bool_t fallback)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000160"/>02/07/2020, use <ref refid="group__chatroom_1ga56d275547b733de11b1b4d91249fe377" kindref="member">linphone_core_create_chat_room_6()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga4d46e290c01af20842f9fcf268a498cf" kindref="member">linphone_core_create_client_group_chat_room_2</ref>  (LinphoneCore *core, const char *subject, bool_t fallback, bool_t encrypted)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000161"/>02/07/2020, use <ref refid="group__chatroom_1ga56d275547b733de11b1b4d91249fe377" kindref="member">linphone_core_create_chat_room_6()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga1239b8fae1935f4c8ddd84f85bcd6596" kindref="member">linphone_core_create_lp_config</ref>  (LinphoneCore *core, const char *filename)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000153"/>12/01/2017 Use <ref refid="group__misc_1gaa907f1eda8e7bdc78e9b427a0fdb7c81" kindref="member">linphone_core_create_config()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga28ab50e06ad2b5fbb404f9a92a5b57ac" kindref="member">linphone_core_decline_call</ref>  (LinphoneCore *core, LinphoneCall *call, LinphoneReason reason)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000091"/>13/02/2017 Use <ref refid="group__call__control_1ga89c00d75843d32e5881fd6ec06cbb114" kindref="member">linphone_call_decline()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga75f9008e87786d53659f10c20c339d86" kindref="member">linphone_core_defer_call_update</ref>  (LinphoneCore *core, LinphoneCall *call)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000095"/>13/02/2017 Use <ref refid="group__call__control_1ga3de5b75cc14f8f4f768cfbdcca2a3342" kindref="member">linphone_call_defer_update()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1gad942d8625e906eb19190ca8cde44aa69" kindref="member">linphone_core_destroy</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000154"/>12/01/2017 Use <ref refid="group__initializing_1gaa47b9e88adcf5b0fc93f4c24691fa602" kindref="member">linphone_core_unref()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga3fe9d386120b608d7ddc0b151c616fee" kindref="member">linphone_core_enable_payload_type</ref>  (LinphoneCore *core, OrtpPayloadType *pt, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000112"/>31/03/2017 Use <ref refid="group__media__parameters_1ga1718ccdf846d7f52eeb1184e52c226f6" kindref="member">linphone_payload_type_enable()</ref>.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gae1548b2bce36a82ee3a41433cb640e90" kindref="member">linphone_core_enable_video</ref>  (LinphoneCore *core, bool_t vcap_enabled, bool_t display_enabled)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000140"/>09/10/2013 Use <ref refid="group__media__parameters_1ga6382acc310c7b6cf3cf75b54ed8e8556" kindref="member">linphone_core_enable_video_capture()</ref> and <ref refid="group__media__parameters_1ga7b2aceaa5e2882e7facb5d02204b755a" kindref="member">linphone_core_enable_video_display()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1gac92f0a88fa9badcdf58fd55fa0f28242" kindref="member">linphone_core_ensure_registered</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000059"/>09/03/2022 See <ref refid="group__misc_1ga8480673568489ba97c5012dee3c10a1a" kindref="member">linphone_core_process_push_notification()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__conference_1gabb01a828313f196da0b35669b81a1ae3" kindref="member">linphone_core_enter_conference</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000048"/>09/03/2021 Use <ref refid="group__call__control_1ga43a424b0644bc23e53e2beb28f38bbba" kindref="member">linphone_conference_enter()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1gae71575720777372f243f7c208bfdd976" kindref="member">linphone_core_find_call_from_uri</ref>  (const LinphoneCore *core, const char *uri)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000068"/>27/10/2020. Use <ref refid="group__call__control_1gaa228ca8315ec0040238d2207ae7a1f4d" kindref="member">linphone_core_get_call_by_remote_address2()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga0b9d24f3f93ad22b1f7a1624b24b8aac" kindref="member">linphone_core_find_chat_room</ref>  (const LinphoneCore *core, const LinphoneAddress *peer_addr, const LinphoneAddress *local_addr)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000170"/>02/07/2020, use <ref refid="group__chatroom_1gac487183ca9fe4d51ea56ccfbf9a16aac" kindref="member">linphone_core_search_chat_room()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga8164b80c67f43a4c5dd121fafb8165db" kindref="member">linphone_core_find_one_to_one_chat_room</ref>  (const LinphoneCore *core, const LinphoneAddress *local_addr, const LinphoneAddress *participant_addr)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000171"/>12/12/2018, use linphone_core_find_one_to_one_chat_room_2 instead  <donotwrap /> </para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1gada90ad2e27d59100a01804f3ef970ca6" kindref="member">linphone_core_find_one_to_one_chat_room_2</ref>  (const LinphoneCore *core, const LinphoneAddress *local_addr, const LinphoneAddress *participant_addr, bool_t encrypted)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000172"/>02/07/2020, use <ref refid="group__chatroom_1gac487183ca9fe4d51ea56ccfbf9a16aac" kindref="member">linphone_core_search_chat_room()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga7ab4ede7cd6c15aa095b01bb00fa5bbd" kindref="member">linphone_core_find_payload_type</ref>  (LinphoneCore *core, const char *type, int rate, int channels)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000113"/>31/03/2017 Use <ref refid="group__media__parameters_1gafef2cd285e4fdcd8f61635f5ce1e27ab" kindref="member">linphone_core_get_payload_type()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga5d760d905170ab45b5cbc235c673298e" kindref="member">linphone_core_get_audio_codecs</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000100"/>31/03/2017 Use <ref refid="group__media__parameters_1gaed2e2c9e6f3d486787b084333cd78ce1" kindref="member">linphone_core_get_audio_payload_types()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga68e9a4242a3a8a65556b527c38efedc2" kindref="member">linphone_core_get_call_by_remote_address</ref>  (const LinphoneCore *core, const char *remote_address)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000097"/>08/07/2020 use <ref refid="group__call__control_1gaa228ca8315ec0040238d2207ae7a1f4d" kindref="member">linphone_core_get_call_by_remote_address2()</ref> instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1ga24c10ed387486f9f4f36b40aaa244cc6" kindref="member">linphone_core_get_call_logs_database_path</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000181"/>07/12/2021: Use only for migration purposes  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1gad652ca09bee01cd42e3b5c6404fa4a53" kindref="member">linphone_core_get_chat_room</ref>  (LinphoneCore *core, const LinphoneAddress *addr)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000167"/>02/07/2020, use <ref refid="group__chatroom_1gac487183ca9fe4d51ea56ccfbf9a16aac" kindref="member">linphone_core_search_chat_room()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga6f9a6333061f2ab309205f88fc0e2b6a" kindref="member">linphone_core_get_chat_room_2</ref>  (LinphoneCore *core, const LinphoneAddress *peer_addr, const LinphoneAddress *local_addr)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000168"/>02/07/2020, use <ref refid="group__chatroom_1gac487183ca9fe4d51ea56ccfbf9a16aac" kindref="member">linphone_core_search_chat_room()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga50401c8466040e1cb31bb1db0a59adcb" kindref="member">linphone_core_get_chat_room_from_uri</ref>  (LinphoneCore *core, const char *to)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000169"/>02/07/2020, use <ref refid="group__chatroom_1gac487183ca9fe4d51ea56ccfbf9a16aac" kindref="member">linphone_core_search_chat_room()</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__ldap_1ga2eb2a9cdc0d632b2ea724fc2bdbd54a5" kindref="member">linphone_core_get_conference</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000067"/>10/08/2023 Use <ref refid="group__conference_1ga8198efd4e84b2f4f50ded684eff957f4" kindref="member">linphone_core_search_conference()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__ldap_1ga8eaf24823e0e6901c5b7556b6cfbdacd" kindref="member">linphone_core_get_conference_size</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000066"/>16/04/2021 Use <ref refid="group__call__control_1ga6f5f8ad8347242a5f7113c5eababd0f0" kindref="member">linphone_conference_get_participant_count()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gacc184913d28a1f36df9542d88a140529" kindref="member">linphone_core_get_current_preview_video_size</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000148"/>28/03/2017 Use <ref refid="group__media__parameters_1gae107d943e3e8b718a0102fb0450c20e1" kindref="member">linphone_core_get_current_preview_video_definition()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__network__parameters_1ga1e3812031c0cbc05a7d92c13e9e4a35a" kindref="member">linphone_core_get_firewall_policy</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000127"/>27/03/2016 Use <ref refid="group__network__parameters_1gaf962f93587c974494a6127168a236627" kindref="member">linphone_core_get_nat_policy()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga0d1de6db9fe0f46a498f3ae047020831" kindref="member">linphone_core_get_lime_x3dh_server_url</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000039"/>26/08/2022 Use <ref refid="group__account_1ga85900f281df8f721901ccd3675e16619" kindref="member">linphone_account_params_get_lime_server_url()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1gaa1f7d6b0e5ec9da5ff29b4ba3ef09930" kindref="member">linphone_core_get_linphone_specs</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000156"/>07/02/2019 Use linphone_core_get_linphone_specs_list instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga82b55b20e35a190776bfd7e6f55fa9ee" kindref="member">linphone_core_get_media_level</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000135"/>20/12/2018  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__network__parameters_1ga726e9a0ed495b3538d0bb7a256daaa5e" kindref="member">linphone_core_get_nat_address</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000041"/>12/10/2022</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga75809d265fd90b1fff434e59fb96cbb0" kindref="member">linphone_core_get_payload_type_bitrate</ref>  (LinphoneCore *core, const OrtpPayloadType *pt)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000111"/>31/03/2017 Use linphone_payload_type_get_bitrate().  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gac3a33cf9bd6b25b70eab8637a262ed5b" kindref="member">linphone_core_get_payload_type_number</ref>  (LinphoneCore *core, const OrtpPayloadType *pt)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000114"/>13/02/2017 Use <ref refid="group__media__parameters_1gabaa0f24d3a2782deaa316f956688b21b" kindref="member">linphone_payload_type_get_number()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga3e3e8ce9f21de531df499bab44871b44" kindref="member">linphone_core_get_play_level</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000133"/>20/12/2016  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga4ebeda44ae43fc2a6b73f417182d3f4f" kindref="member">linphone_core_get_preferred_video_size</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000149"/>28/03/2017 Use <ref refid="group__media__parameters_1ga1613a43109b7781b4ca760ccc78f61ef" kindref="member">linphone_core_get_preferred_video_definition()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga1f6d7125200cd13f0b4556c47754075f" kindref="member">linphone_core_get_preview_video_size</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000147"/>28/03/2017 Use <ref refid="group__media__parameters_1ga2ac5e1ec2bee9372a6459eb8f8a1ade4" kindref="member">linphone_core_get_preview_video_definition()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gac4cdcd80fe20e8e133d06f4a2cc17e0a" kindref="member">linphone_core_get_primary_contact_parsed</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000099"/>22/10/2018 Use <ref refid="group__proxies_1gaa950903c02ac777eb02b8b1623dbdee2" kindref="member">linphone_core_create_primary_contact_parsed()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga80050bf08b0fccab7a1e97c7c89c9bfa" kindref="member">linphone_core_get_rec_level</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000134"/>20/12/2016  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga9764f5236576d5f32ac158bd4b044d17" kindref="member">linphone_core_get_ring_level</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000132"/>20/12/2016  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga56c712ea2476e42a19538c47baf908e2" kindref="member">linphone_core_get_session_expires_enabled</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000046"/>16/12/2021 Use <ref refid="group__media__parameters_1ga7b1bbcefa0e694a8af61676a83965ef1" kindref="member">linphone_core_session_expires_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__network__parameters_1ga25875e0e66c5395b692cf3b2241a0905" kindref="member">linphone_core_get_sip_port</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000121"/>20/12/2016 use <ref refid="group__network__parameters_1gac3ed6c87eb29006a02b871e3be26fde4" kindref="member">linphone_core_get_sip_transports()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__network__parameters_1gac3ed6c87eb29006a02b871e3be26fde4" kindref="member">linphone_core_get_sip_transports</ref>  (LinphoneCore *core, LinphoneSipTransports *transports)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000123"/>18/04/2017  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__network__parameters_1gada2140811da420dac57ffc378b329c4e" kindref="member">linphone_core_get_sip_transports_used</ref>  (LinphoneCore *core, LinphoneSipTransports *tr)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000124"/>18/04/2017 Use linphone_core_get_transports_used instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga13c1eb46b3f3d24014d1ca43a272aea8" kindref="member">linphone_core_get_sound_devices</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000128"/>12/10/2017 use linphone_core_get_sound_devices_list instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga6733d2ae0be29dcd603968b2c73b8ce1" kindref="member">linphone_core_get_sound_devices_list</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000042"/>10/04/2021 Use <ref refid="group__audio_1gaa181b5521420efb019ebc1c9cd764614" kindref="member">linphone_core_get_audio_devices()</ref> instead.</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gaaf27d84cfaffd7389701ac846689bc70" kindref="member">linphone_core_get_supported_file_formats</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000155"/>12/10/2017 use linphone_core_get_supported_file_formats_list instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gac8fe98f2cbe7b400e6aaab54a1dd1246" kindref="member">linphone_core_get_supported_video_sizes</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000143"/>28/03/2017 Use <ref refid="group__initializing_1ga2ab1e74e7e70a01405a482ef613ed9c3" kindref="member">linphone_factory_get_supported_video_definitions()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga28f4967f71cfe68f2da4e12b9d7b2b9e" kindref="member">linphone_core_get_text_codecs</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000104"/>31/03/2017 Use <ref refid="group__media__parameters_1gabdf9807e680366d52224707dc24170d3" kindref="member">linphone_core_get_text_payload_types()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga27dbb7b4784a695093f537b5efd2e28e" kindref="member">linphone_core_get_video_codecs</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000102"/>31/03/2017 Use <ref refid="group__media__parameters_1gad638276b28380e4838f30eac8eb864b6" kindref="member">linphone_core_get_video_payload_types()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gaaff7b19841c62e353146cbe6cb84cb8e" kindref="member">linphone_core_get_video_devices</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000152"/>12/10/2017 use linphone_core_get_video_devices_list instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga88b2a0f838364548ecec7a5384ec062c" kindref="member">linphone_core_get_video_policy</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000142"/>19/04/2017 Use linphone_video_activation_policy_get_automatically_accept instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga7745cd0d6bad00ccac4ae816340c805d" kindref="member">linphone_core_interpret_url</ref>  (LinphoneCore *core, const char *url)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000037"/>on 18/07/2022, use <ref refid="group__misc_1ga4d6f38834b660618b13c2d51d47b0734" kindref="member">linphone_core_interpret_url_2()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1ga8dfab4cc77ccff40e542ba160f97293b" kindref="member">linphone_core_is_auto_download_icalendars_enabled</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000056"/>16/12/2021 Use <ref refid="group__buddy__list_1ga659c1c3e6790ab4cb3bf9d5233076f83" kindref="member">linphone_core_auto_download_icalendars_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1gaad17e956e9d6366771cf2e4dede84a9b" kindref="member">linphone_core_is_auto_download_voice_recordings_enabled</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000054"/>16/12/2021 Use <ref refid="group__buddy__list_1gab755c6be03135663273e604f4ac2915c" kindref="member">linphone_core_auto_download_voice_recordings_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga3f0aca12e1db48335d2ae1ce073d95d6" kindref="member">linphone_core_is_auto_iterate_enabled</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000063"/>16/12/2021 Use <ref refid="group__misc_1gaac61261867be06d9ef45a4b23d03ff32" kindref="member">linphone_core_auto_iterate_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1ga340147aa214c309bc4d8ea25b30af21e" kindref="member">linphone_core_is_friend_list_subscription_enabled</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000052"/>16/12/2021 Use <ref refid="group__buddy__list_1gabdcf16a2ca8973088f164b03dd23a9e7" kindref="member">linphone_core_friend_list_subscription_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__conference_1ga27a652ca1b2b9e35d1a328ff15ae02b8" kindref="member">linphone_core_is_in_conference</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000047"/>09/03/2021 Use <ref refid="group__call__control_1ga7a4557c181200129289f1ada7a74f500" kindref="member">linphone_conference_is_in()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga69083b98471fec9c2533a28753e88e85" kindref="member">linphone_core_is_native_ringing_enabled</ref>  (const LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000044"/>16/12/2021 Use <ref refid="group__media__parameters_1gaaf18e3a5092b242321e20411a7345137" kindref="member">linphone_core_native_ringing_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1gafb483e3e4df06f67f445404ecf40deec" kindref="member">linphone_core_is_push_notification_enabled</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000061"/>16/12/2021 Use <ref refid="group__misc_1gaf73173e715836bc37d91426e7ca95fed" kindref="member">linphone_core_push_notification_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1gaa25ca393b5813078bf63c88b5c4e38b3" kindref="member">linphone_core_is_record_aware_enabled</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000058"/>16/12/2021 Use <ref refid="group__buddy__list_1ga20eba5111d9969f92cd104a5a3a8972c" kindref="member">linphone_core_record_aware_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga308fbbac3f425a7a03addfa862a3f014" kindref="member">linphone_core_is_vibration_on_incoming_call_enabled</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000065"/>16/12/2021 Use <ref refid="group__misc_1ga9f349e573e813417ad2e8fbbd3395b45" kindref="member">linphone_core_vibration_on_incoming_call_enabled()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__conference_1gab5412c993931132033584db94c0c7e8a" kindref="member">linphone_core_leave_conference</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000049"/>09/03/2021 Use <ref refid="group__call__control_1ga1aa63712f4fc7136a58c8506068909b6" kindref="member">linphone_conference_leave()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1ga3cb838fd03dc4bacd2aaee45432b1456" kindref="member">linphone_core_new</ref>  (const LinphoneCoreVTable *vtable, const char *config_path, const char *factory_config_path, void *userdata)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000079"/>12/01/2017 Use <ref refid="group__initializing_1ga8ad4c4317b764b16d46de9ce4c377a1d" kindref="member">linphone_factory_create_core()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1ga4e33a1f839c264365162482688a49da9" kindref="member">linphone_core_new_with_config</ref>  (const LinphoneCoreVTable *vtable, LinphoneConfig *config, void *userdata)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000080"/>12/01/2017 Use <ref refid="group__initializing_1gabb31f5e99cac6248574f445674af6236" kindref="member">linphone_factory_create_core_with_config()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga454f4bc8823c7e0da03ef671f3b2cd75" kindref="member">linphone_core_pause_call</ref>  (LinphoneCore *core, LinphoneCall *call)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000092"/>13/02/2017 Use <ref refid="group__call__control_1ga09bfe3a50a05d1a0d5f502ff452574de" kindref="member">linphone_call_pause()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga889ba4d9ed3020b0c34834f653e22d26" kindref="member">linphone_core_payload_type_enabled</ref>  (const LinphoneCore *core, const OrtpPayloadType *pt)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000108"/>31/03/2017 Use <ref refid="group__media__parameters_1ga839abedb86258b3541b04fae8084db48" kindref="member">linphone_payload_type_enabled()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga7ffac29fa03e7c4b3da9c96684534ac3" kindref="member">linphone_core_payload_type_is_vbr</ref>  (const LinphoneCore *core, const OrtpPayloadType *pt)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000109"/>31/03/2017 Use <ref refid="group__media__parameters_1ga614f2c1e31c7045b59925079635e52c3" kindref="member">linphone_payload_type_is_vbr()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga259cb32d668914cfc825eb6475912d92" kindref="member">linphone_core_redirect_call</ref>  (LinphoneCore *core, LinphoneCall *call, const char *redirect_uri)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000090"/>13/02/2017 Use <ref refid="group__call__misc_1ga930edd930ae08222499dbf29afc1158a" kindref="member">linphone_call_redirect()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1gaa1adda84f49d12686eed3ee4a8afa62b" kindref="member">linphone_core_remove_listener</ref>  (LinphoneCore *core, const LinphoneCoreVTable *vtable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000082"/>12/01/2017 Use <ref refid="group__initializing_1ga59f54d56fdfab6392cb0e538bbd04c0a" kindref="member">linphone_core_remove_callbacks()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga9e3adac9cdd4660602fb563f29be5812" kindref="member">linphone_core_resume_call</ref>  (LinphoneCore *core, LinphoneCall *call)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000093"/>13/02/2017 Use <ref refid="group__call__control_1ga29f896fa60c1055590d7329fa74963d0" kindref="member">linphone_call_resume()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gaaedb6578c08472a9fdeb837d6284f38c" kindref="member">linphone_core_send_dtmf</ref>  (LinphoneCore *core, char dtmf)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000098"/>23/11/2015 Use <ref refid="group__call__control_1ga17952ad66db3e1bc1b2945973bf0be00" kindref="member">linphone_call_send_dtmf()</ref> instead.</para>
+<para> <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gaf50b81c7fe673a5dc60fa4803319ca6e" kindref="member">linphone_core_set_audio_codecs</ref>  (LinphoneCore *core, bctbx_list_t *codecs)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000101"/>31/03/2017 Use <ref refid="group__media__parameters_1gafdf12a10a1c6321c332f94fb604a23a5" kindref="member">linphone_core_set_audio_payload_types()</ref> instead.</para>
+<para> <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1gae6fc7892b5c15baa8ddd3a2b82f15e74" kindref="member">linphone_core_set_auto_download_icalendars_enabled</ref>  (LinphoneCore *core, bool_t auto_download_icalendars)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000055"/>16/12/2021 Use <ref refid="group__buddy__list_1ga0bcf906496e8959b23e4dfdba06c1490" kindref="member">linphone_core_enable_auto_download_icalendars()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1ga1deca388077631485b4e923a60495be9" kindref="member">linphone_core_set_auto_download_voice_recordings_enabled</ref>  (LinphoneCore *core, bool_t auto_download_voice_recordings)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000053"/>16/12/2021 Use <ref refid="group__buddy__list_1ga95cf604fa0d2fe46ce95022e3f91bd8d" kindref="member">linphone_core_enable_auto_download_voice_recordings()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1gab49f283e246c9a655feb0673263eab15" kindref="member">linphone_core_set_auto_iterate_enabled</ref>  (LinphoneCore *core, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000062"/>16/12/2021 Use <ref refid="group__misc_1ga845f82d464c4b0881c8f40e287750aa5" kindref="member">linphone_core_enable_auto_iterate()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1ga7c163e20250f1bf4003562c0346360c0" kindref="member">linphone_core_set_call_logs_database_path</ref>  (LinphoneCore *core, const char *path)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000180"/>07/12/2021: Use only for migration purposes  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__network__parameters_1gaa1b9a2dec52377c328e6c807771b80f4" kindref="member">linphone_core_set_firewall_policy</ref>  (LinphoneCore *core, LinphoneFirewallPolicy pol)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000126"/>30/03/2016 Use <ref refid="group__network__parameters_1gac9d6cfa045dd25d61989c7d38cf85385" kindref="member">linphone_core_set_nat_policy()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1gab4b8a386a38577015ab29a147f8f96c2" kindref="member">linphone_core_set_lime_x3dh_server_url</ref>  (LinphoneCore *core, const char *url)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000038"/>26/08/2022 Use <ref refid="group__account_1ga4cf06ce2c76b36d76a4a7e3d24d67c89" kindref="member">linphone_account_params_set_lime_server_url()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1ga23605d7b2cfea135ab72c402aa2148df" kindref="member">linphone_core_set_linphone_specs</ref>  (LinphoneCore *core, const char *specs)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000157"/>07/02/2019 Use linphone_core_set_linphone_specs_list or linphone_core_add_linphone_spec instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gafe3e2a6f823133887c9fb7beb387aceb" kindref="member">linphone_core_set_media_level</ref>  (LinphoneCore *core, int level)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000139"/>12/12/2018</para>
+<para> <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__network__parameters_1gac0c983a28144a161e6c2529768914051" kindref="member">linphone_core_set_nat_address</ref>  (LinphoneCore *core, const char *addr)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000040"/>12/10/2022</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga3843638cd7b5824ada7fdcdd72d958a8" kindref="member">linphone_core_set_native_ringing_enabled</ref>  (LinphoneCore *core, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000043"/>16/12/2021 Use <ref refid="group__media__parameters_1ga6800a33607a2b1e4c9acda75e5777860" kindref="member">linphone_core_enable_native_ringing()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga294630d3379cf65c146821c143ba5579" kindref="member">linphone_core_set_payload_type_bitrate</ref>  (LinphoneCore *core, OrtpPayloadType *pt, int bitrate)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000110"/>31/03/2017 Use <ref refid="group__media__parameters_1ga1b0a181b338ab1313c19137f980557d9" kindref="member">linphone_payload_type_set_normal_bitrate()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gab8046c5da2e1700f3f27c498c77ee844" kindref="member">linphone_core_set_payload_type_number</ref>  (LinphoneCore *core, OrtpPayloadType *pt, int number)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000115"/>13/02/2017 Use <ref refid="group__media__parameters_1ga3ff05305cb89581bd13e5f3df4c1d79f" kindref="member">linphone_payload_type_set_number()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga5d7855633816a1429baf4af4179d5482" kindref="member">linphone_core_set_play_level</ref>  (LinphoneCore *core, int level)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000137"/>20/12/2016</para>
+<para> <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga844d1c6b4a94b234140c61c347410624" kindref="member">linphone_core_set_preferred_video_size</ref>  (LinphoneCore *core, MSVideoSize vsize)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000144"/>28/03/2017 Use <ref refid="group__media__parameters_1gaf34b63ecbc2124026ba264d759a733d5" kindref="member">linphone_core_set_preferred_video_definition()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga6eced3471b67971b68cf16ef013ba7ef" kindref="member">linphone_core_set_preferred_video_size_by_name</ref>  (LinphoneCore *core, const char *name)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000151"/>28/03/2017 Use <ref refid="group__media__parameters_1gae3bcd8b1d4d022eb3ae5124ef350a0df" kindref="member">linphone_core_set_preferred_video_definition_by_name()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga3c6bc588cfec7e8367092daa5e2afa00" kindref="member">linphone_core_set_preview_video_size</ref>  (LinphoneCore *core, MSVideoSize vsize)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000145"/>28/03/2017 Use <ref refid="group__media__parameters_1ga6ce2d00fb909997a3f785b948457fbfe" kindref="member">linphone_core_set_preview_video_definition()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga148b27b56adf9d001d7cf5fc935fa9f9" kindref="member">linphone_core_set_preview_video_size_by_name</ref>  (LinphoneCore *core, const char *name)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000146"/>28/03/2017 Use <ref refid="group__media__parameters_1ga66c67ab3ed8cab51b335b5273c473eca" kindref="member">linphone_core_set_preview_video_definition_by_name()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1gac230786bf4c63255cc47aa2ec67370fb" kindref="member">linphone_core_set_push_notification_enabled</ref>  (LinphoneCore *core, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000060"/>16/12/2021 Use <ref refid="group__misc_1ga38c946a0a1e94a109518b2977df834a9" kindref="member">linphone_core_enable_push_notification()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga52ce2b7efd817a41089db98ec61d4335" kindref="member">linphone_core_set_rec_level</ref>  (LinphoneCore *core, int level)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000138"/>20/12/2016</para>
+<para> <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1ga5a5bc2086b685f558bbba2a581ca2795" kindref="member">linphone_core_set_record_aware_enabled</ref>  (LinphoneCore *core, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000057"/>16/12/2021 Use <ref refid="group__buddy__list_1gaf0b892a97ba2b8b7b6dd93afc9cd6983" kindref="member">linphone_core_enable_record_aware()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gaed4748c65069a3f4f8188c79d7fa7247" kindref="member">linphone_core_set_ring_level</ref>  (LinphoneCore *core, int level)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000136"/>20/12/2016  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga2178b80488bf394b8f86a657d5e6abbb" kindref="member">linphone_core_set_session_expires_enabled</ref>  (const LinphoneCore *core, bool_t enabled)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000045"/>16/12/2021 Use <ref refid="group__media__parameters_1ga315e64ebc0a4b7ecbb92c6f61ddd4094" kindref="member">linphone_core_enable_session_expires()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__network__parameters_1ga95e3b932242ca472492d67a6ae67062a" kindref="member">linphone_core_set_sip_port</ref>  (LinphoneCore *core, int port)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000120"/>20/12/2016 use <ref refid="group__network__parameters_1gaccf2765d92cf7dfdba6ebf5017558468" kindref="member">linphone_core_set_sip_transports()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__network__parameters_1gaccf2765d92cf7dfdba6ebf5017558468" kindref="member">linphone_core_set_sip_transports</ref>  (LinphoneCore *core, const LinphoneSipTransports *transports)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000122"/>18/04/2017 Use linphone_core_set_transports instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gaad5a54dca73bf97337ab524f46244333" kindref="member">linphone_core_set_text_codecs</ref>  (LinphoneCore *core, bctbx_list_t *codecs)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000105"/>31/03/2017 Use <ref refid="group__media__parameters_1ga78e8a22552881b3e04a13bb13cdedeaa" kindref="member">linphone_core_set_text_payload_types()</ref> instead.</para>
+<para> <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga60112f0035278efc8f452653ef7d6f97" kindref="member">linphone_core_set_vibration_on_incoming_call_enabled</ref>  (LinphoneCore *core, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000064"/>16/12/2021 Use <ref refid="group__misc_1ga13da6f221be0443bae0ee8b78a6e73bc" kindref="member">linphone_core_enable_vibration_on_incoming_call()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga824bbdd6e2d58be4499a4f84d819d955" kindref="member">linphone_core_set_video_codecs</ref>  (LinphoneCore *core, bctbx_list_t *codecs)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000103"/>31/03/2017 Use <ref refid="group__media__parameters_1ga201c7d9b53c97021a93de19f2cb3846b" kindref="member">linphone_core_set_video_payload_types()</ref> instead.</para>
+<para> <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1gae01849f46126528f1dbd2c4ddc17fce5" kindref="member">linphone_core_set_video_policy</ref>  (LinphoneCore *core, const LinphoneVideoPolicy *policy)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000141"/>19/04/2017 Use linphone_video_activation_policy_set_automatically_accept instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga9c6ed2fe259df4016a21bcfd45dfe375" kindref="member">linphone_core_sound_device_can_capture</ref>  (LinphoneCore *core, const char *device)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000130"/>08/07/2020 use <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> API instead()</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga1c0b7d6e3d2f72e1b46719134c7fce7a" kindref="member">linphone_core_sound_device_can_playback</ref>  (LinphoneCore *core, const char *device)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000131"/>08/07/2020 use <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> API instead()</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__conference_1ga0346c51266f686f520598c11739f42aa" kindref="member">linphone_core_start_conference_recording</ref>  (LinphoneCore *core, const char *path)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000050"/>14/09/2021 Use <ref refid="group__call__control_1gaa6c39a8e9246f297bb2ef1924b31a699" kindref="member">linphone_conference_start_recording()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga5fb82bd816c0a8d731035577e75d7272" kindref="member">linphone_core_start_echo_calibration</ref>  (LinphoneCore *lc, LinphoneEcCalibrationCallback cb, LinphoneEcCalibrationAudioInit audio_init_cb, LinphoneEcCalibrationAudioUninit audio_uninit_cb, void *cb_data)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000033"/>16/10/2017 Use <ref refid="group__misc_1ga1b05ada31344be6811c6a97355539a3d" kindref="member">linphone_core_start_echo_canceller_calibration()</ref> instead. To set the callbacks create or get an already instantiated <ref refid="group__initializing_1gaa4a52a9cdc319baccd2232dda6681f8f" kindref="member">LinphoneCoreCbs</ref> and call <ref refid="group__initializing_1ga7130bb4228f72ff98269a9bc43e2fa54" kindref="member">linphone_core_cbs_set_ec_calibration_result()</ref>, <ref refid="group__initializing_1gad5c00032ebfe39373cfae52a65f9725c" kindref="member">linphone_core_cbs_set_ec_calibration_audio_init()</ref> and #linphone_core_cbs_set_ec_callibration_audio_uninit(). Deprecated since 2017-10-16.</para>
+<para> <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__conference_1ga021619686dc5a383d9a6a1937004b7fa" kindref="member">linphone_core_stop_conference_recording</ref>  (LinphoneCore *core)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000051"/>14/09/2021 Use <ref refid="group__call__control_1gaff1ef56ca4e60ad16dd9d9b9170c4dd7" kindref="member">linphone_conference_stop_recording()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga122f829595f3a423ee5bb96032a70938" kindref="member">linphone_core_terminate_call</ref>  (LinphoneCore *core, LinphoneCall *call)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000089"/>13/02/2017 Use <ref refid="group__call__control_1ga141ab348ae0e8601a95744384e732eb7" kindref="member">linphone_call_terminate()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1gab296d444dee90a37b96d92c84499429e" kindref="member">linphone_core_transfer_call</ref>  (LinphoneCore *core, LinphoneCall *call, const char *refer_to)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000083"/>12/01/2017 Use <ref refid="group__call__misc_1gabc82ea0fde212db0ca3db1936cbeab37" kindref="member">linphone_call_transfer()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga1b21dda87f2fe1b4e91b8ed7ade51a6c" kindref="member">linphone_core_transfer_call_to_another</ref>  (LinphoneCore *core, LinphoneCall *call, LinphoneCall *dest)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000084"/>12/01/2017 Use <ref refid="group__call__control_1ga80ce41f9e1bb41ac20930cbb64f875f8" kindref="member">linphone_call_transfer_to_another()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1gae309e80a20fedb261957effa868b3dd9" kindref="member">linphone_core_update_call</ref>  (LinphoneCore *core, LinphoneCall *call, const LinphoneCallParams *params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000094"/>13/02/2017 Use <ref refid="group__call__control_1gafc43150942cd163d5ec46828a17df237" kindref="member">linphone_call_update()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1gaa1526909d080000797569077d6064f31" kindref="member">linphone_dial_plan_get_all</ref>  (void)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000340"/>16/10/2017 use linphone_dial_plan_get_all_list instead, this method will always return NULL  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1ga8ad4c4317b764b16d46de9ce4c377a1d" kindref="member">linphone_factory_create_core</ref>  (const LinphoneFactory *factory, LinphoneCoreCbs *cbs, const char *config_path, const char *factory_config_path)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000341"/>2018-01-10: Use <ref refid="group__initializing_1ga58f793d8826c924a7debaca7c93e18c7" kindref="member">linphone_factory_create_core_3()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1gab0af5a4892cb2bd017d34d7031101bdf" kindref="member">linphone_factory_create_core_2</ref>  (const LinphoneFactory *factory, LinphoneCoreCbs *cbs, const char *config_path, const char *factory_config_path, void *user_data, void *system_context)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000342"/>2018-01-10: Use <ref refid="group__initializing_1ga58f793d8826c924a7debaca7c93e18c7" kindref="member">linphone_factory_create_core_3()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1gabb31f5e99cac6248574f445674af6236" kindref="member">linphone_factory_create_core_with_config</ref>  (const LinphoneFactory *factory, LinphoneCoreCbs *cbs, LinphoneConfig *config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000343"/>2018-01-10: Use <ref refid="group__initializing_1ga3d3880ef7a473f2daa5e9e4e47c0d7b6" kindref="member">linphone_factory_create_core_with_config_3()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1ga4a0b6dc6ecf8b550ff5adda845ba5b7a" kindref="member">linphone_factory_create_core_with_config_2</ref>  (const LinphoneFactory *factory, LinphoneCoreCbs *cbs, LinphoneConfig *config, void *user_data, void *system_context)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000344"/>2018-01-10: Use <ref refid="group__initializing_1ga3d3880ef7a473f2daa5e9e4e47c0d7b6" kindref="member">linphone_factory_create_core_with_config_3()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1gabae47dd6d86ff02b0fa63abfb7c4a9e5" kindref="member">linphone_friend_destroy</ref>  (LinphoneFriend *linphone_friend)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000189"/>31/03/2015 Use <ref refid="group__buddy__list_1ga58095b385f08df7a28314b4cf91c77e4" kindref="member">linphone_friend_unref()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1ga38fce327179abdcacd59605d25fe6c3a" kindref="member">linphone_friend_get_status</ref>  (const LinphoneFriend *linphone_friend)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000190"/>19/06/2013 Use <ref refid="group__buddy__list_1gac9d5dc384a41746c621e3e881974aeca" kindref="member">linphone_friend_get_presence_model()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1gafc6b765f5e69728d664572954a02616e" kindref="member">linphone_friend_list_get_callbacks</ref>  (const LinphoneFriendList *friend_list)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000193"/>19/02/2019 use add_callbacks / remove_callbacks instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1gaf7f5980e38490b9b52b5c1053dd06ed3" kindref="member">linphone_friend_list_get_rls_uri</ref>  (const LinphoneFriendList *friend_list)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000191"/>27/10/2020. Use <ref refid="group__buddy__list_1ga42553e15b5a58548c347bc063801bab4" kindref="member">linphone_friend_list_get_rls_address()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1ga7b2678312f261a2632c42774e0c2ac45" kindref="member">linphone_friend_list_set_rls_uri</ref>  (LinphoneFriendList *friend_list, const char *rls_uri)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000192"/>27/10/2020. Use <ref refid="group__buddy__list_1ga7fe4de4b5e45950bcbcbb5528b2aa5ec" kindref="member">linphone_friend_list_set_rls_address()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1ga120e41befc286494d4d027ce436a618e" kindref="member">linphone_friend_new</ref>  (void)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000187"/>03/02/2016 use <ref refid="group__buddy__list_1ga16725e8e035855eea1b1bc2bdeb77411" kindref="member">linphone_core_create_friend()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__buddy__list_1ga417fe3a41b8237e0b78b1156efe7d6b4" kindref="member">linphone_friend_new_with_address</ref>  (const char *addr)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000188"/>03/02/2016 use <ref refid="group__buddy__list_1ga0383bb807724704fb1052b20475eadd2" kindref="member">linphone_core_create_friend_with_address()</ref> instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__logging_1gac8e8ab662df47610e5495f2aee9d4f42" kindref="member">linphone_logging_service_get_callbacks</ref>  (const LinphoneLoggingService *log_service)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000194"/>19/02/2019 Use add_callbacks / remove_callbacks instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga9d54fca79c46acc7d298764a542f65fd" kindref="member">linphone_magic_search_get_contact_list_from_filter</ref>  (LinphoneMagicSearch *magic_search, const char *filter, const char *domain)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000347"/>22/03/2022 Use <ref refid="group__misc_1gaa0a69948a6d13cc4fa57acd4aec2e34d" kindref="member">linphone_magic_search_get_contacts()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga674c65992884e18d341fe125e1710e5c" kindref="member">linphone_magic_search_get_contact_list_from_filter_async</ref>  (LinphoneMagicSearch *magic_search, const char *filter, const char *domain)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000348"/>22/03/2022 Use <ref refid="group__misc_1ga1e554ce3e02ef2cbdf2834024cdfd9f8" kindref="member">linphone_magic_search_get_contacts_async()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1gaa0a69948a6d13cc4fa57acd4aec2e34d" kindref="member">linphone_magic_search_get_contacts</ref>  (LinphoneMagicSearch *magic_search, const char *filter, const char *domain, int sourceFlags)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000345"/>08/04/2022 Use <ref refid="group__misc_1ga1113ecd91c5fcaa84afa9ae8540f704f" kindref="member">linphone_magic_search_get_contacts_list()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga1e554ce3e02ef2cbdf2834024cdfd9f8" kindref="member">linphone_magic_search_get_contacts_async</ref>  (LinphoneMagicSearch *magic_search, const char *filter, const char *domain, int sourceFlags)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000346"/>08/04/2022 Use <ref refid="group__misc_1ga6d21b3b33f318db3b8a6dd5bcfaa0f7d" kindref="member">linphone_magic_search_get_contacts_list_async()</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga11f9276e60e0b653f73e2a0ec3b772ba" kindref="member">linphone_participant_device_identity_get_capability_descriptor</ref>  (const LinphoneParticipantDeviceIdentity *device_identity)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000350"/>12/06/2023 Use <ref refid="group__misc_1gaf39b3939f5afdf8bd3683d3d89b5f149" kindref="member">linphone_participant_device_identity_get_capability_descriptor_list()</ref> instead </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1gad70eb928de1b448a17079c208a51531f" kindref="member">linphone_participant_device_identity_set_capability_descriptor</ref>  (LinphoneParticipantDeviceIdentity *device_identity, const char *capability_descriptor)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000349"/>12/06/2023 Use <ref refid="group__misc_1ga7cf96c5779e4f3919b704f136ea471a9" kindref="member">linphone_participant_device_identity_set_capability_descriptor_2()</ref> instead </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__call__control_1ga9c9df7215e03d20de21c9f69d6cc589f" kindref="member">linphone_player_get_callbacks</ref>  (const LinphonePlayer *player)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000197"/>19/02/2019 use add_callbacks / remove_callbacks instead  <notnil />   <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga65b68abd498bc3ac1b0330b80186f9a4" kindref="member">linphone_proxy_config_avpf_enabled</ref>  (LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000243"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga278e8eb447e85f2cefd069628899c45c" kindref="member">linphone_proxy_config_done</ref>  (LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000204"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga456ab3684363a88f76a094afe2e159db" kindref="member">linphone_proxy_config_edit</ref>  (LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000203"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaf2ce92b9cacd5ae96873eeb44dfd1758" kindref="member">linphone_proxy_config_enable_publish</ref>  (LinphoneProxyConfig *proxy_config, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000205"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga8c0bacc86c20a4319831d81c425b4554" kindref="member">linphone_proxy_config_enable_quality_reporting</ref>  (LinphoneProxyConfig *proxy_config, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000210"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gab08d0515ce54970ed55e4ab63875e4e9" kindref="member">linphone_proxy_config_enable_register</ref>  (LinphoneProxyConfig *proxy_config, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000202"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga5309a0382bd33984c0477fc82b3208cd" kindref="member">linphone_proxy_config_find_auth_info</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000250"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaba78d009b1d455b7d586572fa1d7db21" kindref="member">linphone_proxy_config_get_avpf_mode</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000246"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga3dcbceaac55923cff22b0580b4c05edc" kindref="member">linphone_proxy_config_get_avpf_rr_interval</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000245"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga1dc0c9371c904a92933d9352e5464b5a" kindref="member">linphone_proxy_config_get_conference_factory_uri</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000260"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaeb6afafa6324206dd496f585bfd9ee49" kindref="member">linphone_proxy_config_get_contact</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000228"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gae3982a3ecc42cbf190edecba4f44be22" kindref="member">linphone_proxy_config_get_contact_parameters</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000229"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gad95810d900642de175b574de070650c0" kindref="member">linphone_proxy_config_get_contact_uri_parameters</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000232"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaeb45e14a1fa1f9c83669126533bb4a8b" kindref="member">linphone_proxy_config_get_core</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000233"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga6ac3c578749b63bbf6236bc7a446cab8" kindref="member">linphone_proxy_config_get_custom_header</ref>  (LinphoneProxyConfig *proxy_config, const char *header_name)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000248"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga2d8c78617f081d0e3ceac2069cb71908" kindref="member">linphone_proxy_config_get_dependency</ref>  (LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000253"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga6bb00e7a03fef0149c0f6feac571c83f" kindref="member">linphone_proxy_config_get_dial_escape_plus</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000234"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga80246756412d7c035ef1bfca0bc2e4f3" kindref="member">linphone_proxy_config_get_dial_prefix</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000235"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga2edb6a491fb09503308f68e0d516a51c" kindref="member">linphone_proxy_config_get_domain</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000217"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga20bfedf989559d342c315293bee7a0be" kindref="member">linphone_proxy_config_get_error</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000236"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gac5b4e162c370e1ba7f0b65d869b31807" kindref="member">linphone_proxy_config_get_error_info</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000237"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga09fb70829555ad16ca223c3196fb25ec" kindref="member">linphone_proxy_config_get_expires</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000224"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gae6dbd8291292c352503064453d27418d" kindref="member">linphone_proxy_config_get_identity</ref>  (const LinphoneProxyConfig *cfg)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000271"/>29/07/2015 use <ref refid="group__proxies_1gafd4f317c8d6f0ee916621e9ac9daed08" kindref="member">linphone_proxy_config_get_identity_address()</ref>  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gafd4f317c8d6f0ee916621e9ac9daed08" kindref="member">linphone_proxy_config_get_identity_address</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000221"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga9450e09a2b6eeb543e06779cc6257caa" kindref="member">linphone_proxy_config_get_idkey</ref>  (LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000255"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga3372a18ab293207370fce7b8e0fd185f" kindref="member">linphone_proxy_config_get_nat_policy</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000257"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga102bdae0224c74cf5c35f8f8518044d9" kindref="member">linphone_proxy_config_get_privacy</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000242"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga775c29efc0143abae8af3ae1b9316c98" kindref="member">linphone_proxy_config_get_publish_expires</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000207"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga203c23cec6c5db74b0ae2e3a13edbe60" kindref="member">linphone_proxy_config_get_push_notification_config</ref>  (const LinphoneProxyConfig *cfg)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000268"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gad1e72ab9fd8af88de855ee2a042d194f" kindref="member">linphone_proxy_config_get_quality_reporting_collector</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000213"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga51779595d9fcc0067a59ccb1d3c85880" kindref="member">linphone_proxy_config_get_quality_reporting_interval</ref>  (LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000215"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaa32f8faa2ba105e76609ef58438a8a2b" kindref="member">linphone_proxy_config_get_realm</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000218"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga9e2352e4837acd255d1b9b2d68727acc" kindref="member">linphone_proxy_config_get_ref_key</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000251"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga4379c3187716d23d2bf2b9b433f5a8c7" kindref="member">linphone_proxy_config_get_route</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000270"/>09/03/2018 Use <ref refid="group__proxies_1ga1a84321e5b8a34f8a7f0c5674fc5a6e7" kindref="member">linphone_proxy_config_get_routes()</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga1a84321e5b8a34f8a7f0c5674fc5a6e7" kindref="member">linphone_proxy_config_get_routes</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000220"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gafc252cb838465c497ec7d26563184b5b" kindref="member">linphone_proxy_config_get_server_addr</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000223"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga534e692d3d9408eb2f11ad7d593facec" kindref="member">linphone_proxy_config_get_state</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000216"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaad0e4ebddf33fc135932e1a89fbaff14" kindref="member">linphone_proxy_config_get_transport</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000238"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga7b4f667cf736fa0c2f4ac17e2308ed12" kindref="member">linphone_proxy_config_get_unread_chat_message_count</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000266"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga18467fa8c4a67c5d02f0fdfdd5c77fcf" kindref="member">linphone_proxy_config_is_push_notification_allowed</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000262"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga5f544ea2e8ef29385ed3369d383018e9" kindref="member">linphone_proxy_config_is_push_notification_available</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000265"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga298ffd2492fdeb6754a85239c678d89e" kindref="member">linphone_proxy_config_is_remote_push_notification_allowed</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000263"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gab5d80d49523d835d924d06dff4b44db3" kindref="member">linphone_proxy_config_normalize_phone_number</ref>  (LinphoneProxyConfig *proxy_config, const char *username)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000239"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaf8c6b6b4b60c1504d51f376f0837cd80" kindref="member">linphone_proxy_config_normalize_sip_uri</ref>  (LinphoneProxyConfig *proxy_config, const char *username)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000240"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gad12f6cc5e2bd3919d41709eea56635bd" kindref="member">linphone_proxy_config_pause_register</ref>  (LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000227"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga88a683da0b7847e02b76566f2ebfacac" kindref="member">linphone_proxy_config_publish_enabled</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000222"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga2d75976dcc0bbf660865199068e212e4" kindref="member">linphone_proxy_config_quality_reporting_enabled</ref>  (LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000211"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga76c61745175d20a611c9dcab525e2262" kindref="member">linphone_proxy_config_refresh_register</ref>  (LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000226"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga46ebceb93844ee3919587ea359737db1" kindref="member">linphone_proxy_config_register_enabled</ref>  (const LinphoneProxyConfig *proxy_config)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000225"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga2e4939758d924c31ebcde92ce41e0f58" kindref="member">linphone_proxy_config_set_avpf_mode</ref>  (LinphoneProxyConfig *proxy_config, LinphoneAVPFMode mode)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000247"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga89529b962e0be2e1c5c7e560a2bb3305" kindref="member">linphone_proxy_config_set_avpf_rr_interval</ref>  (LinphoneProxyConfig *proxy_config, uint8_t interval)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000244"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaf19c5e21b8feee4713f5cba6a54c35f9" kindref="member">linphone_proxy_config_set_conference_factory_uri</ref>  (LinphoneProxyConfig *proxy_config, const char *uri)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000259"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gab1ea91ac3042a66f0a5987b5051113d6" kindref="member">linphone_proxy_config_set_contact_parameters</ref>  (LinphoneProxyConfig *proxy_config, const char *contact_params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000230"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga2d03ba6c196b51b7ab1ed72e3b9cf46a" kindref="member">linphone_proxy_config_set_contact_uri_parameters</ref>  (LinphoneProxyConfig *proxy_config, const char *contact_uri_params)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000231"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaa40c5e8bbe019395585f116a69248fd8" kindref="member">linphone_proxy_config_set_custom_header</ref>  (LinphoneProxyConfig *proxy_config, const char *header_name, const char *header_value)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000249"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga0e797fe8bad33d513181991478f26946" kindref="member">linphone_proxy_config_set_dependency</ref>  (LinphoneProxyConfig *proxy_config, LinphoneProxyConfig *depends_on)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000254"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaf150d87f7e1690394254761fb3991f32" kindref="member">linphone_proxy_config_set_dial_escape_plus</ref>  (LinphoneProxyConfig *proxy_config, bool_t enable)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000208"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gacba131b0ccde24a205b1f4679b7ea973" kindref="member">linphone_proxy_config_set_dial_prefix</ref>  (LinphoneProxyConfig *proxy_config, const char *prefix)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000209"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gabb146519c57168ca1c15d5724420f47e" kindref="member">linphone_proxy_config_set_expires</ref>  (LinphoneProxyConfig *proxy_config, int expires)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000201"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gad1672a7cd0ea498fdd03e97adf407f50" kindref="member">linphone_proxy_config_set_identity_address</ref>  (LinphoneProxyConfig *proxy_config, LinphoneAddress *identity)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000199"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaa738317d0ac43755f7838cddc77949d2" kindref="member">linphone_proxy_config_set_idkey</ref>  (LinphoneProxyConfig *proxy_config, const char *idkey)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000256"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gad2a4e322e0b48f742a91acea9fcb1e58" kindref="member">linphone_proxy_config_set_nat_policy</ref>  (LinphoneProxyConfig *proxy_config, LinphoneNatPolicy *policy)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000258"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaa33ffec9c1e5132b8805f3e9ff10c529" kindref="member">linphone_proxy_config_set_privacy</ref>  (LinphoneProxyConfig *proxy_config, LinphonePrivacyMask privacy)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000241"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gab29dfe71ac8556af726657acf4c0f0a5" kindref="member">linphone_proxy_config_set_publish_expires</ref>  (LinphoneProxyConfig *proxy_config, int expires)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000206"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga6fd10652cc0224d2c4e4743a7dbcbd53" kindref="member">linphone_proxy_config_set_push_notification_allowed</ref>  (LinphoneProxyConfig *proxy_config, bool_t allow)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000261"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga91eabc491e8a26d82d4fa13268fe4c8d" kindref="member">linphone_proxy_config_set_push_notification_config</ref>  (LinphoneProxyConfig *cfg, LinphonePushNotificationConfig *push_cfg)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000267"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga8c42a3e8121472a6cf12f2e909bcbedf" kindref="member">linphone_proxy_config_set_quality_reporting_collector</ref>  (LinphoneProxyConfig *proxy_config, const char *collector)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000212"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga7aebd968207a12b4b6d634d174706f5a" kindref="member">linphone_proxy_config_set_quality_reporting_interval</ref>  (LinphoneProxyConfig *proxy_config, int interval)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000214"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga0e439f41ee36848c270555d6c0cfa5de" kindref="member">linphone_proxy_config_set_realm</ref>  (LinphoneProxyConfig *proxy_config, const char *realm)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000219"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga0b241b548709180cfb66b8ca245b0a40" kindref="member">linphone_proxy_config_set_ref_key</ref>  (LinphoneProxyConfig *proxy_config, const char *refkey)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000252"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga2f1fcf8b5184fcff6579df76c024db4c" kindref="member">linphone_proxy_config_set_remote_push_notification_allowed</ref>  (LinphoneProxyConfig *proxy_config, bool_t allow)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000264"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga9d863951303d7481cf0e34caecb74c08" kindref="member">linphone_proxy_config_set_route</ref>  (LinphoneProxyConfig *proxy_config, const char *route)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000269"/>08/07/2020 use <ref refid="group__proxies_1ga46f8e03a3fa4e408209f8438639376c0" kindref="member">linphone_proxy_config_set_routes()</ref> instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga46f8e03a3fa4e408209f8438639376c0" kindref="member">linphone_proxy_config_set_routes</ref>  (LinphoneProxyConfig *proxy_config, const bctbx_list_t *routes)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000200"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1gaea20473a3d2fd1dbbf1c83b075a10a19" kindref="member">linphone_proxy_config_set_server_addr</ref>  (LinphoneProxyConfig *proxy_config, const char *server_address)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000198"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__misc_1ga71014f0b49162f8933d3aefb40d3e1d9" kindref="member">linphone_xml_rpc_request_get_callbacks</ref>  (const LinphoneXmlRpcRequest *request)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000282"/>19/02/2019 use add_callbacks / remove_callbacks instead  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1ga8a8d53a23a51c70f7269e0c3e2a7fd41" kindref="member">LinphoneChatMessageCbsFileTransferSendCb</ref>  )(LinphoneChatMessage *message, LinphoneContent *content, size_t offset, size_t size)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000312"/>17/08/2020 Use <ref refid="group__chatroom_1ga61071a5f9e25c2e568542028bf16f8c2" kindref="member">LinphoneChatMessageCbsFileTransferSendChunkCb</ref> instead.  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__chatroom_1gac9324f2c66cb51047eee2783176242f0" kindref="member">LinphoneChatMessageStateChangedCb</ref>  )(LinphoneChatMessage *message, LinphoneChatMessageState state, void *user_data)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000313"/>03/07/2018 Use <ref refid="group__chatroom_1ga0322e49a0addedb1a9d242a789138873" kindref="member">LinphoneChatMessageCbsMsgStateChangedCb</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__initializing_1ga4ad022ff023e3680548b7d39e2326063" kindref="member">LinphoneCoreCbsRegistrationStateChangedCb</ref>  )(LinphoneCore *core, LinphoneProxyConfig *proxy_config, LinphoneRegistrationState state, const char *message)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000013"/>06/04/2020 Use <ref refid="group__initializing_1ga9831883b0e04c1a0cd9bb79657d84a9d" kindref="member">LinphoneCoreCbsAccountRegistrationStateChangedCb</ref> instead</para>
+<para></para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__network__parameters_1ga5728df2a3b5991b4c359b7be385e9ac5" kindref="member">LinphoneFirewallPolicy</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000274"/>03/02/2017 Use <ref refid="group__network__parameters_1gabcd02b5383f812275c66875588b76180" kindref="member">LinphoneNatPolicy</ref> instead.  <donotwrap />   </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__proxies_1ga1879a0d59e068457b688138da97f2d0b" kindref="member">LinphoneProxyConfig</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000272"/>06/04/2020 Use <ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref> object instead  </para>
+</listitem>
+<varlistentry><term>Global <ref refid="group__media__parameters_1ga83cad3d734c773e03ab7e555303d57d8" kindref="member">LinphoneVideoPolicy</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000278"/>18/04/17  <donotwrap />  </para>
+</listitem>
+</variablelist>
+</para>
+    </detaileddescription>
+    <location file="deprecated"/>
+  </compounddef>
+</doxygen>

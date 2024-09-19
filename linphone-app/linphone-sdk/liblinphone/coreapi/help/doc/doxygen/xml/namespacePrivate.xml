@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespacePrivate" kind="namespace" language="C++">
+    <compoundname>Private</compoundname>
+    <innerclass refid="structPrivate_1_1IsMapContainerImpl" prot="public">Private::IsMapContainerImpl</innerclass>
+    <innerclass refid="structPrivate_1_1IsMapContainerImpl_3_01T_00_01void__t_3_01typename_01T_1_1key__type_00_01typena4c66650365349329fbeec32f832f420c" prot="public">Private::IsMapContainerImpl&lt; T, void_t&lt; typename T::key_type, typename T::mapped_type, decltype(std::declval&lt; T &amp; &gt;()[std::declval&lt; const typename T::key_type &amp; &gt;()])&gt; &gt;</innerclass>
+    <innerclass refid="structPrivate_1_1MakeVoid" prot="public">Private::MakeVoid</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="traits_8h_1a8839dcf11d0710e71333a8c2424bde45" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>typename <ref refid="structPrivate_1_1MakeVoid" kindref="compound">MakeVoid</ref>&lt; T... &gt;::type</type>
+        <definition>using Private::void_t =  typename MakeVoid&lt;T...&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>void_t</name>
+        <qualifiedname>Private::void_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/traits.h" line="37" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/traits.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/traits.h" line="30" column="1"/>
+  </compounddef>
+</doxygen>

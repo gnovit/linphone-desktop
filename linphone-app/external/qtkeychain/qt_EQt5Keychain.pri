@@ -1,0 +1,12 @@
+QT.EQt5Keychain.VERSION = 0.13.99
+QT.EQt5Keychain.MAJOR_VERSION = 0
+QT.EQt5Keychain.MINOR_VERSION = 13
+QT.EQt5Keychain.PATCH_VERSION = 99
+QT.EQt5Keychain.name = EQt5Keychain
+QT.EQt5Keychain.module = EQt5Keychain
+QT.EQt5Keychain.defines = 
+QT.EQt5Keychain.includes =  $$PWD/../../include
+QT.EQt5Keychain.private_includes =
+QT.EQt5Keychain.libs = $$PWD/../../lib
+QT.EQt5Keychain.depends = core 
+QT.EQt5Keychain.module_config = 

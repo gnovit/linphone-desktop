@@ -1,0 +1,43 @@
+Enabled features:
+ * Assets, Enable packaging of assets (ringtones) when building the SDK.
+ * Tests component, Enable compilation of tests helper library.
+ * Non free features, Allow inclusion of non-free features (mainly codecs) in the build.
+ * BV16, BroadVoice 16 audio encoding/decoding support.
+ * GSM, GSM audio encoding/decoding support.
+ * iLBC, iLBC audio encoding/decoding support.
+ * MKV, MKV playing and recording support.
+ * OPUS, OPUS audio encoding/decoding support.
+ * Speex, Speex audio encoding/decoding and DSP support.
+ * WASAPI, Windows Audio Session API (WASAPI) sound card support.
+ * WebRTC AEC, WebRTC echo canceller support.
+ * WebRTC VAD, WebRTC voice activation detector support.
+ * Video, Ability to capture and display video.
+ * AV1, Build mediastreamer2 with AV1 support through libaom and dav1d (needs ENABLE_VIDEO=ON).
+ * jpeg, JPEG support with libjpeg-turbo (needs ENABLE_VIDEO=ON).
+ * LibYUV, Build mediastreamer2 with LibYUV support (needs ENABLE_VIDEO=ON).
+ * Qt GL, Enable Qt OpenGL rendering support.
+ * VPX, Build mediastreamer2 with VPX codec.
+ * Advanced IM, Enable advanced instant messaging such as group chat.
+ * DB Storage, Enable the database storage.
+ * FlexiAPI, Enable the FlexiAPI support in Liblinphone.
+ * LDAP, Enable LDAP Liblinphone.
+ * OpenSSL Export, Enable OpenSSL deployment
+ * Relative prefix, liblinphone and mediastreamer will look for their respective ressources relatively to their location.
+ * VCARD, Enable vCard 4 support in Linphone and Liblinphone.
+ * Decaf, Enable Elliptic Curve Cryptography support
+ * LIME X3DH, Enable Linphone IM Encryption version 2 support in Liblinphone.
+ * Mbedtls, Crypto stack implementation based on mbedtls.
+ * SRTP (required version >= 2), SRTP media encryption support.
+ * ZRTP, Build with ZRTP support (needs ENABLE_SRTP=ON).
+ * GoClear, Build with ZRTP GoClear message support (RFC 6189 - section 5.11) (needs ENABLE_ZRTP=ON).
+ * CXX wrapper, Build the C++ wrapper for Liblinphone.
+ * STACK_PROTECTOR, Use stack protection
+ * FLOAT_API, compile with the floating point API (for machines with float library)
+ * INSTALL_PKG_CONFIG_MODULE, install PkgConfig module
+ * INSTALL_CMAKE_CONFIG_MODULE, install CMake package config module
+ * X86_MAY_HAVE_SSE, does runtime check for SSE1 support
+ * X86_MAY_HAVE_SSE2, does runtime check for SSE2 support
+ * X86_MAY_HAVE_SSE4_1, does runtime check for SSE4_1 support
+ * X86_MAY_HAVE_AVX, does runtime check for AVX support
+ * X86_PRESUME_SSE, assume target CPU has SSE1 support
+ * X86_PRESUME_SSE2, assume target CPU has SSE2 support

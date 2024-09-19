@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-payload-type_8h" kind="file" language="C++">
+    <compoundname>c-payload-type.h</compoundname>
+    <includes refid="types_8h" local="yes">linphone/types.h</includes>
+    <includedby refid="call__params_8h" local="yes">call_params.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__media__parameters_1ga1e5ca5138d5e6f1bfae6b16e50ce7015" kind="function"><name>linphone_payload_type_clone</name></member>
+      <member refid="group__media__parameters_1gaccd15830581db59a7551b5fdbf9901d8" kind="function"><name>linphone_payload_type_ref</name></member>
+      <member refid="group__media__parameters_1gabc1d66a2e4434026d2ee336cf64352ff" kind="function"><name>linphone_payload_type_unref</name></member>
+      <member refid="group__media__parameters_1ga37282722495df7638ec78ae587a409e4" kind="function"><name>linphone_payload_type_get_type</name></member>
+      <member refid="group__media__parameters_1ga1718ccdf846d7f52eeb1184e52c226f6" kind="function"><name>linphone_payload_type_enable</name></member>
+      <member refid="group__media__parameters_1ga839abedb86258b3541b04fae8084db48" kind="function"><name>linphone_payload_type_enabled</name></member>
+      <member refid="group__media__parameters_1gac58da7459e681676da6a5816f1ba2c97" kind="function"><name>linphone_payload_type_get_description</name></member>
+      <member refid="group__media__parameters_1gae4ea5a8b98fb8a8a79fd89a72304242e" kind="function"><name>linphone_payload_type_get_encoder_description</name></member>
+      <member refid="group__media__parameters_1gaf3b57154cf97fcf534f85e13d4bf1a6f" kind="function"><name>linphone_payload_type_get_normal_bitrate</name></member>
+      <member refid="group__media__parameters_1ga1b0a181b338ab1313c19137f980557d9" kind="function"><name>linphone_payload_type_set_normal_bitrate</name></member>
+      <member refid="group__media__parameters_1ga0f1e2a54ac9b9530332abeb4841c1197" kind="function"><name>linphone_payload_type_get_mime_type</name></member>
+      <member refid="group__media__parameters_1ga6e65cd603a9f5cf45a6b788ce26101e0" kind="function"><name>linphone_payload_type_get_channels</name></member>
+      <member refid="group__media__parameters_1gabaa0f24d3a2782deaa316f956688b21b" kind="function"><name>linphone_payload_type_get_number</name></member>
+      <member refid="group__media__parameters_1ga3ff05305cb89581bd13e5f3df4c1d79f" kind="function"><name>linphone_payload_type_set_number</name></member>
+      <member refid="group__media__parameters_1ga848ff2b46087aadfae3c2788840939b4" kind="function"><name>linphone_payload_type_get_recv_fmtp</name></member>
+      <member refid="group__media__parameters_1ga69e460f981f4b117ac903e626d1b5522" kind="function"><name>linphone_payload_type_set_recv_fmtp</name></member>
+      <member refid="group__media__parameters_1gadba0d4558ca1e50a65f96d70cddf605b" kind="function"><name>linphone_payload_type_get_send_fmtp</name></member>
+      <member refid="group__media__parameters_1ga79e6b9fd8e4b9ea14b384f4748fb02d0" kind="function"><name>linphone_payload_type_set_send_fmtp</name></member>
+      <member refid="group__media__parameters_1ga8f38fb5e0985ec04c5efb7d7732a235d" kind="function"><name>linphone_payload_type_get_clock_rate</name></member>
+      <member refid="group__media__parameters_1ga614f2c1e31c7045b59925079635e52c3" kind="function"><name>linphone_payload_type_is_vbr</name></member>
+      <member refid="group__media__parameters_1gaacd2d94d6f1dbc926e106220bdadbb2e" kind="function"><name>linphone_payload_type_is_usable</name></member>
+      <member refid="group__media__parameters_1ga516f061501127ecf823ab79b4f2f8248" kind="function"><name>linphone_payload_type_weak_equals</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2023<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_C_PAYLOAD_TYPE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_C_PAYLOAD_TYPE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*<ref refid="group__media__parameters_1ga1e5ca5138d5e6f1bfae6b16e50ce7015" kindref="member">linphone_payload_type_clone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*orig);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*<ref refid="group__media__parameters_1gaccd15830581db59a7551b5fdbf9901d8" kindref="member">linphone_payload_type_ref</ref>(<ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gabc1d66a2e4434026d2ee336cf64352ff" kindref="member">linphone_payload_type_unref</ref>(<ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1ga37282722495df7638ec78ae587a409e4" kindref="member">linphone_payload_type_get_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1ga1718ccdf846d7f52eeb1184e52c226f6" kindref="member">linphone_payload_type_enable</ref>(<ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type,<sp/>bool_t<sp/>enabled);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__media__parameters_1ga839abedb86258b3541b04fae8084db48" kindref="member">linphone_payload_type_enabled</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__media__parameters_1gac58da7459e681676da6a5816f1ba2c97" kindref="member">linphone_payload_type_get_description</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__media__parameters_1gae4ea5a8b98fb8a8a79fd89a72304242e" kindref="member">linphone_payload_type_get_encoder_description</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf3b57154cf97fcf534f85e13d4bf1a6f" kindref="member">linphone_payload_type_get_normal_bitrate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1ga1b0a181b338ab1313c19137f980557d9" kindref="member">linphone_payload_type_set_normal_bitrate</ref>(<ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bitrate);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__media__parameters_1ga0f1e2a54ac9b9530332abeb4841c1197" kindref="member">linphone_payload_type_get_mime_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1ga6e65cd603a9f5cf45a6b788ce26101e0" kindref="member">linphone_payload_type_get_channels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gabaa0f24d3a2782deaa316f956688b21b" kindref="member">linphone_payload_type_get_number</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1ga3ff05305cb89581bd13e5f3df4c1d79f" kindref="member">linphone_payload_type_set_number</ref>(<ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>number);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__media__parameters_1ga848ff2b46087aadfae3c2788840939b4" kindref="member">linphone_payload_type_get_recv_fmtp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1ga69e460f981f4b117ac903e626d1b5522" kindref="member">linphone_payload_type_set_recv_fmtp</ref>(<ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*recv_fmtp);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__media__parameters_1gadba0d4558ca1e50a65f96d70cddf605b" kindref="member">linphone_payload_type_get_send_fmtp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1ga79e6b9fd8e4b9ea14b384f4748fb02d0" kindref="member">linphone_payload_type_set_send_fmtp</ref>(<ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*send_fmtp);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1ga8f38fb5e0985ec04c5efb7d7732a235d" kindref="member">linphone_payload_type_get_clock_rate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__media__parameters_1ga614f2c1e31c7045b59925079635e52c3" kindref="member">linphone_payload_type_is_vbr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__media__parameters_1gaacd2d94d6f1dbc926e106220bdadbb2e" kindref="member">linphone_payload_type_is_usable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__media__parameters_1ga516f061501127ecf823ab79b4f2f8248" kindref="member">linphone_payload_type_weak_equals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*payload_type,</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaf12c1654abbcb5cffe74841fc282b7d7" kindref="member">LinphonePayloadType</ref><sp/>*other_payload_type);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_L_C_PAYLOAD_TYPE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-payload-type.h"/>
+  </compounddef>
+</doxygen>

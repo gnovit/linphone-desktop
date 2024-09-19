@@ -1,0 +1,4 @@
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/app-plugin.dir/Debug/mocs_compilation_Debug.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/app-plugin.dir/Debug/PluginDataAPI.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/app-plugin.dir/Debug/PluginNetworkHelper.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/app-plugin.dir/Debug/LinphonePlugin.obj

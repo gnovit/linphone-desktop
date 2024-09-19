@@ -1,0 +1,841 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__audio" kind="group">
+    <compoundname>audio</compoundname>
+    <title>Audio</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__audio_1gad548f6aeca87faeb54745e40855e37e9" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneAudioDeviceType</name>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9aa2a03dbaef746fb12b50843600c0b75d" prot="public">
+          <name>LinphoneAudioDeviceTypeUnknown</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Unknown. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a09dc6cbe3cd0131b4099c0c682dd3011" prot="public">
+          <name>LinphoneAudioDeviceTypeMicrophone</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Microphone. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a9f737b384ad39f50598b6925ed2e0844" prot="public">
+          <name>LinphoneAudioDeviceTypeEarpiece</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>Earpiece. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a693d64ab0a878e4370b1bf8ccaf7a1be" prot="public">
+          <name>LinphoneAudioDeviceTypeSpeaker</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Speaker. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a922d41746db95db0974c01bea3c04a03" prot="public">
+          <name>LinphoneAudioDeviceTypeBluetooth</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>Bluetooth. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a157551bde377be89a0837a0b7bf559bc" prot="public">
+          <name>LinphoneAudioDeviceTypeBluetoothA2DP</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+<para>Bluetooth A2DP. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a10ffaaa86a37e0c4cfade2ff83eb9400" prot="public">
+          <name>LinphoneAudioDeviceTypeTelephony</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+<para>Telephony. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9ac8c57001d70345b11b6ddf042db83d8c" prot="public">
+          <name>LinphoneAudioDeviceTypeAuxLine</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+<para>AuxLine. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a5f2ecae75696447589d74b19f1fddd82" prot="public">
+          <name>LinphoneAudioDeviceTypeGenericUsb</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+<para>GenericUsb. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a0eba2678502c5a9682cdaec9308af724" prot="public">
+          <name>LinphoneAudioDeviceTypeHeadset</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+<para>Headset. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9ad15ab53d86823b3f10698dc30767cd19" prot="public">
+          <name>LinphoneAudioDeviceTypeHeadphones</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+<para>Headphones. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a0b9bedc42281e8e2701dcd9dcac3103f" prot="public">
+          <name>LinphoneAudioDeviceTypeHearingAid</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+<para>Hearing Aid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para><ref refid="group__audio_1gadf20cf949908b0dbe788cda30177c849" kindref="member">LinphoneAudioDeviceType</ref> enum represents the different types of an audio device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="62" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="62" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__audio_1ga373c70230286349a3323e80a3d4cde51" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneAudioDeviceCapabilities</name>
+        <enumvalue id="group__audio_1gga373c70230286349a3323e80a3d4cde51aa70260e5c2c16fce641dafeae2edb9ca" prot="public">
+          <name>LinphoneAudioDeviceCapabilityRecord</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+<para>Can record audio. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1gga373c70230286349a3323e80a3d4cde51aec16617b87af37e5ae2850110268a00f" prot="public">
+          <name>LinphoneAudioDeviceCapabilityPlay</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+<para>Can play audio. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__audio_1gga373c70230286349a3323e80a3d4cde51a8ad55f821b16ef0eced489749c6deb76" prot="public">
+          <name>LinphoneAudioDeviceCapabilityAll</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Can play and record audio. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para><ref refid="group__audio_1ga9b42898525041a40424ea13b2d338437" kindref="member">LinphoneAudioDeviceCapabilities</ref> enum represents whether a device can record audio, play audio or both </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="81" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="81" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" prot="public" static="no">
+        <type>struct _LinphoneAudioDevice</type>
+        <definition>typedef struct _LinphoneAudioDevice LinphoneAudioDevice</definition>
+        <argsstring></argsstring>
+        <name>LinphoneAudioDevice</name>
+        <briefdescription>
+<para>Object holding audio device information. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It contains the name of the device, it&apos;s type if available (Earpiece, Speaker, Bluetooth, etc..) and capabilities (input, output or both) the name of the driver that created it (filter in mediastreamer).</para>
+<para>You can use the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> objects to configure default input/output devices or do it dynamically during a call.</para>
+<para>To get the list of available devices, use <ref refid="group__audio_1gaa181b5521420efb019ebc1c9cd764614" kindref="member">linphone_core_get_audio_devices()</ref>. This list will be limited to one device of each type. Use <ref refid="group__audio_1gafd83a1d48731ad9078e5439696503026" kindref="member">linphone_core_get_extended_audio_devices()</ref> for a complete list. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="359" column="35" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__audio_1gadf20cf949908b0dbe788cda30177c849" prot="public" static="no">
+        <type>enum <ref refid="group__audio_1gad548f6aeca87faeb54745e40855e37e9" kindref="member">_LinphoneAudioDeviceType</ref></type>
+        <definition>typedef enum _LinphoneAudioDeviceType LinphoneAudioDeviceType</definition>
+        <argsstring></argsstring>
+        <name>LinphoneAudioDeviceType</name>
+        <briefdescription>
+<para><ref refid="group__audio_1gadf20cf949908b0dbe788cda30177c849" kindref="member">LinphoneAudioDeviceType</ref> enum represents the different types of an audio device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="75" column="25"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__audio_1ga9b42898525041a40424ea13b2d338437" prot="public" static="no">
+        <type>enum <ref refid="group__audio_1ga373c70230286349a3323e80a3d4cde51" kindref="member">_LinphoneAudioDeviceCapabilities</ref></type>
+        <definition>typedef enum _LinphoneAudioDeviceCapabilities LinphoneAudioDeviceCapabilities</definition>
+        <argsstring></argsstring>
+        <name>LinphoneAudioDeviceCapabilities</name>
+        <briefdescription>
+<para><ref refid="group__audio_1ga9b42898525041a40424ea13b2d338437" kindref="member">LinphoneAudioDeviceCapabilities</ref> enum represents whether a device can record audio, play audio or both </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="85" column="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__audio_1gaa181b5521420efb019ebc1c9cd764614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bctbx_list_t *</type>
+        <definition>bctbx_list_t * linphone_core_get_audio_devices</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_audio_devices</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Returns a list of audio devices, with only the first device for each type To have the list of all audio devices, use <ref refid="group__audio_1gafd83a1d48731ad9078e5439696503026" kindref="member">linphone_core_get_extended_audio_devices()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para> <bctbxlist>LinphoneAudioDevice</bctbxlist> A list with the first <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> of each type  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="6874" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="6874" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1gafd83a1d48731ad9078e5439696503026" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bctbx_list_t *</type>
+        <definition>bctbx_list_t * linphone_core_get_extended_audio_devices</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_extended_audio_devices</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Returns the list of all audio devices. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para> <bctbxlist>LinphoneAudioDevice</bctbxlist> A list of all <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="6882" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="6882" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1gad38bd7821a786a04098511d3e046adbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_set_input_audio_device</definition>
+        <argsstring>(LinphoneCore *core, LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_core_set_input_audio_device</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type><ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Sets the given <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> as input for all active calls. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>. NULL does nothing.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="6890" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="6890" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1ga171b9f081dff7ec319e632b745e741a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_set_output_audio_device</definition>
+        <argsstring>(LinphoneCore *core, LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_core_set_output_audio_device</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type><ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Sets the given <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> as output for all active calls. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>. NULL does nothing.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="6898" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="6898" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1gaf3fee0326d900ba2de103a157f5234aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+        <definition>const LinphoneAudioDevice * linphone_core_get_input_audio_device</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_input_audio_device</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Gets the input audio device for the current call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The input audio device for the current or first call, NULL if there is no call.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="6906" column="28" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="6906" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1ga31b104cd5fb60b08f2ea4440f0271672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+        <definition>const LinphoneAudioDevice * linphone_core_get_output_audio_device</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_output_audio_device</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Gets the output audio device for the current call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The output audio device for the current or first call, NULL if there is no call.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="6914" column="28" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="6914" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1ga9861b62cb3df5d47151c72506cd2081e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_set_default_input_audio_device</definition>
+        <argsstring>(LinphoneCore *core, LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_core_set_default_input_audio_device</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type><ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Sets the given <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> as default input for next calls. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="6922" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="6922" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1ga9860418da54a12e7461e23569d571f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_set_default_output_audio_device</definition>
+        <argsstring>(LinphoneCore *core, LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_core_set_default_output_audio_device</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type><ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Sets the given <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> as default output for next calls. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="6931" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="6931" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1gaf583699bdaf903b165042d3f4a89fa5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+        <definition>const LinphoneAudioDevice * linphone_core_get_default_input_audio_device</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_default_input_audio_device</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Gets the default input audio device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The default input audio device  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="6940" column="28" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="6940" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1ga38e72d01d2a194efb0e7688baf8f71d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+        <definition>const LinphoneAudioDevice * linphone_core_get_default_output_audio_device</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_default_output_audio_device</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Gets the default output audio device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The default output audio device  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="6948" column="28" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="6948" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1gadd06b2404eed639bfaca97fb4c424a7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_audio_device_get_id</definition>
+        <argsstring>(const LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_audio_device_get_id</name>
+        <param>
+          <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Returns the id of the audio device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the id of the audio device.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" line="40" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" declline="40" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1gab4b7e89e49d7b4af7afbaf881a9dead4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_audio_device_get_device_name</definition>
+        <argsstring>(const LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_audio_device_get_device_name</name>
+        <param>
+          <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Returns the name of the audio device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the name of the audio device.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" line="47" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" declline="47" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1ga812e55ae90742c5e3cceb646bae62e33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_audio_device_get_driver_name</definition>
+        <argsstring>(const LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_audio_device_get_driver_name</name>
+        <param>
+          <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Returns the driver name used by the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the name of the driver used by this audio device.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" line="54" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" declline="54" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1gaa42c4ec0806a52f84d05199a9a354cdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__audio_1ga9b42898525041a40424ea13b2d338437" kindref="member">LinphoneAudioDeviceCapabilities</ref></type>
+        <definition>LinphoneAudioDeviceCapabilities linphone_audio_device_get_capabilities</definition>
+        <argsstring>(const LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_audio_device_get_capabilities</name>
+        <param>
+          <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Returns the capabilities of the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the <ref refid="group__audio_1ga9b42898525041a40424ea13b2d338437" kindref="member">LinphoneAudioDeviceCapabilities</ref> of the audio device (RECORD, PLAY or both) as a bit mask </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" line="62" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" declline="62" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1ga70a157a21711d65b362899b816724f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__audio_1gadf20cf949908b0dbe788cda30177c849" kindref="member">LinphoneAudioDeviceType</ref></type>
+        <definition>LinphoneAudioDeviceType linphone_audio_device_get_type</definition>
+        <argsstring>(const LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_audio_device_get_type</name>
+        <param>
+          <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Returns the type of the device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the <ref refid="group__audio_1gadf20cf949908b0dbe788cda30177c849" kindref="member">LinphoneAudioDeviceType</ref> of the audio device (microphone, speaker, earpiece, bluetooth, etc...) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" line="69" column="26" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" declline="69" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1ga33bac5caade0de800b11b242abf8348e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_audio_device_has_capability</definition>
+        <argsstring>(const LinphoneAudioDevice *audio_device, const LinphoneAudioDeviceCapabilities capability)</argsstring>
+        <name>linphone_audio_device_has_capability</name>
+        <param>
+          <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__audio_1ga9b42898525041a40424ea13b2d338437" kindref="member">LinphoneAudioDeviceCapabilities</ref></type>
+          <declname>capability</declname>
+        </param>
+        <briefdescription>
+<para>Returns whether or not the audio device has the given capability. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>capability</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__audio_1ga9b42898525041a40424ea13b2d338437" kindref="member">LinphoneAudioDeviceCapabilities</ref> to check </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if the audio device has the capability, FALSE otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" line="77" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" declline="77" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1ga6d5ef2085cdc5e989d5034a83d77a481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_audio_device_get_follows_system_routing_policy</definition>
+        <argsstring>(const LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_audio_device_get_follows_system_routing_policy</name>
+        <param>
+          <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Returns whether the audio device automatically follows the system&apos;s audio routing policy. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This capability is available on some system (typically iOS) and might be convenient to simply specify liblinphone to let the system decide about which audio route is being used to handle a call. The actual <ref refid="group__audio_1gadf20cf949908b0dbe788cda30177c849" kindref="member">LinphoneAudioDeviceType</ref> may be unknown at some point, typically when no calls are running, otherwise it is reflected to be the actual system&apos;s audio route. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if the audio device automatically follows the system audio routing policy. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" line="89" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" declline="89" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1ga8cd2dee08a76dc59da1d0338a8e04119" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+        <definition>LinphoneAudioDevice * linphone_audio_device_ref</definition>
+        <argsstring>(LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_audio_device_ref</name>
+        <param>
+          <type><ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Takes a reference on a <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> object </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" line="96" column="22" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" declline="96" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__audio_1gaee81642a8bff34d1fe5f29373759fc11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_audio_device_unref</definition>
+        <argsstring>(LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_audio_device_unref</name>
+        <param>
+          <type><ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Releases a <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" line="102" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-audio-device.h" declline="102" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceFs" kind="namespace" language="C++">
+    <compoundname>Fs</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="fs_8h_1a278276772ac617a354647624a54c23a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Fs::copy</definition>
+        <argsstring>(const std::string &amp;srcPath, const std::string &amp;destPath)</argsstring>
+        <name>copy</name>
+        <qualifiedname>Fs::copy</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>srcPath</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>destPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/fs.h" line="34" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/fs.h" declline="34" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/fs.h" line="32" column="1"/>
+  </compounddef>
+</doxygen>

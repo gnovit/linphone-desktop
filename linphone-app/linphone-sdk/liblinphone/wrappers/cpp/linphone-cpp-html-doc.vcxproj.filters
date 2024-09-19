@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\615741d2554a4f0a4021090f5ebf8563\index.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\1355ba7b57d47ea58e4efdc9178483ea\linphone-cpp-html-doc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\CMakeFiles\linphone-cpp-html-doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{98EC0B0D-8E4D-398A-8AD0-16738311E97E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_d5df32e0729394cf622b0372e0539d51" kind="dir">
+    <compoundname>enums</compoundname>
+    <innerfile refid="c-enums_8h">c-enums.h</innerfile>
+    <innerfile refid="call-enums_8h">call-enums.h</innerfile>
+    <innerfile refid="chat-message-enums_8h">chat-message-enums.h</innerfile>
+    <innerfile refid="chat-room-enums_8h">chat-room-enums.h</innerfile>
+    <innerfile refid="conference-enums_8h">conference-enums.h</innerfile>
+    <innerfile refid="encryption-engine-enums_8h">encryption-engine-enums.h</innerfile>
+    <innerfile refid="event-log-enums_8h">event-log-enums.h</innerfile>
+    <innerfile refid="participant-device-enums_8h">participant-device-enums.h</innerfile>
+    <innerfile refid="participant-enums_8h">participant-enums.h</innerfile>
+    <innerfile refid="security-event-enums_8h">security-event-enums.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/"/>
+  </compounddef>
+</doxygen>

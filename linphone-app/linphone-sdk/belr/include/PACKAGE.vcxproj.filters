@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\6a4443513f8098f905f8fce051ba5b02\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{98EC0B0D-8E4D-398A-8AD0-16738311E97E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

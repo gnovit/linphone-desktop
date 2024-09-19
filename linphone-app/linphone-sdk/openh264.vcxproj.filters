@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\dfbc71ab05315a9172d21428d5f04094\openh264-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\4f8d2079a2c607df571a5b2018a916c2\openh264.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\openh264" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{98EC0B0D-8E4D-398A-8AD0-16738311E97E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

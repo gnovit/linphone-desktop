@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeASM_NASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLanguage.cmake
+C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/CMakeLists.txt

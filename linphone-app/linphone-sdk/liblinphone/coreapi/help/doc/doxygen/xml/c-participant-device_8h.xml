@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-participant-device_8h" kind="file" language="C++">
+    <compoundname>c-participant-device.h</compoundname>
+    <includes local="yes">time.h</includes>
+    <includes refid="c-participant-device-cbs_8h" local="yes">linphone/api/c-participant-device-cbs.h</includes>
+    <includes refid="c-types_8h" local="yes">linphone/api/c-types.h</includes>
+    <includes refid="wrapper__utils_8h" local="yes">linphone/wrapper_utils.h</includes>
+    <includedby refid="c-api_8h" local="yes">c-api.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>c-participant-device.h</label>
+        <link refid="c-participant-device_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>time.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <member refid="group__misc_1ga262aa20ecf27c5a7d7de894e063cbdb8" kind="function"><name>linphone_participant_device_ref</name></member>
+      <member refid="group__misc_1ga13d97d3cd3d113e3916a23db6dd3ad58" kind="function"><name>linphone_participant_device_unref</name></member>
+      <member refid="group__misc_1gafbd3bfaa85c238899f34e6c49e3b4467" kind="function"><name>linphone_participant_device_get_user_data</name></member>
+      <member refid="group__misc_1gad3ee6010b03488c59e0626e47a4bc6e2" kind="function"><name>linphone_participant_device_set_user_data</name></member>
+      <member refid="group__misc_1ga31522c1ff1660a9aefd21754daa11b85" kind="function"><name>linphone_participant_device_get_address</name></member>
+      <member refid="group__misc_1ga5da8b688bd0e09c66995ac85ba55324c" kind="function"><name>linphone_participant_device_get_state</name></member>
+      <member refid="group__misc_1ga4dd4aef6dce5b29df470aaac366828ac" kind="function"><name>linphone_participant_device_get_security_level</name></member>
+      <member refid="group__misc_1gac5fe7e1a329ae88da548b04b3233331c" kind="function"><name>linphone_participant_device_get_name</name></member>
+      <member refid="group__misc_1gaa19ea2c185894bc7f2584dc7eb61e91c" kind="function"><name>linphone_participant_device_is_in_conference</name></member>
+      <member refid="group__misc_1ga34c49c2fc21645781db38162a44ce575" kind="function"><name>linphone_participant_device_get_time_of_joining</name></member>
+      <member refid="group__misc_1ga578a76c35e665b6c1369a0a760fe24a3" kind="function"><name>linphone_participant_device_get_time_of_disconnection</name></member>
+      <member refid="group__misc_1ga89d65462eab4ce8748267598fac7b31a" kind="function"><name>linphone_participant_device_get_joining_method</name></member>
+      <member refid="group__misc_1gacd647c084694d6e58316401eaad5c77c" kind="function"><name>linphone_participant_device_get_disconnection_method</name></member>
+      <member refid="group__misc_1ga1cea626f089b1e05cc0246a65815827d" kind="function"><name>linphone_participant_device_get_disconnection_reason</name></member>
+      <member refid="group__misc_1ga3cc8c173716e1c5e52c2fbc8592eaf84" kind="function"><name>linphone_participant_device_get_stream_capability</name></member>
+      <member refid="group__misc_1ga907f3ba8e32aa8ed24fcf930ac436071" kind="function"><name>linphone_participant_device_get_stream_availability</name></member>
+      <member refid="group__misc_1ga53068c38ccbccf74dfcb5bccad6bddb1" kind="function"><name>linphone_participant_device_get_ssrc</name></member>
+      <member refid="group__misc_1ga9e1c5f7fc471e50d5f9ea346ad14972d" kind="function"><name>linphone_participant_device_add_callbacks</name></member>
+      <member refid="group__misc_1gae1267f47e99d638962b8a2896f3ab4dd" kind="function"><name>linphone_participant_device_remove_callbacks</name></member>
+      <member refid="group__misc_1ga063e4dba5519ed62ee944be45617aca6" kind="function"><name>linphone_participant_device_get_current_callbacks</name></member>
+      <member refid="group__misc_1ga7e3503dfd3229cd4974c195d06a17688" kind="function"><name>linphone_participant_device_set_native_video_window_id</name></member>
+      <member refid="group__misc_1ga27eda72b54af8dbd938c5111e5978852" kind="function"><name>linphone_participant_device_get_native_video_window_id</name></member>
+      <member refid="group__misc_1ga6a88524f412eae24d60847f19e626b8d" kind="function"><name>linphone_participant_device_create_native_video_window_id</name></member>
+      <member refid="group__misc_1ga23d09bd822ed13c5c090b6777599c39b" kind="function"><name>linphone_participant_device_get_is_speaking</name></member>
+      <member refid="group__misc_1ga10376a4d4678ca210b940be7987838ef" kind="function"><name>linphone_participant_device_get_is_muted</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_C_PARTICIPANT_DEVICE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_C_PARTICIPANT_DEVICE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;time.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-participant-device-cbs.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/wrapper_utils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="group__misc_1ga262aa20ecf27c5a7d7de894e063cbdb8" kindref="member">linphone_participant_device_ref</ref>(<ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga13d97d3cd3d113e3916a23db6dd3ad58" kindref="member">linphone_participant_device_unref</ref>(<ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1gafbd3bfaa85c238899f34e6c49e3b4467" kindref="member">linphone_participant_device_get_user_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gad3ee6010b03488c59e0626e47a4bc6e2" kindref="member">linphone_participant_device_set_user_data</ref>(<ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*user_data);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref><sp/>*</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><ref refid="group__misc_1ga31522c1ff1660a9aefd21754daa11b85" kindref="member">linphone_participant_device_get_address</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__conference_1ga4825ccb5d7757d92578ae37ec4527b64" kindref="member">LinphoneParticipantDeviceState</ref></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><ref refid="group__misc_1ga5da8b688bd0e09c66995ac85ba55324c" kindref="member">linphone_participant_device_get_state</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__chatroom_1ga2fb09b67c0e58a5e7b7ff96562f68bd6" kindref="member">LinphoneChatRoomSecurityLevel</ref></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><ref refid="group__misc_1ga4dd4aef6dce5b29df470aaac366828ac" kindref="member">linphone_participant_device_get_security_level</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1gac5fe7e1a329ae88da548b04b3233331c" kindref="member">linphone_participant_device_get_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><ref refid="group__misc_1gaa19ea2c185894bc7f2584dc7eb61e91c" kindref="member">linphone_participant_device_is_in_conference</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">LINPHONE_PUBLIC<sp/>time_t</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><ref refid="group__misc_1ga34c49c2fc21645781db38162a44ce575" kindref="member">linphone_participant_device_get_time_of_joining</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">LINPHONE_PUBLIC<sp/>time_t</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><ref refid="group__misc_1ga578a76c35e665b6c1369a0a760fe24a3" kindref="member">linphone_participant_device_get_time_of_disconnection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__conference_1ga2e167e3aed9bde3a3a1c78a13fb09210" kindref="member">LinphoneParticipantDeviceJoiningMethod</ref></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><ref refid="group__misc_1ga89d65462eab4ce8748267598fac7b31a" kindref="member">linphone_participant_device_get_joining_method</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__conference_1gab1282540864d06cdd5dadbe649447817" kindref="member">LinphoneParticipantDeviceDisconnectionMethod</ref></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><ref refid="group__misc_1gacd647c084694d6e58316401eaad5c77c" kindref="member">linphone_participant_device_get_disconnection_method</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><ref refid="group__misc_1ga1cea626f089b1e05cc0246a65815827d" kindref="member">linphone_participant_device_get_disconnection_reason</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__call__control_1ga5713e3d5c124a43229438e97be9dd268" kindref="member">LinphoneMediaDirection</ref><sp/><ref refid="group__misc_1ga3cc8c173716e1c5e52c2fbc8592eaf84" kindref="member">linphone_participant_device_get_stream_capability</ref>(</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__initializing_1ga9a98644da41a4a2b6bf9ee57a94844ea" kindref="member">LinphoneStreamType</ref><sp/>stream_type);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__misc_1ga907f3ba8e32aa8ed24fcf930ac436071" kindref="member">linphone_participant_device_get_stream_availability</ref>(</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__initializing_1ga9a98644da41a4a2b6bf9ee57a94844ea" kindref="member">LinphoneStreamType</ref><sp/>stream_type);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal">LINPHONE_PUBLIC<sp/>uint32_t<sp/><ref refid="group__misc_1ga53068c38ccbccf74dfcb5bccad6bddb1" kindref="member">linphone_participant_device_get_ssrc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__initializing_1ga9a98644da41a4a2b6bf9ee57a94844ea" kindref="member">LinphoneStreamType</ref><sp/>stream_type);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga9e1c5f7fc471e50d5f9ea346ad14972d" kindref="member">linphone_participant_device_add_callbacks</ref>(<ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device,</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ga8203ea5f269d7ac93e46ff0d99767ef7" kindref="member">LinphoneParticipantDeviceCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gae1267f47e99d638962b8a2896f3ab4dd" kindref="member">linphone_participant_device_remove_callbacks</ref>(<ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device,</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ga8203ea5f269d7ac93e46ff0d99767ef7" kindref="member">LinphoneParticipantDeviceCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__conference_1ga8203ea5f269d7ac93e46ff0d99767ef7" kindref="member">LinphoneParticipantDeviceCbs</ref><sp/>*</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><ref refid="group__misc_1ga063e4dba5519ed62ee944be45617aca6" kindref="member">linphone_participant_device_get_current_callbacks</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><ref refid="group__misc_1ga7e3503dfd3229cd4974c195d06a17688" kindref="member">linphone_participant_device_set_native_video_window_id</ref>(<ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device,</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*window_id);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><ref refid="group__misc_1ga27eda72b54af8dbd938c5111e5978852" kindref="member">linphone_participant_device_get_native_video_window_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><ref refid="group__misc_1ga6a88524f412eae24d60847f19e626b8d" kindref="member">linphone_participant_device_create_native_video_window_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__misc_1ga23d09bd822ed13c5c090b6777599c39b" kindref="member">linphone_participant_device_get_is_speaking</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__misc_1ga10376a4d4678ca210b940be7987838ef" kindref="member">linphone_participant_device_get_is_muted</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga814700868cad08e57ea832425a5d395b" kindref="member">LinphoneParticipantDevice</ref><sp/>*participant_device);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifndef<sp/>_L_C_PARTICIPANT_DEVICE_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-participant-device.h"/>
+  </compounddef>
+</doxygen>

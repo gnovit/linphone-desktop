@@ -1,0 +1,56 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VPX_PORTS\EMMS_MMX.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vpx_ports\emms_mmx.asm" -o x64\Release\vpx\vpx_ports_emms_mmx_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VPX_PORTS\FLOAT_CONTROL_WORD.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vpx_ports\float_control_word.asm" -o x64\Release\vpx\vpx_ports_float_control_word_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VPX_DSP\X86\INTRAPRED_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vpx_dsp\x86\intrapred_sse2.asm" -o x64\Release\vpx\vpx_dsp_x86_intrapred_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VPX_DSP\X86\INTRAPRED_SSSE3.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vpx_dsp\x86\intrapred_ssse3.asm" -o x64\Release\vpx\vpx_dsp_x86_intrapred_ssse3_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VPX_DSP\X86\ADD_NOISE_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vpx_dsp\x86\add_noise_sse2.asm" -o x64\Release\vpx\vpx_dsp_x86_add_noise_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VPX_DSP\X86\DEBLOCK_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vpx_dsp\x86\deblock_sse2.asm" -o x64\Release\vpx\vpx_dsp_x86_deblock_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VPX_DSP\X86\SAD4D_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vpx_dsp\x86\sad4d_sse2.asm" -o x64\Release\vpx\vpx_dsp_x86_sad4d_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VPX_DSP\X86\SAD_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vpx_dsp\x86\sad_sse2.asm" -o x64\Release\vpx\vpx_dsp_x86_sad_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VPX_DSP\X86\SUBTRACT_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vpx_dsp\x86\subtract_sse2.asm" -o x64\Release\vpx\vpx_dsp_x86_subtract_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VPX_DSP\X86\SSIM_OPT_X86_64.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vpx_dsp\x86\ssim_opt_x86_64.asm" -o x64\Release\vpx\vpx_dsp_x86_ssim_opt_x86_64_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VPX_DSP\X86\SUBPEL_VARIANCE_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vpx_dsp\x86\subpel_variance_sse2.asm" -o x64\Release\vpx\vpx_dsp_x86_subpel_variance_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\DEQUANTIZE_MMX.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\dequantize_mmx.asm" -o x64\Release\vpx\vp8_common_x86_dequantize_mmx_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\IDCTLLM_MMX.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\idctllm_mmx.asm" -o x64\Release\vpx\vp8_common_x86_idctllm_mmx_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\RECON_MMX.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\recon_mmx.asm" -o x64\Release\vpx\vp8_common_x86_recon_mmx_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\SUBPIXEL_MMX.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\subpixel_mmx.asm" -o x64\Release\vpx\vp8_common_x86_subpixel_mmx_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\IDCTLLM_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\idctllm_sse2.asm" -o x64\Release\vpx\vp8_common_x86_idctllm_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\RECON_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\recon_sse2.asm" -o x64\Release\vpx\vp8_common_x86_recon_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\SUBPIXEL_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\subpixel_sse2.asm" -o x64\Release\vpx\vp8_common_x86_subpixel_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\LOOPFILTER_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\loopfilter_sse2.asm" -o x64\Release\vpx\vp8_common_x86_loopfilter_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\IWALSH_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\iwalsh_sse2.asm" -o x64\Release\vpx\vp8_common_x86_iwalsh_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\SUBPIXEL_SSSE3.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\subpixel_ssse3.asm" -o x64\Release\vpx\vp8_common_x86_subpixel_ssse3_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\MFQE_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\mfqe_sse2.asm" -o x64\Release\vpx\vp8_common_x86_mfqe_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\COMMON\X86\LOOPFILTER_BLOCK_SSE2_X86_64.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\common\x86\loopfilter_block_sse2_x86_64.asm" -o x64\Release\vpx\vp8_common_x86_loopfilter_block_sse2_x86_64_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\ENCODER\X86\COPY_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\encoder\x86\copy_sse2.asm" -o x64\Release\vpx\vp8_encoder_x86_copy_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\ENCODER\X86\COPY_SSE3.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\encoder\x86\copy_sse3.asm" -o x64\Release\vpx\vp8_encoder_x86_copy_sse3_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\ENCODER\X86\DCT_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\encoder\x86\dct_sse2.asm" -o x64\Release\vpx\vp8_encoder_x86_dct_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\ENCODER\X86\FWALSH_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\encoder\x86\fwalsh_sse2.asm" -o x64\Release\vpx\vp8_encoder_x86_fwalsh_sse2_asm.obj
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\LIBVPX\VP8\ENCODER\X86\BLOCK_ERROR_SSE2.ASM
+yasm -Xvc -f win64  -I"." -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx" "D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libvpx\vp8\encoder\x86\block_error_sse2.asm" -o x64\Release\vpx\vp8_encoder_x86_block_error_sse2_asm.obj

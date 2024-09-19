@@ -1,0 +1,48 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\526CCF4667C07AC1E34F3D7B9013AD83\CS.TS.RULE
+setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe -no-obsolete D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/src D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/ui -ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/cs.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/da.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/de.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/en.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/es.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/fr_FR.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/hu.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/it.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/ja.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/lt.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/pt_BR.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/ru.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/sv.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/tr.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/uk.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/zh_CN.ts
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/cs.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/da.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/de.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/en.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/es.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/fr_FR.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/hu.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/it.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/ja.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/lt.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/pt_BR.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/ru.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/sv.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/tr.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/uk.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/languages/zh_CN.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\526CCF4667C07AC1E34F3D7B9013AD83\CS.QM.RULE
+setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\assets\languages
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/cs.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/da.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/de.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/en.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/es.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/fr_FR.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/hu.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/it.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/ja.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/lt.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/pt_BR.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/ru.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/sv.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/tr.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/uk.ts D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/zh_CN.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\8F42C5D2E8DCEEEB7DC6D244FC1C09C9\UPDATE_TRANSLATIONS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\ASSETS\LANGUAGES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/assets/languages/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

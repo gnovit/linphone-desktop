@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__IOS" kind="group">
+    <compoundname>IOS</compoundname>
+    <title>IOS</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__IOS_1ga3ea1f0a9aed9e41b0a01d3910aec5040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_start_dtmf_stream</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_start_dtmf_stream</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  Special function to warm up dtmf feeback stream. <ref refid="group__IOS_1ga68575acf2217b059c8dbebe7376fd311" kindref="member">linphone_core_stop_dtmf_stream()</ref> must be called before entering FG mode </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="134" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="134" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IOS_1ga68575acf2217b059c8dbebe7376fd311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_stop_dtmf_stream</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_stop_dtmf_stream</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  Special function to stop dtmf feed back function. Must be called before entering BG mode </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="141" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="141" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IOS_1gadb23bac5c85a68fa794f15aaaacc1149" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_activate_audio_session</definition>
+        <argsstring>(LinphoneCore *core, bool_t actived)</argsstring>
+        <name>linphone_core_activate_audio_session</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>actived</declname>
+        </param>
+        <briefdescription>
+<para>Special function to indicate if the audio session is activated. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Must be called when ProviderDelegate of the callkit notifies that the audio session is activated or deactivated. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>activated</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE to activate the audio session, FALSE to disable it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="150" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="150" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IOS_1gaadf3b91d1d84b127c5f08849c26d2890" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_configure_audio_session</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_configure_audio_session</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Special function to configure audio session with default settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Must be called in ProviderDelegate&apos;s callbacks when answer an incoming call and start an outgoing call. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="158" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="158" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IOS_1ga89142e5e0d49a3b92eb28762ed6800d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_enable_callkit</definition>
+        <argsstring>(LinphoneCore *core, bool_t enabled)</argsstring>
+        <name>linphone_core_enable_callkit</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+<para>Special function to enable the callkit. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>enabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE to enable callkit, FALSE to disable it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="166" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="166" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IOS_1ga300c4e022c534664e68375b16d9c9eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED void</type>
+        <definition>MS2_DEPRECATED void linphone_core_audio_route_changed</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_audio_route_changed</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Special function to indicate if the audio route is changed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Must be called in the callback of AVAudioSessionRouteChangeNotification. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil /> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<xrefsect id="deprecated_1_deprecated000034"><xreftitle>Deprecated</xreftitle><xrefdescription><para>07/01/2020 now handled in the linphone SDK directly </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="175" column="23" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="175" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IOS_1gabe42f366db5b1b23f72ba9ab1539a605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_core_callkit_enabled</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_callkit_enabled</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Special function to check if the callkit is enabled, False by default. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if callkit is enabled, FALSE otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="183" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="183" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__IOS_1gadc910ed7b288c9877cc2107242dcb4cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_core_local_permission_enabled</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_local_permission_enabled</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Special function to check if the local network permission has been granted by the user (useful for iOS). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The test performed by this function may popup the local network permission dialog, for that reason it could be a good idea to check it twice to conclude that the user has deny the permission. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if local permission request is granted, FALSE otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="193" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="193" declcolumn="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iOS specific functions </para>
+    </briefdescription>
+    <detaileddescription>
+<para>These functions handle specific aspects of iOS, mainly CallKit integration. </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

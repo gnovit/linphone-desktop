@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="info__message_8h" kind="file" language="C++">
+    <compoundname>info_message.h</compoundname>
+    <includes refid="types_8h" local="yes">linphone/types.h</includes>
+    <includedby refid="core_8h" local="yes">core.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__misc_1ga83fa2fe500c38efcdacb015e9913cbb0" kind="function"><name>linphone_info_message_add_header</name></member>
+      <member refid="group__misc_1ga07470077669ae035589713226f187da4" kind="function"><name>linphone_info_message_get_header</name></member>
+      <member refid="group__misc_1ga1e0715b93370ade50f12945721951be0" kind="function"><name>linphone_info_message_set_content</name></member>
+      <member refid="group__misc_1ga776c59669cf72c7f8012a1399e14716a" kind="function"><name>linphone_info_message_get_content</name></member>
+      <member refid="group__misc_1ga7f83762299fb2892ef184dc576f321f5" kind="function"><name>linphone_info_message_ref</name></member>
+      <member refid="group__misc_1gad1832309e5f4e987b92bb6b1e7821b6d" kind="function"><name>linphone_info_message_unref</name></member>
+      <member refid="group__misc_1ga03c47520252eeddbbf0e060148163dda" kind="function"><name>linphone_info_message_copy</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LINPHONE_INFO_MESSAGE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_INFO_MESSAGE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><ref refid="group__misc_1ga83fa2fe500c38efcdacb015e9913cbb0" kindref="member">linphone_info_message_add_header</ref>(<ref refid="group__misc_1ga6a66859069e2bfc80b782ebf2714dfcf" kindref="member">LinphoneInfoMessage</ref><sp/>*info_message,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1ga07470077669ae035589713226f187da4" kindref="member">linphone_info_message_get_header</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga6a66859069e2bfc80b782ebf2714dfcf" kindref="member">LinphoneInfoMessage</ref><sp/>*info_message,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga1e0715b93370ade50f12945721951be0" kindref="member">linphone_info_message_set_content</ref>(<ref refid="group__misc_1ga6a66859069e2bfc80b782ebf2714dfcf" kindref="member">LinphoneInfoMessage</ref><sp/>*info_message,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gaec435ed53168e70535e64b69a906304b" kindref="member">LinphoneContent</ref><sp/>*content);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gaec435ed53168e70535e64b69a906304b" kindref="member">LinphoneContent</ref><sp/>*<ref refid="group__misc_1ga776c59669cf72c7f8012a1399e14716a" kindref="member">linphone_info_message_get_content</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga6a66859069e2bfc80b782ebf2714dfcf" kindref="member">LinphoneInfoMessage</ref><sp/>*info_message);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga6a66859069e2bfc80b782ebf2714dfcf" kindref="member">LinphoneInfoMessage</ref><sp/>*<ref refid="group__misc_1ga7f83762299fb2892ef184dc576f321f5" kindref="member">linphone_info_message_ref</ref>(<ref refid="group__misc_1ga6a66859069e2bfc80b782ebf2714dfcf" kindref="member">LinphoneInfoMessage</ref><sp/>*info_message);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gad1832309e5f4e987b92bb6b1e7821b6d" kindref="member">linphone_info_message_unref</ref>(<ref refid="group__misc_1ga6a66859069e2bfc80b782ebf2714dfcf" kindref="member">LinphoneInfoMessage</ref><sp/>*info_message);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga6a66859069e2bfc80b782ebf2714dfcf" kindref="member">LinphoneInfoMessage</ref><sp/>*linphone_info_message_copy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga6a66859069e2bfc80b782ebf2714dfcf" kindref="member">LinphoneInfoMessage</ref><sp/>*info_message);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LINPHONE_INFO_MESSAGE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/info_message.h"/>
+  </compounddef>
+</doxygen>

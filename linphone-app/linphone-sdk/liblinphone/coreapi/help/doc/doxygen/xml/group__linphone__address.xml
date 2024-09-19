@@ -1,0 +1,1588 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__linphone__address" kind="group">
+    <compoundname>linphone_address</compoundname>
+    <title>Linphone address</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__linphone__address_1ga62f3f30e1fea0bd8636fa13b27d30bae" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneTransportType</name>
+        <enumvalue id="group__linphone__address_1gga62f3f30e1fea0bd8636fa13b27d30baea2a7f13b0efc09af27221c80cb0fa703f" prot="public">
+          <name>LinphoneTransportUdp</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__linphone__address_1gga62f3f30e1fea0bd8636fa13b27d30baeaf9fc9a1da0940529cfd356d3f0dc2d4b" prot="public">
+          <name>LinphoneTransportTcp</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__linphone__address_1gga62f3f30e1fea0bd8636fa13b27d30baea0942d6df761d1b9d3aba45056df1795d" prot="public">
+          <name>LinphoneTransportTls</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__linphone__address_1gga62f3f30e1fea0bd8636fa13b27d30baea169695d1db5e41ce739eac75d2f841a0" prot="public">
+          <name>LinphoneTransportDtls</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum describing transport type for LinphoneAddress. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="1236" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" bodystart="1236" bodyend="1241"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__linphone__address_1ga3835b7b8ed546312096456602ac0ce1d" prot="public" static="no">
+        <type>enum <ref refid="group__linphone__address_1ga62f3f30e1fea0bd8636fa13b27d30bae" kindref="member">_LinphoneTransportType</ref></type>
+        <definition>typedef enum _LinphoneTransportType LinphoneTransportType</definition>
+        <argsstring></argsstring>
+        <name>LinphoneTransportType</name>
+        <briefdescription>
+<para>Enum describing transport type for LinphoneAddress. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="1241" column="23"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" prot="public" static="no">
+        <type>struct _LinphoneAddress</type>
+        <definition>typedef struct _LinphoneAddress LinphoneAddress</definition>
+        <argsstring></argsstring>
+        <name>LinphoneAddress</name>
+        <briefdescription>
+<para>Object that represents a parsed SIP address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>A SIP address is made of display name, username, domain name, port, and various uri headers (such as tags). It looks like &apos;Alice &lt;sip:<ulink url="mailto:alice@example.net">alice@example.net</ulink>&gt;&apos;.</para>
+<para>You can create an address using <ref refid="group__initializing_1ga7bcc9f5e64020938ecb96f9b05370bef" kindref="member">linphone_factory_create_address()</ref> or <ref refid="group__misc_1ga4d6f38834b660618b13c2d51d47b0734" kindref="member">linphone_core_interpret_url_2()</ref> and both will return a NULL object if it doesn&apos;t match the grammar defined by the standard.</para>
+<para>This object is used in almost every other major objects to identity people (including yourself) &amp; servers.</para>
+<para>The <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> has methods to extract and manipulate all parts of the address. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="131" column="31" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__linphone__address_1ga2a6b1b2f77128772b19e7bfdf938d688" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>LinphoneAddress * linphone_core_create_address</definition>
+        <argsstring>(LinphoneCore *core, const char *address)</argsstring>
+        <name>linphone_core_create_address</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Create a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object by parsing the user supplied address, given as a string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String containing the user supplied address  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The create <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="88" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="88" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gac0fd9c88929c754a516f10fc3f247bd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>LinphoneAddress * linphone_address_new</definition>
+        <argsstring>(const char *address)</argsstring>
+        <name>linphone_address_new</name>
+        <param>
+          <type>const char *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object by parsing the user supplied address, given as a string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an address to parse.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a LinphoneAddress if parsing is successful, NULL otherwise.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="43" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="43" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga6277fd6153581d130cd326bf4f4017c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>LinphoneAddress * linphone_address_clone</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_clone</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Clones a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object to clone.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a new <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="50" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="50" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gaabd145db435b6f0b03c67fe107b102ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>LinphoneAddress * linphone_address_ref</definition>
+        <argsstring>(LinphoneAddress *address)</argsstring>
+        <name>linphone_address_ref</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Increment reference count of <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="57" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="57" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gad3eedee43741f903a38264a2e69641eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_address_unref</definition>
+        <argsstring>(LinphoneAddress *address)</argsstring>
+        <name>linphone_address_unref</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Decrement reference count of <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>When dropped to zero, memory is freed. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="63" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="63" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gadac82a543929ba875e3fea9b6b5a820b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_address_is_valid</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_is_valid</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Returns if address is valid. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the scheme if any, NULL otherwise.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="70" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="70" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga7f05f9c4562af808139c6e9b8b506f22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_address_get_scheme</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_get_scheme</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Returns the address scheme, normally &quot;sip&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the scheme if any, NULL otherwise.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="77" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="77" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gacbf277397a81fcea509fd29fb6e181d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_address_get_display_name</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_get_display_name</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Returns the display name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the display name if any, NULL otherwise.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="84" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="84" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga3963741f31d6c9eb9bf0b02d789d6aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_address_set_display_name</definition>
+        <argsstring>(LinphoneAddress *address, const char *display_name)</argsstring>
+        <name>linphone_address_set_display_name</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>display_name</declname>
+        </param>
+        <briefdescription>
+<para>Sets the display name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>display_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the display name to set.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="91" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="91" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga86eb74d6a69108d3eb3c8a7420b0198c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_address_get_username</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_get_username</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Returns the username. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the username name if any, NULL otherwise.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="98" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="98" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga8285f6f125d91cdbc7fb3ca457b0d18a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_address_set_username</definition>
+        <argsstring>(LinphoneAddress *address, const char *username)</argsstring>
+        <name>linphone_address_set_username</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+<para>Sets the username. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the username to set.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="105" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="105" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gaf9b2844c2461451703dab33108f6174f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_address_get_domain</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_get_domain</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Returns the domain name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the domain name if any, NULL otherwise.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="112" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="112" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga20d5bdd8a7925bd3a9b76943e122ad42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_address_set_domain</definition>
+        <argsstring>(LinphoneAddress *address, const char *domain)</argsstring>
+        <name>linphone_address_set_domain</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>domain</declname>
+        </param>
+        <briefdescription>
+<para>Sets the domain. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the domain to set.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="119" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="119" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga83805d42716e2c5d37a15695a3a6c9b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_address_get_port</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_get_port</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Get port number as an integer value, 0 if not present. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the port set in the address or 0 if not present. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="126" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="126" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gacd51aff5aa0ff8d67e202df6d75f1f37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_address_set_port</definition>
+        <argsstring>(LinphoneAddress *address, int port)</argsstring>
+        <name>linphone_address_set_port</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+<para>Sets the port number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the port to set in the address </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="133" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="133" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga6fcbd6777015cc50dc33e41aef55d54b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__linphone__address_1ga3835b7b8ed546312096456602ac0ce1d" kindref="member">LinphoneTransportType</ref></type>
+        <definition>LinphoneTransportType linphone_address_get_transport</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_get_transport</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Get the transport. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a <ref refid="group__linphone__address_1ga3835b7b8ed546312096456602ac0ce1d" kindref="member">LinphoneTransportType</ref>, default value if not set is UDP. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="140" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="140" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga75f2ef7116aa79620053699b0cae46c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_address_set_transport</definition>
+        <argsstring>(LinphoneAddress *address, LinphoneTransportType transport)</argsstring>
+        <name>linphone_address_set_transport</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type><ref refid="group__linphone__address_1ga3835b7b8ed546312096456602ac0ce1d" kindref="member">LinphoneTransportType</ref></type>
+          <declname>transport</declname>
+        </param>
+        <briefdescription>
+<para>Set a transport. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga3835b7b8ed546312096456602ac0ce1d" kindref="member">LinphoneTransportType</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="147" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="147" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga3e4d90b1b364c0dd84da84c3bb858ffe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_address_get_secure</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_get_secure</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Returns whether the address refers to a secure location (sips) or not. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if address refers to a secure location, FALSE otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="155" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="155" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga2e1c79ed7dba0bd3ae155fa77b78601c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_address_set_secure</definition>
+        <argsstring>(LinphoneAddress *address, bool_t enabled)</argsstring>
+        <name>linphone_address_set_secure</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+<para>Make the address refer to a secure location (sips scheme) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>enabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE if address is requested to be secure. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="162" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="162" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga0863f8cea3b88a2e5f28419ed6e6fdb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_address_is_sip</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_is_sip</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>returns whether the address is a routable SIP address or not </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if it is a routable SIP address, FALSE otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="169" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="169" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gaca6c67dc2c600757f089a7d6ef0735cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_address_get_method_param</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_get_method_param</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Get the value of the method parameter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the value of the parameter or NULL.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="176" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="176" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga50c096acb4a48de5b16ddbf18f310d9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_address_set_method_param</definition>
+        <argsstring>(LinphoneAddress *address, const char *method_param)</argsstring>
+        <name>linphone_address_set_method_param</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>method_param</declname>
+        </param>
+        <briefdescription>
+<para>Set the value of the method parameter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>method_param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to set to the method parameter.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="183" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="183" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga2534ed724911adb7fb126051ef7dd260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_address_get_password</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_get_password</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Get the password encoded in the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It is used for basic authentication (not recommended). <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the password if any, NULL otherwise.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="191" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="191" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga3c798e8749a50200e5a3b4cde2acff94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_address_set_password</definition>
+        <argsstring>(LinphoneAddress *address, const char *password)</argsstring>
+        <name>linphone_address_set_password</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Set the password encoded in the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It is used for basic authentication (not recommended). <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the password to set.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="199" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="199" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gafaa3f69361ba6d99b4df98254828c28c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_address_clean</definition>
+        <argsstring>(LinphoneAddress *address)</argsstring>
+        <name>linphone_address_clean</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Removes address&apos;s tags and uri headers so that it is displayable to the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="205" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="205" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga3701255db47362a8a7d1e86c591f75f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * linphone_address_as_string</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_as_string</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Returns the address as a string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The returned char * must be freed by the application. Use ms_free(). <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a string representation of the address.  <notnil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="213" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="213" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga5d95ebfd4c46915683648c482f6ac29b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * linphone_address_as_string_uri_only</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_as_string_uri_only</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Returns the SIP uri only as a string, that is display name is removed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The returned char * must be freed by the application. Use ms_free(). <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a string representation of the address.  <notnil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="221" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="221" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga071d7ddcce230b62e05ca39e562b3e3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_address_weak_equal</definition>
+        <argsstring>(const LinphoneAddress *address1, const LinphoneAddress *address2)</argsstring>
+        <name>linphone_address_weak_equal</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address2</declname>
+        </param>
+        <briefdescription>
+<para>Compare two <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> ignoring tags and headers, basically just domain, username, and port. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>address2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean value telling if the <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> objects are equal. </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__linphone__address_1ga9f46e6d74a61e24441e3e5b72a0d1ad2" kindref="member">linphone_address_equal()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="230" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="230" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga9f46e6d74a61e24441e3e5b72a0d1ad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_address_equal</definition>
+        <argsstring>(const LinphoneAddress *address1, const LinphoneAddress *address2)</argsstring>
+        <name>linphone_address_equal</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address2</declname>
+        </param>
+        <briefdescription>
+<para>Compare two <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> taking the tags and headers into account. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>address2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean value telling if the <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> objects are equal. </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__linphone__address_1ga071d7ddcce230b62e05ca39e562b3e3d" kindref="member">linphone_address_weak_equal()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="239" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="239" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga43f7980d3fb4da5cc410bac6e6744a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_address_get_header</definition>
+        <argsstring>(const LinphoneAddress *address, const char *header_name)</argsstring>
+        <name>linphone_address_get_header</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>header_name</declname>
+        </param>
+        <briefdescription>
+<para>Get the header encoded in the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>header_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the header name.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the header value or NULL if it doesn&apos;t exists.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="247" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="247" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga1bc667c2384453feeb5db9cdd450a280" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_address_set_header</definition>
+        <argsstring>(LinphoneAddress *address, const char *header_name, const char *header_value)</argsstring>
+        <name>linphone_address_set_header</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>header_name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>header_value</declname>
+        </param>
+        <briefdescription>
+<para>Set a header into the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Headers appear in the URI with &apos;?&apos;, such as &lt;sip:<ulink url="mailto:test@linphone.org">test@linphone.org</ulink>?SomeHeader=SomeValue&gt;. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>header_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the header name.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>header_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the header value.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="257" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="257" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga6bf9e93ec8411f664aa235ef557f6954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_address_has_param</definition>
+        <argsstring>(const LinphoneAddress *address, const char *param_name)</argsstring>
+        <name>linphone_address_has_param</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>param_name</declname>
+        </param>
+        <briefdescription>
+<para>Tell whether a parameter is present in the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the parameter.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A boolean value telling whether the parameter is present in the address </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="265" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="265" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga88fa3e370410fbead2ad65e4826a8621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_address_get_param</definition>
+        <argsstring>(const LinphoneAddress *address, const char *param_name)</argsstring>
+        <name>linphone_address_get_param</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>param_name</declname>
+        </param>
+        <briefdescription>
+<para>Get the value of a parameter of the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the parameter.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The value of the parameter or NULL if it doesn&apos;t exists.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="273" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="273" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga598b133992585c8bd0cfb7579b28f8f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_address_set_param</definition>
+        <argsstring>(LinphoneAddress *address, const char *param_name, const char *param_value)</argsstring>
+        <name>linphone_address_set_param</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>param_name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>param_value</declname>
+        </param>
+        <briefdescription>
+<para>Set the value of a parameter of the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the parameter.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new value of the parameter.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="282" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="282" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga744d27d4a9d6b2312f9d13b19161542b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_address_set_params</definition>
+        <argsstring>(LinphoneAddress *address, const char *params)</argsstring>
+        <name>linphone_address_set_params</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="284" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="284" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gacf6222cc448e07d7c62b066f5014922c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_address_has_uri_param</definition>
+        <argsstring>(const LinphoneAddress *address, const char *uri_param_name)</argsstring>
+        <name>linphone_address_has_uri_param</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>uri_param_name</declname>
+        </param>
+        <briefdescription>
+<para>Tell whether a parameter is present in the URI of the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uri_param_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the parameter.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A boolean value telling whether the parameter is present in the URI of the address </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="292" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="292" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga6d944ec82017d0e7992bf48f51bd00d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_address_get_uri_param</definition>
+        <argsstring>(const LinphoneAddress *address, const char *uri_param_name)</argsstring>
+        <name>linphone_address_get_uri_param</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>uri_param_name</declname>
+        </param>
+        <briefdescription>
+<para>Get the value of a parameter of the URI of the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uri_param_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the parameter.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The value of the parameter or NULL if it doesn&apos;t exists.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="300" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="300" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gaff4a4d2f555f1ef2d4bd39c84d416b50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_address_set_uri_param</definition>
+        <argsstring>(LinphoneAddress *address, const char *uri_param_name, const char *uri_param_value)</argsstring>
+        <name>linphone_address_set_uri_param</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>uri_param_name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>uri_param_value</declname>
+        </param>
+        <briefdescription>
+<para>Set the value of a parameter of the URI of the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uri_param_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the parameter.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uri_param_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new value of the parameter.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="309" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="309" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga270099a078fb026ab80ffffb7ab3c78f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_address_set_uri_params</definition>
+        <argsstring>(LinphoneAddress *address, const char *params)</argsstring>
+        <name>linphone_address_set_uri_params</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Set the value of the parameters of the URI of the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameters string </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="316" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="316" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga9f3187bc5d6ed4db8b8058e7bf741677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_address_remove_uri_param</definition>
+        <argsstring>(LinphoneAddress *address, const char *uri_param_name)</argsstring>
+        <name>linphone_address_remove_uri_param</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>uri_param_name</declname>
+        </param>
+        <briefdescription>
+<para>Removes the value of a parameter of the URI of the address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uri_param_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the parameter.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="323" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="323" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1ga5fde60c2d1d0323fc16820a11b8076c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED void</type>
+        <definition>MS2_DEPRECATED void linphone_address_destroy</definition>
+        <argsstring>(LinphoneAddress *address)</argsstring>
+        <name>linphone_address_destroy</name>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object (actually calls <ref refid="group__linphone__address_1gad3eedee43741f903a38264a2e69641eb" kindref="member">linphone_address_unref()</ref>). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000299"><xreftitle>Deprecated</xreftitle><xrefdescription><para>04/09/17 Use <ref refid="group__linphone__address_1gad3eedee43741f903a38264a2e69641eb" kindref="member">linphone_address_unref()</ref> instead  <donotwrap />  </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="334" column="23" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="334" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__linphone__address_1gaa52081f6a14903d3fd37b78a0ecb8c5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED bool_t</type>
+        <definition>MS2_DEPRECATED bool_t linphone_address_is_secure</definition>
+        <argsstring>(const LinphoneAddress *address)</argsstring>
+        <name>linphone_address_is_secure</name>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if address refers to a secure location (sips) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000300"><xreftitle>Deprecated</xreftitle><xrefdescription><para>04/09/17 use <ref refid="group__linphone__address_1ga3e4d90b1b364c0dd84da84c3bb858ffe" kindref="member">linphone_address_get_secure()</ref>  <donotwrap />  </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" line="341" column="25" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-address.h" declline="341" declcolumn="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>SIP address parser API. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This api is useful for manipulating SIP addresses (&apos;from&apos; or &apos;to&apos; headers). </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,31 @@
+  enabling error_concealment
+  enabling realtime_only
+  enabling vp8
+  disabling vp9
+  disabling install_docs
+  disabling debug_libs
+  disabling examples
+  disabling unit_tests
+  disabling tools
+Configuring for target 'x86_64-win64-vs16'
+  enabling x86_64
+  enabling runtime_cpu_detect
+  enabling mmx
+  enabling sse
+  enabling sse2
+  enabling sse3
+  enabling ssse3
+  enabling sse4_1
+  enabling avx
+  enabling avx2
+  enabling avx512
+    disabling avx512: not supported by compiler
+  using yasm
+  disabling ccache
+  enabling postproc
+  enabling webm_io
+  enabling libyuv
+Bypassing toolchain for environment detection.
+Creating makefiles for x86_64-win64-vs16 libs
+Creating makefiles for x86_64-win64-vs16 docs
+Creating makefiles for x86_64-win64-vs16 solution

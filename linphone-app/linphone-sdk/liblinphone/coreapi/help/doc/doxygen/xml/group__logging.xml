@@ -1,0 +1,1121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__logging" kind="group">
+    <compoundname>logging</compoundname>
+    <title>Logging</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__logging_1gaa65ee29c8eb6e395eedfd892108beade" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneLogLevel</name>
+        <enumvalue id="group__logging_1ggaa65ee29c8eb6e395eedfd892108beadea13809b972ffaa6c24dbd7500602c7ee2" prot="public">
+          <name>LinphoneLogLevelDebug</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+<para>Level for debug messages. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__logging_1ggaa65ee29c8eb6e395eedfd892108beadea2b6d1639bae89eb4449abcf868f47a10" prot="public">
+          <name>LinphoneLogLevelTrace</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+<para>Level for traces. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__logging_1ggaa65ee29c8eb6e395eedfd892108beadea6c1d5f203978a43340f8c5800d28c001" prot="public">
+          <name>LinphoneLogLevelMessage</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+<para>Level for information messages. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__logging_1ggaa65ee29c8eb6e395eedfd892108beadea79b1d34534f991d8510bb595720b66d8" prot="public">
+          <name>LinphoneLogLevelWarning</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+<para>Level for warning messages. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__logging_1ggaa65ee29c8eb6e395eedfd892108beadea3173a46f41bea21461193bbaef4e1829" prot="public">
+          <name>LinphoneLogLevelError</name>
+          <initializer>= 1 &lt;&lt; 4</initializer>
+          <briefdescription>
+<para>Level for error messages. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__logging_1ggaa65ee29c8eb6e395eedfd892108beadea8302fb98c6aa8a770169abf5e7d83f19" prot="public">
+          <name>LinphoneLogLevelFatal</name>
+          <initializer>= 1 &lt;&lt; 5</initializer>
+          <briefdescription>
+<para>Level for fatal error messages. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Verbosity levels of log messages. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="54" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" bodystart="54" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__logging_1gae1681eb46a6cb7585442831ea8a15601" prot="public" static="no">
+        <type>struct _LinphoneLoggingService</type>
+        <definition>typedef struct _LinphoneLoggingService LinphoneLoggingService</definition>
+        <argsstring></argsstring>
+        <name>LinphoneLoggingService</name>
+        <briefdescription>
+<para>Singleton class giving access to logging features. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It supports custom domain, writing into a file as well as several verbosity levels. The <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> listener allows you to be notified each time a log is printed.</para>
+<para>As the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> is a singleton, use <ref refid="group__logging_1gaf0b18f27bb60e2936c858eb8e6e76c19" kindref="member">linphone_logging_service_get()</ref> to get it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="44" column="38" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" prot="public" static="no">
+        <type>struct _LinphoneLoggingServiceCbs</type>
+        <definition>typedef struct _LinphoneLoggingServiceCbs LinphoneLoggingServiceCbs</definition>
+        <argsstring></argsstring>
+        <name>LinphoneLoggingServiceCbs</name>
+        <briefdescription>
+<para>Listener for <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="49" column="41" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__logging_1ga9511e35c2ef144a1bd7a898325cc0fc0" prot="public" static="no">
+        <type>enum <ref refid="group__logging_1gaa65ee29c8eb6e395eedfd892108beade" kindref="member">_LinphoneLogLevel</ref></type>
+        <definition>typedef enum _LinphoneLogLevel LinphoneLogLevel</definition>
+        <argsstring></argsstring>
+        <name>LinphoneLogLevel</name>
+        <briefdescription>
+<para>Verbosity levels of log messages. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="61" column="18"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__logging_1gaf89e39efb687089bb6517b530b546004" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* LinphoneLoggingServiceCbsLogMessageWrittenCb) (LinphoneLoggingService *log_service, const char *domain, LinphoneLogLevel level, const char *message)</definition>
+        <argsstring>)(LinphoneLoggingService *log_service, const char *domain, LinphoneLogLevel level, const char *message)</argsstring>
+        <name>LinphoneLoggingServiceCbsLogMessageWrittenCb</name>
+        <briefdescription>
+<para>Type of callbacks called each time liblinphone write a log message. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer on the logging service singleton.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string describing which sub-library of liblinphone the message is coming from.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Verbosity <ref refid="group__logging_1ga9511e35c2ef144a1bd7a898325cc0fc0" kindref="member">LinphoneLogLevel</ref> of the message. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Content of the message.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="71" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__logging_1gaf0b18f27bb60e2936c858eb8e6e76c19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+        <definition>LinphoneLoggingService * linphone_logging_service_get</definition>
+        <argsstring>(void)</argsstring>
+        <name>linphone_logging_service_get</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Gets the singleton logging service object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The singleton is automatically instantiated if it hasn&apos;t been done yet.</para>
+<para><simplesect kind="return"><para>A pointer on the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> singleton.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="84" column="25" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="84" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1gacd7ccb6f5614cfc8f2fa149f91621623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+        <definition>LinphoneLoggingService * linphone_logging_service_ref</definition>
+        <argsstring>(LinphoneLoggingService *log_service)</argsstring>
+        <name>linphone_logging_service_ref</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <briefdescription>
+<para>Increases the reference counter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="91" column="25" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="91" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga3ac2d5ffc082cabc05aa96249a9caad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_unref</definition>
+        <argsstring>(LinphoneLoggingService *log_service)</argsstring>
+        <name>linphone_logging_service_unref</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <briefdescription>
+<para>Decreases the reference counter and destroy the object if the counter reaches 0. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="97" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="97" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1gaaa5451ed598f56c4ee46c02bbc4e2b9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_add_callbacks</definition>
+        <argsstring>(LinphoneLoggingService *log_service, LinphoneLoggingServiceCbs *cbs)</argsstring>
+        <name>linphone_logging_service_add_callbacks</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type><ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Adds a callback object to the list of listeners. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> to add  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="104" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="104" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga0e35eee1a2125e1e60b258644e6153f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_remove_callbacks</definition>
+        <argsstring>(LinphoneLoggingService *log_service, LinphoneLoggingServiceCbs *cbs)</argsstring>
+        <name>linphone_logging_service_remove_callbacks</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type><ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Removes a callback object from the list of listeners. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> to remove  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="112" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="112" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1gacd5061f8cb3fcb66735838c9fdc3467a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> *</type>
+        <definition>LinphoneLoggingServiceCbs * linphone_logging_service_get_current_callbacks</definition>
+        <argsstring>(const LinphoneLoggingService *log_service)</argsstring>
+        <name>linphone_logging_service_get_current_callbacks</name>
+        <param>
+          <type>const <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <briefdescription>
+<para>Returns the current callbacks being called while iterating on callbacks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A pointer to the current <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> object  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="121" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="121" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1gaeb33d1b959a9b8091290fe1b7829b589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_set_log_level</definition>
+        <argsstring>(LinphoneLoggingService *log_service, LinphoneLogLevel level)</argsstring>
+        <name>linphone_logging_service_set_log_level</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type><ref refid="group__logging_1ga9511e35c2ef144a1bd7a898325cc0fc0" kindref="member">LinphoneLogLevel</ref></type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>Set the verbosity of the log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>For instance, a level of <ref refid="group__logging_1ggaa65ee29c8eb6e395eedfd892108beadea6c1d5f203978a43340f8c5800d28c001" kindref="member">LinphoneLogLevelMessage</ref> will let pass fatal, error, warning and message-typed messages whereas trace and debug messages will be dumped out. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1ga9511e35c2ef144a1bd7a898325cc0fc0" kindref="member">LinphoneLogLevel</ref> to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="131" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="131" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga1244a71e4697ee9be243288aab404e19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_set_log_level_mask</definition>
+        <argsstring>(LinphoneLoggingService *log_service, unsigned int mask)</argsstring>
+        <name>linphone_logging_service_set_log_level_mask</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>Sets the types of messages that will be authorized to be written in the log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Example: <ref refid="group__logging_1ggaa65ee29c8eb6e395eedfd892108beadea6c1d5f203978a43340f8c5800d28c001" kindref="member">LinphoneLogLevelMessage</ref>|<ref refid="group__logging_1ggaa65ee29c8eb6e395eedfd892108beadea3173a46f41bea21461193bbaef4e1829" kindref="member">LinphoneLogLevelError</ref> will ONLY let pass message-typed and error messages. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Calling that function reset the log level that has been specified by <ref refid="group__logging_1gaeb33d1b959a9b8091290fe1b7829b589" kindref="member">linphone_logging_service_set_log_level()</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="141" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="141" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1gab34adff23b2612f4c00105fd627503cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int linphone_logging_service_get_log_level_mask</definition>
+        <argsstring>(const LinphoneLoggingService *log_service)</argsstring>
+        <name>linphone_logging_service_get_log_level_mask</name>
+        <param>
+          <type>const <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <briefdescription>
+<para>Gets the log level mask. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the log level mask </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="149" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="149" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga528732182f1e8f310975e92f2f263fc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_set_log_file</definition>
+        <argsstring>(const LinphoneLoggingService *log_service, const char *dir, const char *filename, size_t max_size)</argsstring>
+        <name>linphone_logging_service_set_log_file</name>
+        <param>
+          <type>const <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_size</declname>
+        </param>
+        <briefdescription>
+<para>Enables logging in a file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>That function enables an internal log handler that writes log messages in log-rotated files.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Directory where to create the distinct parts of the log.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the log file.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximal size of each part of the log. The log rotating is triggered each time the currently opened log part reach that limit. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="163" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="163" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga3ac4c28c0a5bb93b973fd2f45dbbaeba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_set_domain</definition>
+        <argsstring>(LinphoneLoggingService *log_service, const char *domain)</argsstring>
+        <name>linphone_logging_service_set_domain</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>domain</declname>
+        </param>
+        <briefdescription>
+<para>Set the domain where application logs are written (for example with <ref refid="group__logging_1ga6869df9cf4bae57f0e4952921919da45" kindref="member">linphone_logging_service_message()</ref>). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The domain.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>The domain is mandatory to write logs. This needs to be set before setting the log level. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="174" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="174" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga54633b41a5934987849dab179f1b19a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_logging_service_get_domain</definition>
+        <argsstring>(LinphoneLoggingService *log_service)</argsstring>
+        <name>linphone_logging_service_get_domain</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <briefdescription>
+<para>Get the domain where application logs are written (for example with <ref refid="group__logging_1ga6869df9cf4bae57f0e4952921919da45" kindref="member">linphone_logging_service_message()</ref>). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The domain where application logs are written.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="181" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="181" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga2fbdeb61fddf074234c53ab363e5eb63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_debug</definition>
+        <argsstring>(LinphoneLoggingService *log_service, const char *message)</argsstring>
+        <name>linphone_logging_service_debug</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Write a LinphoneLogLevelDebug message to the logs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The log message.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="188" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="188" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1gabc5d43e3521b805dc5571348a2ccd3c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_trace</definition>
+        <argsstring>(LinphoneLoggingService *log_service, const char *message)</argsstring>
+        <name>linphone_logging_service_trace</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Write a LinphoneLogLevelTrace message to the logs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The log message.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="195" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="195" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga6869df9cf4bae57f0e4952921919da45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_message</definition>
+        <argsstring>(LinphoneLoggingService *log_service, const char *message)</argsstring>
+        <name>linphone_logging_service_message</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Write a LinphoneLogLevelMessage message to the logs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The log message.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="202" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="202" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga14e0fd6f7c0d218a11ed452224032313" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_warning</definition>
+        <argsstring>(LinphoneLoggingService *log_service, const char *message)</argsstring>
+        <name>linphone_logging_service_warning</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Write a LinphoneLogLevelWarning message to the logs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The log message.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="209" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="209" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga9f5f5fb56b52e506d6190143184a1883" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_error</definition>
+        <argsstring>(LinphoneLoggingService *log_service, const char *message)</argsstring>
+        <name>linphone_logging_service_error</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Write a LinphoneLogLevelError message to the logs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The log message.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="216" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="216" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga6cd1a78080ba23f8bdabc6d48362af2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_fatal</definition>
+        <argsstring>(LinphoneLoggingService *log_service, const char *message)</argsstring>
+        <name>linphone_logging_service_fatal</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Write a LinphoneLogLevelFatal message to the logs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The log message.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="223" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="223" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga1fc911d664889dbf6c3337643e09c553" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_enable_stack_trace_dumps</definition>
+        <argsstring>(LinphoneLoggingService *log_service, bool_t enable)</argsstring>
+        <name>linphone_logging_service_enable_stack_trace_dumps</name>
+        <param>
+          <type><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>Allow Linphone to set handlers for catching exceptions and write the stack trace into log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Available for Windows. It keeps old handlers. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if TRUE global handlers will be prepend by the logger handlers. By default, it is FALSE. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="231" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="231" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga49b8553106e6aa5312e86628e5dcc3eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> *</type>
+        <definition>LinphoneLoggingServiceCbs * linphone_logging_service_cbs_ref</definition>
+        <argsstring>(LinphoneLoggingServiceCbs *cbs)</argsstring>
+        <name>linphone_logging_service_cbs_ref</name>
+        <param>
+          <type><ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Increases the reference counter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> object  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="239" column="28" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="239" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1gac1ebdbdad2133037d109784286856415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_cbs_unref</definition>
+        <argsstring>(LinphoneLoggingServiceCbs *cbs)</argsstring>
+        <name>linphone_logging_service_cbs_unref</name>
+        <param>
+          <type><ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Decreases the reference counter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The object is automatically destroyed once the counter reach 0. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="247" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="247" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga0989391faed2b4bdab453c8cc4bfd5e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_cbs_set_log_message_written</definition>
+        <argsstring>(LinphoneLoggingServiceCbs *cbs, LinphoneLoggingServiceCbsLogMessageWrittenCb cb)</argsstring>
+        <name>linphone_logging_service_cbs_set_log_message_written</name>
+        <param>
+          <type><ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <param>
+          <type><ref refid="group__logging_1gaf89e39efb687089bb6517b530b546004" kindref="member">LinphoneLoggingServiceCbsLogMessageWrittenCb</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Sets the callback to call each time liblinphone writes a log message. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gaf89e39efb687089bb6517b530b546004" kindref="member">LinphoneLoggingServiceCbsLogMessageWrittenCb</ref> to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="255" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="255" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1gae22fd64d0dec1cffb41cf205ff988162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__logging_1gaf89e39efb687089bb6517b530b546004" kindref="member">LinphoneLoggingServiceCbsLogMessageWrittenCb</ref></type>
+        <definition>LinphoneLoggingServiceCbsLogMessageWrittenCb linphone_logging_service_cbs_get_log_message_written</definition>
+        <argsstring>(const LinphoneLoggingServiceCbs *cbs)</argsstring>
+        <name>linphone_logging_service_cbs_get_log_message_written</name>
+        <param>
+          <type>const <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Gets the value of the message event callback. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the current <ref refid="group__logging_1gaf89e39efb687089bb6517b530b546004" kindref="member">LinphoneLoggingServiceCbsLogMessageWrittenCb</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="264" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="264" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga0e6882b835192e321e9335d9b9df0520" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_logging_service_cbs_set_user_data</definition>
+        <argsstring>(LinphoneLoggingServiceCbs *cbs, void *user_data)</argsstring>
+        <name>linphone_logging_service_cbs_set_user_data</name>
+        <param>
+          <type><ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>user_data</declname>
+        </param>
+        <briefdescription>
+<para>Pass a pointer on a custom object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>That pointer can be get back by callbacks by using #linphone_logging_service_get_cbs() and <ref refid="group__logging_1ga64f84cf80c5d43f92bc83625e8aa638a" kindref="member">linphone_logging_service_cbs_get_user_data()</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>user_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the user data pointer.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="274" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="274" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1ga64f84cf80c5d43f92bc83625e8aa638a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * linphone_logging_service_cbs_get_user_data</definition>
+        <argsstring>(const LinphoneLoggingServiceCbs *cbs)</argsstring>
+        <name>linphone_logging_service_cbs_get_user_data</name>
+        <param>
+          <type>const <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Gets the user_data pointer back. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the user data pointer.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="281" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="281" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__logging_1gac8e8ab662df47610e5495f2aee9d4f42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED <ref refid="group__logging_1ga09b90ee3dfd26c50dbc2693d6e01159d" kindref="member">LinphoneLoggingServiceCbs</ref> *</type>
+        <definition>MS2_DEPRECATED LinphoneLoggingServiceCbs * linphone_logging_service_get_callbacks</definition>
+        <argsstring>(const LinphoneLoggingService *log_service)</argsstring>
+        <name>linphone_logging_service_get_callbacks</name>
+        <param>
+          <type>const <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <briefdescription>
+<para>Gets the logging service listener. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> object </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<xrefsect id="deprecated_1_deprecated000194"><xreftitle>Deprecated</xreftitle><xrefdescription><para>19/02/2019 Use add_callbacks / remove_callbacks instead  <donotwrap />  </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" line="294" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/logging.h" declline="294" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Logging service of Linphone. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

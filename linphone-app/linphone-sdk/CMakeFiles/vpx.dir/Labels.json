@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/vpx"
+		},
+		{
+			"file" : "D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/4f8d2079a2c607df571a5b2018a916c2/vpx.rule"
+		},
+		{
+			"file" : "D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/dfbc71ab05315a9172d21428d5f04094/vpx-complete.rule"
+		},
+		{
+			"file" : "D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/7c5ad40765ff606a58217005418a52e7/vpx-build.rule"
+		},
+		{
+			"file" : "D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/7c5ad40765ff606a58217005418a52e7/vpx-configure.rule"
+		},
+		{
+			"file" : "D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/7c5ad40765ff606a58217005418a52e7/vpx-download.rule"
+		},
+		{
+			"file" : "D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/7c5ad40765ff606a58217005418a52e7/vpx-install.rule"
+		},
+		{
+			"file" : "D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/7c5ad40765ff606a58217005418a52e7/vpx-mkdir.rule"
+		},
+		{
+			"file" : "D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/7c5ad40765ff606a58217005418a52e7/vpx-patch.rule"
+		},
+		{
+			"file" : "D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/7c5ad40765ff606a58217005418a52e7/vpx-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vpx"
+		],
+		"name" : "vpx"
+	}
+}

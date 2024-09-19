@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\openldap\libraries\liblber\assert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\openldap\libraries\liblber\bprint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\openldap\libraries\liblber\debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\openldap\libraries\liblber\decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\openldap\libraries\liblber\encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\openldap\libraries\liblber\io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\openldap\libraries\liblber\memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\openldap\libraries\liblber\options.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\openldap\libraries\liblber\sockbuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\openldap\libraries\liblber\nt_err.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\openldap\libraries\liblber\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D5A014FD-C7A9-31E0-8F9C-FD4CF18CF7E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

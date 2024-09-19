@@ -1,0 +1,4 @@
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/app-plugin.dir/MinSizeRel/mocs_compilation_MinSizeRel.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/app-plugin.dir/MinSizeRel/PluginDataAPI.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/app-plugin.dir/MinSizeRel/PluginNetworkHelper.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-app/app-plugin.dir/MinSizeRel/LinphonePlugin.obj

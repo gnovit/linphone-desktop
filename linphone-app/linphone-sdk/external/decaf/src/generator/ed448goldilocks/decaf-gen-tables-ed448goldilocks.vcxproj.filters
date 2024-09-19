@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\decaf_gen_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\decaf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\scalar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\0a64314721c4e3e539145d2479d3a829\decaf_gen_tables.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\ed448goldilocks\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\p448\decaf-p448.dir\$(Configuration)\f_impl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\p448\decaf-p448.dir\$(Configuration)\f_arithmetic.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\p448\decaf-p448.dir\$(Configuration)\f_generic.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{98EC0B0D-8E4D-398A-8AD0-16738311E97E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{D9FD6D20-DAB0-3626-A095-CFA51D37BFD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D5A014FD-C7A9-31E0-8F9C-FD4CF18CF7E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

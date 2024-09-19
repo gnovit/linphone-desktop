@@ -1,0 +1,38 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\D00BF88CD86920B91913D2E9051980DE\F_FIELD.H.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=field --guard=p448/f_field.h --item=p448 -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/p448/f_field.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_field/f_field.tmpl.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\D00BF88CD86920B91913D2E9051980DE\F_GENERIC.C.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=field --guard=p448/f_generic.c --item=p448 -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/p448/f_generic.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_field/f_generic.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\149556C2F3C65A1172D778E27159916B\DECAF-GENERATOR-P448.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-SDK\EXTERNAL\DECAF\SRC\GENERATOR\ED448GOLDILOCKS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/generator/ed448goldilocks/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

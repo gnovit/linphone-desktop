@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F24A387-E4B5-37A5-B357-F12FA5C2075E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>decaf-generator-ed448goldilocks</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\decaf-generator-ed448goldilocks.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\include\arch_32;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\p448;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\p448;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\p448\arch_32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\include\arch_32;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\p448;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\p448;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\p448\arch_32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\include\arch_32;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\p448;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\p448;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\p448\arch_32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\include\arch_32;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\p448;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\p448;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\p448\arch_32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\0a64314721c4e3e539145d2479d3a829\eddsa.c.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating code for ed448goldilocks/eddsa.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=ed448goldilocks/eddsa.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/ed448goldilocks/eddsa.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\eddsa.tmpl.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\eddsa.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating code for ed448goldilocks/eddsa.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=ed448goldilocks/eddsa.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/ed448goldilocks/eddsa.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\eddsa.tmpl.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\eddsa.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating code for ed448goldilocks/eddsa.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=ed448goldilocks/eddsa.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/ed448goldilocks/eddsa.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\eddsa.tmpl.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\eddsa.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating code for ed448goldilocks/eddsa.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=ed448goldilocks/eddsa.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/ed448goldilocks/eddsa.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\eddsa.tmpl.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\eddsa.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\0a64314721c4e3e539145d2479d3a829\elligator.c.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating code for ed448goldilocks/elligator.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=ed448goldilocks/elligator.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/ed448goldilocks/elligator.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/elligator.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\elligator.tmpl.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\elligator.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating code for ed448goldilocks/elligator.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=ed448goldilocks/elligator.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/ed448goldilocks/elligator.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/elligator.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\elligator.tmpl.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\elligator.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating code for ed448goldilocks/elligator.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=ed448goldilocks/elligator.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/ed448goldilocks/elligator.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/elligator.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\elligator.tmpl.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\elligator.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating code for ed448goldilocks/elligator.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=ed448goldilocks/elligator.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/ed448goldilocks/elligator.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/elligator.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\elligator.tmpl.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\elligator.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\092505cb5dc3115d8cfd4b827176b0ab\ed448.hxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating code for include/decaf/ed448.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=decaf/ed448.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/ed448.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\eddsa.tmpl.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\ed448.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating code for include/decaf/ed448.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=decaf/ed448.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/ed448.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\eddsa.tmpl.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\ed448.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating code for include/decaf/ed448.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=decaf/ed448.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/ed448.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\eddsa.tmpl.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\ed448.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating code for include/decaf/ed448.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=decaf/ed448.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/ed448.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\eddsa.tmpl.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\ed448.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\092505cb5dc3115d8cfd4b827176b0ab\point_448.hxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating code for include/decaf/point_448.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=decaf/point_448.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/point_448.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/point.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\point.tmpl.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\point_448.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating code for include/decaf/point_448.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=decaf/point_448.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/point_448.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/point.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\point.tmpl.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\point_448.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating code for include/decaf/point_448.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=decaf/point_448.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/point_448.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/point.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\point.tmpl.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\point_448.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating code for include/decaf/point_448.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=decaf/point_448.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/point_448.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/point.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\template.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\per_curve\point.tmpl.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\point_448.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\149556c2f3c65a1172d778e27159916b\decaf-generator-ed448goldilocks.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\elligator.c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\eddsa.c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\point_448.hxx;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\ed448.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\CMakeFiles\decaf-generator-ed448goldilocks</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\elligator.c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\eddsa.c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\point_448.hxx;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\ed448.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\CMakeFiles\decaf-generator-ed448goldilocks</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\elligator.c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\eddsa.c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\point_448.hxx;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\ed448.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\CMakeFiles\decaf-generator-ed448goldilocks</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\elligator.c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\c\ed448goldilocks\eddsa.c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\point_448.hxx;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\GENERATED\include\decaf\ed448.hxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\CMakeFiles\decaf-generator-ed448goldilocks</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\decaf\src\generator\ed448goldilocks\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/ed448goldilocks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/generator/ed448goldilocks/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/ed448goldilocks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/generator/ed448goldilocks/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/ed448goldilocks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/generator/ed448goldilocks/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/ed448goldilocks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/generator/ed448goldilocks/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\CMakeFiles\decaf-generator-ed448goldilocks">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ZERO_CHECK.vcxproj">
+      <Project>{F070D8A1-EDFC-3AC1-B6E3-02D97BB8861D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\decaf-gen-ed448-ntab.vcxproj">
+      <Project>{1AFC673C-089E-32E8-8E36-21F317C4BEC4}</Project>
+      <Name>decaf-gen-ed448-ntab</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\decaf-generator-p448.vcxproj">
+      <Project>{521DE435-C2EE-38A7-A0C1-3A4EF7C7E8DE}</Project>
+      <Name>decaf-generator-p448</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

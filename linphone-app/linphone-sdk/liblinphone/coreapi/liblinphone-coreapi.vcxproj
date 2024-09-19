@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4328B199-2D84-3C46-BC4D-51BB77076A0C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>liblinphone-coreapi</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\liblinphone-coreapi.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">liblinphone-coreapi.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">liblinphone-coreapi.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">liblinphone-coreapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">liblinphone-coreapi.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">liblinphone-coreapi.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">liblinphone-coreapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">liblinphone-coreapi.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">liblinphone-coreapi.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">liblinphone-coreapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">liblinphone-coreapi.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">liblinphone-coreapi.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">liblinphone-coreapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;DEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN="liblinphone";LINPHONE_EXPORTS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;DEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN=\"liblinphone\";LINPHONE_EXPORTS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;DEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN="liblinphone";LINPHONE_EXPORTS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN="liblinphone";LINPHONE_EXPORTS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN=\"liblinphone\";LINPHONE_EXPORTS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN="liblinphone";LINPHONE_EXPORTS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN="liblinphone";LINPHONE_EXPORTS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN=\"liblinphone\";LINPHONE_EXPORTS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN="liblinphone";LINPHONE_EXPORTS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN="liblinphone";LINPHONE_EXPORTS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN=\"liblinphone\";LINPHONE_EXPORTS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;VCARD_ENABLED;HAVE_SQLITE;HAVE_XML2;__STDC_LIMIT_MACROS;HAVE_CONFIG_H;VIDEO_ENABLED;LDAP_ENABLED;LDAP_LIBS_DYNAMIC;CXX_WRAPPER_ENABLED;USE_BELLESIP;BCTBX_LOG_DOMAIN="liblinphone";LINPHONE_EXPORTS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\libxsd;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belle-sip\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belr\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\libxml2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\xerces-c\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\sqlite3;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\belcard\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/coreapi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/coreapi/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/coreapi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/coreapi/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/coreapi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/coreapi/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/coreapi/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/coreapi/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\bellesip_sal\sal_impl.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\carddav.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\conference.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\conference-cbs.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\local_conference.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\remote_conference.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\contact_providers_priv.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\core_private.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\enum.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\lpc2xml.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\private.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\quality_reporting.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\sqlite3_bctbx_vfs.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\vcard_private.h" />
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\xml2lpc.h" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\authentication.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\bellesip_sal\sal_address_impl.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\bellesip_sal\sal_impl.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\bellesip_sal\sal_op_impl.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\bellesip_sal\sal_sdp.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\buffer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\callbacks.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\chat.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\contactprovider.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\ec-calibrator.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\echo-tester.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\enum.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\error_info.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\friend.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\friendlist.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\im_notif_policy.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\info.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\im_encryption_engine.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\linphonecall.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\linphonecore.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\linphoneconference.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\linphone_tunnel_config.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\localplayer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\logging.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\lpconfig.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\lsd.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\misc.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\player.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\presence.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\proxy.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\quality_reporting.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\remote_provisioning.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\ringtoneplayer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\siplogin.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\sipsetup.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\update_check.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\video_definition.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\vtables.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\xmlrpc.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\lpc2xml.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\xml2lpc.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\xml.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\sqlite3_bctbx_vfs.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\linphone_tunnel_stubs.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\carddav.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\conference.cpp">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\local_conference.cpp">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\remote_conference.cpp">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\tester_utils.cpp">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\vcard.cc">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4995;4996;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ZERO_CHECK.vcxproj">
+      <Project>{F070D8A1-EDFC-3AC1-B6E3-02D97BB8861D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\bctoolbox\src\bctoolbox.vcxproj">
+      <Project>{6B3DA815-5E7C-3D96-B13F-FB066008D48C}</Project>
+      <Name>bctoolbox</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\belcard\src\belcard.vcxproj">
+      <Project>{114288FA-7252-33AA-9A67-04315E81FEDF}</Project>
+      <Name>belcard</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\belle-sip\src\belle-sip.vcxproj">
+      <Project>{83AE1095-9FDE-3A5F-B680-9FB9FEDD85DF}</Project>
+      <Name>belle-sip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\belr\src\belr.vcxproj">
+      <Project>{52591401-4514-3684-B540-2F67B7731699}</Project>
+      <Name>belr</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\liblinphone-git-version.vcxproj">
+      <Project>{6A69CF4C-7105-3A37-9DDA-883C6B855834}</Project>
+      <Name>liblinphone-git-version</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\mediastreamer2.vcxproj">
+      <Project>{9841668E-7709-3DB9-BD6D-C83CECB71D95}</Project>
+      <Name>mediastreamer2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\ortp\src\ortp.vcxproj">
+      <Project>{12317849-588F-348F-9D3C-DF3E7D6E569F}</Project>
+      <Name>ortp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\sqlite3\sqlite3.vcxproj">
+      <Project>{B816A934-93F0-3962-8541-574ACA357AA6}</Project>
+      <Name>sqlite3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\xerces-c\src\xerces-c.vcxproj">
+      <Project>{E1B29812-5DBF-3AB2-B54E-12E76FA7C951}</Project>
+      <Name>xerces-c</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libxml2\xml2.vcxproj">
+      <Project>{CCC19904-470D-3A75-AC30-35E18C6FBE46}</Project>
+      <Name>xml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\zlib\zlib.vcxproj">
+      <Project>{227FDFA7-039E-3A4F-BEA2-6E62CDA154F9}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

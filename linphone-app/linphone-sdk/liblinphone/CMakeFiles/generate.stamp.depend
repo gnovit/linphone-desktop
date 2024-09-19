@@ -1,0 +1,29 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPythonInterp.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake
+C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/cmake/Modules/FindBCToolbox.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/cmake/Modules/FindBZRTP.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/cmake/Modules/FindBelCard.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/cmake/Modules/FindBelleSIP.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/cmake/Modules/FindBelr.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/cmake/Modules/FindLime.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/cmake/Modules/FindMediastreamer2.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/cmake/Modules/FindOrtp.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/CMakeLists.txt
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/cmake/FindJsonCPP.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/cmake/FindOpenLDAP.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/cmake/FindSoci.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/cmake/LibLinphoneConfig.cmake.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/cmake/Tools.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/config.h.cmake

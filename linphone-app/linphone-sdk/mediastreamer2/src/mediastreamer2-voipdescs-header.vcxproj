@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0722DE78-F4C6-3F6F-8C7A-199005E25B39}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>mediastreamer2-voipdescs-header</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\mediastreamer2-voipdescs-header.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\OpenGL;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\audiofilters;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\utils;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\voip;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\OpenGL;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\audiofilters;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\utils;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\voip;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\OpenGL;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\audiofilters;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\utils;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\voip;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\OpenGL;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\audiofilters;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\utils;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\voip;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\dfde742fdf171460e942f253b32ffd8e\mediastreamer2-voipdescs-header.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DAWK_PROGRAM=C:/OpenSSL/bin/awk.exe -DAWK_SCRIPTS_DIR="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/../" -DINPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src -DOUTPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src -DTYPE=voip -DSOURCE_FILES="audiofilters/alaw.c audiofilters/audiomixer.c audiofilters/chanadapt.c audiofilters/devices.c audiofilters/dtmfgen.c audiofilters/equalizer.c audiofilters/flowcontrol.c audiofilters/g711.c audiofilters/g711.h audiofilters/genericplc.h audiofilters/genericplc.c audiofilters/msgenericplc.c audiofilters/l16.c audiofilters/msfileplayer.c audiofilters/msfilerec.c audiofilters/asyncrw.c audiofilters/asyncrw.h audiofilters/msg722.c audiofilters/msvaddtx.c audiofilters/msvolume.c audiofilters/tonedetector.c audiofilters/ulaw.c audiofilters/waveheader.h crypto/dtls_srtp.c crypto/zrtp.c otherfilters/msrtp.c utils/_kiss_fft_guts.h utils/audiodiff.c utils/box-plot.c utils/dsptools.c utils/g722.h utils/g722_decode.c utils/g722_encode.c utils/kiss_fft.c utils/kiss_fft.h utils/kiss_fftr.c utils/kiss_fftr.h utils/pcap_sender.c utils/pcap_sender.h utils/stream_regulator.c utils/srtp_prefix.h voip/audioconference.c voip/audiostream.c voip/bandwidthcontroller.c voip/bitratecontrol.c voip/bitratedriver.c voip/ice.c voip/mediastream.c voip/msiframerequestslimiter.c voip/msmediaplayer.c voip/msmediarecorder.c voip/msvoip.c voip/private.h voip/qosanalyzer.c voip/qosanalyzer.h voip/qualityindicator.c otherfilters/rfc4103_source.c otherfilters/rfc4103_sink.c otherfilters/msudp.c voip/rfc4103_textstream.c voip/ringstream.c voip/stun.c voip/offeranswer.c voip/private.h audiofilters/gsm.c audiofilters/bv16.c audiofilters/msopus.c audiofilters/msresample.c audiofilters/msspeex.c audiofilters/speexec.c utils/bits_rw.c videofilters/extdisplay.c videofilters/msanalysedisplay.c videofilters/mire.c videofilters/nowebcam.c videofilters/pixconv.c videofilters/sizeconv.c videofilters/videorouter.c videofilters/dummy_codec.c voip/layouts.c voip/layouts.h voip/msvideo_neon.c voip/msvideo_neon.h voip/msvideo.c voip/msvideoqualitycontroller.c voip/nowebcam.h voip/rfc2429.h voip/video_preset_high_fps.c voip/videostarter.c voip/videostream.c voip/vp8rtpfmt.c voip/vp8rtpfmt.h utils/jpgloader-turbojpeg.c videofilters/drawdib-display.c videofilters/vp8.c videofilters/av1/obu/obuparse.c voip/rfc2429.h utils/filter-wrapper/decoding-filter-wrapper.cpp utils/filter-wrapper/encoding-filter-wrapper.cpp voip/audiostreamvolumes.cpp voip/turn_tcp.cpp voip/video-conference.cpp voip/video-conference-all-to-all.cpp voip/video-endpoint.cpp crypto/ms_srtp.cpp videofilters/msturbojpeg.cpp videofilters/msmfoundationcap.cpp videofilters/msmfoundationcap.h videofilters/msdscap.cc videofilters/turbojpegwriter.c utils/opengl_functions.c utils/opengles_display.c utils/shader_util.c videofilters/generic_opengl_display.c videofilters/av1/decoder/av1-decoder.cpp videofilters/av1/decoder/av1-decoder-filter.cpp videofilters/av1/encoder/av1-encoder.cpp videofilters/av1/encoder/av1-encoder-filter.cpp videofilters/av1/obu/obu-key-frame-indicator.cpp videofilters/av1/obu/obu-packer.cpp videofilters/av1/obu/obu-unpacker.cpp utils/mkv_reader.cpp videofilters/mkv.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-encoder-filter.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-decoder-filter.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/rfc3984.cpp" -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/generate_descs_header.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\CMakeFiles\mediastreamer2-voipdescs-header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DAWK_PROGRAM=C:/OpenSSL/bin/awk.exe -DAWK_SCRIPTS_DIR="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/../" -DINPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src -DOUTPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src -DTYPE=voip -DSOURCE_FILES="audiofilters/alaw.c audiofilters/audiomixer.c audiofilters/chanadapt.c audiofilters/devices.c audiofilters/dtmfgen.c audiofilters/equalizer.c audiofilters/flowcontrol.c audiofilters/g711.c audiofilters/g711.h audiofilters/genericplc.h audiofilters/genericplc.c audiofilters/msgenericplc.c audiofilters/l16.c audiofilters/msfileplayer.c audiofilters/msfilerec.c audiofilters/asyncrw.c audiofilters/asyncrw.h audiofilters/msg722.c audiofilters/msvaddtx.c audiofilters/msvolume.c audiofilters/tonedetector.c audiofilters/ulaw.c audiofilters/waveheader.h crypto/dtls_srtp.c crypto/zrtp.c otherfilters/msrtp.c utils/_kiss_fft_guts.h utils/audiodiff.c utils/box-plot.c utils/dsptools.c utils/g722.h utils/g722_decode.c utils/g722_encode.c utils/kiss_fft.c utils/kiss_fft.h utils/kiss_fftr.c utils/kiss_fftr.h utils/pcap_sender.c utils/pcap_sender.h utils/stream_regulator.c utils/srtp_prefix.h voip/audioconference.c voip/audiostream.c voip/bandwidthcontroller.c voip/bitratecontrol.c voip/bitratedriver.c voip/ice.c voip/mediastream.c voip/msiframerequestslimiter.c voip/msmediaplayer.c voip/msmediarecorder.c voip/msvoip.c voip/private.h voip/qosanalyzer.c voip/qosanalyzer.h voip/qualityindicator.c otherfilters/rfc4103_source.c otherfilters/rfc4103_sink.c otherfilters/msudp.c voip/rfc4103_textstream.c voip/ringstream.c voip/stun.c voip/offeranswer.c voip/private.h audiofilters/gsm.c audiofilters/bv16.c audiofilters/msopus.c audiofilters/msresample.c audiofilters/msspeex.c audiofilters/speexec.c utils/bits_rw.c videofilters/extdisplay.c videofilters/msanalysedisplay.c videofilters/mire.c videofilters/nowebcam.c videofilters/pixconv.c videofilters/sizeconv.c videofilters/videorouter.c videofilters/dummy_codec.c voip/layouts.c voip/layouts.h voip/msvideo_neon.c voip/msvideo_neon.h voip/msvideo.c voip/msvideoqualitycontroller.c voip/nowebcam.h voip/rfc2429.h voip/video_preset_high_fps.c voip/videostarter.c voip/videostream.c voip/vp8rtpfmt.c voip/vp8rtpfmt.h utils/jpgloader-turbojpeg.c videofilters/drawdib-display.c videofilters/vp8.c videofilters/av1/obu/obuparse.c voip/rfc2429.h utils/filter-wrapper/decoding-filter-wrapper.cpp utils/filter-wrapper/encoding-filter-wrapper.cpp voip/audiostreamvolumes.cpp voip/turn_tcp.cpp voip/video-conference.cpp voip/video-conference-all-to-all.cpp voip/video-endpoint.cpp crypto/ms_srtp.cpp videofilters/msturbojpeg.cpp videofilters/msmfoundationcap.cpp videofilters/msmfoundationcap.h videofilters/msdscap.cc videofilters/turbojpegwriter.c utils/opengl_functions.c utils/opengles_display.c utils/shader_util.c videofilters/generic_opengl_display.c videofilters/av1/decoder/av1-decoder.cpp videofilters/av1/decoder/av1-decoder-filter.cpp videofilters/av1/encoder/av1-encoder.cpp videofilters/av1/encoder/av1-encoder-filter.cpp videofilters/av1/obu/obu-key-frame-indicator.cpp videofilters/av1/obu/obu-packer.cpp videofilters/av1/obu/obu-unpacker.cpp utils/mkv_reader.cpp videofilters/mkv.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-encoder-filter.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-decoder-filter.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/rfc3984.cpp" -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/generate_descs_header.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\CMakeFiles\mediastreamer2-voipdescs-header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DAWK_PROGRAM=C:/OpenSSL/bin/awk.exe -DAWK_SCRIPTS_DIR="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/../" -DINPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src -DOUTPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src -DTYPE=voip -DSOURCE_FILES="audiofilters/alaw.c audiofilters/audiomixer.c audiofilters/chanadapt.c audiofilters/devices.c audiofilters/dtmfgen.c audiofilters/equalizer.c audiofilters/flowcontrol.c audiofilters/g711.c audiofilters/g711.h audiofilters/genericplc.h audiofilters/genericplc.c audiofilters/msgenericplc.c audiofilters/l16.c audiofilters/msfileplayer.c audiofilters/msfilerec.c audiofilters/asyncrw.c audiofilters/asyncrw.h audiofilters/msg722.c audiofilters/msvaddtx.c audiofilters/msvolume.c audiofilters/tonedetector.c audiofilters/ulaw.c audiofilters/waveheader.h crypto/dtls_srtp.c crypto/zrtp.c otherfilters/msrtp.c utils/_kiss_fft_guts.h utils/audiodiff.c utils/box-plot.c utils/dsptools.c utils/g722.h utils/g722_decode.c utils/g722_encode.c utils/kiss_fft.c utils/kiss_fft.h utils/kiss_fftr.c utils/kiss_fftr.h utils/pcap_sender.c utils/pcap_sender.h utils/stream_regulator.c utils/srtp_prefix.h voip/audioconference.c voip/audiostream.c voip/bandwidthcontroller.c voip/bitratecontrol.c voip/bitratedriver.c voip/ice.c voip/mediastream.c voip/msiframerequestslimiter.c voip/msmediaplayer.c voip/msmediarecorder.c voip/msvoip.c voip/private.h voip/qosanalyzer.c voip/qosanalyzer.h voip/qualityindicator.c otherfilters/rfc4103_source.c otherfilters/rfc4103_sink.c otherfilters/msudp.c voip/rfc4103_textstream.c voip/ringstream.c voip/stun.c voip/offeranswer.c voip/private.h audiofilters/gsm.c audiofilters/bv16.c audiofilters/msopus.c audiofilters/msresample.c audiofilters/msspeex.c audiofilters/speexec.c utils/bits_rw.c videofilters/extdisplay.c videofilters/msanalysedisplay.c videofilters/mire.c videofilters/nowebcam.c videofilters/pixconv.c videofilters/sizeconv.c videofilters/videorouter.c videofilters/dummy_codec.c voip/layouts.c voip/layouts.h voip/msvideo_neon.c voip/msvideo_neon.h voip/msvideo.c voip/msvideoqualitycontroller.c voip/nowebcam.h voip/rfc2429.h voip/video_preset_high_fps.c voip/videostarter.c voip/videostream.c voip/vp8rtpfmt.c voip/vp8rtpfmt.h utils/jpgloader-turbojpeg.c videofilters/drawdib-display.c videofilters/vp8.c videofilters/av1/obu/obuparse.c voip/rfc2429.h utils/filter-wrapper/decoding-filter-wrapper.cpp utils/filter-wrapper/encoding-filter-wrapper.cpp voip/audiostreamvolumes.cpp voip/turn_tcp.cpp voip/video-conference.cpp voip/video-conference-all-to-all.cpp voip/video-endpoint.cpp crypto/ms_srtp.cpp videofilters/msturbojpeg.cpp videofilters/msmfoundationcap.cpp videofilters/msmfoundationcap.h videofilters/msdscap.cc videofilters/turbojpegwriter.c utils/opengl_functions.c utils/opengles_display.c utils/shader_util.c videofilters/generic_opengl_display.c videofilters/av1/decoder/av1-decoder.cpp videofilters/av1/decoder/av1-decoder-filter.cpp videofilters/av1/encoder/av1-encoder.cpp videofilters/av1/encoder/av1-encoder-filter.cpp videofilters/av1/obu/obu-key-frame-indicator.cpp videofilters/av1/obu/obu-packer.cpp videofilters/av1/obu/obu-unpacker.cpp utils/mkv_reader.cpp videofilters/mkv.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-encoder-filter.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-decoder-filter.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/rfc3984.cpp" -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/generate_descs_header.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\CMakeFiles\mediastreamer2-voipdescs-header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DAWK_PROGRAM=C:/OpenSSL/bin/awk.exe -DAWK_SCRIPTS_DIR="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/../" -DINPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src -DOUTPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src -DTYPE=voip -DSOURCE_FILES="audiofilters/alaw.c audiofilters/audiomixer.c audiofilters/chanadapt.c audiofilters/devices.c audiofilters/dtmfgen.c audiofilters/equalizer.c audiofilters/flowcontrol.c audiofilters/g711.c audiofilters/g711.h audiofilters/genericplc.h audiofilters/genericplc.c audiofilters/msgenericplc.c audiofilters/l16.c audiofilters/msfileplayer.c audiofilters/msfilerec.c audiofilters/asyncrw.c audiofilters/asyncrw.h audiofilters/msg722.c audiofilters/msvaddtx.c audiofilters/msvolume.c audiofilters/tonedetector.c audiofilters/ulaw.c audiofilters/waveheader.h crypto/dtls_srtp.c crypto/zrtp.c otherfilters/msrtp.c utils/_kiss_fft_guts.h utils/audiodiff.c utils/box-plot.c utils/dsptools.c utils/g722.h utils/g722_decode.c utils/g722_encode.c utils/kiss_fft.c utils/kiss_fft.h utils/kiss_fftr.c utils/kiss_fftr.h utils/pcap_sender.c utils/pcap_sender.h utils/stream_regulator.c utils/srtp_prefix.h voip/audioconference.c voip/audiostream.c voip/bandwidthcontroller.c voip/bitratecontrol.c voip/bitratedriver.c voip/ice.c voip/mediastream.c voip/msiframerequestslimiter.c voip/msmediaplayer.c voip/msmediarecorder.c voip/msvoip.c voip/private.h voip/qosanalyzer.c voip/qosanalyzer.h voip/qualityindicator.c otherfilters/rfc4103_source.c otherfilters/rfc4103_sink.c otherfilters/msudp.c voip/rfc4103_textstream.c voip/ringstream.c voip/stun.c voip/offeranswer.c voip/private.h audiofilters/gsm.c audiofilters/bv16.c audiofilters/msopus.c audiofilters/msresample.c audiofilters/msspeex.c audiofilters/speexec.c utils/bits_rw.c videofilters/extdisplay.c videofilters/msanalysedisplay.c videofilters/mire.c videofilters/nowebcam.c videofilters/pixconv.c videofilters/sizeconv.c videofilters/videorouter.c videofilters/dummy_codec.c voip/layouts.c voip/layouts.h voip/msvideo_neon.c voip/msvideo_neon.h voip/msvideo.c voip/msvideoqualitycontroller.c voip/nowebcam.h voip/rfc2429.h voip/video_preset_high_fps.c voip/videostarter.c voip/videostream.c voip/vp8rtpfmt.c voip/vp8rtpfmt.h utils/jpgloader-turbojpeg.c videofilters/drawdib-display.c videofilters/vp8.c videofilters/av1/obu/obuparse.c voip/rfc2429.h utils/filter-wrapper/decoding-filter-wrapper.cpp utils/filter-wrapper/encoding-filter-wrapper.cpp voip/audiostreamvolumes.cpp voip/turn_tcp.cpp voip/video-conference.cpp voip/video-conference-all-to-all.cpp voip/video-endpoint.cpp crypto/ms_srtp.cpp videofilters/msturbojpeg.cpp videofilters/msmfoundationcap.cpp videofilters/msmfoundationcap.h videofilters/msdscap.cc videofilters/turbojpegwriter.c utils/opengl_functions.c utils/opengles_display.c utils/shader_util.c videofilters/generic_opengl_display.c videofilters/av1/decoder/av1-decoder.cpp videofilters/av1/decoder/av1-decoder-filter.cpp videofilters/av1/encoder/av1-encoder.cpp videofilters/av1/encoder/av1-encoder-filter.cpp videofilters/av1/obu/obu-key-frame-indicator.cpp videofilters/av1/obu/obu-packer.cpp videofilters/av1/obu/obu-unpacker.cpp utils/mkv_reader.cpp videofilters/mkv.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-encoder-filter.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-decoder-filter.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h26x-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h264-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/h265-utils.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/nal-packer.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/nal-unpacker.cpp D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/videofilters/h26x/rfc3984.cpp" -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/generate_descs_header.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\CMakeFiles\mediastreamer2-voipdescs-header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\CMakeFiles\mediastreamer2-voipdescs-header">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ZERO_CHECK.vcxproj">
+      <Project>{F070D8A1-EDFC-3AC1-B6E3-02D97BB8861D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

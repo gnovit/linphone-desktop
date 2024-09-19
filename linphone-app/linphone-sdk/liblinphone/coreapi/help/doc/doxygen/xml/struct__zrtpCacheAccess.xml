@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="struct__zrtpCacheAccess" kind="struct" language="C++" prot="public">
+    <compoundname>_zrtpCacheAccess</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__zrtpCacheAccess_1a7cc50fdd7708cf142e9e6ff235094693" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _zrtpCacheAccess::db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <qualifiedname>_zrtpCacheAccess::db</qualifiedname>
+        <briefdescription>
+<para>points to the zrtp cache sqlite database, is cast into a void * to support cacheless build </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="4684" column="6" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="4684" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__zrtpCacheAccess_1af499b829e357f84e3ae3a7a7af9200f3" prot="public" static="no" mutable="no">
+        <type>bctbx_mutex_t *</type>
+        <definition>bctbx_mutex_t* _zrtpCacheAccess::dbMutex</definition>
+        <argsstring></argsstring>
+        <name>dbMutex</name>
+        <qualifiedname>_zrtpCacheAccess::dbMutex</qualifiedname>
+        <briefdescription>
+<para>the mutex used to prevent conflicting access to the database </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="4685" column="15" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="4685" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="4683" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="4683" bodyend="4686"/>
+    <listofallmembers>
+      <member refid="struct__zrtpCacheAccess_1a7cc50fdd7708cf142e9e6ff235094693" prot="public" virt="non-virtual"><scope>_zrtpCacheAccess</scope><name>db</name></member>
+      <member refid="struct__zrtpCacheAccess_1af499b829e357f84e3ae3a7a7af9200f3" prot="public" virt="non-virtual"><scope>_zrtpCacheAccess</scope><name>dbMutex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

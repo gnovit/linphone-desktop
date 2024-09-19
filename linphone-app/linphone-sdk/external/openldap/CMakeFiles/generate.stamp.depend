@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake
+C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/openldap/CMakeLists.txt
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/openldap/cmake/CheckFunctionsAndLibs.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/openldap/cmake/Config.cmake.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/openldap/cmake/FindMbedTLS.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/openldap/include/lber_types.h.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/openldap/include/ldap_config.h.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/openldap/include/ldap_features.h.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/openldap/include/portable.h.in

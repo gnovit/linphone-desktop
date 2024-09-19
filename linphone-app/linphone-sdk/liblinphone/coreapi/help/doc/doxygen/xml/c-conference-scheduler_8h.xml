@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-conference-scheduler_8h" kind="file" language="C++">
+    <compoundname>c-conference-scheduler.h</compoundname>
+    <includes refid="c-callbacks_8h" local="yes">linphone/api/c-callbacks.h</includes>
+    <includes refid="c-types_8h" local="yes">linphone/api/c-types.h</includes>
+    <includedby refid="c-api_8h" local="yes">c-api.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__conference_1ga6f32872bce57d1d33c253ec7e3de1efd" kind="function"><name>linphone_conference_scheduler_ref</name></member>
+      <member refid="group__conference_1ga4e54c0e0c0540690a12a71e0e451b555" kind="function"><name>linphone_conference_scheduler_unref</name></member>
+      <member refid="group__conference_1gae279fa4af36942e1829edf861350f8a0" kind="function"><name>linphone_conference_scheduler_get_core</name></member>
+      <member refid="group__conference_1ga94a4558cf057fc3d2867ee0b8c7903ae" kind="function"><name>linphone_conference_scheduler_set_account</name></member>
+      <member refid="group__conference_1ga519ff29d06a5d5ee9c0b9b6881d9652d" kind="function"><name>linphone_conference_scheduler_get_account</name></member>
+      <member refid="group__conference_1ga03adf8033bb9c09f3b2890be734f6a56" kind="function"><name>linphone_conference_scheduler_get_info</name></member>
+      <member refid="group__conference_1ga80f51847cc6b79e5c6731c8e0f79cc3b" kind="function"><name>linphone_conference_scheduler_cancel_conference</name></member>
+      <member refid="group__conference_1ga56d775b5cb97780e6f7be96cf54b9685" kind="function"><name>linphone_conference_scheduler_set_info</name></member>
+      <member refid="group__conference_1ga7e8754c3653b15cb46524e6492a85d4b" kind="function"><name>linphone_conference_scheduler_send_invitations</name></member>
+      <member refid="group__conference_1gab017e83d8b41f4bed927907254601133" kind="function"><name>linphone_conference_scheduler_add_callbacks</name></member>
+      <member refid="group__conference_1ga29205adcc1521f0f91e8fe0fbb73fd56" kind="function"><name>linphone_conference_scheduler_remove_callbacks</name></member>
+      <member refid="group__conference_1ga27e369a66937646e2018a8402798d681" kind="function"><name>linphone_conference_scheduler_get_current_callbacks</name></member>
+      <member refid="group__conference_1ga3fbed669bbaabedc1f2d9cef650ebba2" kind="function"><name>linphone_conference_scheduler_cbs_new</name></member>
+      <member refid="group__conference_1ga16b448d9a9b56c7a4c2067d72c9e3654" kind="function"><name>linphone_conference_scheduler_cbs_ref</name></member>
+      <member refid="group__conference_1gac7754cdb0c35bfdf9dc2ea7cb0037212" kind="function"><name>linphone_conference_scheduler_cbs_unref</name></member>
+      <member refid="group__conference_1ga8f1aa1602302d35661f34ddb23099946" kind="function"><name>linphone_conference_scheduler_cbs_get_user_data</name></member>
+      <member refid="group__conference_1ga2cad3600f6613a350592a605251e6fd5" kind="function"><name>linphone_conference_scheduler_cbs_set_user_data</name></member>
+      <member refid="group__conference_1ga482ddc5d9a2d35eff35dd17a1a3820e7" kind="function"><name>linphone_conference_scheduler_cbs_get_state_changed</name></member>
+      <member refid="group__conference_1gad9cc580e7a1f860b0783618a17399a0e" kind="function"><name>linphone_conference_scheduler_cbs_set_state_changed</name></member>
+      <member refid="group__conference_1ga57a7e5fe0f7addb875bd11af1a8fae2a" kind="function"><name>linphone_conference_scheduler_cbs_get_invitations_sent</name></member>
+      <member refid="group__conference_1ga5bb6101632a4f53c7ab92a98174446c4" kind="function"><name>linphone_conference_scheduler_cbs_set_invitations_sent</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LINPHONE_CONFERENCE_SCHEDULER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_CONFERENCE_SCHEDULER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-callbacks.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><ref refid="group__conference_1ga6f32872bce57d1d33c253ec7e3de1efd" kindref="member">linphone_conference_scheduler_ref</ref>(<ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga4e54c0e0c0540690a12a71e0e451b555" kindref="member">linphone_conference_scheduler_unref</ref>(<ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><ref refid="group__conference_1gae279fa4af36942e1829edf861350f8a0" kindref="member">linphone_conference_scheduler_get_core</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga94a4558cf057fc3d2867ee0b8c7903ae" kindref="member">linphone_conference_scheduler_set_account</ref>(<ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref><sp/>*account);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__account_1ga37aa8235c2655e0b9d14dd24f0f2e36a" kindref="member">LinphoneAccount</ref><sp/>*</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><ref refid="group__conference_1ga519ff29d06a5d5ee9c0b9b6881d9652d" kindref="member">linphone_conference_scheduler_get_account</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga8b9689daf029f49b83e898b61129be2e" kindref="member">LinphoneConferenceInfo</ref><sp/>*</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><ref refid="group__conference_1ga03adf8033bb9c09f3b2890be734f6a56" kindref="member">linphone_conference_scheduler_get_info</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga80f51847cc6b79e5c6731c8e0f79cc3b" kindref="member">linphone_conference_scheduler_cancel_conference</ref>(<ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ga8b9689daf029f49b83e898b61129be2e" kindref="member">LinphoneConferenceInfo</ref><sp/>*conference_info);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga56d775b5cb97780e6f7be96cf54b9685" kindref="member">linphone_conference_scheduler_set_info</ref>(<ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ga8b9689daf029f49b83e898b61129be2e" kindref="member">LinphoneConferenceInfo</ref><sp/>*conference_info);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga7e8754c3653b15cb46524e6492a85d4b" kindref="member">linphone_conference_scheduler_send_invitations</ref>(<ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ga3c79c5d9d37ec033d3eff237bafc81de" kindref="member">LinphoneChatRoomParams</ref><sp/>*chat_room_params);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__conference_1gab017e83d8b41f4bed927907254601133" kindref="member">linphone_conference_scheduler_add_callbacks</ref>(<ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga29205adcc1521f0f91e8fe0fbb73fd56" kindref="member">linphone_conference_scheduler_remove_callbacks</ref>(<ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><ref refid="group__conference_1ga27e369a66937646e2018a8402798d681" kindref="member">linphone_conference_scheduler_get_current_callbacks</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga25ad9bcb4fe770ecec0b115d2c1d1fd8" kindref="member">LinphoneConferenceScheduler</ref><sp/>*conference_scheduler);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*<ref refid="group__conference_1ga3fbed669bbaabedc1f2d9cef650ebba2" kindref="member">linphone_conference_scheduler_cbs_new</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><ref refid="group__conference_1ga16b448d9a9b56c7a4c2067d72c9e3654" kindref="member">linphone_conference_scheduler_cbs_ref</ref>(<ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__conference_1gac7754cdb0c35bfdf9dc2ea7cb0037212" kindref="member">linphone_conference_scheduler_cbs_unref</ref>(<ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__conference_1ga8f1aa1602302d35661f34ddb23099946" kindref="member">linphone_conference_scheduler_cbs_get_user_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga2cad3600f6613a350592a605251e6fd5" kindref="member">linphone_conference_scheduler_cbs_set_user_data</ref>(<ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*cbs,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*user_data);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__conference_1ga5070f207719d32fc20ca925c5bc5b630" kindref="member">LinphoneConferenceSchedulerCbsStateChangedCb</ref></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><ref refid="group__conference_1ga482ddc5d9a2d35eff35dd17a1a3820e7" kindref="member">linphone_conference_scheduler_cbs_get_state_changed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><ref refid="group__conference_1gad9cc580e7a1f860b0783618a17399a0e" kindref="member">linphone_conference_scheduler_cbs_set_state_changed</ref>(<ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*cbs,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ga5070f207719d32fc20ca925c5bc5b630" kindref="member">LinphoneConferenceSchedulerCbsStateChangedCb</ref><sp/>cb);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__conference_1ga618c70aae664f531248db78c937bd7fb" kindref="member">LinphoneConferenceSchedulerCbsInvitationsSentCb</ref></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><ref refid="group__conference_1ga57a7e5fe0f7addb875bd11af1a8fae2a" kindref="member">linphone_conference_scheduler_cbs_get_invitations_sent</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><ref refid="group__conference_1ga5bb6101632a4f53c7ab92a98174446c4" kindref="member">linphone_conference_scheduler_cbs_set_invitations_sent</ref>(<ref refid="group__account_1ga4ce7eb3f3441dc3980bf62d3bd92e5fe" kindref="member">LinphoneConferenceSchedulerCbs</ref><sp/>*cbs,</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ga618c70aae664f531248db78c937bd7fb" kindref="member">LinphoneConferenceSchedulerCbsInvitationsSentCb</ref><sp/>cb);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LINPHONE_CONFERENCE_SCHEDULER_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-conference-scheduler.h"/>
+  </compounddef>
+</doxygen>

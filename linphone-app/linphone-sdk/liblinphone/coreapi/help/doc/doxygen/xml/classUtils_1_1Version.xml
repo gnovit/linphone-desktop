@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classUtils_1_1Version" kind="class" language="C++" prot="public">
+    <compoundname>Utils::Version</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classUtils_1_1Version_1ad659b05d3701850595fa75ef12b6c15c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Utils::Version::mMajor</definition>
+        <argsstring></argsstring>
+        <name>mMajor</name>
+        <qualifiedname>Utils::Version::mMajor</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="253" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUtils_1_1Version_1ac3236910a82ab940d8f2ed2846e62ef7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Utils::Version::mMinor</definition>
+        <argsstring></argsstring>
+        <name>mMinor</name>
+        <qualifiedname>Utils::Version::mMinor</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="253" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUtils_1_1Version_1adb94ee4d6b9614aecbccc62c188765e7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Utils::Version::mPatch</definition>
+        <argsstring></argsstring>
+        <name>mPatch</name>
+        <qualifiedname>Utils::Version::mPatch</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="253" column="21" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUtils_1_1Version_1a91c0f443177c3cfc96084a169c715e95" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Utils::Version::mPreRelease</definition>
+        <argsstring></argsstring>
+        <name>mPreRelease</name>
+        <qualifiedname>Utils::Version::mPreRelease</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="254" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUtils_1_1Version_1ae80a99ae3237bc1adeb2d74a3d419715" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Utils::Version::mBuildMetaData</definition>
+        <argsstring></argsstring>
+        <name>mBuildMetaData</name>
+        <qualifiedname>Utils::Version::mBuildMetaData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="255" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUtils_1_1Version_1abb2e11ea4791a3a9741331e555f6c17b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Utils::Version::Version</definition>
+        <argsstring>()=default</argsstring>
+        <name>Version</name>
+        <qualifiedname>Utils::Version::Version</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="215" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1a7de995c4e5450027d2fb280f78e5cd7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Utils::Version::Version</definition>
+        <argsstring>(int major, int minor)</argsstring>
+        <name>Version</name>
+        <qualifiedname>Utils::Version::Version</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>major</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="216" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1abcb3b8b19d916c5ad7ead0fe0824fbff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Utils::Version::Version</definition>
+        <argsstring>(int major, int minor, int patch)</argsstring>
+        <name>Version</name>
+        <qualifiedname>Utils::Version::Version</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>major</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>patch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="217" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1a6d07c172b39bdc614a931577a589e9bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Utils::Version::Version</definition>
+        <argsstring>(const std::string &amp;version)</argsstring>
+        <name>Version</name>
+        <qualifiedname>Utils::Version::Version</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="218" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1a977eb9eb7cee69c519c9c375d64a6036" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Utils::Version::compare</definition>
+        <argsstring>(const Version &amp;other) const</argsstring>
+        <name>compare</name>
+        <qualifiedname>Utils::Version::compare</qualifiedname>
+        <param>
+          <type>const <ref refid="classUtils_1_1Version" kindref="compound">Version</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="220" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1a010d771127f1c3e017c1d83b33071385" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Utils::Version::operator&lt;</definition>
+        <argsstring>(const Version &amp;other) const</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>Utils::Version::operator&lt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classUtils_1_1Version" kindref="compound">Version</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="221" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="221" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1a120b3d43c1ee53d70db5fbfa0956dd8e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Utils::Version::operator&lt;=</definition>
+        <argsstring>(const Version &amp;other) const</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>Utils::Version::operator&lt;=</qualifiedname>
+        <param>
+          <type>const <ref refid="classUtils_1_1Version" kindref="compound">Version</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="224" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="224" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1a2d0fe2471b9477fdfa93daa718b7bc4a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Utils::Version::operator&gt;</definition>
+        <argsstring>(const Version &amp;other) const</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>Utils::Version::operator&gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classUtils_1_1Version" kindref="compound">Version</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="227" column="14" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="227" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1a92da4a74578c7e7466a0874dfef6a1eb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Utils::Version::operator&gt;=</definition>
+        <argsstring>(const Version &amp;other) const</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>Utils::Version::operator&gt;=</qualifiedname>
+        <param>
+          <type>const <ref refid="classUtils_1_1Version" kindref="compound">Version</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="230" column="14" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="230" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1a499fd057c3a1c2fc3196fa481445cd82" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Utils::Version::operator==</definition>
+        <argsstring>(const Version &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Utils::Version::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classUtils_1_1Version" kindref="compound">Version</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="233" column="14" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="233" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1a18ef734812e311a446e9279d8394d2b0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Utils::Version::getMajor</definition>
+        <argsstring>() const</argsstring>
+        <name>getMajor</name>
+        <qualifiedname>Utils::Version::getMajor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="236" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="236" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1ac7a8c03f84b1a0964542fc6ef43a8296" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Utils::Version::getMinor</definition>
+        <argsstring>() const</argsstring>
+        <name>getMinor</name>
+        <qualifiedname>Utils::Version::getMinor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="239" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="239" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1aada7281a7298a17dd8b7400b305b8f17" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Utils::Version::getPatch</definition>
+        <argsstring>() const</argsstring>
+        <name>getPatch</name>
+        <qualifiedname>Utils::Version::getPatch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="242" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="242" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1a20053253f0dbca4a0420c00e2796870f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; Utils::Version::getPreRelease</definition>
+        <argsstring>() const</argsstring>
+        <name>getPreRelease</name>
+        <qualifiedname>Utils::Version::getPreRelease</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="245" column="27" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="245" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtils_1_1Version_1a979a896f3d7bb19e4e90df4e5b4a6784" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; Utils::Version::getBuildMetaData</definition>
+        <argsstring>() const</argsstring>
+        <name>getBuildMetaData</name>
+        <qualifiedname>Utils::Version::getBuildMetaData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="248" column="27" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="248" bodyend="250"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="213" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="213" bodyend="256"/>
+    <listofallmembers>
+      <member refid="classUtils_1_1Version_1a977eb9eb7cee69c519c9c375d64a6036" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>compare</name></member>
+      <member refid="classUtils_1_1Version_1a979a896f3d7bb19e4e90df4e5b4a6784" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>getBuildMetaData</name></member>
+      <member refid="classUtils_1_1Version_1a18ef734812e311a446e9279d8394d2b0" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>getMajor</name></member>
+      <member refid="classUtils_1_1Version_1ac7a8c03f84b1a0964542fc6ef43a8296" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>getMinor</name></member>
+      <member refid="classUtils_1_1Version_1aada7281a7298a17dd8b7400b305b8f17" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>getPatch</name></member>
+      <member refid="classUtils_1_1Version_1a20053253f0dbca4a0420c00e2796870f" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>getPreRelease</name></member>
+      <member refid="classUtils_1_1Version_1ae80a99ae3237bc1adeb2d74a3d419715" prot="private" virt="non-virtual"><scope>Utils::Version</scope><name>mBuildMetaData</name></member>
+      <member refid="classUtils_1_1Version_1ad659b05d3701850595fa75ef12b6c15c" prot="private" virt="non-virtual"><scope>Utils::Version</scope><name>mMajor</name></member>
+      <member refid="classUtils_1_1Version_1ac3236910a82ab940d8f2ed2846e62ef7" prot="private" virt="non-virtual"><scope>Utils::Version</scope><name>mMinor</name></member>
+      <member refid="classUtils_1_1Version_1adb94ee4d6b9614aecbccc62c188765e7" prot="private" virt="non-virtual"><scope>Utils::Version</scope><name>mPatch</name></member>
+      <member refid="classUtils_1_1Version_1a91c0f443177c3cfc96084a169c715e95" prot="private" virt="non-virtual"><scope>Utils::Version</scope><name>mPreRelease</name></member>
+      <member refid="classUtils_1_1Version_1a010d771127f1c3e017c1d83b33071385" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>operator&lt;</name></member>
+      <member refid="classUtils_1_1Version_1a120b3d43c1ee53d70db5fbfa0956dd8e" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>operator&lt;=</name></member>
+      <member refid="classUtils_1_1Version_1a499fd057c3a1c2fc3196fa481445cd82" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>operator==</name></member>
+      <member refid="classUtils_1_1Version_1a2d0fe2471b9477fdfa93daa718b7bc4a" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>operator&gt;</name></member>
+      <member refid="classUtils_1_1Version_1a92da4a74578c7e7466a0874dfef6a1eb" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>operator&gt;=</name></member>
+      <member refid="classUtils_1_1Version_1abb2e11ea4791a3a9741331e555f6c17b" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>Version</name></member>
+      <member refid="classUtils_1_1Version_1a7de995c4e5450027d2fb280f78e5cd7e" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>Version</name></member>
+      <member refid="classUtils_1_1Version_1abcb3b8b19d916c5ad7ead0fe0824fbff" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>Version</name></member>
+      <member refid="classUtils_1_1Version_1a6d07c172b39bdc614a931577a589e9bd" prot="public" virt="non-virtual"><scope>Utils::Version</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

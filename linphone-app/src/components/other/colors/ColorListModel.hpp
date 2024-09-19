@@ -68,7 +68,7 @@ class ColorListModel : public ProxyListModel {
 		ADD_COLOR("h", "#687680", "Others")
 		
 		// Primary color.
-		ADD_COLOR("i", "#FF5E00", "Primary color.")//263D86
+		ADD_COLOR("i", "#004B6C", "Primary color.")//263D86
 		ADD_COLOR_WITH_LINK_MODE("primary_d", "", "Primary color for deactivated items.", "i", ColorModel::CONTEXT_DEACTIVATED)
 		ADD_COLOR_WITH_LINK_MODE("m", "", "Primary color for clicked items.", "i", ColorModel::CONTEXT_PRESSED)
 		ADD_COLOR_WITH_LINK_MODE("b", "", "Primary color for hovered items.", "i", ColorModel::CONTEXT_HOVERED)

@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="call-enums_8h" kind="file" language="C++">
+    <compoundname>call-enums.h</compoundname>
+    <includedby refid="c-types_8h" local="yes">c-types.h</includedby>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="call-enums_8h_1a4c225cf5eab35e0b5421382551b7a975" prot="public" static="no">
+        <name>LinphoneCallIdle</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa221879b3ae5d13a44fdcfd063a238e44" kindref="member">LinphoneCallStateIdle</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="91" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a1bf976752e207a32535cace3fee9a764" prot="public" static="no">
+        <name>LinphoneCallIncomingReceived</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa2583c429290fb1e2b6ad6836276a2574" kindref="member">LinphoneCallStateIncomingReceived</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="92" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1adba9fa77817cac85a72741c228ced66b" prot="public" static="no">
+        <name>LinphoneCallPushIncomingReceived</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa8f754250d0c9a21c1f7407c7657a2701" kindref="member">LinphoneCallStatePushIncomingReceived</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="93" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a50834aa8eb1c5f9bf083a1ba1f452f81" prot="public" static="no">
+        <name>LinphoneCallOutgoingInit</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa9e14bb1611f1904a1154983b246e1df5" kindref="member">LinphoneCallStateOutgoingInit</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="94" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a5177e54d6bafbd614619f5184cab5ee6" prot="public" static="no">
+        <name>LinphoneCallOutgoingProgress</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaab193574238538e46a984bbcc5230b231" kindref="member">LinphoneCallStateOutgoingProgress</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="95" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a755812e4270d3e4b85f39956c7193746" prot="public" static="no">
+        <name>LinphoneCallOutgoingRinging</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa8e80d6b39b53ebff8c7597c35908cead" kindref="member">LinphoneCallStateOutgoingRinging</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="96" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a89cfd6557bd21ba2c2e0bbac2bf79bf2" prot="public" static="no">
+        <name>LinphoneCallOutgoingEarlyMedia</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa2127d1e6aa4d661a7293191731f6d75e" kindref="member">LinphoneCallStateOutgoingEarlyMedia</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="97" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a90812229b67931dc11f58c5055906222" prot="public" static="no">
+        <name>LinphoneCallConnected</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaaddee66e851bac5c7acb8bb5c693d3d09" kindref="member">LinphoneCallStateConnected</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="98" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a877b400888fbc37613c6d3648339e6a0" prot="public" static="no">
+        <name>LinphoneCallStreamsRunning</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaacb468a9083faf807f0d2c00ec965deaf" kindref="member">LinphoneCallStateStreamsRunning</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="99" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a2e04d0fbcf29d767f7a20c31379a8983" prot="public" static="no">
+        <name>LinphoneCallPausing</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa3c0e5bd647c5372bd6aedaaa5dd37456" kindref="member">LinphoneCallStatePausing</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="100" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a878a09e5e480cbf39ced4247cd5de8ca" prot="public" static="no">
+        <name>LinphoneCallPaused</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa1dbe1c6aa527dafca5f546eb55d3c716" kindref="member">LinphoneCallStatePaused</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="101" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a15710a768b861aa40fab0b07eaca61ea" prot="public" static="no">
+        <name>LinphoneCallResuming</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa814ed9491558803f4308832213476823" kindref="member">LinphoneCallStateResuming</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="102" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1aacfcd26803177d72d6900eedb07f6aa2" prot="public" static="no">
+        <name>LinphoneCallRefered</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa1b973bedce624463e026e3754e4810b5" kindref="member">LinphoneCallStateReferred</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="103" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1af9b71486160bdf94daf7f44ac6f444ee" prot="public" static="no">
+        <name>LinphoneCallError</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa32fb1b4381905b4c4ed16de29e3ae09c" kindref="member">LinphoneCallStateError</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="104" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a93eec1171fbf3f71032f46fec154df0b" prot="public" static="no">
+        <name>LinphoneCallEnd</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaaab14363f6523d155d3bcb835363b9ef5" kindref="member">LinphoneCallStateEnd</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="105" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a624972187c49765f5febaa98be478c7f" prot="public" static="no">
+        <name>LinphoneCallPausedByRemote</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaaf68b18e8ec4ade7192a5152e5fedd156" kindref="member">LinphoneCallStatePausedByRemote</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="106" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a04478fa6311b94aca66e0b528d672adf" prot="public" static="no">
+        <name>LinphoneCallUpdatedByRemote</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa924a20f6b260c9db0c34a48b4e901caf" kindref="member">LinphoneCallStateUpdatedByRemote</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="107" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1adeb4d9d340d498a15d8c507c7e9fbafe" prot="public" static="no">
+        <name>LinphoneCallIncomingEarlyMedia</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa9f2d157207938668840d5a409a071b91" kindref="member">LinphoneCallStateIncomingEarlyMedia</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="108" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a88a793a4b797e350afb67fedd1635c0b" prot="public" static="no">
+        <name>LinphoneCallUpdating</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaae3a6faa586bec45a496195ad65a00de4" kindref="member">LinphoneCallStateUpdating</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="109" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a1a68bd2bcc5257dbed1fcbf0b98125f7" prot="public" static="no">
+        <name>LinphoneCallEarlyUpdating</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa89d85baf623dfd7460c43c32ff214aea" kindref="member">LinphoneCallStateEarlyUpdating</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="110" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a838482607dfc402d730b74fb8282e095" prot="public" static="no">
+        <name>LinphoneCallReleased</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa2a96d929fdfc888cf5b42c8a55ff3302" kindref="member">LinphoneCallStateReleased</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="111" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="call-enums_8h_1a070b4df143f05651a83e609ba1112f2b" prot="public" static="no">
+        <name>LinphoneCallEarlyUpdatedByRemote</name>
+        <initializer><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa501387975663cda5c1d55774c62adee0" kindref="member">LinphoneCallStateEarlyUpdatedByRemote</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" line="112" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <member refid="group__call__control_1gafc310fd9ba742f7730c632fd72b875ea" kind="enum"><name>_LinphoneCallState</name></member>
+      <member refid="group__audio_1gad548f6aeca87faeb54745e40855e37e9" kind="enum"><name>_LinphoneAudioDeviceType</name></member>
+      <member refid="group__audio_1ga373c70230286349a3323e80a3d4cde51" kind="enum"><name>_LinphoneAudioDeviceCapabilities</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__call__control_1gac4844c99582db6399e694411ca3ea76b" kind="typedef"><name>LinphoneCallState</name></member>
+      <member refid="group__audio_1gadf20cf949908b0dbe788cda30177c849" kind="typedef"><name>LinphoneAudioDeviceType</name></member>
+      <member refid="group__audio_1ga9b42898525041a40424ea13b2d338437" kind="typedef"><name>LinphoneAudioDeviceCapabilities</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_CALL_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_CALL_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight></codeline>
+<codeline lineno="30"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1gafc310fd9ba742f7730c632fd72b875ea" kindref="member">_LinphoneCallState</ref><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa221879b3ae5d13a44fdcfd063a238e44" kindref="member">LinphoneCallStateIdle</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa2583c429290fb1e2b6ad6836276a2574" kindref="member">LinphoneCallStateIncomingReceived</ref><sp/>=<sp/>1,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa8f754250d0c9a21c1f7407c7657a2701" kindref="member">LinphoneCallStatePushIncomingReceived</ref><sp/>=<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa9e14bb1611f1904a1154983b246e1df5" kindref="member">LinphoneCallStateOutgoingInit</ref><sp/>=<sp/>3,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaab193574238538e46a984bbcc5230b231" kindref="member">LinphoneCallStateOutgoingProgress</ref><sp/>=<sp/>4,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa8e80d6b39b53ebff8c7597c35908cead" kindref="member">LinphoneCallStateOutgoingRinging</ref><sp/>=<sp/>5,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa2127d1e6aa4d661a7293191731f6d75e" kindref="member">LinphoneCallStateOutgoingEarlyMedia</ref><sp/>=<sp/>6,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaaddee66e851bac5c7acb8bb5c693d3d09" kindref="member">LinphoneCallStateConnected</ref><sp/>=<sp/>7,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaacb468a9083faf807f0d2c00ec965deaf" kindref="member">LinphoneCallStateStreamsRunning</ref><sp/>=<sp/>8,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa3c0e5bd647c5372bd6aedaaa5dd37456" kindref="member">LinphoneCallStatePausing</ref><sp/>=<sp/>9,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa1dbe1c6aa527dafca5f546eb55d3c716" kindref="member">LinphoneCallStatePaused</ref><sp/>=<sp/>10,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa814ed9491558803f4308832213476823" kindref="member">LinphoneCallStateResuming</ref><sp/>=<sp/>11,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa1b973bedce624463e026e3754e4810b5" kindref="member">LinphoneCallStateReferred</ref><sp/>=<sp/>12,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa32fb1b4381905b4c4ed16de29e3ae09c" kindref="member">LinphoneCallStateError</ref><sp/>=<sp/>13,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaaab14363f6523d155d3bcb835363b9ef5" kindref="member">LinphoneCallStateEnd</ref><sp/>=<sp/>14,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaaf68b18e8ec4ade7192a5152e5fedd156" kindref="member">LinphoneCallStatePausedByRemote</ref><sp/>=<sp/>15,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa924a20f6b260c9db0c34a48b4e901caf" kindref="member">LinphoneCallStateUpdatedByRemote</ref><sp/>=</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>16,<sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa9f2d157207938668840d5a409a071b91" kindref="member">LinphoneCallStateIncomingEarlyMedia</ref><sp/>=<sp/>17,<sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaae3a6faa586bec45a496195ad65a00de4" kindref="member">LinphoneCallStateUpdating</ref><sp/>=<sp/>18,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa2a96d929fdfc888cf5b42c8a55ff3302" kindref="member">LinphoneCallStateReleased</ref><sp/>=<sp/>19,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa501387975663cda5c1d55774c62adee0" kindref="member">LinphoneCallStateEarlyUpdatedByRemote</ref><sp/>=</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>20,<sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1ggafc310fd9ba742f7730c632fd72b875eaa89d85baf623dfd7460c43c32ff214aea" kindref="member">LinphoneCallStateEarlyUpdating</ref><sp/>=</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>21,<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}<sp/><ref refid="group__call__control_1gac4844c99582db6399e694411ca3ea76b" kindref="member">LinphoneCallState</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__audio_1gad548f6aeca87faeb54745e40855e37e9" kindref="member">_LinphoneAudioDeviceType</ref><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9aa2a03dbaef746fb12b50843600c0b75d" kindref="member">LinphoneAudioDeviceTypeUnknown</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a09dc6cbe3cd0131b4099c0c682dd3011" kindref="member">LinphoneAudioDeviceTypeMicrophone</ref><sp/>=<sp/>1,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a9f737b384ad39f50598b6925ed2e0844" kindref="member">LinphoneAudioDeviceTypeEarpiece</ref><sp/>=<sp/>2,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a693d64ab0a878e4370b1bf8ccaf7a1be" kindref="member">LinphoneAudioDeviceTypeSpeaker</ref><sp/>=<sp/>3,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a922d41746db95db0974c01bea3c04a03" kindref="member">LinphoneAudioDeviceTypeBluetooth</ref><sp/>=<sp/>4,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a157551bde377be89a0837a0b7bf559bc" kindref="member">LinphoneAudioDeviceTypeBluetoothA2DP</ref><sp/>=<sp/>5,<sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a10ffaaa86a37e0c4cfade2ff83eb9400" kindref="member">LinphoneAudioDeviceTypeTelephony</ref><sp/>=<sp/>6,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9ac8c57001d70345b11b6ddf042db83d8c" kindref="member">LinphoneAudioDeviceTypeAuxLine</ref><sp/>=<sp/>7,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a5f2ecae75696447589d74b19f1fddd82" kindref="member">LinphoneAudioDeviceTypeGenericUsb</ref><sp/>=<sp/>8,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a0eba2678502c5a9682cdaec9308af724" kindref="member">LinphoneAudioDeviceTypeHeadset</ref><sp/>=<sp/>9,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9ad15ab53d86823b3f10698dc30767cd19" kindref="member">LinphoneAudioDeviceTypeHeadphones</ref><sp/>=<sp/>10,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1ggad548f6aeca87faeb54745e40855e37e9a0b9bedc42281e8e2701dcd9dcac3103f" kindref="member">LinphoneAudioDeviceTypeHearingAid</ref><sp/>=<sp/>11,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}<sp/><ref refid="group__audio_1gadf20cf949908b0dbe788cda30177c849" kindref="member">LinphoneAudioDeviceType</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__audio_1ga373c70230286349a3323e80a3d4cde51" kindref="member">_LinphoneAudioDeviceCapabilities</ref><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1gga373c70230286349a3323e80a3d4cde51aa70260e5c2c16fce641dafeae2edb9ca" kindref="member">LinphoneAudioDeviceCapabilityRecord</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1gga373c70230286349a3323e80a3d4cde51aec16617b87af37e5ae2850110268a00f" kindref="member">LinphoneAudioDeviceCapabilityPlay</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__audio_1gga373c70230286349a3323e80a3d4cde51a8ad55f821b16ef0eced489749c6deb76" kindref="member">LinphoneAudioDeviceCapabilityAll</ref><sp/>=<sp/>3,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}<sp/><ref refid="group__audio_1ga9b42898525041a40424ea13b2d338437" kindref="member">LinphoneAudioDeviceCapabilities</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>DEPRECATED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallIdle<sp/>LinphoneCallStateIdle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallIncomingReceived<sp/>LinphoneCallStateIncomingReceived</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallPushIncomingReceived<sp/>LinphoneCallStatePushIncomingReceived</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallOutgoingInit<sp/>LinphoneCallStateOutgoingInit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallOutgoingProgress<sp/>LinphoneCallStateOutgoingProgress</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallOutgoingRinging<sp/>LinphoneCallStateOutgoingRinging</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallOutgoingEarlyMedia<sp/>LinphoneCallStateOutgoingEarlyMedia</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallConnected<sp/>LinphoneCallStateConnected</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallStreamsRunning<sp/>LinphoneCallStateStreamsRunning</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallPausing<sp/>LinphoneCallStatePausing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallPaused<sp/>LinphoneCallStatePaused</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallResuming<sp/>LinphoneCallStateResuming</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallRefered<sp/>LinphoneCallStateReferred</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallError<sp/>LinphoneCallStateError</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallEnd<sp/>LinphoneCallStateEnd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallPausedByRemote<sp/>LinphoneCallStatePausedByRemote</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallUpdatedByRemote<sp/>LinphoneCallStateUpdatedByRemote</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallIncomingEarlyMedia<sp/>LinphoneCallStateIncomingEarlyMedia</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallUpdating<sp/>LinphoneCallStateUpdating</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallEarlyUpdating<sp/>LinphoneCallStateEarlyUpdating</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallReleased<sp/>LinphoneCallStateReleased</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LinphoneCallEarlyUpdatedByRemote<sp/>LinphoneCallStateEarlyUpdatedByRemote</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifndef<sp/>_L_CALL_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/call-enums.h"/>
+  </compounddef>
+</doxygen>

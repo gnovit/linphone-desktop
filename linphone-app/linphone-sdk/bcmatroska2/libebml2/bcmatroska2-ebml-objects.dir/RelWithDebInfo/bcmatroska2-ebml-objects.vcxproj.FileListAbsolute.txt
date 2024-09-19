@@ -1,0 +1,1 @@
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\bcmatroska2\libebml2\bcmatroska2-ebml-objects.dir\RelWithDebInfo\bcmatroska2-ebml-objects.lib

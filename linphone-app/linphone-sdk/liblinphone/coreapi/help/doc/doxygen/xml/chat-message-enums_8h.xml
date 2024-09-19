@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="chat-message-enums_8h" kind="file" language="C++">
+    <compoundname>chat-message-enums.h</compoundname>
+    <includedby refid="c-types_8h" local="yes">c-types.h</includedby>
+    <sectiondef kind="enum">
+      <member refid="group__chatroom_1gaebb7d95526380c5c15d26a940f8f0c95" kind="enum"><name>_LinphoneChatMessageState</name></member>
+      <member refid="group__chatroom_1ga19a8fabd210162c938acf00602b15407" kind="enum"><name>_LinphoneChatMessageDirection</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__chatroom_1ga00880fbccc069991b2da15117dd90999" kind="typedef"><name>LinphoneChatMessageState</name></member>
+      <member refid="group__chatroom_1gab9662574111234013cbf17a5653a18da" kind="typedef"><name>LinphoneChatMessageDirection</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_CHAT_MESSAGE_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_CHAT_MESSAGE_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gaebb7d95526380c5c15d26a940f8f0c95" kindref="member">_LinphoneChatMessageState</ref><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaebb7d95526380c5c15d26a940f8f0c95ae171a0bd65958442e555c212c1bd0e91" kindref="member">LinphoneChatMessageStateIdle</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaebb7d95526380c5c15d26a940f8f0c95aefe743267c1917171b6865a1f4595396" kindref="member">LinphoneChatMessageStateInProgress</ref><sp/>=<sp/>1,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaebb7d95526380c5c15d26a940f8f0c95a3deb067e35a26effceb3ca8da87110bd" kindref="member">LinphoneChatMessageStateDelivered</ref><sp/>=<sp/>2,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaebb7d95526380c5c15d26a940f8f0c95ae60cbcd9da2cba25ace9a6ddf2f7cf08" kindref="member">LinphoneChatMessageStateNotDelivered</ref><sp/>=<sp/>3,<sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaebb7d95526380c5c15d26a940f8f0c95aee76f661a8dc0817a4cbb8e6193a9cb5" kindref="member">LinphoneChatMessageStateFileTransferError</ref><sp/>=</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4,<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaebb7d95526380c5c15d26a940f8f0c95a297cf5538cd27feeb34c9825a89edf53" kindref="member">LinphoneChatMessageStateFileTransferDone</ref><sp/>=<sp/>5,<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaebb7d95526380c5c15d26a940f8f0c95a4b614e1fa589836b42e9fc1172328099" kindref="member">LinphoneChatMessageStateDeliveredToUser</ref><sp/>=</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaebb7d95526380c5c15d26a940f8f0c95ad84e3f8127c2be2e27cdbc2316875279" kindref="member">LinphoneChatMessageStateDisplayed</ref><sp/>=<sp/>7,<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaebb7d95526380c5c15d26a940f8f0c95aca956e8cec996cdfaeb91a09b4c56f1b" kindref="member">LinphoneChatMessageStateFileTransferInProgress</ref><sp/>=</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8,<sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}<sp/><ref refid="group__chatroom_1ga00880fbccc069991b2da15117dd90999" kindref="member">LinphoneChatMessageState</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1ga19a8fabd210162c938acf00602b15407" kindref="member">_LinphoneChatMessageDirection</ref><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga19a8fabd210162c938acf00602b15407a49ba108b980b61c25b117e0294b172af" kindref="member">LinphoneChatMessageDirectionIncoming</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga19a8fabd210162c938acf00602b15407a1da8d532dd70fe3759d521e6a712ff0f" kindref="member">LinphoneChatMessageDirectionOutgoing</ref><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}<sp/><ref refid="group__chatroom_1gab9662574111234013cbf17a5653a18da" kindref="member">LinphoneChatMessageDirection</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifndef<sp/>_L_CHAT_MESSAGE_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/chat-message-enums.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9753E6A2-13DD-3B6A-A97D-1ED75E8E691A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libaom</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\5265bb0e01d0c78440b6ced914af0af8\libaom-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/tmp/libaom-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Debug/libaom-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/tmp/libaom-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Release/libaom-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/MinSizeRel -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/tmp/libaom-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/MinSizeRel/libaom-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/RelWithDebInfo -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/tmp/libaom-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/RelWithDebInfo/libaom-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\5265bb0e01d0c78440b6ced914af0af8\libaom-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No download step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Debug/libaom-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-source_dirinfo.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No download step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Release/libaom-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-source_dirinfo.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No download step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/MinSizeRel/libaom-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-source_dirinfo.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No download step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/RelWithDebInfo/libaom-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-source_dirinfo.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\5265bb0e01d0c78440b6ced914af0af8\libaom-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Debug/libaom-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-update-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No update step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Release/libaom-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-update-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No update step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/MinSizeRel/libaom-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-update-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No update step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/RelWithDebInfo/libaom-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-update-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\5265bb0e01d0c78440b6ced914af0af8\libaom-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Debug/libaom-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-patch-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Release/libaom-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-patch-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/MinSizeRel/libaom-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-patch-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/RelWithDebInfo/libaom-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\libaom-patch-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\5265bb0e01d0c78440b6ced914af0af8\libaom-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing configure step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_CROSSCOMPILING=FALSE -DCMAKE_NO_SYSTEM_FROM_IMPORTED= -DCMAKE_TOOLCHAIN_FILE= -DCMAKE_OSX_ARCHITECTURES= -DCMAKE_OSX_DEPLOYMENT_TARGET= -DCMAKE_OSX_SYSROOT= -DCMAKE_INSTALL_DEFAULT_LIBDIR=lib -DCMAKE_INSTALL_PREFIX=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT -DCMAKE_INSTALL_LIBDIR=lib -DCMAKE_C_COMPILER_LAUNCHER= -DCMAKE_CXX_COMPILER_LAUNCHER= -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DENABLE_CCACHE=OFF -DENABLE_DOCS=OFF -DENABLE_EXAMPLES=OFF -DENABLE_TESTS=OFF -DENABLE_TOOLS=OFF -DCONFIG_AV1_DECODER=0 -DCONFIG_REALTIME_ONLY=1 "-GVisual Studio 16 2019" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -B D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Debug/libaom-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-cfgcmd.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing configure step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_CROSSCOMPILING=FALSE -DCMAKE_NO_SYSTEM_FROM_IMPORTED= -DCMAKE_TOOLCHAIN_FILE= -DCMAKE_OSX_ARCHITECTURES= -DCMAKE_OSX_DEPLOYMENT_TARGET= -DCMAKE_OSX_SYSROOT= -DCMAKE_INSTALL_DEFAULT_LIBDIR=lib -DCMAKE_INSTALL_PREFIX=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT -DCMAKE_INSTALL_LIBDIR=lib -DCMAKE_C_COMPILER_LAUNCHER= -DCMAKE_CXX_COMPILER_LAUNCHER= -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DENABLE_CCACHE=OFF -DENABLE_DOCS=OFF -DENABLE_EXAMPLES=OFF -DENABLE_TESTS=OFF -DENABLE_TOOLS=OFF -DCONFIG_AV1_DECODER=0 -DCONFIG_REALTIME_ONLY=1 "-GVisual Studio 16 2019" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -B D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Release/libaom-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-cfgcmd.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing configure step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_CROSSCOMPILING=FALSE -DCMAKE_NO_SYSTEM_FROM_IMPORTED= -DCMAKE_TOOLCHAIN_FILE= -DCMAKE_OSX_ARCHITECTURES= -DCMAKE_OSX_DEPLOYMENT_TARGET= -DCMAKE_OSX_SYSROOT= -DCMAKE_INSTALL_DEFAULT_LIBDIR=lib -DCMAKE_INSTALL_PREFIX=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT -DCMAKE_INSTALL_LIBDIR=lib -DCMAKE_C_COMPILER_LAUNCHER= -DCMAKE_CXX_COMPILER_LAUNCHER= -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DENABLE_CCACHE=OFF -DENABLE_DOCS=OFF -DENABLE_EXAMPLES=OFF -DENABLE_TESTS=OFF -DENABLE_TOOLS=OFF -DCONFIG_AV1_DECODER=0 -DCONFIG_REALTIME_ONLY=1 "-GVisual Studio 16 2019" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -B D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/MinSizeRel/libaom-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-cfgcmd.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing configure step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_CROSSCOMPILING=FALSE -DCMAKE_NO_SYSTEM_FROM_IMPORTED= -DCMAKE_TOOLCHAIN_FILE= -DCMAKE_OSX_ARCHITECTURES= -DCMAKE_OSX_DEPLOYMENT_TARGET= -DCMAKE_OSX_SYSROOT= -DCMAKE_INSTALL_DEFAULT_LIBDIR=lib -DCMAKE_INSTALL_PREFIX=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT -DCMAKE_INSTALL_LIBDIR=lib -DCMAKE_C_COMPILER_LAUNCHER= -DCMAKE_CXX_COMPILER_LAUNCHER= -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DENABLE_CCACHE=OFF -DENABLE_DOCS=OFF -DENABLE_EXAMPLES=OFF -DENABLE_TESTS=OFF -DENABLE_TOOLS=OFF -DCONFIG_AV1_DECODER=0 -DCONFIG_REALTIME_ONLY=1 "-GVisual Studio 16 2019" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -B D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/RelWithDebInfo/libaom-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-cfgcmd.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\5265bb0e01d0c78440b6ced914af0af8\libaom-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing build step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Debug/libaom-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing build step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Release/libaom-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing build step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/MinSizeRel/libaom-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing build step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/RelWithDebInfo/libaom-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\5265bb0e01d0c78440b6ced914af0af8\libaom-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing install step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Debug/libaom-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing install step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Release --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Release/libaom-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing install step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config MinSizeRel --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/MinSizeRel/libaom-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing install step for 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/RelWithDebInfo/libaom-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\dfbc71ab05315a9172d21428d5f04094\libaom-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/Debug/libaom-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Debug/libaom-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-install;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-mkdir;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-download;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-update;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-patch;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-configure;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Debug\libaom-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\Debug\libaom-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/Release/libaom-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/Release/libaom-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-install;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-mkdir;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-download;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-update;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-patch;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-configure;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\Release\libaom-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\Release\libaom-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/MinSizeRel/libaom-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/MinSizeRel/libaom-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-install;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-mkdir;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-download;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-update;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-patch;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-configure;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\MinSizeRel\libaom-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\MinSizeRel\libaom-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'libaom'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/RelWithDebInfo/libaom-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/libaom-prefix/src/libaom-stamp/RelWithDebInfo/libaom-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-install;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-mkdir;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-download;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-update;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-patch;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-configure;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\src\libaom-stamp\RelWithDebInfo\libaom-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\RelWithDebInfo\libaom-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\4f8d2079a2c607df571a5b2018a916c2\libaom.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\Debug\libaom-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\libaom</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\Release\libaom-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\libaom</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\MinSizeRel\libaom-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\libaom</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\RelWithDebInfo\libaom-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\libaom</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\Autotools\Autotools.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\dav1d-prefix\tmp\dav1d-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\vpx-prefix\tmp\vpx-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\cmake\BCToolboxCMakeUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\BCProjects.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\ExternalDependencies.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\LinphoneSdkUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Options.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_install.sh.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\Autotools\Autotools.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\dav1d-prefix\tmp\dav1d-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\vpx-prefix\tmp\vpx-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\cmake\BCToolboxCMakeUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\BCProjects.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\ExternalDependencies.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\LinphoneSdkUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Options.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_install.sh.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\Autotools\Autotools.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\dav1d-prefix\tmp\dav1d-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\vpx-prefix\tmp\vpx-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\cmake\BCToolboxCMakeUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\BCProjects.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\ExternalDependencies.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\LinphoneSdkUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Options.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_install.sh.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\Autotools\Autotools.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\dav1d-prefix\tmp\dav1d-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\vpx-prefix\tmp\vpx-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\cmake\BCToolboxCMakeUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\BCProjects.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\ExternalDependencies.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\LinphoneSdkUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Options.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_install.sh.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\libaom">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ZERO_CHECK.vcxproj">
+      <Project>{F070D8A1-EDFC-3AC1-B6E3-02D97BB8861D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,15 @@
+# libspeex pkg-config source file
+
+prefix=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT
+exec_prefix=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/bin
+libdir=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/lib
+includedir=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include
+
+Name: speex
+Description: Speex is an audio codec tuned for speech
+Version: 1.2rc1
+Requires:
+Conflicts:
+Libs: -LD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/lib -lspeex
+Libs.private: -lm
+Cflags: -ID:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include

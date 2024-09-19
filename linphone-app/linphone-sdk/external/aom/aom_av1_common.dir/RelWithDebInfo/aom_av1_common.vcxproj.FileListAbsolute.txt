@@ -1,0 +1,1 @@
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\RelWithDebInfo\aom_av1_common.lib

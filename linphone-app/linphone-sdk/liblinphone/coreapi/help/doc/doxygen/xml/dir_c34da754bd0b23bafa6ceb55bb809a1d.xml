@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_c34da754bd0b23bafa6ceb55bb809a1d" kind="dir">
+    <compoundname>api</compoundname>
+    <innerfile refid="c-account-cbs_8h">c-account-cbs.h</innerfile>
+    <innerfile refid="c-account-params_8h">c-account-params.h</innerfile>
+    <innerfile refid="c-account_8h">c-account.h</innerfile>
+    <innerfile refid="c-address_8h">c-address.h</innerfile>
+    <innerfile refid="c-alert-cbs_8h">c-alert-cbs.h</innerfile>
+    <innerfile refid="c-alert_8h">c-alert.h</innerfile>
+    <innerfile refid="c-api_8h">c-api.h</innerfile>
+    <innerfile refid="c-audio-device_8h">c-audio-device.h</innerfile>
+    <innerfile refid="c-auth-info_8h">c-auth-info.h</innerfile>
+    <innerfile refid="c-call-cbs_8h">c-call-cbs.h</innerfile>
+    <innerfile refid="c-call-log_8h">c-call-log.h</innerfile>
+    <innerfile refid="c-call-stats_8h">c-call-stats.h</innerfile>
+    <innerfile refid="c-call_8h">c-call.h</innerfile>
+    <innerfile refid="c-callbacks_8h">c-callbacks.h</innerfile>
+    <innerfile refid="c-chat-message-cbs_8h">c-chat-message-cbs.h</innerfile>
+    <innerfile refid="c-chat-message-reaction_8h">c-chat-message-reaction.h</innerfile>
+    <innerfile refid="c-chat-message_8h">c-chat-message.h</innerfile>
+    <innerfile refid="c-chat-room-cbs_8h">c-chat-room-cbs.h</innerfile>
+    <innerfile refid="c-chat-room-params_8h">c-chat-room-params.h</innerfile>
+    <innerfile refid="c-chat-room_8h">c-chat-room.h</innerfile>
+    <innerfile refid="c-conference-cbs_8h">c-conference-cbs.h</innerfile>
+    <innerfile refid="c-conference-info_8h">c-conference-info.h</innerfile>
+    <innerfile refid="c-conference-scheduler_8h">c-conference-scheduler.h</innerfile>
+    <innerfile refid="c-conference_8h">c-conference.h</innerfile>
+    <innerfile refid="c-content_8h">c-content.h</innerfile>
+    <innerfile refid="c-dial-plan_8h">c-dial-plan.h</innerfile>
+    <innerfile refid="c-dictionary_8h">c-dictionary.h</innerfile>
+    <innerfile refid="c-digest-authentication-policy_8h">c-digest-authentication-policy.h</innerfile>
+    <innerfile refid="c-event-cbs_8h">c-event-cbs.h</innerfile>
+    <innerfile refid="c-event-log_8h">c-event-log.h</innerfile>
+    <innerfile refid="c-event_8h">c-event.h</innerfile>
+    <innerfile refid="c-factory_8h">c-factory.h</innerfile>
+    <innerfile refid="c-friend-phone-number_8h">c-friend-phone-number.h</innerfile>
+    <innerfile refid="c-ldap-params_8h">c-ldap-params.h</innerfile>
+    <innerfile refid="c-ldap_8h">c-ldap.h</innerfile>
+    <innerfile refid="c-magic-search-cbs_8h">c-magic-search-cbs.h</innerfile>
+    <innerfile refid="c-magic-search_8h">c-magic-search.h</innerfile>
+    <innerfile refid="c-nat-policy_8h">c-nat-policy.h</innerfile>
+    <innerfile refid="c-participant-device-cbs_8h">c-participant-device-cbs.h</innerfile>
+    <innerfile refid="c-participant-device-identity_8h">c-participant-device-identity.h</innerfile>
+    <innerfile refid="c-participant-device_8h">c-participant-device.h</innerfile>
+    <innerfile refid="c-participant-imdn-state_8h">c-participant-imdn-state.h</innerfile>
+    <innerfile refid="c-participant-info_8h">c-participant-info.h</innerfile>
+    <innerfile refid="c-participant_8h">c-participant.h</innerfile>
+    <innerfile refid="c-payload-type_8h">c-payload-type.h</innerfile>
+    <innerfile refid="c-push-notification-config_8h">c-push-notification-config.h</innerfile>
+    <innerfile refid="c-push-notification-message_8h">c-push-notification-message.h</innerfile>
+    <innerfile refid="c-recorder-params_8h">c-recorder-params.h</innerfile>
+    <innerfile refid="c-recorder_8h">c-recorder.h</innerfile>
+    <innerfile refid="c-search-result_8h">c-search-result.h</innerfile>
+    <innerfile refid="c-signal-information_8h">c-signal-information.h</innerfile>
+    <innerfile refid="c-types_8h">c-types.h</innerfile>
+    <innerfile refid="c-video-source-descriptor_8h">c-video-source-descriptor.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/"/>
+  </compounddef>
+</doxygen>

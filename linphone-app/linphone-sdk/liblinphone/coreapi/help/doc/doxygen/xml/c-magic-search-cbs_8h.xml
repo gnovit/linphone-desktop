@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-magic-search-cbs_8h" kind="file" language="C++">
+    <compoundname>c-magic-search-cbs.h</compoundname>
+    <includes refid="c-callbacks_8h" local="yes">linphone/api/c-callbacks.h</includes>
+    <includes refid="c-types_8h" local="yes">linphone/api/c-types.h</includes>
+    <includedby refid="c-magic-search_8h" local="yes">c-magic-search.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__misc_1gac79deb170c20bec50295f25d76064396" kind="function"><name>linphone_magic_search_cbs_new</name></member>
+      <member refid="group__misc_1gae51a4e7ee8182dbe531ae042cdef194a" kind="function"><name>linphone_magic_search_cbs_ref</name></member>
+      <member refid="group__misc_1gac3d7120865ac383f093f2f98649330f1" kind="function"><name>linphone_magic_search_cbs_unref</name></member>
+      <member refid="group__misc_1ga5cbea957f125a3c8cf2a963804b4636f" kind="function"><name>linphone_magic_search_cbs_get_user_data</name></member>
+      <member refid="group__misc_1ga5fcaa692e16f297f59428460741cddb8" kind="function"><name>linphone_magic_search_cbs_set_user_data</name></member>
+      <member refid="group__misc_1gac5d56f4d39fc8210b6079518b3227449" kind="function"><name>linphone_magic_search_cbs_get_search_results_received</name></member>
+      <member refid="group__misc_1gaf9d028d50ca21d1c325a4f8d1b011aff" kind="function"><name>linphone_magic_search_cbs_set_search_results_received</name></member>
+      <member refid="group__misc_1ga87a153e3cc439a40086f959a9f6cd305" kind="function"><name>linphone_magic_search_cbs_get_ldap_have_more_results</name></member>
+      <member refid="group__misc_1gaafa30db91c5f68fee9c9a1a6b2141338" kind="function"><name>linphone_magic_search_cbs_set_ldap_have_more_results</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_C_MAGIC_SEARCH_CBS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_C_MAGIC_SEARCH_CBS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-callbacks.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><ref refid="group__misc_1gab9311138d1420302effbb417bc476f7b" kindref="member">LinphoneMagicSearchCbs</ref><sp/>*linphone_magic_search_cbs_new(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1gab9311138d1420302effbb417bc476f7b" kindref="member">LinphoneMagicSearchCbs</ref><sp/>*<ref refid="group__misc_1gae51a4e7ee8182dbe531ae042cdef194a" kindref="member">linphone_magic_search_cbs_ref</ref>(<ref refid="group__misc_1gab9311138d1420302effbb417bc476f7b" kindref="member">LinphoneMagicSearchCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gac3d7120865ac383f093f2f98649330f1" kindref="member">linphone_magic_search_cbs_unref</ref>(<ref refid="group__misc_1gab9311138d1420302effbb417bc476f7b" kindref="member">LinphoneMagicSearchCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1ga5cbea957f125a3c8cf2a963804b4636f" kindref="member">linphone_magic_search_cbs_get_user_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gab9311138d1420302effbb417bc476f7b" kindref="member">LinphoneMagicSearchCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga5fcaa692e16f297f59428460741cddb8" kindref="member">linphone_magic_search_cbs_set_user_data</ref>(<ref refid="group__misc_1gab9311138d1420302effbb417bc476f7b" kindref="member">LinphoneMagicSearchCbs</ref><sp/>*cbs,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*user_data);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga123670bf8791f0806a00a8295867e7f2" kindref="member">LinphoneMagicSearchCbsSearchResultsReceivedCb</ref></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><ref refid="group__misc_1gac5d56f4d39fc8210b6079518b3227449" kindref="member">linphone_magic_search_cbs_get_search_results_received</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gab9311138d1420302effbb417bc476f7b" kindref="member">LinphoneMagicSearchCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><ref refid="group__misc_1gaf9d028d50ca21d1c325a4f8d1b011aff" kindref="member">linphone_magic_search_cbs_set_search_results_received</ref>(<ref refid="group__misc_1gab9311138d1420302effbb417bc476f7b" kindref="member">LinphoneMagicSearchCbs</ref><sp/>*cbs,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__misc_1ga123670bf8791f0806a00a8295867e7f2" kindref="member">LinphoneMagicSearchCbsSearchResultsReceivedCb</ref><sp/>cb);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga1e40a360f6fc8d41668098cb530404ab" kindref="member">LinphoneMagicSearchCbsLdapHaveMoreResultsCb</ref></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><ref refid="group__misc_1ga87a153e3cc439a40086f959a9f6cd305" kindref="member">linphone_magic_search_cbs_get_ldap_have_more_results</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gab9311138d1420302effbb417bc476f7b" kindref="member">LinphoneMagicSearchCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><ref refid="group__misc_1gaafa30db91c5f68fee9c9a1a6b2141338" kindref="member">linphone_magic_search_cbs_set_ldap_have_more_results</ref>(<ref refid="group__misc_1gab9311138d1420302effbb417bc476f7b" kindref="member">LinphoneMagicSearchCbs</ref><sp/>*cbs,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__misc_1ga1e40a360f6fc8d41668098cb530404ab" kindref="member">LinphoneMagicSearchCbsLdapHaveMoreResultsCb</ref><sp/>cb);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifndef<sp/>_L_C_CHAT_MESSAGE_CBS_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-magic-search-cbs.h"/>
+  </compounddef>
+</doxygen>

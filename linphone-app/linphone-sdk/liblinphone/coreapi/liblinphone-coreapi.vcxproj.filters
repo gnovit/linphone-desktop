@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\authentication.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\bellesip_sal\sal_address_impl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\bellesip_sal\sal_impl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\bellesip_sal\sal_op_impl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\bellesip_sal\sal_sdp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\callbacks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\chat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\contactprovider.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\ec-calibrator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\echo-tester.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\enum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\error_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\friend.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\friendlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\im_notif_policy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\im_encryption_engine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\linphonecall.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\linphonecore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\linphoneconference.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\linphone_tunnel_config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\localplayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\logging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\lpconfig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\lsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\player.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\presence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\proxy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\quality_reporting.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\remote_provisioning.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\ringtoneplayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\siplogin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\sipsetup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\update_check.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\video_definition.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\vtables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\xmlrpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\lpc2xml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\xml2lpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\xml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\sqlite3_bctbx_vfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\linphone_tunnel_stubs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\carddav.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\conference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\local_conference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\remote_conference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\tester_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\vcard.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\bellesip_sal\sal_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\carddav.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\conference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\conference-cbs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\local_conference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\remote_conference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\contact_providers_priv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\core_private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\enum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\lpc2xml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\quality_reporting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\sqlite3_bctbx_vfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\vcard_private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\xml2lpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF7F9243-A573-322E-B7BE-7F3BE5BD358B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D5A014FD-C7A9-31E0-8F9C-FD4CF18CF7E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

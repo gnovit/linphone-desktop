@@ -1,0 +1,20 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\DFDE742FDF171460E942F253B32FFD8E\MEDIASTREAMER2-VERTEX-SHADER-HEADER.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DPYTHON_EXECUTABLE=C:/Python310/python.exe -DSED_PROGRAM=C:/msys64/usr/bin/sed.exe -DINPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src -DOUTPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src -DSOURCE_FILE="screen_transform.vert" -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/generate_yuv2rgb_header.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-SDK\MEDIASTREAMER2\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

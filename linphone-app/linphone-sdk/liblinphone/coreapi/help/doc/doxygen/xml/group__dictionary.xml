@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__dictionary" kind="group">
+    <compoundname>dictionary</compoundname>
+    <title>Dictionary</title>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" prot="public" static="no">
+        <type>struct _LinphoneDictionary</type>
+        <definition>typedef struct _LinphoneDictionary LinphoneDictionary</definition>
+        <argsstring></argsstring>
+        <name>LinphoneDictionary</name>
+        <briefdescription>
+<para>Object that represents key-value pair container. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="642" column="34" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="642" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__dictionary_1ga9a12f4ba42594ca8b74c6c635213eeb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+        <definition>LinphoneDictionary * linphone_dictionary_clone</definition>
+        <argsstring>(const LinphoneDictionary *src)</argsstring>
+        <name>linphone_dictionary_clone</name>
+        <param>
+          <type>const <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>Instantiates a new dictionary with values from source. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object to be cloned.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The newly created <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="38" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="38" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1ga005eecc22d75ce26f8020c95eb9f6fe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+        <definition>LinphoneDictionary * linphone_dictionary_ref</definition>
+        <argsstring>(LinphoneDictionary *dict)</argsstring>
+        <name>linphone_dictionary_ref</name>
+        <param>
+          <type><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <briefdescription>
+<para>Take a reference on a <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="45" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="45" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1ga297c14b6cfeb44cb858227407c14f79a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_dictionary_unref</definition>
+        <argsstring>(LinphoneDictionary *dict)</argsstring>
+        <name>linphone_dictionary_unref</name>
+        <param>
+          <type><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <briefdescription>
+<para>Release a <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="51" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="51" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1gafc59653ba641fdcef511f97660d42f6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_dictionary_set_float</definition>
+        <argsstring>(LinphoneDictionary *dict, const char *key, float value)</argsstring>
+        <name>linphone_dictionary_set_float</name>
+        <param>
+          <type><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets a float value to a key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The int value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="59" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="59" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1gaa11c2fc858594395cada3425dfbf77f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_dictionary_get_float</definition>
+        <argsstring>(const LinphoneDictionary *dict, const char *key)</argsstring>
+        <name>linphone_dictionary_get_float</name>
+        <param>
+          <type>const <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Gets the float value of a key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The username.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="67" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="67" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1ga3c4f739c5f4aa6209b5d03ab372122f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_dictionary_set_int</definition>
+        <argsstring>(LinphoneDictionary *dict, const char *key, int value)</argsstring>
+        <name>linphone_dictionary_set_int</name>
+        <param>
+          <type><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets a int value to a key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The int value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="75" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="75" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1ga41f9b7f3f01cb50d10287b5024d24e8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_dictionary_get_int</definition>
+        <argsstring>(const LinphoneDictionary *dict, const char *key)</argsstring>
+        <name>linphone_dictionary_get_int</name>
+        <param>
+          <type>const <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Gets the int value of a key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The username.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="83" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="83" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1ga23052726ac4dd9e76b55d5ea67434a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_dictionary_set_string</definition>
+        <argsstring>(LinphoneDictionary *dict, const char *key, const char *value)</argsstring>
+        <name>linphone_dictionary_set_string</name>
+        <param>
+          <type><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets a char* value to a key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The char* value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="91" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="91" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1ga8b303bb2246c4b65aa101e3011ff6ae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_dictionary_get_string</definition>
+        <argsstring>(const LinphoneDictionary *dict, const char *key)</argsstring>
+        <name>linphone_dictionary_get_string</name>
+        <param>
+          <type>const <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Gets the char* value of a key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The username.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="99" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="99" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1gabdd1c023c69e354e1bc6d71b4e772c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_dictionary_set_int64</definition>
+        <argsstring>(LinphoneDictionary *dict, const char *key, int64_t value)</argsstring>
+        <name>linphone_dictionary_set_int64</name>
+        <param>
+          <type><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets a int64 value to a key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The int64 value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="107" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="107" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1ga4a58dc34302185fe8685a75ccf417b15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t linphone_dictionary_get_int64</definition>
+        <argsstring>(const LinphoneDictionary *dict, const char *key)</argsstring>
+        <name>linphone_dictionary_get_int64</name>
+        <param>
+          <type>const <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Gets the int64 value of a key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The username.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="115" column="10" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="115" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1gaec9651a130ce526f6a6d281637de22c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_dictionary_remove</definition>
+        <argsstring>(LinphoneDictionary *dict, const char *key)</argsstring>
+        <name>linphone_dictionary_remove</name>
+        <param>
+          <type><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Removes the pair of the key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref> of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="123" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="123" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1ga677ff84361e324596f72ebabfa222303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_dictionary_clear</definition>
+        <argsstring>(LinphoneDictionary *dict)</argsstring>
+        <name>linphone_dictionary_clear</name>
+        <param>
+          <type><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <briefdescription>
+<para>Clears the dictionary. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="129" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="129" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__dictionary_1ga2fee5e606775ada6303887ad71555059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_dictionary_has_key</definition>
+        <argsstring>(const LinphoneDictionary *dict, const char *key)</argsstring>
+        <name>linphone_dictionary_has_key</name>
+        <param>
+          <type>const <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+          <declname>dict</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Search if the key is present in the dictionary. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dict</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref> of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" line="137" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h" declline="137" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Managing Dictionary. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

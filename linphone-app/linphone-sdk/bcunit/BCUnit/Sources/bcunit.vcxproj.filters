@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bcunit\BCUnit\Sources\Framework\CUError.c">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bcunit\BCUnit\Sources\Framework\MyMem.c">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bcunit\BCUnit\Sources\Framework\TestDB.c">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bcunit\BCUnit\Sources\Framework\TestRun.c">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bcunit\BCUnit\Sources\Framework\Util.c">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bcunit\BCUnit\Sources\Basic\Basic.c">
+      <Filter>basic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bcunit\BCUnit\Sources\Automated\Automated.c">
+      <Filter>automated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bcunit\BCUnit\Sources\Console\Console.c">
+      <Filter>console</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bcunit\BCUnit\Sources\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\bcunit\BCUnit\Sources\bcunit.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D5A014FD-C7A9-31E0-8F9C-FD4CF18CF7E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="automated">
+      <UniqueIdentifier>{99D2EE41-6F5F-36EF-8AF6-05719E6D596E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="basic">
+      <UniqueIdentifier>{B7DAEDA2-C135-330E-8A03-69ACB72F16A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="console">
+      <UniqueIdentifier>{748251E0-CA4A-30FA-B3BB-B260AB591A9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{347D8D43-C3A8-3559-B5E9-F42C81E262EE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

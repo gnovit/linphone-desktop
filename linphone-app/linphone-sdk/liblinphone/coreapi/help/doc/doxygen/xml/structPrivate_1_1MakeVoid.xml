@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structPrivate_1_1MakeVoid" kind="struct" language="C++" prot="public">
+    <compoundname>Private::MakeVoid</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename...</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structPrivate_1_1MakeVoid_1a33955f962ae8df03ee52dbbe7b4f7686" prot="public" static="no">
+        <type>void</type>
+        <definition>typedef void Private::MakeVoid&lt; T &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>Private::MakeVoid::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/traits.h" line="34" column="14" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/traits.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/traits.h" line="33" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/traits.h" bodystart="33" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structPrivate_1_1MakeVoid_1a33955f962ae8df03ee52dbbe7b4f7686" prot="public" virt="non-virtual"><scope>Private::MakeVoid</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

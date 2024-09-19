@@ -1,0 +1,1 @@
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\curve25519\decaf-curve25519.dir\RelWithDebInfo\decaf-curve25519.lib

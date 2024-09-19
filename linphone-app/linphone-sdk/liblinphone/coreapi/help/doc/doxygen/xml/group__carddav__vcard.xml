@@ -1,0 +1,1479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__carddav__vcard" kind="group">
+    <compoundname>carddav_vcard</compoundname>
+    <title>Carddav_vcard</title>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" prot="public" static="no">
+        <type>struct _LinphoneVcard</type>
+        <definition>typedef struct _LinphoneVcard LinphoneVcard</definition>
+        <argsstring></argsstring>
+        <name>LinphoneVcard</name>
+        <briefdescription>
+<para>Object storing contact information using vCard 4.0 format. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="1285" column="29" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" bodystart="1285" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__carddav__vcard_1ga3003e98399c9aaa86984002e15a45145" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+        <definition>LinphoneVcard * linphone_vcard_ref</definition>
+        <argsstring>(LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_ref</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Take a ref on a <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> object  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="45" column="16" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="45" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga7836283a1e82814fbd55513be27bb852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_unref</definition>
+        <argsstring>(LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_unref</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Release a <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="51" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="51" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga676024c1325c266aae089b8432757530" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+        <definition>LinphoneVcard * linphone_vcard_clone</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_clone</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Clone a <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a new <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> object  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="58" column="16" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="58" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga47938ead9c40758e04cdb8a3f1d5b590" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_vcard_as_vcard4_string</definition>
+        <argsstring>(LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_as_vcard4_string</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Returns the vCard4 representation of the LinphoneVcard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a const char * that represents the vCard.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="65" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="65" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gaae52377e83d0e0a44f734c4b53ef41cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_set_full_name</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *name)</argsstring>
+        <name>linphone_vcard_set_full_name</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Sets the FN attribute of the vCard (which is mandatory). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the display name to set for the vCard  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="72" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="72" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga4603fed6ddc117e316d2d89257cfadb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_vcard_get_full_name</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_full_name</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Returns the FN attribute of the vCard, or NULL if it isn&apos;t set yet. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the display name of the vCard, or NULL.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="79" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="79" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gaa182458047e6e013198c7b0ce5dc5ca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_set_skip_validation</definition>
+        <argsstring>(LinphoneVcard *vCard, bool_t skip)</argsstring>
+        <name>linphone_vcard_set_skip_validation</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>skip</declname>
+        </param>
+        <briefdescription>
+<para>Sets the skipFieldValidation property of the vcard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>skip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>skipFieldValidation property of the vcard </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="86" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="86" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gaf629a6b63d5e913489be8a0a6c5c5a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_vcard_get_skip_validation</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_skip_validation</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Returns the skipFieldValidation property of the vcard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the skipFieldValidation property of the vcard </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="93" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="93" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gaa961dc3c1bfcf48222ca3ed89823b027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_set_family_name</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *name)</argsstring>
+        <name>linphone_vcard_set_family_name</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Sets the family name in the N attribute of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the family name to set for the vCard  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="100" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="100" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga21a7557fc259c148b2deaecf10ca5242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_vcard_get_family_name</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_family_name</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Returns the family name in the N attribute of the vCard, or NULL if it isn&apos;t set yet. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the family name of the vCard, or NULL  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="107" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="107" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga5a252a9005de3025a9a2429541494a6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_set_given_name</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *name)</argsstring>
+        <name>linphone_vcard_set_given_name</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Sets the given name in the N attribute of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the given name to set for the vCard  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="114" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="114" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga6565d1cc8ff2f6278584f753491a085e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_vcard_get_given_name</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_given_name</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Returns the given name in the N attribute of the vCard, or NULL if it isn&apos;t set yet. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the given name of the vCard, or NULL  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="121" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="121" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga9daa232e8c64c047e139c9165a2e5a54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_add_sip_address</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *sip_address)</argsstring>
+        <name>linphone_vcard_add_sip_address</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sip_address</declname>
+        </param>
+        <briefdescription>
+<para>Adds a SIP address in the vCard, using the IMPP property. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sip_address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the SIP address to add  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="128" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="128" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga712e4cfbdfe4dd168e9f8c3b3045f3f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_remove_sip_address</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *sip_address)</argsstring>
+        <name>linphone_vcard_remove_sip_address</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sip_address</declname>
+        </param>
+        <briefdescription>
+<para>Removes a SIP address in the vCard (if it exists), using the IMPP property. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sip_address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the SIP address to remove  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="135" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="135" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gaa862c70d0843c56d2307a958393cd27d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_edit_main_sip_address</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *sip_address)</argsstring>
+        <name>linphone_vcard_edit_main_sip_address</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sip_address</declname>
+        </param>
+        <briefdescription>
+<para>Edits the preferred SIP address in the vCard (or the first one), using the IMPP property. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sip_address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new SIP address  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="142" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="142" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga195f4f5eb431279cf0afcaf6a0a2b751" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_vcard_get_sip_addresses</definition>
+        <argsstring>(LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_sip_addresses</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Returns the list of SIP addresses in the vCard (all the IMPP attributes that has an URI value starting by &quot;sip:&quot;) or NULL. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The SIP addresses.  <bctbxlist>LinphoneAddress</bctbxlist>  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="150" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="150" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga784eb9ec86c65231b57b7d52af9c0736" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_add_phone_number</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *phone)</argsstring>
+        <name>linphone_vcard_add_phone_number</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>phone</declname>
+        </param>
+        <briefdescription>
+<para>Adds a phone number in the vCard, using the TEL property. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>phone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the phone number to add  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="157" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="157" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gadd29cf906c4f669ca6dc6724f5ab31c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_remove_phone_number</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *phone)</argsstring>
+        <name>linphone_vcard_remove_phone_number</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>phone</declname>
+        </param>
+        <briefdescription>
+<para>Removes a phone number in the vCard (if it exists), using the TEL property. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>phone</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the phone number to remove  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="164" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="164" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga88232c0629bf9a209d4d3b97dec77197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bctbx_list_t *</type>
+        <definition>bctbx_list_t * linphone_vcard_get_phone_numbers</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_phone_numbers</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Returns the list of phone numbers in the vCard (all the TEL attributes) or NULL. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The phone numbers as string.  <bctbxlist>char *</bctbxlist>  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="171" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="171" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga92909a0a35f4082cd8c4f23cddb0b489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_add_phone_number_with_label</definition>
+        <argsstring>(LinphoneVcard *vCard, LinphoneFriendPhoneNumber *phoneNumber)</argsstring>
+        <name>linphone_vcard_add_phone_number_with_label</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type><ref refid="group__buddy__list_1gadcc5244b28b999c3be59b24192fd91f0" kindref="member">LinphoneFriendPhoneNumber</ref> *</type>
+          <declname>phoneNumber</declname>
+        </param>
+        <briefdescription>
+<para>Adds a <ref refid="group__buddy__list_1gadcc5244b28b999c3be59b24192fd91f0" kindref="member">LinphoneFriendPhoneNumber</ref> in the vCard, using the TEL property. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>phoneNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__buddy__list_1gadcc5244b28b999c3be59b24192fd91f0" kindref="member">LinphoneFriendPhoneNumber</ref> to add  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="178" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="178" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gad2afa2de9bf89e2d5fccf0019aadbb97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_remove_phone_number_with_label</definition>
+        <argsstring>(LinphoneVcard *vCard, const LinphoneFriendPhoneNumber *phoneNumber)</argsstring>
+        <name>linphone_vcard_remove_phone_number_with_label</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__buddy__list_1gadcc5244b28b999c3be59b24192fd91f0" kindref="member">LinphoneFriendPhoneNumber</ref> *</type>
+          <declname>phoneNumber</declname>
+        </param>
+        <briefdescription>
+<para>Removes a <ref refid="group__buddy__list_1gadcc5244b28b999c3be59b24192fd91f0" kindref="member">LinphoneFriendPhoneNumber</ref> in the vCard (if it exists), using the TEL property. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>phoneNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__buddy__list_1gadcc5244b28b999c3be59b24192fd91f0" kindref="member">LinphoneFriendPhoneNumber</ref> to remove  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="186" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="186" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga8edafc524a39a12a9466f11f0b2e697f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bctbx_list_t *</type>
+        <definition>bctbx_list_t * linphone_vcard_get_phone_numbers_with_label</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_phone_numbers_with_label</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Returns the list of phone numbers in the vCard (all the TEL attributes) or NULL. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The phone numbers as <ref refid="group__buddy__list_1gadcc5244b28b999c3be59b24192fd91f0" kindref="member">LinphoneFriendPhoneNumber</ref>.  <bctbxlist>LinphoneFriendPhoneNumber</bctbxlist>  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="194" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="194" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gaa9b18b9f7ea4a1ef1833c736f6fecc48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_set_organization</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *organization)</argsstring>
+        <name>linphone_vcard_set_organization</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>organization</declname>
+        </param>
+        <briefdescription>
+<para>Fills the Organization field of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>organization</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the Organization.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="201" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="201" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gaf0b41a9d89c85f22cdaf00dfff0f86c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_vcard_get_organization</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_organization</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Gets the Organization of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the Organization of the vCard or NULL.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="208" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="208" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga6643978c22fcfd437f1b252021819282" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_remove_organization</definition>
+        <argsstring>(LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_remove_organization</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Removes the Organization field of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="214" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="214" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga1ba5f5313fb6adc0a955f467e21c2f21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_set_job_title</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *job_title)</argsstring>
+        <name>linphone_vcard_set_job_title</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>job_title</declname>
+        </param>
+        <briefdescription>
+<para>Fills the Title field of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>job_title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the job title.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="221" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="221" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga1bdd75193c0e30c02aceb61c75f6486c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_vcard_get_job_title</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_job_title</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Gets the Title of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the Title of the vCard or NULL.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="228" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="228" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga7d840d6954ec243b1d5254658423d464" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_remove_job_title</definition>
+        <argsstring>(LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_remove_job_title</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Removes the Title field of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="234" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="234" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gac3cfb986bc573508316df446e7d39b86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_set_photo</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *picture)</argsstring>
+        <name>linphone_vcard_set_photo</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>picture</declname>
+        </param>
+        <briefdescription>
+<para>Sets a picture URI in the vCard, using the PHOTO property. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>picture</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the picture URI to add. If NULL it will have the same effet as <ref refid="group__carddav__vcard_1ga2b573ccc6999b07eacf0ada67aad5cdb" kindref="member">linphone_vcard_remove_photo()</ref>.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="242" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="242" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga2b573ccc6999b07eacf0ada67aad5cdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_remove_photo</definition>
+        <argsstring>(LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_remove_photo</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Removes any existing PHOTO property. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="248" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="248" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga86cdbd5d633a26d73d494795d25bee6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_vcard_get_photo</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_photo</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Returns the first PHOTO property or NULL. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The picture URI as string or NULL if none has been set.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="255" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="255" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga65af1583646141da625864ecbefbbb53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_vcard_generate_unique_id</definition>
+        <argsstring>(LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_generate_unique_id</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Generates a random unique id for the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If is required to be able to synchronize the vCard with a CardDAV server <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if operation is successful, otherwise FALSE (for example if it already has an unique ID) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="263" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="263" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga193ac24174b7dbd3f6c4d19e109826c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_set_uid</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *uid)</argsstring>
+        <name>linphone_vcard_set_uid</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>uid</declname>
+        </param>
+        <briefdescription>
+<para>Sets the unique ID of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the unique id  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="270" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="270" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga0ff3a6afd29b01feda48d38c41f7d86f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_vcard_get_uid</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_uid</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Gets the UID of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the UID of the vCard, otherwise NULL.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="277" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="277" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gae1ddf171ce6c3c6fd529c11001223755" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_set_etag</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *etag)</argsstring>
+        <name>linphone_vcard_set_etag</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>etag</declname>
+        </param>
+        <briefdescription>
+<para>Sets the eTAG of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>etag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the eTAG.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="284" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="284" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga91bc8dd7ffa0414988fb7f426e788459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_vcard_get_etag</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_etag</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Gets the eTag of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the eTag of the vCard in the CardDAV server, otherwise NULL.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="291" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="291" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gace8428dfaa06ff21077de5541901459c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_set_url</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *url)</argsstring>
+        <name>linphone_vcard_set_url</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+<para>Sets the URL of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the URL.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="298" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="298" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gac7535601a2a82315f1819b28d991e5d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_vcard_get_url</definition>
+        <argsstring>(const LinphoneVcard *vCard)</argsstring>
+        <name>linphone_vcard_get_url</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <briefdescription>
+<para>Gets the URL of the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the URL of the vCard in the CardDAV server, otherwise NULL.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="305" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="305" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1gab0bd79b22ee31f7b6553b0df2ec2c97a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bctbx_list_t *</type>
+        <definition>bctbx_list_t * linphone_vcard_get_extended_properties_values_by_name</definition>
+        <argsstring>(const LinphoneVcard *vCard, const char *name)</argsstring>
+        <name>linphone_vcard_get_extended_properties_values_by_name</name>
+        <param>
+          <type>const <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Get the vCard extended properties values per property name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name to filter the extended properties on.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The extended properties values as string.  <bctbxlist>char *</bctbxlist>  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="313" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="313" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga30937614272f4e746b79e9d5c5428a20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_add_extended_property</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *name, const char *value)</argsstring>
+        <name>linphone_vcard_add_extended_property</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Adds an extended property to the vCard. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the extended property to add  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value of the extended property to add  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="322" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="322" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__carddav__vcard_1ga6b825fa0188198b45b6ba8602d58694c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_vcard_remove_extented_properties_by_name</definition>
+        <argsstring>(LinphoneVcard *vCard, const char *name)</argsstring>
+        <name>linphone_vcard_remove_extented_properties_by_name</name>
+        <param>
+          <type><ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref> *</type>
+          <declname>vCard</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Remove all the extend properties per property name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vCard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name to remove the extended properties on.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="329" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" declline="329" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group__carddav__vcard_1ga3a9572e215fd5fd2c4bd84b47bb76d63" prot="public" static="no">
+        <name>LINPHONE_VCARD</name>
+        <initializer>BELLE_SIP_CAST(object, <ref refid="group__carddav__vcard_1ga9331db7d45400f64b3eff8fed0c39219" kindref="member">LinphoneVcard</ref>)</initializer>
+        <briefdescription>
+<para>Cast a belle_sip_object_t into LinphoneVcard. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" line="38" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/vcard.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

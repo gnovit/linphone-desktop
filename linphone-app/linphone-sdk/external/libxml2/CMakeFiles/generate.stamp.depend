@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libxml2/CMakeLists.txt
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libxml2/config.h.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libxml2/include/libxml/xmlversion.h.in

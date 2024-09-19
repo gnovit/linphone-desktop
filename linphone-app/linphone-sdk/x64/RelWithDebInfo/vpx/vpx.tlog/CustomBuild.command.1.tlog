@@ -1,0 +1,128 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\7C5AD40765FF606A58217005418A52E7\VPX-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/RelWithDebInfo -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/tmp/vpx-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/src/vpx-stamp/RelWithDebInfo/vpx-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\7C5AD40765FF606A58217005418A52E7\VPX-DOWNLOAD.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/src/vpx-stamp/RelWithDebInfo/vpx-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\7C5AD40765FF606A58217005418A52E7\VPX-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/src/vpx-stamp/RelWithDebInfo/vpx-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\7C5AD40765FF606A58217005418A52E7\VPX-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/src/vpx-stamp/RelWithDebInfo/vpx-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\7C5AD40765FF606A58217005418A52E7\VPX-CONFIGURE.RULE
+setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\vpx-prefix\src\vpx-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=RelWithDebInfo -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/src/vpx-stamp/vpx-configure-RelWithDebInfo.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/src/vpx-stamp/RelWithDebInfo/vpx-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\7C5AD40765FF606A58217005418A52E7\VPX-BUILD.RULE
+setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\vpx-prefix\src\vpx-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=RelWithDebInfo -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/src/vpx-stamp/vpx-build-RelWithDebInfo.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/src/vpx-stamp/RelWithDebInfo/vpx-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\7C5AD40765FF606A58217005418A52E7\VPX-INSTALL.RULE
+setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\vpx-prefix\src\vpx-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=RelWithDebInfo -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/src/vpx-stamp/vpx-install-RelWithDebInfo.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/src/vpx-stamp/RelWithDebInfo/vpx-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\DFBC71AB05315A9172D21428D5F04094\VPX-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/RelWithDebInfo/vpx-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/vpx-prefix/src/vpx-stamp/RelWithDebInfo/vpx-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\4F8D2079A2C607DF571A5B2018A916C2\VPX.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-SDK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

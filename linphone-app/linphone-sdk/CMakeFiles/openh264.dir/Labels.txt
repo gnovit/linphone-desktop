@@ -1,0 +1,13 @@
+# Target labels
+ openh264
+# Source files and their labels
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/openh264
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/4f8d2079a2c607df571a5b2018a916c2/openh264.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/dfbc71ab05315a9172d21428d5f04094/openh264-complete.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/cc5d5059cebe400baab198e14b15f33e/openh264-build.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/cc5d5059cebe400baab198e14b15f33e/openh264-configure.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/cc5d5059cebe400baab198e14b15f33e/openh264-download.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/cc5d5059cebe400baab198e14b15f33e/openh264-install.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/cc5d5059cebe400baab198e14b15f33e/openh264-mkdir.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/cc5d5059cebe400baab198e14b15f33e/openh264-patch.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/cc5d5059cebe400baab198e14b15f33e/openh264-update.rule

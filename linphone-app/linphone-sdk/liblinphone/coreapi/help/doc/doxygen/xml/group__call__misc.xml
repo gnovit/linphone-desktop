@@ -1,0 +1,2465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__call__misc" kind="group">
+    <compoundname>call_misc</compoundname>
+    <title>Call misc</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__call__misc_1ga685c73b5f684fc004da73eda5d7a425e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneSupportLevel</name>
+        <enumvalue id="group__call__misc_1gga685c73b5f684fc004da73eda5d7a425eacb07c8da8d417803237085db4f98cc42" prot="public">
+          <name>LinphoneSupportLevelNoSupport</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>No support for the feature. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__call__misc_1gga685c73b5f684fc004da73eda5d7a425ea68032e12a2216c74e3fb535a704a76e9" prot="public">
+          <name>LinphoneSupportLevelOptional</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Optional support for the feature. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__call__misc_1gga685c73b5f684fc004da73eda5d7a425ea12bd4138a944328175da2daf404cfc7d" prot="public">
+          <name>LinphoneSupportLevelMandatory</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>Mandatory support for the feature. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="257" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" bodystart="257" bodyend="261"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" prot="public" static="no">
+        <type>struct _LinphoneCallStats</type>
+        <definition>typedef struct _LinphoneCallStats LinphoneCallStats</definition>
+        <argsstring></argsstring>
+        <name>LinphoneCallStats</name>
+        <briefdescription>
+<para>This object carry various statistic informations regarding the quality of an audio or video stream for a given <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To receive these informations periodically and as soon as they are computed, implement the call_stats_updated() callback inside a <ref refid="group__initializing_1gaa4a52a9cdc319baccd2232dda6681f8f" kindref="member">LinphoneCoreCbs</ref>.</para>
+<para>At any time, the application can access latest computed statistics using <ref refid="group__call__misc_1ga166264d69512b6e799fcac2b21eb5e98" kindref="member">linphone_call_get_audio_stats()</ref> and <ref refid="group__call__misc_1ga68861baf3744cc418c8bbf80d454c9e2" kindref="member">linphone_call_get_video_stats()</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="252" column="33" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__call__misc_1ga892720dc748f26297358cdfd7b524845" prot="public" static="no">
+        <type>enum <ref refid="group__call__misc_1ga685c73b5f684fc004da73eda5d7a425e" kindref="member">_LinphoneSupportLevel</ref></type>
+        <definition>typedef enum _LinphoneSupportLevel LinphoneSupportLevel</definition>
+        <argsstring></argsstring>
+        <name>LinphoneSupportLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="261" column="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__call__misc_1ga170aa3e2a5f7deb7e43e4cfe1aabb9cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__initializing_1ga9a98644da41a4a2b6bf9ee57a94844ea" kindref="member">LinphoneStreamType</ref></type>
+        <definition>LinphoneStreamType linphone_call_stats_get_type</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_type</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the type of the stream the stats refer to. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__initializing_1ga9a98644da41a4a2b6bf9ee57a94844ea" kindref="member">LinphoneStreamType</ref> the stats refer to </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="86" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="86" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga4f67c9815b880887550873c592174b97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_sender_loss_rate</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_sender_loss_rate</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the local loss rate since last report. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The sender loss rate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="93" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="93" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga09496e326d7e82e4b15dbc427d384aa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_receiver_loss_rate</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_receiver_loss_rate</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Gets the remote reported loss rate since last report. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The receiver loss rate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="100" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="100" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga104bc8aa663b6dd37620bc3dfffaf2db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_local_loss_rate</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_local_loss_rate</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the local loss rate since last report. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The local loss rate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="107" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="107" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gaa92d37ad6efc20f9236db1e9d357014b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_local_late_rate</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_local_late_rate</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Gets the local late rate since last report. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The local late rate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="114" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="114" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gad83339416964a8b8b4a49cf17fc6cab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_sender_interarrival_jitter</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_sender_interarrival_jitter</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Gets the local interarrival jitter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The interarrival jitter at last emitted sender report </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="121" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="121" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gab8971fd9762ed6d98efc6bed24c46f2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_receiver_interarrival_jitter</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_receiver_interarrival_jitter</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Gets the remote reported interarrival jitter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The interarrival jitter at last received receiver report </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="128" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="128" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gacd032cb75cd5200e21517b7de1bf4da3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const rtp_stats_t *</type>
+        <definition>const rtp_stats_t * linphone_call_stats_get_rtp_stats</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_rtp_stats</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="130" column="20" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="130" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga96bb81b7deab4a7225524fa8a85c2a09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t linphone_call_stats_get_late_packets_cumulative_number</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_late_packets_cumulative_number</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Gets the cumulative number of late packets. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The cumulative number of late packets </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="137" column="11" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="137" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gae8435a45f96caefc4284575ead6ec636" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_download_bandwidth</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_download_bandwidth</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the bandwidth measurement of the received stream, expressed in kbit/s, including IP/UDP/RTP headers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The bandwidth measurement of the received stream in kbit/s. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="144" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="144" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga75d75cf70afffebed65b9bca234120db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_upload_bandwidth</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_upload_bandwidth</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the bandwidth measurement of the sent stream, expressed in kbit/s, including IP/UDP/RTP headers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The bandwidth measurement of the sent stream in kbit/s. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="151" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="151" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gaeb5560a000beb9fb6f821f01c4d56fde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_rtcp_download_bandwidth</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_rtcp_download_bandwidth</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the bandwidth measurement of the received RTCP, expressed in kbit/s, including IP/UDP/RTP headers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The bandwidth measurement of the received RTCP in kbit/s. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="158" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="158" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga18ff4c10a9408edf5ab866e82f06bd50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_rtcp_upload_bandwidth</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_rtcp_upload_bandwidth</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the bandwidth measurement of the sent RTCP, expressed in kbit/s, including IP/UDP/RTP headers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The bandwidth measurement of the sent RTCP in kbit/s. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="165" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="165" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gab00ca0a997c7f740948d474062fc663c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__initializing_1gaf4faffc512588eda7db03fab8b03adfb" kindref="member">LinphoneIceState</ref></type>
+        <definition>LinphoneIceState linphone_call_stats_get_ice_state</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_ice_state</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the state of ICE processing. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__initializing_1gaf4faffc512588eda7db03fab8b03adfb" kindref="member">LinphoneIceState</ref> of ICE processing </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="172" column="19" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="172" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gab475f621ff3a8a2e2d6faee0ca608f79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__initializing_1ga2c19554a0988f7600aec5c3a7588d61a" kindref="member">LinphoneUpnpState</ref></type>
+        <definition>LinphoneUpnpState linphone_call_stats_get_upnp_state</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_upnp_state</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the state of uPnP processing. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__initializing_1ga2c19554a0988f7600aec5c3a7588d61a" kindref="member">LinphoneUpnpState</ref> of uPnP processing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="179" column="20" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="179" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gaddfcf9f63906d60b775ae5d080c27ca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__initializing_1gafcd47f04afe4346b58f3ec48cde4c71d" kindref="member">LinphoneAddressFamily</ref></type>
+        <definition>LinphoneAddressFamily linphone_call_stats_get_ip_family_of_remote</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_ip_family_of_remote</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the IP address family of the remote peer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The IP address family <ref refid="group__initializing_1gafcd47f04afe4346b58f3ec48cde4c71d" kindref="member">LinphoneAddressFamily</ref> of the remote peer. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="186" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="186" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga3978b332ce2cb55bdbdc50c7e203de3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_jitter_buffer_size_ms</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_jitter_buffer_size_ms</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the jitter buffer size in ms. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The jitter buffer size in ms. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="193" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="193" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gabca589928a87a1de7d8f13ee44988023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_round_trip_delay</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_round_trip_delay</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the round trip delay in s. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The round trip delay in s. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="200" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="200" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gae9f4560816c26a37a8c6bd49e41e13bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_stats_get_estimated_download_bandwidth</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_estimated_download_bandwidth</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the estimated bandwidth measurement of the received stream, expressed in kbit/s, including IP/UDP/RTP headers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The estimated bandwidth measurement of the received stream in kbit/s. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="207" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="207" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gac89ecd62632199e4bc1ebaf243380388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_stats_set_estimated_download_bandwidth</definition>
+        <argsstring>(LinphoneCallStats *stats, float estimated_value)</argsstring>
+        <name>linphone_call_stats_set_estimated_download_bandwidth</name>
+        <param>
+          <type><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>estimated_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="209" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="209" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gad0f5e3f12fd99009ff285c8d16235911" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_call_stats_get_zrtp_cipher_algo</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_zrtp_cipher_algo</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the ZRTP algorithm statistics details (cipher) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The cipher algo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="216" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="216" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga96ff37b28fb136e11ea66661dcb460b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_call_stats_get_zrtp_key_agreement_algo</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_zrtp_key_agreement_algo</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the ZRTP algorithm statistics details (key agreeement) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The key agreement algo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="223" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="223" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gae272a90b5536bf71835ae98a02e27abd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_call_stats_is_zrtp_key_agreement_algo_post_quantum</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_is_zrtp_key_agreement_algo_post_quantum</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Did ZRTP used a Post Quantum algorithm to perform a key exchange. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if the ZRTP key exchange was performed using a PQ algo FALSE otherwise: ZRTP exchange not completed or not using a PQ algo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="231" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="231" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga8b40692f027cab9bec490076e0793fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_call_stats_get_zrtp_hash_algo</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_zrtp_hash_algo</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the ZRTP algorithm statistics details (hash function) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The hash algo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="238" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="238" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga56f5b58caf42ee128d2606f4d83f4146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_call_stats_get_zrtp_auth_tag_algo</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_zrtp_auth_tag_algo</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the ZRTP algorithm statistics details (authentication method) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The auth tag algo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="245" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="245" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gab74da13bc988fdc596c8c06c200181c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_call_stats_get_zrtp_sas_algo</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_zrtp_sas_algo</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the ZRTP algorithm statistics details (SAS display) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The sas algo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="252" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="252" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga84593b12b0cdc82e6a8915805a75895a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__media__parameters_1gaf3b477c654766aae9392742fd44883b0" kindref="member">LinphoneSrtpSuite</ref></type>
+        <definition>LinphoneSrtpSuite linphone_call_stats_get_srtp_suite</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_srtp_suite</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the SRTP Cryto suite in use. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The SRTP crypto suite currently in use <ref refid="group__media__parameters_1gaf3b477c654766aae9392742fd44883b0" kindref="member">LinphoneSrtpSuite</ref>  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="259" column="20" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="259" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga262a313550f248301cce3f54b384688d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__media__parameters_1ga61f5a2961ec43a0bd91eb1a664a6f111" kindref="member">LinphoneMediaEncryption</ref></type>
+        <definition>LinphoneMediaEncryption linphone_call_stats_get_srtp_source</definition>
+        <argsstring>(const LinphoneCallStats *stats)</argsstring>
+        <name>linphone_call_stats_get_srtp_source</name>
+        <param>
+          <type>const <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+          <declname>stats</declname>
+        </param>
+        <briefdescription>
+<para>Get the method used for SRTP key exchange. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__media__parameters_1ga61f5a2961ec43a0bd91eb1a664a6f111" kindref="member">LinphoneMediaEncryption</ref> method used to exchange the SRTP keys  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="266" column="26" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" declline="266" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga0c82bb92d42a800c8086fc65d198a5c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__chatroom_1ga37902f3fc715b7f6451c241d0efd0299" kindref="member">LinphoneChatRoom</ref> *</type>
+        <definition>LinphoneChatRoom * linphone_call_get_chat_room</definition>
+        <argsstring>(LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_chat_room</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Create a new chat room for real time messaging from a call if not already existing, else return existing one. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>No reference is given to the caller: the chat room will be deleted when the call is ended. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__chatroom_1ga37902f3fc715b7f6451c241d0efd0299" kindref="member">LinphoneChatRoom</ref> where real time messaging can take place or NULL if chat room couldn&apos;t be created.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="678" column="19" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="678" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga7ab4ce736e7057bb22c37ae53704ab10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_get_play_volume</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_play_volume</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Get the mesured playback volume level (received from remote) in dbm0. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The call.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>float Volume level in percentage. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="685" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="685" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga589349bd0ec06a4c99f209507ee17e6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_get_record_volume</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_record_volume</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Get the mesured record volume level (sent to remote) in dbm0. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The call.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>float Volume level in percentage. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="692" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="692" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga7331e4c738ec41d0eecde98fcd4491c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_get_speaker_volume_gain</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_speaker_volume_gain</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Get speaker volume gain. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the sound backend supports it, the returned gain is equal to the gain set with the system mixer. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The call.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Percentage of the max supported volume gain. Valid values are in [ 0.0 : 1.0 ]. In case of failure, a negative value is returned </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="702" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="702" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gaa89248d3121edc343324d298297db354" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_set_speaker_volume_gain</definition>
+        <argsstring>(LinphoneCall *call, float volume)</argsstring>
+        <name>linphone_call_set_speaker_volume_gain</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Set speaker volume gain. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the sound backend supports it, the new gain will synchronized with the system mixer. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The call.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Percentage of the max supported gain. Valid values are in [ 0.0 : 1.0 ]. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="710" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="710" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga3256a32cca5d521ccf85204eef665f85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_get_microphone_volume_gain</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_microphone_volume_gain</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Get microphone volume gain. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the sound backend supports it, the returned gain is equal to the gain set with the system mixer. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>double Percentage of the max supported volume gain. Valid values are in [ 0.0 : 1.0 ]. In case of failure, a negative value is returned </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="720" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="720" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga7a0fa668915898492c82558c7f8c176f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_set_microphone_volume_gain</definition>
+        <argsstring>(LinphoneCall *call, float volume)</argsstring>
+        <name>linphone_call_set_microphone_volume_gain</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Set microphone volume gain. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the sound backend supports it, the new gain will synchronized with the system mixer. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>volume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Percentage of the max supported gain. Valid values are in [ 0.0 : 1.0 ]. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="728" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="728" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga41143d45588ab38df374501def8bd464" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_call_get_speaker_muted</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_speaker_muted</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Get speaker muted state. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The speaker muted state. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="735" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="735" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga1586ae40d69acbc949877ee4a4a2a73b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_set_speaker_muted</definition>
+        <argsstring>(LinphoneCall *call, bool_t muted)</argsstring>
+        <name>linphone_call_set_speaker_muted</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>muted</declname>
+        </param>
+        <briefdescription>
+<para>Set speaker muted state. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>muted</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The speaker muted state. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="742" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="742" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gaa4a3d428aa5f5a508c2832f67e3c4408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_call_get_microphone_muted</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_microphone_muted</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Get microphone muted state. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Note that the microphone may be disabled globally if FALSE was given to <ref refid="group__media__parameters_1ga74d2e0275592b88bf4428c878a145398" kindref="member">linphone_core_enable_mic()</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The microphone muted state. </para>
+</simplesect>
+<simplesect kind="warning"><para>This method returns state of the mute capability of the call passed as argument. If this call is part of a conference, it is strongly recommended to call <ref refid="group__call__control_1ga346342005b685c98939ba88471bb1bd4" kindref="member">linphone_conference_get_microphone_muted()</ref> to know whether this device is muted or not. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="754" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="754" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga97fb8c093e7be390739a582290379741" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_set_microphone_muted</definition>
+        <argsstring>(LinphoneCall *call, bool_t muted)</argsstring>
+        <name>linphone_call_set_microphone_muted</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>muted</declname>
+        </param>
+        <briefdescription>
+<para>Set microphone muted state. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The boolean value given is applied logical-and with the value given to <ref refid="group__media__parameters_1ga74d2e0275592b88bf4428c878a145398" kindref="member">linphone_core_enable_mic()</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>muted</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The microphone muted state. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="warning"><para>This method only mutes the call passed as argument. If this call is part of a conference, it is strongly recommended to call <ref refid="group__call__control_1ga7c6c2b32b722d4f4180041517f88a3ae" kindref="member">linphone_conference_set_microphone_muted()</ref> to ensure that the setting is correctly apply across all participants and the conference callbacks are called. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="766" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="766" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga16a1a62828dedad5fee1f27899ded1cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_get_current_quality</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_current_quality</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Obtain real-time quality rating of the call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Based on local RTP statistics and RTCP feedback, a quality rating is computed and updated during all the duration of the call. This function returns its value at the time of the function call. It is expected that the rating is updated at least every 5 seconds or so. The rating is a floating point number comprised between 0 and 5.</para>
+<para>4-5 = good quality <linebreak/>
+ 3-4 = average quality <linebreak/>
+ 2-3 = poor quality <linebreak/>
+ 1-2 = very poor quality <linebreak/>
+ 0-1 = can&apos;t be worse, mostly unusable <linebreak/>
+</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function returns -1 if no quality measurement is available, for example if no active audio stream exist. Otherwise it returns the quality rating. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="786" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="786" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga0e2d258ab37189a70b945c01997c6599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_get_average_quality</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_average_quality</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Returns call quality averaged over all the duration of the call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See <ref refid="group__call__misc_1ga16a1a62828dedad5fee1f27899ded1cc" kindref="member">linphone_call_get_current_quality()</ref> for more details about quality measurement. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the call average quality since tbe beginning of the call. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="795" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="795" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gaa92c7b4c3443ff4ae29f7b57f57cfd35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_start_recording</definition>
+        <argsstring>(LinphoneCall *call)</argsstring>
+        <name>linphone_call_start_recording</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Starts call recording. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Video record is only available if this function is called in state StreamRunning. The output file where audio is recorded must be previously specified with <ref refid="group__call__control_1ga117ea1b2950f05b7ab45168f51d33b89" kindref="member">linphone_call_params_set_record_file()</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="803" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="803" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga2ef01b6aa5dc8ee76a77e5ef399a7907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_stop_recording</definition>
+        <argsstring>(LinphoneCall *call)</argsstring>
+        <name>linphone_call_stop_recording</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Stops call recording. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="809" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="809" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga773919f8e441fa3d79dfcf2e7addd20a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__control_1gae1497db82144ec61a4303c7e84d1603a" kindref="member">LinphonePlayer</ref> *</type>
+        <definition>LinphonePlayer * linphone_call_get_player</definition>
+        <argsstring>(LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_player</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Gets a player associated with the call to play a local file and stream it to the remote peer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A <ref refid="group__call__control_1gae1497db82144ec61a4303c7e84d1603a" kindref="member">LinphonePlayer</ref> object  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="816" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="816" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gab3af5f7149fe7928b44cacf7ea6c7b92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_call_media_in_progress</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_media_in_progress</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Indicates whether an operation is in progress at the media side. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It can be a bad idea to initiate signaling operations (adding video, pausing the call, removing video, changing video parameters) while the media is busy in establishing the connection (typically ICE connectivity checks). It can result in failures generating loss of time in future operations in the call. Applications are invited to check this function after each call state change to decide whether certain operations are permitted or not. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if media is busy in establishing the connection, FALSE otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="827" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="827" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga63f141edf90ea79f6461952ffd341f2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_ogl_render</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_ogl_render</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Calls generic OpenGL render for a given call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="833" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="833" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gad3ea082e47656c29ffc26443ce702d49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_call_send_info_message</definition>
+        <argsstring>(LinphoneCall *call, const LinphoneInfoMessage *info)</argsstring>
+        <name>linphone_call_send_info_message</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__misc_1ga6a66859069e2bfc80b782ebf2714dfcf" kindref="member">LinphoneInfoMessage</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Sends an info message through an established call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__misc_1ga6a66859069e2bfc80b782ebf2714dfcf" kindref="member">LinphoneInfoMessage</ref> to send  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="840" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="840" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga873ddb1d6930c986deae8f525023b28e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+        <definition>LinphoneCallStats * linphone_call_get_stats</definition>
+        <argsstring>(LinphoneCall *call, LinphoneStreamType type)</argsstring>
+        <name>linphone_call_get_stats</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type><ref refid="group__initializing_1ga9a98644da41a4a2b6bf9ee57a94844ea" kindref="member">LinphoneStreamType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns a copy of the call statistics for a particular stream type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__initializing_1ga9a98644da41a4a2b6bf9ee57a94844ea" kindref="member">LinphoneStreamType</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object for the given stream or NULL if stream isn&apos;t available.  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="848" column="20" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="848" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga166264d69512b6e799fcac2b21eb5e98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+        <definition>LinphoneCallStats * linphone_call_get_audio_stats</definition>
+        <argsstring>(LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_audio_stats</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Returns a copy of the call statistics for the audio stream. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object for the audio stream or NULL if it isn&apos;t available.  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="855" column="20" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="855" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga68861baf3744cc418c8bbf80d454c9e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+        <definition>LinphoneCallStats * linphone_call_get_video_stats</definition>
+        <argsstring>(LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_video_stats</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Returns a copy of the call statistics for the video stream. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object for the video stream or NULL if it isn&apos;t available.  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="862" column="20" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="862" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga533299f0d59301a6e8a231e604476d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> *</type>
+        <definition>LinphoneCallStats * linphone_call_get_text_stats</definition>
+        <argsstring>(LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_text_stats</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Returns a copy of the call statistics for the text stream. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a <ref refid="group__call__misc_1ga4d22764ac0e68a8d77670761429b2ee7" kindref="member">LinphoneCallStats</ref> object for the text stream or NULL if it isn&apos;t available.  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="869" column="20" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="869" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gaeffe3718b5b59d9614fc2ff26ae35273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_add_callbacks</definition>
+        <argsstring>(LinphoneCall *call, LinphoneCallCbs *cbs)</argsstring>
+        <name>linphone_call_add_callbacks</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type><ref refid="group__call__control_1gac16e901c67900cd8df5c9b78d238a8ae" kindref="member">LinphoneCallCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Add a listener in order to be notified of <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Once an event is received, registred <ref refid="group__call__control_1gac16e901c67900cd8df5c9b78d238a8ae" kindref="member">LinphoneCallCbs</ref> are invoked sequencially. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  to monitor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__call__control_1gac16e901c67900cd8df5c9b78d238a8ae" kindref="member">LinphoneCallCbs</ref> object holding the callbacks you need. A reference is taken by the <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> until you invoke <ref refid="group__call__misc_1ga37d635aec35a4435c98d9e149b39aab8" kindref="member">linphone_call_remove_callbacks()</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="878" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="878" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga37d635aec35a4435c98d9e149b39aab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_remove_callbacks</definition>
+        <argsstring>(LinphoneCall *call, LinphoneCallCbs *cbs)</argsstring>
+        <name>linphone_call_remove_callbacks</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type><ref refid="group__call__control_1gac16e901c67900cd8df5c9b78d238a8ae" kindref="member">LinphoneCallCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Remove a listener from a <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__control_1gac16e901c67900cd8df5c9b78d238a8ae" kindref="member">LinphoneCallCbs</ref> object to remove.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="885" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="885" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga37b308e845260617bced247a130d3d6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__control_1gac16e901c67900cd8df5c9b78d238a8ae" kindref="member">LinphoneCallCbs</ref> *</type>
+        <definition>LinphoneCallCbs * linphone_call_get_current_callbacks</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_current_callbacks</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Gets the current LinphoneCallCbs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is meant only to be called from a callback to be able to get the user_data associated with the <ref refid="group__call__control_1gac16e901c67900cd8df5c9b78d238a8ae" kindref="member">LinphoneCallCbs</ref> that is calling the callback. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__call__control_1gac16e901c67900cd8df5c9b78d238a8ae" kindref="member">LinphoneCallCbs</ref> that has called the last callback  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="894" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="894" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga0e8074f1545472346c138244d576de53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_set_params</definition>
+        <argsstring>(LinphoneCall *call, const LinphoneCallParams *params)</argsstring>
+        <name>linphone_call_set_params</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__call__control_1gaa91f7e76e8f038ae9acdf42d1bc80a22" kindref="member">LinphoneCallParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Set call parameters - advanced and not recommended feature - use with caution. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Local call parameters applicable to an outgoing or incoming shall usually be passed to <ref refid="group__call__control_1ga5c02bd84201e33877158aefc94f9d3ef" kindref="member">linphone_core_invite_address_with_params()</ref> or <ref refid="group__call__control_1ga0a39c513c2e89cdddd034195342befbd" kindref="member">linphone_call_accept_with_params()</ref>. However, in some cases it might be desirable from a software design standpoint to modify local parameters outside of the application layer, typically in the purpose of implementing a custom logic including special headers in INVITE or 200Ok requests, driven by a call_state_changed listener method. This function accepts to assign a new <ref refid="group__call__control_1gaa91f7e76e8f038ae9acdf42d1bc80a22" kindref="member">LinphoneCallParams</ref> only in LinphoneCallOutgoingInit and LinphoneCallIncomingReceived states.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__call__control_1gaa91f7e76e8f038ae9acdf42d1bc80a22" kindref="member">LinphoneCallParams</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="908" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="908" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga3e71a11801c3b498eaf441ddb3f6abed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__call__control_1gaa91f7e76e8f038ae9acdf42d1bc80a22" kindref="member">LinphoneCallParams</ref> *</type>
+        <definition>const LinphoneCallParams * linphone_call_get_params</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_params</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Returns local parameters associated with the call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is typically the parameters passed at call initiation to <ref refid="group__call__control_1ga5c02bd84201e33877158aefc94f9d3ef" kindref="member">linphone_core_invite_address_with_params()</ref> or <ref refid="group__call__control_1ga0a39c513c2e89cdddd034195342befbd" kindref="member">linphone_call_accept_with_params()</ref>, or some default parameters if no <ref refid="group__call__control_1gaa91f7e76e8f038ae9acdf42d1bc80a22" kindref="member">LinphoneCallParams</ref> was explicitely passed during call initiation. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the call&apos;s local parameters.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="918" column="27" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="918" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga9ae684cbe14c7179bb25a648f34a49f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_set_input_audio_device</definition>
+        <argsstring>(LinphoneCall *call, LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_call_set_input_audio_device</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type><ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Sets the given <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> as input for this call only. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>. NULL does nothing.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="925" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="925" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga873b29e9d7bf8afbd82bbc5bc3f47b5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_set_output_audio_device</definition>
+        <argsstring>(LinphoneCall *call, LinphoneAudioDevice *audio_device)</argsstring>
+        <name>linphone_call_set_output_audio_device</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type><ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>audio_device</declname>
+        </param>
+        <briefdescription>
+<para>Sets the given <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> as output for this call only. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>audio_device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref>. NULL does nothing.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="932" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="932" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gab47e3d3662200ddbc3e4ebb6a50cf5c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+        <definition>const LinphoneAudioDevice * linphone_call_get_input_audio_device</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_input_audio_device</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Gets the current input device for this call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> used by this call as input or NULL if there is currently no soundcard configured (depending on the state of the call)  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="940" column="28" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="940" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga81141b3508e027d4acab25a2f85a0de8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+        <definition>const LinphoneAudioDevice * linphone_call_get_output_audio_device</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_output_audio_device</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Gets the current output device for this call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> used by this call as output or NULL if there is currently no soundcard configured (depending on the state of the call)  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="948" column="28" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="948" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga858d9a6149f5f207c13e6e5a0147ba00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_notify_ringing</definition>
+        <argsstring>(LinphoneCall *call)</argsstring>
+        <name>linphone_call_notify_ringing</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Starts the process of replying 180 Ringing. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function is used in conjonction with <ref refid="group__buddy__list_1gabd1e0045d31a28d44e8ade4ccfd48234" kindref="member">linphone_core_enable_auto_send_ringing()</ref>. If the automatic sending of the 180 Ringing is disabled, this function needs to be called manually before the call timeouts.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="959" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="959" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga56d029270f1d000896e35fb584a22585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_set_video_source</definition>
+        <argsstring>(LinphoneCall *call, const LinphoneVideoSourceDescriptor *descriptor)</argsstring>
+        <name>linphone_call_set_video_source</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref> *</type>
+          <declname>descriptor</declname>
+        </param>
+        <briefdescription>
+<para>Sets the video source of a call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>descriptor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref> describing the video source to set  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="966" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="966" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga46d283e0fc831831ae32997fb89222a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref> *</type>
+        <definition>const LinphoneVideoSourceDescriptor * linphone_call_get_video_source</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_video_source</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Gets the video source of a call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref> describing the video source that is set  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="974" column="38" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="974" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gacc311de17b01355cd261782e93a68ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_confirm_go_clear</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_confirm_go_clear</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Method to be called after the user confirm that he/she is notifed of the on going Go Clear procedure. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="warning"><para>this operation must be imperatevely initiate by a user action on sending of the GoClear ACK </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="981" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="981" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga930edd930ae08222499dbf29afc1158a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_call_redirect</definition>
+        <argsstring>(LinphoneCall *call, const char *redirect_uri)</argsstring>
+        <name>linphone_call_redirect</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>redirect_uri</declname>
+        </param>
+        <briefdescription>
+<para>Redirect the specified call to the given redirect URI. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>redirect_uri</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URI to redirect the call to  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>0 if successful, -1 on error. </para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000305"><xreftitle>Deprecated</xreftitle><xrefdescription><para>27/10/2020. Use <ref refid="group__call__control_1ga00f6545da1fcf2f071542d6a0af46b99" kindref="member">linphone_call_redirect_to()</ref> instead. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="994" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="994" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gabc82ea0fde212db0ca3db1936cbeab37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_call_transfer</definition>
+        <argsstring>(LinphoneCall *call, const char *refer_to)</argsstring>
+        <name>linphone_call_transfer</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>refer_to</declname>
+        </param>
+        <briefdescription>
+<para>Performs a simple call transfer to the specified destination. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The remote endpoint is expected to issue a new call to the specified destination. The current call remains active and thus can be later paused or terminated. It is possible to follow the progress of the transfer provided that transferee sends notification about it. In this case, the transfer_state_changed callback of the <ref refid="group__initializing_1ga4a9062d64337d8246093ab2951aa3ff8" kindref="member">LinphoneCoreVTable</ref> is invoked to notify of the state of the new call at the other party. The notified states are LinphoneCallOutgoingInit , LinphoneCallOutgoingProgress, LinphoneCallOutgoingRinging and LinphoneCallConnected. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The call to be transfered  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refer_to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The destination the call is to be refered to.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>0 on success, -1 on failure </para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000306"><xreftitle>Deprecated</xreftitle><xrefdescription><para>27/10/2020. Use <ref refid="group__call__control_1ga6402eecbe3ca7c3cce317dc86e82ea0a" kindref="member">linphone_call_transfer_to()</ref> instead. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="1009" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="1009" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga2596e3158862614488c1f61bb29b67bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED char *</type>
+        <definition>MS2_DEPRECATED char * linphone_call_get_remote_address_as_string</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_get_remote_address_as_string</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Returns the remote address associated to this call as a string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The result string must be freed by user using ms_free(). <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the remote address as a string.  <maybenil />   <tobefreed />  </para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000307"><xreftitle>Deprecated</xreftitle><xrefdescription><para>06/07/2020 use <ref refid="group__call__control_1ga3db6329fc26bd971bbff1d754a455938" kindref="member">linphone_call_get_remote_address()</ref> instead. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="1018" column="22" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="1018" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gac1daa0e142fd2b121fb285f0d8ede73b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED void</type>
+        <definition>MS2_DEPRECATED void linphone_call_set_next_video_frame_decoded_callback</definition>
+        <argsstring>(LinphoneCall *call, LinphoneCallCbFunc cb, void *user_data)</argsstring>
+        <name>linphone_call_set_next_video_frame_decoded_callback</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type>LinphoneCallCbFunc</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>user_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000308"><xreftitle>Deprecated</xreftitle><xrefdescription><para>23/05/2018  <donotwrap />  </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="1025" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="1025" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1ga176687394df6d30f5dcd82ca43081dd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED void</type>
+        <definition>MS2_DEPRECATED void linphone_call_zoom_video</definition>
+        <argsstring>(LinphoneCall *call, float zoom_factor, float *cx, float *cy)</argsstring>
+        <name>linphone_call_zoom_video</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>zoom_factor</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>cx</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>cy</declname>
+        </param>
+        <briefdescription>
+<para>Perform a zoom of the video displayed during a call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>zoom_factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a floating point number describing the zoom factor. A value 1.0 corresponds to no zoom applied. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a floating point number pointing the horizontal center of the zoom to be applied. This value should be between 0.0 and 1.0. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a floating point number pointing the vertical center of the zoom to be applied. This value should be between 0.0 and 1.0. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<xrefsect id="deprecated_1_deprecated000309"><xreftitle>Deprecated</xreftitle><xrefdescription><para>16/10/2017 use linphone_call_zoom instead  <donotwrap />  cx and cy are updated in return in case their coordinates were too excentrated for the requested zoom factor. The zoom ensures that all the screen is fullfilled with the video. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="1041" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="1041" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gae2b51ebde1d5ee6948e9a3f45f0761c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED bool_t</type>
+        <definition>MS2_DEPRECATED bool_t linphone_call_is_in_conference</definition>
+        <argsstring>(const LinphoneCall *call)</argsstring>
+        <name>linphone_call_is_in_conference</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Return TRUE if this call is currently part of a conference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if part of a conference. </para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000310"><xreftitle>Deprecated</xreftitle><xrefdescription><para>21/09/2017 Use <ref refid="group__call__control_1ga5c960f2f823dbd4c3147eeda451d6938" kindref="member">linphone_call_get_conference()</ref> instead.  <donotwrap />  </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="1050" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="1050" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__misc_1gaf15689118e68b1acba07363e036f0059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED bool_t</type>
+        <definition>MS2_DEPRECATED bool_t linphone_call_is_recording</definition>
+        <argsstring>(LinphoneCall *call)</argsstring>
+        <name>linphone_call_is_recording</name>
+        <param>
+          <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+<para>Returns whether or not the call is currently being recorded. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> for which we can to know the recording state  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if recording is in progress, FALSE otherwise </para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000311"><xreftitle>Deprecated</xreftitle><xrefdescription><para>15/09/2021 Use <ref refid="group__call__control_1gac455b4dc9c9b050f5514eb2b3b9bd631" kindref="member">linphone_call_params_is_recording()</ref> instead. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" line="1058" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call.h" declline="1058" declcolumn="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group__call__misc_1ga537911929e31ed4ca388ff40a37f97de" prot="public" static="no">
+        <name>LINPHONE_VOLUME_DB_LOWEST</name>
+        <initializer>(-120) /* WARNING: keep this in sync with mediastreamer2/msvolume.h */</initializer>
+        <briefdescription>
+<para>Lowest volume measurement that can be returned by <ref refid="group__call__misc_1ga7ab4ce736e7057bb22c37ae53704ab10" kindref="member">linphone_call_get_play_volume()</ref> or <ref refid="group__call__misc_1ga589349bd0ec06a4c99f209507ee17e6c" kindref="member">linphone_call_get_record_volume()</ref>, corresponding to pure silence. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="35" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__call__misc_1ga3aaf768a67bef73e3798ff1352a03523" prot="public" static="no">
+        <name>LINPHONE_CALL_STATS_AUDIO</name>
+        <initializer>((int)LinphoneStreamTypeAudio)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="40" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__call__misc_1ga7e84e05e3fa3bac2517ce5921558b4db" prot="public" static="no">
+        <name>LINPHONE_CALL_STATS_VIDEO</name>
+        <initializer>((int)LinphoneStreamTypeVideo)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="41" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__call__misc_1gafff083100e9c3c915325df68a5d4eafb" prot="public" static="no">
+        <name>LINPHONE_CALL_STATS_TEXT</name>
+        <initializer>((int)LinphoneStreamTypeText)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="42" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__call__misc_1ga7bb50ca7cd1f49ebea13eec5136ef00e" prot="public" static="no">
+        <name>LINPHONE_CALL_STATS_RECEIVED_RTCP_UPDATE</name>
+        <initializer>	(1 &lt;&lt; 0)</initializer>
+        <briefdescription>
+<para>received_rtcp field of LinphoneCallStats object has been updated </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="44" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" bodystart="44" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="define" id="group__call__misc_1ga4418b7518b1479e9329b6de4129ed8c9" prot="public" static="no">
+        <name>LINPHONE_CALL_STATS_SENT_RTCP_UPDATE</name>
+        <initializer>	(1 &lt;&lt; 1)</initializer>
+        <briefdescription>
+<para>sent_rtcp field of LinphoneCallStats object has been updated </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="46" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" bodystart="46" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="define" id="group__call__misc_1ga0cb8916aede3c1a00a6e9aa176bf4093" prot="public" static="no">
+        <name>LINPHONE_CALL_STATS_PERIODICAL_UPDATE</name>
+        <initializer>(1 &lt;&lt; 2)</initializer>
+        <briefdescription>
+<para>Every seconds LinphoneCallStats object has been updated. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" line="48" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-stats.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Obtaining information about a running call: sound volumes, quality indicators. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>When a call is running, it is possible to retrieve in real time current measured volumes and quality indicator. </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

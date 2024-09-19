@@ -1,0 +1,288 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JCCOLOR-AVX2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jccolor-avx2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jccolor-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JCCOLOR-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jccolor-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jccolor-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JCGRAY-AVX2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jcgray-avx2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jcgray-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JCGRAY-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jcgray-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jcgray-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JCHUFF-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jchuff-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jchuff-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JCPHUFF-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jcphuff-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jcphuff-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JCSAMPLE-AVX2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jcsample-avx2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jcsample-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JCSAMPLE-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jcsample-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jcsample-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JDCOLOR-AVX2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jdcolor-avx2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jdcolor-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JDCOLOR-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jdcolor-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jdcolor-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JDMERGE-AVX2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jdmerge-avx2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jdmerge-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JDMERGE-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jdmerge-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jdmerge-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JDSAMPLE-AVX2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jdsample-avx2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jdsample-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JDSAMPLE-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jdsample-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jdsample-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JFDCTFLT-SSE.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jfdctflt-sse.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jfdctflt-sse.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JFDCTFST-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jfdctfst-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jfdctfst-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JFDCTINT-AVX2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jfdctint-avx2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jfdctint-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JFDCTINT-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jfdctint-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jfdctint-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JIDCTFLT-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jidctflt-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jidctflt-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JIDCTFST-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jidctfst-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jidctfst-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JIDCTINT-AVX2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jidctint-avx2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jidctint-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JIDCTINT-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jidctint-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jidctint-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JIDCTRED-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jidctred-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jidctred-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JQUANTF-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jquantf-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jquantf-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JQUANTI-AVX2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jquanti-avx2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jquanti-avx2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JQUANTI-SSE2.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jquanti-sse2.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jquanti-sse2.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\98AEDA43317BE81B558FCEE8739C825A\JSIMDCPU.ASM.OBJ.RULE
+setlocal
+"C:\Program Files\NASM\nasm.exe" -fwin64 -DWIN64 -D__x86_64__ -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/nasm/" -I"D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/" D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libjpeg-turbo/simd/x86_64/jsimdcpu.asm -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/RelWithDebInfo/jsimdcpu.asm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\D9B999C9BD777A16447ECBCA9BC27863\SIMD-OBJS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-SDK\EXTERNAL\LIBJPEG-TURBO\SIMD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/libjpeg-turbo/simd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

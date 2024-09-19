@@ -1,0 +1,1463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classFlexiAPIClient" kind="class" language="C++" prot="public">
+    <compoundname>FlexiAPIClient</compoundname>
+    <innerclass refid="classFlexiAPIClient_1_1Callbacks" prot="public">FlexiAPIClient::Callbacks</innerclass>
+    <innerclass refid="classFlexiAPIClient_1_1JsonParams" prot="public">FlexiAPIClient::JsonParams</innerclass>
+    <innerclass refid="classFlexiAPIClient_1_1Response" prot="public">FlexiAPIClient::Response</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classFlexiAPIClient_1a3014a9b94c08fbd2125f3849aee5d6fc" prot="private" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+        <definition>LinphoneCore* FlexiAPIClient::mCore</definition>
+        <argsstring></argsstring>
+        <name>mCore</name>
+        <qualifiedname>FlexiAPIClient::mCore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="156" column="14" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFlexiAPIClient_1a4a1b92dd4bfc5a66b24e0d9de06d660c" prot="private" static="no" mutable="no">
+        <type>shared_ptr&lt; <ref refid="classFlexiAPIClient_1_1Callbacks" kindref="compound">Callbacks</ref> &gt;</type>
+        <definition>shared_ptr&lt;Callbacks&gt; FlexiAPIClient::mRequestCallbacks</definition>
+        <argsstring></argsstring>
+        <name>mRequestCallbacks</name>
+        <qualifiedname>FlexiAPIClient::mRequestCallbacks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="157" column="12" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFlexiAPIClient_1a3c405f31e59de5bae6dea3f1775c770f" prot="private" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* FlexiAPIClient::mApiKey</definition>
+        <argsstring></argsstring>
+        <name>mApiKey</name>
+        <qualifiedname>FlexiAPIClient::mApiKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="158" column="12" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFlexiAPIClient_1ad2dfbff6c578bf08058d3ade9b2f7340" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FlexiAPIClient::mUseTestAdminAccount</definition>
+        <argsstring></argsstring>
+        <name>mUseTestAdminAccount</name>
+        <qualifiedname>FlexiAPIClient::mUseTestAdminAccount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="159" column="6" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFlexiAPIClient_1aaa262413c205a22df7bb7befca6d2a2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FlexiAPIClient::FlexiAPIClient</definition>
+        <argsstring>(LinphoneCore *lc)</argsstring>
+        <name>FlexiAPIClient</name>
+        <qualifiedname>FlexiAPIClient::FlexiAPIClient</qualifiedname>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>lc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1afcb2421021a41bc7bbafbbd30066cb39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::ping</definition>
+        <argsstring>()</argsstring>
+        <name>ping</name>
+        <qualifiedname>FlexiAPIClient::ping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="79" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1afd1acac7de2d44ce2ba72817c686b4cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::sendAccountCreationToken</definition>
+        <argsstring>()</argsstring>
+        <name>sendAccountCreationToken</name>
+        <qualifiedname>FlexiAPIClient::sendAccountCreationToken</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="80" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1af84d0a4bc2f1ba3da9b30733746e0c6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::sendAccountCreationTokenByPush</definition>
+        <argsstring>(string pnProvider, string pnParam, string pnPrid)</argsstring>
+        <name>sendAccountCreationTokenByPush</name>
+        <qualifiedname>FlexiAPIClient::sendAccountCreationTokenByPush</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>pnProvider</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pnParam</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pnPrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="81" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a399e92c8175c138e2931b3aa076aab63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountCreationRequestToken</definition>
+        <argsstring>()</argsstring>
+        <name>accountCreationRequestToken</name>
+        <qualifiedname>FlexiAPIClient::accountCreationRequestToken</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="82" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a7fc0a8f597789fef851ae170a074ab3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountCreationTokenUsingRequestToken</definition>
+        <argsstring>(string token)</argsstring>
+        <name>accountCreationTokenUsingRequestToken</name>
+        <qualifiedname>FlexiAPIClient::accountCreationTokenUsingRequestToken</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="83" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a63777557d38d9745f5cbe425568a099b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountCreateWithAccountCreationToken</definition>
+        <argsstring>(string username, string password, string algorithm, string token)</argsstring>
+        <name>accountCreateWithAccountCreationToken</name>
+        <qualifiedname>FlexiAPIClient::accountCreateWithAccountCreationToken</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1ad39283bfad5f41dc64b296118b4d588e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountCreateWithAccountCreationToken</definition>
+        <argsstring>(string username, string domain, string password, string algorithm, string token)</argsstring>
+        <name>accountCreateWithAccountCreationToken</name>
+        <qualifiedname>FlexiAPIClient::accountCreateWithAccountCreationToken</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>domain</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="86" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1af93e08223d20649d59b5ab69f075d88c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountInfo</definition>
+        <argsstring>(string sip)</argsstring>
+        <name>accountInfo</name>
+        <qualifiedname>FlexiAPIClient::accountInfo</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>sip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="88" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1ac357c2574523d9602fcec98264e5d72f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountActivateEmail</definition>
+        <argsstring>(string sip, string code)</argsstring>
+        <name>accountActivateEmail</name>
+        <qualifiedname>FlexiAPIClient::accountActivateEmail</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>sip</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="89" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a95cdd7a3c2de2444ddc5be5b989c8c47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountActivatePhone</definition>
+        <argsstring>(string sip, string code)</argsstring>
+        <name>accountActivatePhone</name>
+        <qualifiedname>FlexiAPIClient::accountActivatePhone</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>sip</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="90" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1affa4fd65c040b0018f76a6df9c281dcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountAuthTokenCreate</definition>
+        <argsstring>()</argsstring>
+        <name>accountAuthTokenCreate</name>
+        <qualifiedname>FlexiAPIClient::accountAuthTokenCreate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="91" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a67e859494eb52ef262e64f8ed348e1e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountApiKeyFromAuthTokenGenerate</definition>
+        <argsstring>(string authToken)</argsstring>
+        <name>accountApiKeyFromAuthTokenGenerate</name>
+        <qualifiedname>FlexiAPIClient::accountApiKeyFromAuthTokenGenerate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>authToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="92" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a6ba5081c50b413a778a17a769fc2d60e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountInfoByPhone</definition>
+        <argsstring>(string phone)</argsstring>
+        <name>accountInfoByPhone</name>
+        <qualifiedname>FlexiAPIClient::accountInfoByPhone</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>phone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="95" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1aadf92f82a4a4e4557cc2be25f76a9e3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountRecoverByPhone</definition>
+        <argsstring>(string phone, string token)</argsstring>
+        <name>accountRecoverByPhone</name>
+        <qualifiedname>FlexiAPIClient::accountRecoverByPhone</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>phone</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="96" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a627bbc6d9be0e13f6ad7490d0f984a59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountRecoverUsingRecoverKey</definition>
+        <argsstring>(string sip, string recoverKey)</argsstring>
+        <name>accountRecoverUsingRecoverKey</name>
+        <qualifiedname>FlexiAPIClient::accountRecoverUsingRecoverKey</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>sip</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>recoverKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="97" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a1edf87e72df7ed1be7e0da9ad246ccc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountCreate</definition>
+        <argsstring>(string username, string password, string email)</argsstring>
+        <name>accountCreate</name>
+        <qualifiedname>FlexiAPIClient::accountCreate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="98" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1afbaa496c20384e5db3b35dda86dfcb98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountCreate</definition>
+        <argsstring>(string username, string password, string algorithm, string domain, string email, string phone, string token)</argsstring>
+        <name>accountCreate</name>
+        <qualifiedname>FlexiAPIClient::accountCreate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>domain</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>phone</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="99" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a337916daf235110f8f069a8e7e90ed9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::me</definition>
+        <argsstring>()</argsstring>
+        <name>me</name>
+        <qualifiedname>FlexiAPIClient::me</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="103" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1ae17ca81d328c6c8cd19968d9f18185dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountDelete</definition>
+        <argsstring>()</argsstring>
+        <name>accountDelete</name>
+        <qualifiedname>FlexiAPIClient::accountDelete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="104" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a58883610defd257d4d6b2b4298cb8cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountPasswordChange</definition>
+        <argsstring>(string algorithm, string password)</argsstring>
+        <name>accountPasswordChange</name>
+        <qualifiedname>FlexiAPIClient::accountPasswordChange</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="105" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a18a25b97be5052fa331574f64f3857b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountPasswordChange</definition>
+        <argsstring>(string algorithm, string password, string oldPassword)</argsstring>
+        <name>accountPasswordChange</name>
+        <qualifiedname>FlexiAPIClient::accountPasswordChange</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>oldPassword</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="106" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a2d25cc72c668a2f89493990b69050bc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountDevices</definition>
+        <argsstring>()</argsstring>
+        <name>accountDevices</name>
+        <qualifiedname>FlexiAPIClient::accountDevices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="107" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1aed70a229b032758f8bccad964905a7cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountDevice</definition>
+        <argsstring>(string uuid)</argsstring>
+        <name>accountDevice</name>
+        <qualifiedname>FlexiAPIClient::accountDevice</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>uuid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="108" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1ac76678b8ac6b734d8ff1a1796a6b0cdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountContacts</definition>
+        <argsstring>()</argsstring>
+        <name>accountContacts</name>
+        <qualifiedname>FlexiAPIClient::accountContacts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="109" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1aa3e30693fce36cb25311488f68a360e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountContact</definition>
+        <argsstring>(string sip)</argsstring>
+        <name>accountContact</name>
+        <qualifiedname>FlexiAPIClient::accountContact</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>sip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="110" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a0d99d6926d0db88995c520431f602870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountEmailChangeRequest</definition>
+        <argsstring>(string email)</argsstring>
+        <name>accountEmailChangeRequest</name>
+        <qualifiedname>FlexiAPIClient::accountEmailChangeRequest</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="111" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a05538251bf09a321df6cde6795590735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountPhoneChangeRequest</definition>
+        <argsstring>(string phone)</argsstring>
+        <name>accountPhoneChangeRequest</name>
+        <qualifiedname>FlexiAPIClient::accountPhoneChangeRequest</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>phone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="112" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1ad7bfa4e08e882dfa537b7d8d0e93243c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountPhoneChange</definition>
+        <argsstring>(string code)</argsstring>
+        <name>accountPhoneChange</name>
+        <qualifiedname>FlexiAPIClient::accountPhoneChange</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="113" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a56a382e7cdd58844f17113ce82441422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountAuthTokenAttach</definition>
+        <argsstring>(string authToken)</argsstring>
+        <name>accountAuthTokenAttach</name>
+        <qualifiedname>FlexiAPIClient::accountAuthTokenAttach</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>authToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="114" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a5d8007787c32dd86789b2e447c9f0cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountProvision</definition>
+        <argsstring>()</argsstring>
+        <name>accountProvision</name>
+        <qualifiedname>FlexiAPIClient::accountProvision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="115" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a540a14f80767afd41716d5e03d67f8a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::accountProvisioningInformation</definition>
+        <argsstring>(string provisioningToken)</argsstring>
+        <name>accountProvisioningInformation</name>
+        <qualifiedname>FlexiAPIClient::accountProvisioningInformation</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>provisioningToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="116" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1af540afc111c2bccce18aed39417e7288" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountCreate</definition>
+        <argsstring>(string username, string password, string algorithm)</argsstring>
+        <name>adminAccountCreate</name>
+        <qualifiedname>FlexiAPIClient::adminAccountCreate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="119" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a86407afe52ff04cb6e8272468601c693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountCreate</definition>
+        <argsstring>(string username, string password, string algorithm, string domain)</argsstring>
+        <name>adminAccountCreate</name>
+        <qualifiedname>FlexiAPIClient::adminAccountCreate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>domain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="120" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1accbbd8c239912857a53cee95a15b5299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountCreate</definition>
+        <argsstring>(string username, string password, string algorithm, bool activated)</argsstring>
+        <name>adminAccountCreate</name>
+        <qualifiedname>FlexiAPIClient::adminAccountCreate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>activated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="121" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1ad693b2513531f9e803d33f74fb0509e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountCreate</definition>
+        <argsstring>(string username, string password, string algorithm, string domain, bool activated)</argsstring>
+        <name>adminAccountCreate</name>
+        <qualifiedname>FlexiAPIClient::adminAccountCreate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>domain</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>activated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1af30dad8ee8c23cce87e4f1a27bd5402b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountCreate</definition>
+        <argsstring>(string username, string password, string algorithm, string domain, bool activated, string email)</argsstring>
+        <name>adminAccountCreate</name>
+        <qualifiedname>FlexiAPIClient::adminAccountCreate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>domain</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>activated</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="125" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a9461b0a074b7bc9b1fd339563447b941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountCreate</definition>
+        <argsstring>(string username, string password, string algorithm, string domain, bool activated, string email, string phone)</argsstring>
+        <name>adminAccountCreate</name>
+        <qualifiedname>FlexiAPIClient::adminAccountCreate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>domain</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>activated</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>phone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="126" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a68cf962af2939a8407ea8fd4faf2cde2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountCreate</definition>
+        <argsstring>(string username, string password, string algorithm, string domain, bool activated, string email, string phone, string dtmfProtocol)</argsstring>
+        <name>adminAccountCreate</name>
+        <qualifiedname>FlexiAPIClient::adminAccountCreate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>algorithm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>domain</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>activated</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>phone</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dtmfProtocol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="128" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1aa57f64fb137f3568ff47f36441abc339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccounts</definition>
+        <argsstring>()</argsstring>
+        <name>adminAccounts</name>
+        <qualifiedname>FlexiAPIClient::adminAccounts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="136" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a43215d3ee65dfce039fb028fb42ac50c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccount</definition>
+        <argsstring>(int id)</argsstring>
+        <name>adminAccount</name>
+        <qualifiedname>FlexiAPIClient::adminAccount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="137" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1ae217a8e02cd9faef61ae021561486657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountDelete</definition>
+        <argsstring>(int id)</argsstring>
+        <name>adminAccountDelete</name>
+        <qualifiedname>FlexiAPIClient::adminAccountDelete</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="138" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a457a6cc005d8c03764842dcec69d19f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountActivate</definition>
+        <argsstring>(int id)</argsstring>
+        <name>adminAccountActivate</name>
+        <qualifiedname>FlexiAPIClient::adminAccountActivate</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="139" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a6adc217331f247682fa7ea9cd1fc8101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountDeactivate</definition>
+        <argsstring>(int id)</argsstring>
+        <name>adminAccountDeactivate</name>
+        <qualifiedname>FlexiAPIClient::adminAccountDeactivate</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="140" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1ad1553b616502729fd339e4e76972596f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountSearch</definition>
+        <argsstring>(string sip)</argsstring>
+        <name>adminAccountSearch</name>
+        <qualifiedname>FlexiAPIClient::adminAccountSearch</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>sip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="141" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1ad612252b8a3b07c46639ba61ea4f39cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountContacts</definition>
+        <argsstring>(int id)</argsstring>
+        <name>adminAccountContacts</name>
+        <qualifiedname>FlexiAPIClient::adminAccountContacts</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="143" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1aacbc5ddbdb21da2c07d4e74db93c7279" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountContactAdd</definition>
+        <argsstring>(int id, int contactId)</argsstring>
+        <name>adminAccountContactAdd</name>
+        <qualifiedname>FlexiAPIClient::adminAccountContactAdd</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>contactId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="144" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a093fed94de2b9f6fcf43b59fd5b641f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::adminAccountContactDelete</definition>
+        <argsstring>(int id, int contactId)</argsstring>
+        <name>adminAccountContactDelete</name>
+        <qualifiedname>FlexiAPIClient::adminAccountContactDelete</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>contactId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="145" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a0fa6bb2cfa413a549805c7c7e8bc102d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::setApiKey</definition>
+        <argsstring>(const char *key)</argsstring>
+        <name>setApiKey</name>
+        <qualifiedname>FlexiAPIClient::setApiKey</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="148" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a4d104744b8eb2b487e8e74aada78d89e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::useTestAdminAccount</definition>
+        <argsstring>(bool test)</argsstring>
+        <name>useTestAdminAccount</name>
+        <qualifiedname>FlexiAPIClient::useTestAdminAccount</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>test</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="149" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a443c992e18cce17faf6240cf9883d999" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::then</definition>
+        <argsstring>(const function&lt; void(Response)&gt; &amp;success)</argsstring>
+        <name>then</name>
+        <qualifiedname>FlexiAPIClient::then</qualifiedname>
+        <param>
+          <type>const function&lt; void(<ref refid="classFlexiAPIClient_1_1Response" kindref="compound">Response</ref>)&gt; &amp;</type>
+          <declname>success</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="152" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a783888abde283ee87bcfece1d5efcb0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classFlexiAPIClient" kindref="compound">FlexiAPIClient</ref> *</type>
+        <definition>FlexiAPIClient * FlexiAPIClient::error</definition>
+        <argsstring>(const function&lt; void(Response)&gt; &amp;error)</argsstring>
+        <name>error</name>
+        <qualifiedname>FlexiAPIClient::error</qualifiedname>
+        <param>
+          <type>const function&lt; void(<ref refid="classFlexiAPIClient_1_1Response" kindref="compound">Response</ref>)&gt; &amp;</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="153" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classFlexiAPIClient_1ae1d0f3e7fd5117ce0d806083102be3c6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexiAPIClient::prepareAndSendRequest</definition>
+        <argsstring>(string path)</argsstring>
+        <name>prepareAndSendRequest</name>
+        <qualifiedname>FlexiAPIClient::prepareAndSendRequest</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="161" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a2481b786fc8ea26e6c152dac4b0afd38" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexiAPIClient::prepareAndSendRequest</definition>
+        <argsstring>(string path, string type)</argsstring>
+        <name>prepareAndSendRequest</name>
+        <qualifiedname>FlexiAPIClient::prepareAndSendRequest</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="162" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1abdf7760afb788e9663ea54f80ac0760d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexiAPIClient::prepareAndSendRequest</definition>
+        <argsstring>(string path, string type, JsonParams params)</argsstring>
+        <name>prepareAndSendRequest</name>
+        <qualifiedname>FlexiAPIClient::prepareAndSendRequest</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classFlexiAPIClient_1_1JsonParams" kindref="compound">JsonParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="163" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a7aa25683085dd526ac436aa04ec2fc0e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexiAPIClient::prepareAndSendRootRequest</definition>
+        <argsstring>(string path, string type, string contentSubtype)</argsstring>
+        <name>prepareAndSendRootRequest</name>
+        <qualifiedname>FlexiAPIClient::prepareAndSendRootRequest</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>contentSubtype</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="164" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a41ded1979b1b9ee9958328b7891c5585" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string FlexiAPIClient::urlEncode</definition>
+        <argsstring>(const string &amp;value)</argsstring>
+        <name>urlEncode</name>
+        <qualifiedname>FlexiAPIClient::urlEncode</qualifiedname>
+        <param>
+          <type>const string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="169" column="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classFlexiAPIClient_1acaa99f93c3cb705a780b237492146724" prot="private" static="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FlexiAPIClient::processResponse</definition>
+        <argsstring>(void *ctx, const belle_http_response_event_t *event) noexcept</argsstring>
+        <name>processResponse</name>
+        <qualifiedname>FlexiAPIClient::processResponse</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const belle_http_response_event_t *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="165" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1aafeafbcaf92aeced4246de517c85e4fa" prot="private" static="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FlexiAPIClient::processIoError</definition>
+        <argsstring>(void *ctx, const belle_sip_io_error_event_t *event) noexcept</argsstring>
+        <name>processIoError</name>
+        <qualifiedname>FlexiAPIClient::processIoError</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const belle_sip_io_error_event_t *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="166" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1a834139235f7077e2ab582f436fcf2a27" prot="private" static="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FlexiAPIClient::processTimeout</definition>
+        <argsstring>(void *ctx, const belle_sip_timeout_event_t *event) noexcept</argsstring>
+        <name>processTimeout</name>
+        <qualifiedname>FlexiAPIClient::processTimeout</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const belle_sip_timeout_event_t *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="167" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1abdbe17188bda902576c618e39376bea3" prot="private" static="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FlexiAPIClient::processAuthRequested</definition>
+        <argsstring>(void *ctx, belle_sip_auth_event_t *event) noexcept</argsstring>
+        <name>processAuthRequested</name>
+        <qualifiedname>FlexiAPIClient::processAuthRequested</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>belle_sip_auth_event_t *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="168" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="39" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="39" bodyend="170"/>
+    <listofallmembers>
+      <member refid="classFlexiAPIClient_1ac357c2574523d9602fcec98264e5d72f" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountActivateEmail</name></member>
+      <member refid="classFlexiAPIClient_1a95cdd7a3c2de2444ddc5be5b989c8c47" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountActivatePhone</name></member>
+      <member refid="classFlexiAPIClient_1a67e859494eb52ef262e64f8ed348e1e7" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountApiKeyFromAuthTokenGenerate</name></member>
+      <member refid="classFlexiAPIClient_1a56a382e7cdd58844f17113ce82441422" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountAuthTokenAttach</name></member>
+      <member refid="classFlexiAPIClient_1affa4fd65c040b0018f76a6df9c281dcb" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountAuthTokenCreate</name></member>
+      <member refid="classFlexiAPIClient_1aa3e30693fce36cb25311488f68a360e8" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountContact</name></member>
+      <member refid="classFlexiAPIClient_1ac76678b8ac6b734d8ff1a1796a6b0cdb" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountContacts</name></member>
+      <member refid="classFlexiAPIClient_1a1edf87e72df7ed1be7e0da9ad246ccc7" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountCreate</name></member>
+      <member refid="classFlexiAPIClient_1afbaa496c20384e5db3b35dda86dfcb98" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountCreate</name></member>
+      <member refid="classFlexiAPIClient_1a63777557d38d9745f5cbe425568a099b" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountCreateWithAccountCreationToken</name></member>
+      <member refid="classFlexiAPIClient_1ad39283bfad5f41dc64b296118b4d588e" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountCreateWithAccountCreationToken</name></member>
+      <member refid="classFlexiAPIClient_1a399e92c8175c138e2931b3aa076aab63" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountCreationRequestToken</name></member>
+      <member refid="classFlexiAPIClient_1a7fc0a8f597789fef851ae170a074ab3e" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountCreationTokenUsingRequestToken</name></member>
+      <member refid="classFlexiAPIClient_1ae17ca81d328c6c8cd19968d9f18185dc" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountDelete</name></member>
+      <member refid="classFlexiAPIClient_1aed70a229b032758f8bccad964905a7cf" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountDevice</name></member>
+      <member refid="classFlexiAPIClient_1a2d25cc72c668a2f89493990b69050bc1" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountDevices</name></member>
+      <member refid="classFlexiAPIClient_1a0d99d6926d0db88995c520431f602870" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountEmailChangeRequest</name></member>
+      <member refid="classFlexiAPIClient_1af93e08223d20649d59b5ab69f075d88c" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountInfo</name></member>
+      <member refid="classFlexiAPIClient_1a6ba5081c50b413a778a17a769fc2d60e" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountInfoByPhone</name></member>
+      <member refid="classFlexiAPIClient_1a58883610defd257d4d6b2b4298cb8cb7" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountPasswordChange</name></member>
+      <member refid="classFlexiAPIClient_1a18a25b97be5052fa331574f64f3857b1" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountPasswordChange</name></member>
+      <member refid="classFlexiAPIClient_1ad7bfa4e08e882dfa537b7d8d0e93243c" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountPhoneChange</name></member>
+      <member refid="classFlexiAPIClient_1a05538251bf09a321df6cde6795590735" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountPhoneChangeRequest</name></member>
+      <member refid="classFlexiAPIClient_1a5d8007787c32dd86789b2e447c9f0cee" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountProvision</name></member>
+      <member refid="classFlexiAPIClient_1a540a14f80767afd41716d5e03d67f8a4" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountProvisioningInformation</name></member>
+      <member refid="classFlexiAPIClient_1aadf92f82a4a4e4557cc2be25f76a9e3e" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountRecoverByPhone</name></member>
+      <member refid="classFlexiAPIClient_1a627bbc6d9be0e13f6ad7490d0f984a59" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>accountRecoverUsingRecoverKey</name></member>
+      <member refid="classFlexiAPIClient_1a43215d3ee65dfce039fb028fb42ac50c" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccount</name></member>
+      <member refid="classFlexiAPIClient_1a457a6cc005d8c03764842dcec69d19f4" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountActivate</name></member>
+      <member refid="classFlexiAPIClient_1aacbc5ddbdb21da2c07d4e74db93c7279" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountContactAdd</name></member>
+      <member refid="classFlexiAPIClient_1a093fed94de2b9f6fcf43b59fd5b641f5" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountContactDelete</name></member>
+      <member refid="classFlexiAPIClient_1ad612252b8a3b07c46639ba61ea4f39cf" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountContacts</name></member>
+      <member refid="classFlexiAPIClient_1af540afc111c2bccce18aed39417e7288" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountCreate</name></member>
+      <member refid="classFlexiAPIClient_1a86407afe52ff04cb6e8272468601c693" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountCreate</name></member>
+      <member refid="classFlexiAPIClient_1accbbd8c239912857a53cee95a15b5299" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountCreate</name></member>
+      <member refid="classFlexiAPIClient_1ad693b2513531f9e803d33f74fb0509e7" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountCreate</name></member>
+      <member refid="classFlexiAPIClient_1af30dad8ee8c23cce87e4f1a27bd5402b" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountCreate</name></member>
+      <member refid="classFlexiAPIClient_1a9461b0a074b7bc9b1fd339563447b941" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountCreate</name></member>
+      <member refid="classFlexiAPIClient_1a68cf962af2939a8407ea8fd4faf2cde2" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountCreate</name></member>
+      <member refid="classFlexiAPIClient_1a6adc217331f247682fa7ea9cd1fc8101" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountDeactivate</name></member>
+      <member refid="classFlexiAPIClient_1ae217a8e02cd9faef61ae021561486657" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountDelete</name></member>
+      <member refid="classFlexiAPIClient_1aa57f64fb137f3568ff47f36441abc339" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccounts</name></member>
+      <member refid="classFlexiAPIClient_1ad1553b616502729fd339e4e76972596f" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>adminAccountSearch</name></member>
+      <member refid="classFlexiAPIClient_1a783888abde283ee87bcfece1d5efcb0e" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>error</name></member>
+      <member refid="classFlexiAPIClient_1aaa262413c205a22df7bb7befca6d2a2d" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>FlexiAPIClient</name></member>
+      <member refid="classFlexiAPIClient_1a3c405f31e59de5bae6dea3f1775c770f" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>mApiKey</name></member>
+      <member refid="classFlexiAPIClient_1a3014a9b94c08fbd2125f3849aee5d6fc" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>mCore</name></member>
+      <member refid="classFlexiAPIClient_1a337916daf235110f8f069a8e7e90ed9c" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>me</name></member>
+      <member refid="classFlexiAPIClient_1a4a1b92dd4bfc5a66b24e0d9de06d660c" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>mRequestCallbacks</name></member>
+      <member refid="classFlexiAPIClient_1ad2dfbff6c578bf08058d3ade9b2f7340" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>mUseTestAdminAccount</name></member>
+      <member refid="classFlexiAPIClient_1afcb2421021a41bc7bbafbbd30066cb39" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>ping</name></member>
+      <member refid="classFlexiAPIClient_1ae1d0f3e7fd5117ce0d806083102be3c6" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>prepareAndSendRequest</name></member>
+      <member refid="classFlexiAPIClient_1a2481b786fc8ea26e6c152dac4b0afd38" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>prepareAndSendRequest</name></member>
+      <member refid="classFlexiAPIClient_1abdf7760afb788e9663ea54f80ac0760d" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>prepareAndSendRequest</name></member>
+      <member refid="classFlexiAPIClient_1a7aa25683085dd526ac436aa04ec2fc0e" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>prepareAndSendRootRequest</name></member>
+      <member refid="classFlexiAPIClient_1abdbe17188bda902576c618e39376bea3" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>processAuthRequested</name></member>
+      <member refid="classFlexiAPIClient_1aafeafbcaf92aeced4246de517c85e4fa" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>processIoError</name></member>
+      <member refid="classFlexiAPIClient_1acaa99f93c3cb705a780b237492146724" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>processResponse</name></member>
+      <member refid="classFlexiAPIClient_1a834139235f7077e2ab582f436fcf2a27" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>processTimeout</name></member>
+      <member refid="classFlexiAPIClient_1afd1acac7de2d44ce2ba72817c686b4cf" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>sendAccountCreationToken</name></member>
+      <member refid="classFlexiAPIClient_1af84d0a4bc2f1ba3da9b30733746e0c6f" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>sendAccountCreationTokenByPush</name></member>
+      <member refid="classFlexiAPIClient_1a0fa6bb2cfa413a549805c7c7e8bc102d" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>setApiKey</name></member>
+      <member refid="classFlexiAPIClient_1a443c992e18cce17faf6240cf9883d999" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>then</name></member>
+      <member refid="classFlexiAPIClient_1a41ded1979b1b9ee9958328b7891c5585" prot="private" virt="non-virtual"><scope>FlexiAPIClient</scope><name>urlEncode</name></member>
+      <member refid="classFlexiAPIClient_1a4d104744b8eb2b487e8e74aada78d89e" prot="public" virt="non-virtual"><scope>FlexiAPIClient</scope><name>useTestAdminAccount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

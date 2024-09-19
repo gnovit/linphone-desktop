@@ -1,0 +1,1334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__call__logs" kind="group">
+    <compoundname>call_logs</compoundname>
+    <title>Call logs</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__call__logs_1gaa3077de7d4214529094998ce441f61e1" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneCallDir</name>
+        <enumvalue id="group__call__logs_1ggaa3077de7d4214529094998ce441f61e1a4856091c25d200b11669efdbc6abb4ed" prot="public">
+          <name>LinphoneCallOutgoing</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>outgoing calls </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__call__logs_1ggaa3077de7d4214529094998ce441f61e1aa4030176bbddea10e361ce320946e202" prot="public">
+          <name>LinphoneCallIncoming</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>incoming calls </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum representing the direction of a call. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="236" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" bodystart="236" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__call__logs_1ga0896daf3cb167a43e357c3955ab33f3f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneCallStatus</name>
+        <enumvalue id="group__call__logs_1gga0896daf3cb167a43e357c3955ab33f3fa998fe35d090ed76fb89b23b3a8dfb0ff" prot="public">
+          <name>LinphoneCallSuccess</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>The call was sucessful. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__call__logs_1gga0896daf3cb167a43e357c3955ab33f3faeff436dddb49d4bf17d2e05a94b5bd59" prot="public">
+          <name>LinphoneCallAborted</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>The call was aborted (caller hanged up) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__call__logs_1gga0896daf3cb167a43e357c3955ab33f3fad26e9035dad755590a5a724c7ba69656" prot="public">
+          <name>LinphoneCallMissed</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>The call was missed (incoming call timed out without being answered or hanged up) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__call__logs_1gga0896daf3cb167a43e357c3955ab33f3fad6711031d964a7d56f10c07ac239a102" prot="public">
+          <name>LinphoneCallDeclined</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>The call was declined, either locally or by remote end. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__call__logs_1gga0896daf3cb167a43e357c3955ab33f3fa3a9783965291ff7ec0bfa35442f8170c" prot="public">
+          <name>LinphoneCallEarlyAborted</name>
+          <initializer>=
+	    4</initializer>
+          <briefdescription>
+<para>The call was aborted before being advertised to the application - for protocol reasons. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__call__logs_1gga0896daf3cb167a43e357c3955ab33f3fa7459e1853490d482e5c63abf9a618065" prot="public">
+          <name>LinphoneCallAcceptedElsewhere</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+<para>The call was answered on another device. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__call__logs_1gga0896daf3cb167a43e357c3955ab33f3facde3a7fe7a905e1e1ccf67a21ab49936" prot="public">
+          <name>LinphoneCallDeclinedElsewhere</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+<para>The call was declined on another device. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum representing the status of a call. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="267" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" bodystart="267" bodyend="276"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__call__logs_1ga779ac636d8b652c5130da18827c13e5a" prot="public" static="no">
+        <type>enum <ref refid="group__call__logs_1gaa3077de7d4214529094998ce441f61e1" kindref="member">_LinphoneCallDir</ref></type>
+        <definition>typedef enum _LinphoneCallDir LinphoneCallDir</definition>
+        <argsstring></argsstring>
+        <name>LinphoneCallDir</name>
+        <briefdescription>
+<para>Enum representing the direction of a call. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="239" column="17"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__call__logs_1ga18d459f6cff66879adad638fa4032981" prot="public" static="no">
+        <type>enum <ref refid="group__call__logs_1ga0896daf3cb167a43e357c3955ab33f3f" kindref="member">_LinphoneCallStatus</ref></type>
+        <definition>typedef enum _LinphoneCallStatus LinphoneCallStatus</definition>
+        <argsstring></argsstring>
+        <name>LinphoneCallStatus</name>
+        <briefdescription>
+<para>Enum representing the status of a call. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="276" column="20"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__call__logs_1gab700f6646681d1f4614a049892bc764a" prot="public" static="no">
+        <type>struct _LinphoneCallLog</type>
+        <definition>typedef struct _LinphoneCallLog LinphoneCallLog</definition>
+        <argsstring></argsstring>
+        <name>LinphoneCallLog</name>
+        <briefdescription>
+<para>Object used to keep track of all calls initiated, received or missed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It contains the call ID, date &amp; time at which the call took place and it&apos;s duration (0 if it wasn&apos;t answered). You can also know if video was enabled or not or if it was a conference, as well as it&apos;s average quality.</para>
+<para>If needed, you can also create a fake <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> using <ref refid="group__call__logs_1ga3e0339cdf3b3d6ef1a884724955c2890" kindref="member">linphone_core_create_call_log()</ref>, otherwise use <ref refid="group__call__logs_1ga10fb3a7b10914602489c58ba2729e18f" kindref="member">linphone_core_get_call_logs()</ref> or even <ref refid="group__call__control_1ga6bd40bf4b05fbca8638195f853f16dc0" kindref="member">linphone_call_get_call_log()</ref> to get the log of an ongoing call. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="326" column="31" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__call__logs_1ga10fb3a7b10914602489c58ba2729e18f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_core_get_call_logs</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_call_logs</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of call logs (past calls). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A list of <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref>.  <bctbxlist>LinphoneCallLog</bctbxlist>  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="3644" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="3644" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga0a4576e5c78068903e8f8faee3791757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bctbx_list_t *</type>
+        <definition>bctbx_list_t * linphone_core_get_call_history_2</definition>
+        <argsstring>(LinphoneCore *core, const LinphoneAddress *peer_address, const LinphoneAddress *local_address)</argsstring>
+        <name>linphone_core_get_call_history_2</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>peer_address</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>local_address</declname>
+        </param>
+        <briefdescription>
+<para>Get the list of call logs (past calls). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>At the contrary of linphone_core_get_call_logs, it is your responsibility to unref the logs and free this list once you are done using it. Requires ENABLE_DB_STORAGE to work. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>peer_address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The remote <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>local_address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The local <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A list of <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref>.  <bctbxlist>LinphoneCallLog</bctbxlist>  <tobefreed />   <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="3655" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="3655" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1gac063934a9adeca1050ee2c865229c644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+        <definition>LinphoneCallLog * linphone_core_get_last_outgoing_call_log</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_last_outgoing_call_log</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Get the latest outgoing call log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Conference calls are not returned by this function! Requires ENABLE_DB_STORAGE to work. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The last outgoing call log if any.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="3666" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="3666" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga81dc3c08e2e8d35da5d7af4c1ce37263" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+        <definition>LinphoneCallLog * linphone_core_find_call_log_from_call_id</definition>
+        <argsstring>(LinphoneCore *core, const char *call_id)</argsstring>
+        <name>linphone_core_find_call_log_from_call_id</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>call_id</declname>
+        </param>
+        <briefdescription>
+<para>Get the call log matching the call id, or NULL if can&apos;t be found. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>call_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Call id of the call log to find  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A call log matching the call id if any.  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="3674" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="3674" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1gab13bac381c49a6d36fbb6ead9907cefa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+        <definition>LinphoneCallLog * linphone_core_find_call_log</definition>
+        <argsstring>(LinphoneCore *lc, const char *call_id, int limit)</argsstring>
+        <name>linphone_core_find_call_log</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>lc</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>call_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+<para>Get the call log matching the call id, or NULL if can&apos;t be found. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>call_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Call id of the call log to find  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Search limit of the most recent call logs to find  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A call log matching the call id if any.  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="3683" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="3683" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1gae9c8571ec462b9e12e9dafa5c484830f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_clear_call_logs</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_clear_call_logs</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Erase the call log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="3689" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="3689" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga8ee38ce4a8b5e403357cf543d1049d88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_core_get_missed_calls_count</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_missed_calls_count</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Get the number of missed calls. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Once checked, this counter can be reset with <ref refid="group__call__logs_1ga763b21d4644cf57e2303d9439f0c4812" kindref="member">linphone_core_reset_missed_calls_count()</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of missed calls. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="3697" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="3697" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga763b21d4644cf57e2303d9439f0c4812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_reset_missed_calls_count</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_reset_missed_calls_count</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Reset the counter of missed calls. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="3703" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="3703" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1gafd24b31cb9fbf501bf5ccf96eff0f6b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_remove_call_log</definition>
+        <argsstring>(LinphoneCore *core, LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_core_remove_call_log</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Remove a specific call log from call history list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function destroys the call log object. It must not be accessed anymore by the application after calling this function. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object to remove.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="3712" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="3712" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga0ed0ff5fd421caf6f8f7c36d2f8df098" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+        <definition>LinphoneCallLog * linphone_call_log_ref</definition>
+        <argsstring>(LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_ref</name>
+        <param>
+          <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Acquire a reference to the call log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The same <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="40" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="40" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1gaa0b276845afb2a8527be1c6d44dc38c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_log_unref</definition>
+        <argsstring>(LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_unref</name>
+        <param>
+          <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Release a reference to the call log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="46" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="46" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1gaa318729a4c6d5967ebe318f5f88477cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_call_log_get_call_id</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_call_id</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the call ID used by the call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The call ID used by the call as a string.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="53" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="53" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga7aa738f224342c2a1a9b83613bdaef40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__logs_1ga779ac636d8b652c5130da18827c13e5a" kindref="member">LinphoneCallDir</ref></type>
+        <definition>LinphoneCallDir linphone_call_log_get_dir</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_dir</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the direction of the call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__call__logs_1ga779ac636d8b652c5130da18827c13e5a" kindref="member">LinphoneCallDir</ref> of the call. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="60" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="60" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga12c6ecf00c9142130b8d680413add759" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_call_log_get_duration</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_duration</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the duration of the call since connected. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The duration of the call in seconds. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="67" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="67" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga4ccf5f65eef71490e47a41b55a66042d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>const LinphoneAddress * linphone_call_log_get_from_address</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_from_address</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the origin address (ie from) of the call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The origin <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> (ie from) of the call.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="74" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="74" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga68929859f1b0ea9de14db29d3eef0d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_call_log_get_quality</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_quality</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the overall quality indication of the call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The overall quality indication of the call. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="81" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="81" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga509b9b9f2a8a7d0aec502c61a3d2bd11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_call_log_get_ref_key</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_ref_key</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the persistent reference key associated to the call log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The reference key can be for example an id to an external database. It is stored in the config file, thus can survive to process exits/restarts.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The reference key string that has been associated to the call log, or NULL if none has been associated.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="93" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="93" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga967c9dd50c16a0c01062ee70885e8a58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>const LinphoneAddress * linphone_call_log_get_local_address</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_local_address</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the local address (that is from or to depending on call direction) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>LinphoneCallLog object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The local <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> of the call  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="100" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="100" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga029eeac0f48b5f527e4a87e0e22edb55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>const LinphoneAddress * linphone_call_log_get_remote_address</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_remote_address</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the remote address (that is from or to depending on call direction). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The remote <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> of the call.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="107" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="107" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1gabf7fb20ec5a7276f64eb9ecdec7a0548" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_log_set_remote_address</definition>
+        <argsstring>(LinphoneCallLog *call_log, LinphoneAddress *address)</argsstring>
+        <name>linphone_call_log_set_remote_address</name>
+        <param>
+          <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Set the remote address (that is &apos;from&apos; or &apos;to&apos; depending on call direction). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It allows to fill more information that the SDK doesn&apos;t have. A use case can be to fill the display name (coming from an external address book) into a call log on incoming call. When the call end, the database will take account of the new information and can be used later <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="117" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="117" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga53dace58ee2c5b1a007de4954934550f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>time_t</type>
+        <definition>time_t linphone_call_log_get_start_date</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_start_date</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the start date of the call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The date of the beginning of the call. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="124" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="124" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga3a5311f7b49ef4f84662ea0798c54e31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__logs_1ga18d459f6cff66879adad638fa4032981" kindref="member">LinphoneCallStatus</ref></type>
+        <definition>LinphoneCallStatus linphone_call_log_get_status</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_status</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the status of the call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__call__logs_1ga18d459f6cff66879adad638fa4032981" kindref="member">LinphoneCallStatus</ref> of the call. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="131" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="131" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga4da3ba2b870429589db227f67f85d883" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>const LinphoneAddress * linphone_call_log_get_to_address</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_to_address</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the destination address (ie to) of the call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The destination <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> (ie to) of the call.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="138" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="138" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga740ac369d72dc766b924161c1a5b72c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_log_set_ref_key</definition>
+        <argsstring>(LinphoneCallLog *call_log, const char *refkey)</argsstring>
+        <name>linphone_call_log_set_ref_key</name>
+        <param>
+          <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>refkey</declname>
+        </param>
+        <briefdescription>
+<para>Associate a persistent reference key to the call log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The reference key can be for example an id to an external database. It is stored in the config file, thus can survive to process exits/restarts.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refkey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference key string to associate to the call log.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="149" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="149" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga898b2bc00f44d3dea322ae4cbc38e53a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_call_log_video_enabled</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_video_enabled</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Tell whether video was enabled at the end of the call or not. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A boolean value telling whether video was enabled at the end of the call. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="156" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="156" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1gac170114c78c9ad6694c8612a480e143c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * linphone_call_log_to_str</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_to_str</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get a human readable string describing the call. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>: the returned string must be freed by the application (use ms_free()). </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A human readable string describing the call.  <notnil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="164" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="164" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1gaa23002769c7d2febd5caf757b1828810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_call_log_was_conference</definition>
+        <argsstring>(LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_was_conference</name>
+        <param>
+          <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Tells whether that call was part of a conference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if the call was part of a conference, FALSE otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="171" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="171" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga8f2ad3a5ad45c3529887965141a96cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__misc_1ga8f3b35ce44e1284465ac2859ffbb9db7" kindref="member">LinphoneErrorInfo</ref> *</type>
+        <definition>const LinphoneErrorInfo * linphone_call_log_get_error_info</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_error_info</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>When the call was failed, return an object describing the failure. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__misc_1ga8f3b35ce44e1284465ac2859ffbb9db7" kindref="member">LinphoneErrorInfo</ref> about the error encountered by the call associated with this call log or NULL.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="178" column="26" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="178" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga6c6e6f49406550920816d491fb7012b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * linphone_call_log_get_user_data</definition>
+        <argsstring>(const LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_user_data</name>
+        <param>
+          <type>const <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Get the user data associated with the call log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The user data associated with the call log.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="185" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="185" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga11df376fec5c743ca890f037dbb96f91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_call_log_set_user_data</definition>
+        <argsstring>(LinphoneCallLog *call_log, void *user_data)</argsstring>
+        <name>linphone_call_log_set_user_data</name>
+        <param>
+          <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>user_data</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user data to the call log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>user_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user data to associate with the call log.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="192" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="192" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga9b58f27dfd471335ef12499b182f3f4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__conference_1ga8b9689daf029f49b83e898b61129be2e" kindref="member">LinphoneConferenceInfo</ref> *</type>
+        <definition>LinphoneConferenceInfo * linphone_call_log_get_conference_info</definition>
+        <argsstring>(LinphoneCallLog *call_log)</argsstring>
+        <name>linphone_call_log_get_conference_info</name>
+        <param>
+          <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+          <declname>call_log</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the conference info associated to this call log in DB. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>call_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__conference_1ga8b9689daf029f49b83e898b61129be2e" kindref="member">LinphoneConferenceInfo</ref> associated.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="199" column="25" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="199" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call__logs_1ga3e0339cdf3b3d6ef1a884724955c2890" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+        <definition>LinphoneCallLog * linphone_core_create_call_log</definition>
+        <argsstring>(LinphoneCore *core, LinphoneAddress *from, LinphoneAddress *to, LinphoneCallDir dir, int duration, time_t start_time, time_t connected_time, LinphoneCallStatus status, bool_t video_enabled, float quality)</argsstring>
+        <name>linphone_core_create_call_log</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type><ref refid="group__call__logs_1ga779ac636d8b652c5130da18827c13e5a" kindref="member">LinphoneCallDir</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type>time_t</type>
+          <declname>start_time</declname>
+        </param>
+        <param>
+          <type>time_t</type>
+          <declname>connected_time</declname>
+        </param>
+        <param>
+          <type><ref refid="group__call__logs_1ga18d459f6cff66879adad638fa4032981" kindref="member">LinphoneCallStatus</ref></type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>video_enabled</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>quality</declname>
+        </param>
+        <briefdescription>
+<para>Creates a fake <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> of caller  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> of callee  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1ga779ac636d8b652c5130da18827c13e5a" kindref="member">LinphoneCallDir</ref> of call </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>call length in seconds </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>start_time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>timestamp of call start time </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>connected_time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>timestamp of call connection </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>status</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__call__logs_1ga18d459f6cff66879adad638fa4032981" kindref="member">LinphoneCallStatus</ref> of call </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>video_enabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether video was enabled or not for this call </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>quality</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>call quality </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> object  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" line="215" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-call-log.h" declline="215" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Managing call logs. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

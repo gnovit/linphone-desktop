@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-dictionary_8h" kind="file" language="C++">
+    <compoundname>c-dictionary.h</compoundname>
+    <includes refid="c-types_8h" local="yes">linphone/api/c-types.h</includes>
+    <includedby refid="c-api_8h" local="yes">c-api.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__dictionary_1ga9a12f4ba42594ca8b74c6c635213eeb6" kind="function"><name>linphone_dictionary_clone</name></member>
+      <member refid="group__dictionary_1ga005eecc22d75ce26f8020c95eb9f6fe7" kind="function"><name>linphone_dictionary_ref</name></member>
+      <member refid="group__dictionary_1ga297c14b6cfeb44cb858227407c14f79a" kind="function"><name>linphone_dictionary_unref</name></member>
+      <member refid="group__dictionary_1gafc59653ba641fdcef511f97660d42f6a" kind="function"><name>linphone_dictionary_set_float</name></member>
+      <member refid="group__dictionary_1gaa11c2fc858594395cada3425dfbf77f6" kind="function"><name>linphone_dictionary_get_float</name></member>
+      <member refid="group__dictionary_1ga3c4f739c5f4aa6209b5d03ab372122f3" kind="function"><name>linphone_dictionary_set_int</name></member>
+      <member refid="group__dictionary_1ga41f9b7f3f01cb50d10287b5024d24e8c" kind="function"><name>linphone_dictionary_get_int</name></member>
+      <member refid="group__dictionary_1ga23052726ac4dd9e76b55d5ea67434a68" kind="function"><name>linphone_dictionary_set_string</name></member>
+      <member refid="group__dictionary_1ga8b303bb2246c4b65aa101e3011ff6ae0" kind="function"><name>linphone_dictionary_get_string</name></member>
+      <member refid="group__dictionary_1gabdd1c023c69e354e1bc6d71b4e772c39" kind="function"><name>linphone_dictionary_set_int64</name></member>
+      <member refid="group__dictionary_1ga4a58dc34302185fe8685a75ccf417b15" kind="function"><name>linphone_dictionary_get_int64</name></member>
+      <member refid="group__dictionary_1gaec9651a130ce526f6a6d281637de22c3" kind="function"><name>linphone_dictionary_remove</name></member>
+      <member refid="group__dictionary_1ga677ff84361e324596f72ebabfa222303" kind="function"><name>linphone_dictionary_clear</name></member>
+      <member refid="group__dictionary_1ga2fee5e606775ada6303887ad71555059" kind="function"><name>linphone_dictionary_has_key</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_C_DICTIONARY_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_C_DICTIONARY_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*<ref refid="group__dictionary_1ga9a12f4ba42594ca8b74c6c635213eeb6" kindref="member">linphone_dictionary_clone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*src);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*<ref refid="group__dictionary_1ga005eecc22d75ce26f8020c95eb9f6fe7" kindref="member">linphone_dictionary_ref</ref>(<ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1ga297c14b6cfeb44cb858227407c14f79a" kindref="member">linphone_dictionary_unref</ref>(<ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1gafc59653ba641fdcef511f97660d42f6a" kindref="member">linphone_dictionary_set_float</ref>(<ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1gaa11c2fc858594395cada3425dfbf77f6" kindref="member">linphone_dictionary_get_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1ga3c4f739c5f4aa6209b5d03ab372122f3" kindref="member">linphone_dictionary_set_int</ref>(<ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1ga41f9b7f3f01cb50d10287b5024d24e8c" kindref="member">linphone_dictionary_get_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1ga23052726ac4dd9e76b55d5ea67434a68" kindref="member">linphone_dictionary_set_string</ref>(<ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__dictionary_1ga8b303bb2246c4b65aa101e3011ff6ae0" kindref="member">linphone_dictionary_get_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1gabdd1c023c69e354e1bc6d71b4e772c39" kindref="member">linphone_dictionary_set_int64</ref>(<ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/>int64_t<sp/>value);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">LINPHONE_PUBLIC<sp/>int64_t<sp/><ref refid="group__dictionary_1ga4a58dc34302185fe8685a75ccf417b15" kindref="member">linphone_dictionary_get_int64</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref><sp/><ref refid="group__dictionary_1gaec9651a130ce526f6a6d281637de22c3" kindref="member">linphone_dictionary_remove</ref>(<ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1ga677ff84361e324596f72ebabfa222303" kindref="member">linphone_dictionary_clear</ref>(<ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref><sp/><ref refid="group__dictionary_1ga2fee5e606775ada6303887ad71555059" kindref="member">linphone_dictionary_has_key</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref><sp/>*dict,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>_L_C_DICTIONARY_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dictionary.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\9FB78CB94F1AE1868022B373EF62D59C\DECAF.C.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=curve25519 --guard=curve25519/decaf.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/curve25519/decaf.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/decaf.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\9FB78CB94F1AE1868022B373EF62D59C\SCALAR.C.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=curve25519 --guard=curve25519/scalar.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/curve25519/scalar.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/scalar.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\E97A58DA208DF2464CCD0849FB43ACCA\DECAF-GEN-C25519-NTAB.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-SDK\EXTERNAL\DECAF\SRC\GENERATOR\CURVE25519\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/generator/curve25519/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/coreapi/CMakeLists.txt

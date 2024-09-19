@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_a802a516f183e0ec2f9101696df4d721" kind="dir">
+    <compoundname>examples</compoundname>
+    <innerdir refid="dir_8ace4bbfadf02dc849aa0511b5965b06">C</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/coreapi/help/examples/"/>
+  </compounddef>
+</doxygen>

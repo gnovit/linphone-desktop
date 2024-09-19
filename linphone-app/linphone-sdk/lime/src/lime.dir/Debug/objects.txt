@@ -1,0 +1,8 @@
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/lime/src/lime.dir/Debug/lime.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/lime/src/lime.dir/Debug/lime_crypto_primitives.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/lime/src/lime.dir/Debug/lime_x3dh.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/lime/src/lime.dir/Debug/lime_x3dh_protocol.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/lime/src/lime.dir/Debug/lime_localStorage.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/lime/src/lime.dir/Debug/lime_double_ratchet.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/lime/src/lime.dir/Debug/lime_double_ratchet_protocol.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/lime/src/lime.dir/Debug/lime_manager.obj

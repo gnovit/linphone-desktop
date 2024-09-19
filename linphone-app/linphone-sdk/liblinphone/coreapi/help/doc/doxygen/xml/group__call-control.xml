@@ -1,0 +1,987 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__call-control" kind="group">
+    <compoundname>call-control</compoundname>
+    <title>Call-control</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__call-control_1ga2a6f67629a811a55d326a8c38149eb1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+        <definition>LinphoneRecorder * linphone_recorder_new</definition>
+        <argsstring>(LinphoneCore *core, LinphoneRecorderParams *params)</argsstring>
+        <name>linphone_recorder_new</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Create a new <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the newly created <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="43" column="19" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="43" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga738f5adca5799a706688d7654b2f8c19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+        <definition>LinphoneRecorder * linphone_recorder_ref</definition>
+        <argsstring>(LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_ref</name>
+        <param>
+          <type><ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Take a reference on a <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="50" column="19" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="50" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga6746e557aacb78dafa1048ec0abe9790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_recorder_unref</definition>
+        <argsstring>(LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_unref</name>
+        <param>
+          <type><ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Release a <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="56" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="56" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1gaaa9f3b0278b0752f66e0caf6285d8b0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_recorder_open</definition>
+        <argsstring>(LinphoneRecorder *recorder, const char *file)</argsstring>
+        <name>linphone_recorder_open</name>
+        <param>
+          <type><ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Open a file for recording. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The path to the file to open.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="63" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="63" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1gaf46391bf553aac56a0f0513697affbd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_recorder_close</definition>
+        <argsstring>(LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_close</name>
+        <param>
+          <type><ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Close the opened file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="69" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="69" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1gaf048854d292efcf116a0c8b20b5d3c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_recorder_get_file</definition>
+        <argsstring>(const LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_get_file</name>
+        <param>
+          <type>const <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Gets the file used for recording. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the file used for the recording if any.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="76" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="76" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga9dd487c86ed91869ef2a7b7d7430ab99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_recorder_start</definition>
+        <argsstring>(LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_start</name>
+        <param>
+          <type><ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Start the recording into the opened file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="82" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="82" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga9f36de6e14927e60c68108ea5232e7a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_recorder_pause</definition>
+        <argsstring>(LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_pause</name>
+        <param>
+          <type><ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Pause the recording. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="88" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="88" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga1712fadccd7f36260a858cd587fec001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__control_1ga4bc2c86a06fbb57fd88c719b1f0bc0e0" kindref="member">LinphoneRecorderState</ref></type>
+        <definition>LinphoneRecorderState linphone_recorder_get_state</definition>
+        <argsstring>(const LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_get_state</name>
+        <param>
+          <type>const <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Gets the current state of the recorder. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the current <ref refid="group__call__control_1ga4bc2c86a06fbb57fd88c719b1f0bc0e0" kindref="member">LinphoneRecorderState</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="95" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="95" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1gadcc9abc0b2e6e13651403cbe1d2cd7e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_recorder_get_duration</definition>
+        <argsstring>(const LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_get_duration</name>
+        <param>
+          <type>const <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Gets the duration of the recording. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the duration of the recording, in milliseconds. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="102" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="102" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga80f21c332a4df06370082d54ca87628d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_recorder_get_capture_volume</definition>
+        <argsstring>(const LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_get_capture_volume</name>
+        <param>
+          <type>const <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Get linear volume when capturing audio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Linear volume. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="109" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="109" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1gafe2fcc062c68325528793ab716c24ea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1gaec435ed53168e70535e64b69a906304b" kindref="member">LinphoneContent</ref> *</type>
+        <definition>LinphoneContent * linphone_recorder_create_content</definition>
+        <argsstring>(LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_create_content</name>
+        <param>
+          <type><ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Create a content from the recording, for example to send it in a chat message. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="warning"><para>Recorder must be in Closed state! </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the <ref refid="group__misc_1gaec435ed53168e70535e64b69a906304b" kindref="member">LinphoneContent</ref> matching the recording, or NULL.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="117" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="117" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga5cbc0303ad9c59b210e261a1aecb2c2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_recorder_set_params</definition>
+        <argsstring>(LinphoneRecorder *recorder, LinphoneRecorderParams *params)</argsstring>
+        <name>linphone_recorder_set_params</name>
+        <param>
+          <type><ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <param>
+          <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Set the <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object to set.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="124" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="124" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga2b227a0590ecb426e31f8b490f911a58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+        <definition>const LinphoneRecorderParams * linphone_recorder_get_params</definition>
+        <argsstring>(const LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_get_params</name>
+        <param>
+          <type>const <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve the <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="131" column="31" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="131" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga163b7782fe29ec4006e60d862f6b1e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_recorder_set_user_data</definition>
+        <argsstring>(LinphoneRecorder *recorder, void *user_data)</argsstring>
+        <name>linphone_recorder_set_user_data</name>
+        <param>
+          <type><ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>user_data</declname>
+        </param>
+        <briefdescription>
+<para>Set the user data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>user_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user data to set.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="138" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="138" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga564441f4ddf7a156d1dd4e0a2625bae8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * linphone_recorder_get_user_data</definition>
+        <argsstring>(const LinphoneRecorder *recorder)</argsstring>
+        <name>linphone_recorder_get_user_data</name>
+        <param>
+          <type>const <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> *</type>
+          <declname>recorder</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve the user data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recorder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1ga2972f2334334ed67f37537f54d12074b" kindref="member">LinphoneRecorder</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the user data to retrieve.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" line="145" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder.h" declline="145" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga93596890e47320b12f4f945aa24bccb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+        <definition>LinphoneRecorderParams * linphone_recorder_params_new</definition>
+        <argsstring>(void)</argsstring>
+        <name>linphone_recorder_params_new</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Create a new <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the newly created <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="39" column="25" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="39" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga7b48a51c82bbd09cbd4125fa1ad5dcdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+        <definition>LinphoneRecorderParams * linphone_recorder_params_clone</definition>
+        <argsstring>(const LinphoneRecorderParams *params)</argsstring>
+        <name>linphone_recorder_params_clone</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Clone a <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the cloned <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="46" column="25" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="46" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga0fb78a1ea6d864e457086b317e12766d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+        <definition>LinphoneRecorderParams * linphone_recorder_params_ref</definition>
+        <argsstring>(LinphoneRecorderParams *params)</argsstring>
+        <name>linphone_recorder_params_ref</name>
+        <param>
+          <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Take a reference on a <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="53" column="25" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="53" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga74a9024486b1b38868ce8e36bfe0d02a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_recorder_params_unref</definition>
+        <argsstring>(LinphoneRecorderParams *params)</argsstring>
+        <name>linphone_recorder_params_unref</name>
+        <param>
+          <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Release a <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="59" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="59" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga4fcda63adf92d0a5100b5159d26177e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_recorder_params_set_audio_device</definition>
+        <argsstring>(LinphoneRecorderParams *params, const LinphoneAudioDevice *device)</argsstring>
+        <name>linphone_recorder_params_set_audio_device</name>
+        <param>
+          <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+<para>Set the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> object to set.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="66" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="66" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga16109ec6694cf61f4c850218aa7576c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> *</type>
+        <definition>const LinphoneAudioDevice * linphone_recorder_params_get_audio_device</definition>
+        <argsstring>(const LinphoneRecorderParams *params)</argsstring>
+        <name>linphone_recorder_params_get_audio_device</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the <ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref> object.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="75" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="75" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga39201e2c33781acda1ce9b65a8273e36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_recorder_params_set_webcam_name</definition>
+        <argsstring>(LinphoneRecorderParams *params, const char *webcam_name)</argsstring>
+        <name>linphone_recorder_params_set_webcam_name</name>
+        <param>
+          <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>webcam_name</declname>
+        </param>
+        <briefdescription>
+<para>Set the webcam name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>webcam_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The webcam name to set.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="82" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="82" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga2d3147af9cdef669b2edd117048ea057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_recorder_params_get_webcam_name</definition>
+        <argsstring>(const LinphoneRecorderParams *params)</argsstring>
+        <name>linphone_recorder_params_get_webcam_name</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the webcam name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the webcam name.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="89" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="89" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga6bdb971236ce8c517eab70546f778644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_recorder_params_set_video_codec</definition>
+        <argsstring>(LinphoneRecorderParams *params, const char *video_codec)</argsstring>
+        <name>linphone_recorder_params_set_video_codec</name>
+        <param>
+          <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>video_codec</declname>
+        </param>
+        <briefdescription>
+<para>Set the video codec. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>video_codec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The video codec to set.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="96" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="96" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1gac409a21a4af8298982ab636cbb5e39d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_recorder_params_get_video_codec</definition>
+        <argsstring>(const LinphoneRecorderParams *params)</argsstring>
+        <name>linphone_recorder_params_get_video_codec</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the video codec. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the video codec.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="103" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="103" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1gaa70bdd6fb75d10f03dc7f87ed1c9d41d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_recorder_params_set_file_format</definition>
+        <argsstring>(LinphoneRecorderParams *params, LinphoneRecorderFileFormat format)</argsstring>
+        <name>linphone_recorder_params_set_file_format</name>
+        <param>
+          <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="group__call__control_1gaa5b0f4d3066824e02a1d538bc79389ab" kindref="member">LinphoneRecorderFileFormat</ref></type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+<para>Set the <ref refid="group__call__control_1gaa5b0f4d3066824e02a1d538bc79389ab" kindref="member">LinphoneRecorderFileFormat</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gaa5b0f4d3066824e02a1d538bc79389ab" kindref="member">LinphoneRecorderFileFormat</ref> to set. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="110" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="110" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga9e1cea386ba2eeac788e214a64198236" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__control_1gaa5b0f4d3066824e02a1d538bc79389ab" kindref="member">LinphoneRecorderFileFormat</ref></type>
+        <definition>LinphoneRecorderFileFormat linphone_recorder_params_get_file_format</definition>
+        <argsstring>(const LinphoneRecorderParams *params)</argsstring>
+        <name>linphone_recorder_params_get_file_format</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the <ref refid="group__call__control_1gaa5b0f4d3066824e02a1d538bc79389ab" kindref="member">LinphoneRecorderFileFormat</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the <ref refid="group__call__control_1gaa5b0f4d3066824e02a1d538bc79389ab" kindref="member">LinphoneRecorderFileFormat</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="119" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="119" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga0fe08b7134c33c17a8f7ebfda9398c40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_recorder_params_set_window_id</definition>
+        <argsstring>(LinphoneRecorderParams *params, void *window_id)</argsstring>
+        <name>linphone_recorder_params_set_window_id</name>
+        <param>
+          <type><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>window_id</declname>
+        </param>
+        <briefdescription>
+<para>Set the window id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>window_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The window id to set.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="126" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="126" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__call-control_1ga422b4b06647f62af969b25e2c7030b8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * linphone_recorder_params_get_window_id</definition>
+        <argsstring>(const LinphoneRecorderParams *params)</argsstring>
+        <name>linphone_recorder_params_get_window_id</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the window id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the window id.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" line="133" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h" declline="133" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

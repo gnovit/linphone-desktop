@@ -1,0 +1,1 @@
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\p448\decaf-p448.dir\RelWithDebInfo\decaf-p448.lib

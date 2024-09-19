@@ -1,0 +1,10 @@
+prefix=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT
+exec_prefix=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT
+libdir=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/lib
+includedir=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 3.0.3
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="im__notif__policy_8h" kind="file" language="C++">
+    <compoundname>im_notif_policy.h</compoundname>
+    <includes refid="types_8h" local="yes">linphone/types.h</includes>
+    <includedby refid="core_8h" local="yes">core.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__chatroom_1ga42ddb5cc2008ac8c9956826d7e3330c5" kind="function"><name>linphone_im_notif_policy_ref</name></member>
+      <member refid="group__chatroom_1gaf279b35f076d23655f3bac33f1184462" kind="function"><name>linphone_im_notif_policy_unref</name></member>
+      <member refid="group__chatroom_1ga906b83ce936e5114f34c4e6323027402" kind="function"><name>linphone_im_notif_policy_get_user_data</name></member>
+      <member refid="group__chatroom_1ga4518d08143933a6e7fc09fd3a63352d1" kind="function"><name>linphone_im_notif_policy_set_user_data</name></member>
+      <member refid="group__chatroom_1ga9e591a2d85402f2935432441df9d44f4" kind="function"><name>linphone_im_notif_policy_clear</name></member>
+      <member refid="group__chatroom_1ga689a735c927db7958fe47be2ff03b63f" kind="function"><name>linphone_im_notif_policy_enable_all</name></member>
+      <member refid="group__chatroom_1ga3a57873f1625c160f0d73f1f68a99726" kind="function"><name>linphone_im_notif_policy_get_send_is_composing</name></member>
+      <member refid="group__chatroom_1ga3320cf16adce297215150be606eb8efa" kind="function"><name>linphone_im_notif_policy_set_send_is_composing</name></member>
+      <member refid="group__chatroom_1ga7a4814040e76c7498fe3ce76624ddf21" kind="function"><name>linphone_im_notif_policy_get_recv_is_composing</name></member>
+      <member refid="group__chatroom_1gaa7fe1131681d11bdcf8d6108a2b12ae3" kind="function"><name>linphone_im_notif_policy_set_recv_is_composing</name></member>
+      <member refid="group__chatroom_1ga9271f71f9414db170c44bce2bb84f42a" kind="function"><name>linphone_im_notif_policy_get_send_imdn_delivered</name></member>
+      <member refid="group__chatroom_1gaacddcb11b0cf8647964d49f3c47fd237" kind="function"><name>linphone_im_notif_policy_set_send_imdn_delivered</name></member>
+      <member refid="group__chatroom_1gaafe931982977e1f923a1d469a0a4a611" kind="function"><name>linphone_im_notif_policy_get_recv_imdn_delivered</name></member>
+      <member refid="group__chatroom_1gae451603c4e7f9ce700cc2bf89b5250d6" kind="function"><name>linphone_im_notif_policy_set_recv_imdn_delivered</name></member>
+      <member refid="group__chatroom_1gacac25a1ec57648fbb2c220e9d8e63934" kind="function"><name>linphone_im_notif_policy_get_send_imdn_delivery_error</name></member>
+      <member refid="group__chatroom_1ga1c12dfc6030bc002458f1cee93f66ac9" kind="function"><name>linphone_im_notif_policy_set_send_imdn_delivery_error</name></member>
+      <member refid="group__chatroom_1ga5dbe50c2f65b829810e04bf04a7639cb" kind="function"><name>linphone_im_notif_policy_get_recv_imdn_delivery_error</name></member>
+      <member refid="group__chatroom_1gadf23f36b81d34660b2c3914fa80cbf45" kind="function"><name>linphone_im_notif_policy_set_recv_imdn_delivery_error</name></member>
+      <member refid="group__chatroom_1ga545e91c074d7b91f7ec71ff1c6e32cbd" kind="function"><name>linphone_im_notif_policy_get_send_imdn_displayed</name></member>
+      <member refid="group__chatroom_1gaeb58f04502c608d115eb14611c7f05c4" kind="function"><name>linphone_im_notif_policy_set_send_imdn_displayed</name></member>
+      <member refid="group__chatroom_1gaf8a9ffe6ba2cba322a21585831465f1f" kind="function"><name>linphone_im_notif_policy_get_recv_imdn_displayed</name></member>
+      <member refid="group__chatroom_1ga2f89f10475d94d9d3e9c028a89799838" kind="function"><name>linphone_im_notif_policy_set_recv_imdn_displayed</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LINPHONE_IM_NOTIF_POLICY_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_IM_NOTIF_POLICY_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*<ref refid="group__chatroom_1ga42ddb5cc2008ac8c9956826d7e3330c5" kindref="member">linphone_im_notif_policy_ref</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gaf279b35f076d23655f3bac33f1184462" kindref="member">linphone_im_notif_policy_unref</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__chatroom_1ga906b83ce936e5114f34c4e6323027402" kindref="member">linphone_im_notif_policy_get_user_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1ga4518d08143933a6e7fc09fd3a63352d1" kindref="member">linphone_im_notif_policy_set_user_data</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*user_data);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1ga9e591a2d85402f2935432441df9d44f4" kindref="member">linphone_im_notif_policy_clear</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1ga689a735c927db7958fe47be2ff03b63f" kindref="member">linphone_im_notif_policy_enable_all</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__chatroom_1ga3a57873f1625c160f0d73f1f68a99726" kindref="member">linphone_im_notif_policy_get_send_is_composing</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1ga3320cf16adce297215150be606eb8efa" kindref="member">linphone_im_notif_policy_set_send_is_composing</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy,<sp/>bool_t<sp/>enable);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__chatroom_1ga7a4814040e76c7498fe3ce76624ddf21" kindref="member">linphone_im_notif_policy_get_recv_is_composing</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gaa7fe1131681d11bdcf8d6108a2b12ae3" kindref="member">linphone_im_notif_policy_set_recv_is_composing</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy,<sp/>bool_t<sp/>enable);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__chatroom_1ga9271f71f9414db170c44bce2bb84f42a" kindref="member">linphone_im_notif_policy_get_send_imdn_delivered</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gaacddcb11b0cf8647964d49f3c47fd237" kindref="member">linphone_im_notif_policy_set_send_imdn_delivered</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy,<sp/>bool_t<sp/>enable);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__chatroom_1gaafe931982977e1f923a1d469a0a4a611" kindref="member">linphone_im_notif_policy_get_recv_imdn_delivered</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gae451603c4e7f9ce700cc2bf89b5250d6" kindref="member">linphone_im_notif_policy_set_recv_imdn_delivered</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy,<sp/>bool_t<sp/>enable);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__chatroom_1gacac25a1ec57648fbb2c220e9d8e63934" kindref="member">linphone_im_notif_policy_get_send_imdn_delivery_error</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1ga1c12dfc6030bc002458f1cee93f66ac9" kindref="member">linphone_im_notif_policy_set_send_imdn_delivery_error</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bool_t<sp/>enable);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__chatroom_1ga5dbe50c2f65b829810e04bf04a7639cb" kindref="member">linphone_im_notif_policy_get_recv_imdn_delivery_error</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gadf23f36b81d34660b2c3914fa80cbf45" kindref="member">linphone_im_notif_policy_set_recv_imdn_delivery_error</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy,</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bool_t<sp/>enable);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__chatroom_1ga545e91c074d7b91f7ec71ff1c6e32cbd" kindref="member">linphone_im_notif_policy_get_send_imdn_displayed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gaeb58f04502c608d115eb14611c7f05c4" kindref="member">linphone_im_notif_policy_set_send_imdn_displayed</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy,<sp/>bool_t<sp/>enable);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__chatroom_1gaf8a9ffe6ba2cba322a21585831465f1f" kindref="member">linphone_im_notif_policy_get_recv_imdn_displayed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1ga2f89f10475d94d9d3e9c028a89799838" kindref="member">linphone_im_notif_policy_set_recv_imdn_displayed</ref>(<ref refid="group__chatroom_1gac763666cbb8dc52b69e8b419126bcc05" kindref="member">LinphoneImNotifPolicy</ref><sp/>*policy,<sp/>bool_t<sp/>enable);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LINPHONE_IM_NOTIF_POLICY_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/im_notif_policy.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource>
+    <file alias="languages/cs">cs.qm</file>
+    <file alias="languages/da">da.qm</file>
+    <file alias="languages/de">de.qm</file>
+    <file alias="languages/en">en.qm</file>
+    <file alias="languages/es">es.qm</file>
+    <file alias="languages/fr_FR">fr_FR.qm</file>
+    <file alias="languages/hu">hu.qm</file>
+    <file alias="languages/it">it.qm</file>
+    <file alias="languages/ja">ja.qm</file>
+    <file alias="languages/lt">lt.qm</file>
+    <file alias="languages/pt_BR">pt_BR.qm</file>
+    <file alias="languages/ru">ru.qm</file>
+    <file alias="languages/sv">sv.qm</file>
+    <file alias="languages/tr">tr.qm</file>
+    <file alias="languages/uk">uk.qm</file>
+    <file alias="languages/zh_CN">zh_CN.qm</file>
+  </qresource>
+</RCC>

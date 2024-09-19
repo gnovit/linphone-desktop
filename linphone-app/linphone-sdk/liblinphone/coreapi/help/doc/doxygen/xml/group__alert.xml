@@ -1,0 +1,1084 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__alert" kind="group">
+    <compoundname>alert</compoundname>
+    <title>Alert</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__alert_1ga3d61265f35a84a92709fad3a833ac7b6" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneAlertTypes</name>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a917c45e2410160b1fc68e2959f74c7cb" prot="public">
+          <name>LinphoneAlertQoSCameraMisfunction</name>
+          <briefdescription>
+<para>Camera is not working. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>No other information <simplesect kind="note"><para>Use the key &quot;camera_misfunction_interval&quot; in the section &quot;alerts::camera&quot; to set the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6ac5798e9cfe3a9557436b344f0d070f37" prot="public">
+          <name>LinphoneAlertQoSCameraLowFramerate</name>
+          <briefdescription>
+<para>Camera is capturing low framerate. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Information supplied : float framerate; <simplesect kind="note"><para>Use the key &quot;low_framerate_interval&quot; in the section &quot;alerts::camera&quot; to set or get the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a1f53b6bbd04fbb2540853247d50b6c0f" prot="public">
+          <name>LinphoneAlertQoSVideoStalled</name>
+          <briefdescription>
+<para>Video decoding has stopped for a given period (10 s by default). </para>
+          </briefdescription>
+          <detaileddescription>
+<para>No other information. <simplesect kind="note"><para>Use the key &quot;video_stalled_interval&quot; in the section &quot;alerts::camera&quot; to set or get the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a2c23daa99f3f9eccf7ff528fb9f35c1f" prot="public">
+          <name>LinphoneAlertQoSHighLossLateRate</name>
+          <briefdescription>
+<para>A received media stream suffers from high loss or late rate. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Information provided is:<itemizedlist>
+<listitem><para>loss-rate (float)</para>
+</listitem><listitem><para>late-rate (float)</para>
+</listitem><listitem><para>media-type (string) with values {audio, video, text} <simplesect kind="note"><para>Use the key &quot;loss_rate_interval&quot; in the section &quot;alerts::network&quot; to set or get the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+</listitem></itemizedlist>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a098797a5fea1359dc408baa60297a246" prot="public">
+          <name>LinphoneAlertQoSHighRemoteLossRate</name>
+          <briefdescription>
+<para>A report of high loss rate is received from remote party. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Information provided: loss-rate (float). <simplesect kind="note"><para>Use the key &quot;remote_loss_rate_interval&quot; in the section &quot;alerts::network&quot; to set or get the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a451d9876d18bbbb79e0ceddc07924f7d" prot="public">
+          <name>LinphoneAlertQoSBurstOccured</name>
+          <briefdescription>
+<para>Packet Burst phenomenon. </para>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="note"><para>Use the key &quot;burst_occured_interval&quot; in the section &quot;alerts::network&quot; to set or get the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6af14b2859a18262b381417c4a7d19c0f1" prot="public">
+          <name>LinphoneAlertQoSRetransmissionFailures</name>
+          <briefdescription>
+<para>Loss rate is significant but retransmissions fail to arrive on time. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Information provided: nack-performance (float) the fraction of lost packets recovered thanks to nack-triggered retransmissions. <simplesect kind="note"><para>Use the key &quot;nack_check_interval&quot; in the section &quot;alerts::network&quot; to set or get the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a687243a068042d4e85f898e4824478e3" prot="public">
+          <name>LinphoneAlertQoSLowDownloadBandwidthEstimation</name>
+          <briefdescription>
+<para>Low bandwidth detected. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Information provided: bandwidth (float) in kbit/s. <simplesect kind="note"><para>Use the key &quot;download_bandwidth_interval&quot; in the section &quot;alerts::video&quot; to set or get the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6af2e42c50cd5963eb1a61910e7158043d" prot="public">
+          <name>LinphoneAlertQoSLowQualityReceivedVideo</name>
+          <briefdescription>
+<para>Low quality (bitrate) video received. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Information provided: bitrate (float) in kbit/s, width (integer), int height (integer). <simplesect kind="note"><para>Use the key &quot;low_quality_received_interval&quot; in the section &quot;alerts::video&quot; to set or get the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a7c065819eb74af17b21346a042b53bbd" prot="public">
+          <name>LinphoneAlertQoSLowQualitySentVideo</name>
+          <briefdescription>
+<para>Low quality video is being sent. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Information provided: bitrate (float)in kbit/s, width (integer), height (integer). <simplesect kind="note"><para>Use the key &quot;quality_sent_interval&quot; in the section &quot;alerts::camera&quot; to set or get the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6ace0806006e45a738dc519755d95aca96" prot="public">
+          <name>LinphoneAlertQoSLowSignal</name>
+          <briefdescription>
+<para>The operating system reports a low radio signal (wifi or mobile) </para>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="note"><para>Use the key &quot;low_signal_interval&quot; in the section &quot;alerts::network&quot; to set or get the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a85eeb8cd8ab93b4336e310b15c677d62" prot="public">
+          <name>LinphoneAlertQoSLostSignal</name>
+          <briefdescription>
+<para>The operating system reports a loss of radio signal (wifi or mobile). </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Information provided: rssi-value (float), signal-type (string) with values {&quot;wifi&quot;, &quot;mobile&quot;, &quot;other&quot;}. <simplesect kind="note"><para>Use the key &quot;lost_signal_interval&quot; in the section &quot;alerts::network&quot; to set or get the interval at which the problem is checked in a <ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref>. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>All kinds of alerts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/c-enums.h" line="32" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/c-enums.h" bodystart="32" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__alert_1ga7a16f43166adfefd1d0e91881f09b472" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* LinphoneCoreCbsNewAlertTriggeredCb) (LinphoneCore *core, LinphoneAlert *alert)</definition>
+        <argsstring>)(LinphoneCore *core, LinphoneAlert *alert)</argsstring>
+        <name>LinphoneCoreCbsNewAlertTriggeredCb</name>
+        <briefdescription>
+<para>Callback for notifying about an alert (e.g on Qos) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> to notify  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-callbacks.h" line="61" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-callbacks.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__alert_1gab38c1f2c432287f21f927fc42c26923c" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* LinphoneAlertCbsTerminatedCb) (LinphoneAlert *alert)</definition>
+        <argsstring>)(LinphoneAlert *alert)</argsstring>
+        <name>LinphoneAlertCbsTerminatedCb</name>
+        <briefdescription>
+<para>Callback to know if an alert stops. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the alert that stops  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-callbacks.h" line="66" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-callbacks.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" prot="public" static="no">
+        <type>struct _LinphoneAlert</type>
+        <definition>typedef struct _LinphoneAlert LinphoneAlert</definition>
+        <argsstring></argsstring>
+        <name>LinphoneAlert</name>
+        <briefdescription>
+<para>Object that represents an alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Alerts are raised at run-time when particular conditions are met, for example bad network quality. The full list of available alert types is described by the <ref refid="group__alert_1ga116c694623749c7c381b52c426073d27" kindref="member">LinphoneAlertType</ref> enum. An application is notified of new alerts through the <ref refid="group__initializing_1gaa4a52a9cdc319baccd2232dda6681f8f" kindref="member">LinphoneCoreCbs</ref> interface. Once raised, the application may use the <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> interface to get notified when the alert stops. For each kind of alert, a <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> is filled with relevant informations, returned by <ref refid="group__alert_1ga05967c4ed6055b3bf207957c06fb1d29" kindref="member">linphone_alert_get_informations()</ref>. The keys available are documented per-type in <ref refid="group__alert_1ga116c694623749c7c381b52c426073d27" kindref="member">LinphoneAlertType</ref> enum. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="658" column="29" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="658" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" prot="public" static="no">
+        <type>struct _LinphoneAlertCbs</type>
+        <definition>typedef struct _LinphoneAlertCbs LinphoneAlertCbs</definition>
+        <argsstring></argsstring>
+        <name>LinphoneAlertCbs</name>
+        <briefdescription>
+<para>Object that represents a callback attached to an alert. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="663" column="32" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="663" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" prot="public" static="no">
+        <type>struct _LinphoneSignalInformation</type>
+        <definition>typedef struct _LinphoneSignalInformation LinphoneSignalInformation</definition>
+        <argsstring></argsstring>
+        <name>LinphoneSignalInformation</name>
+        <briefdescription>
+<para>Object to get signal (wifi/4G etc...) informations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="672" column="41" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="672" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__alert_1ga116c694623749c7c381b52c426073d27" prot="public" static="no">
+        <type>enum <ref refid="group__alert_1ga3d61265f35a84a92709fad3a833ac7b6" kindref="member">_LinphoneAlertTypes</ref></type>
+        <definition>typedef enum _LinphoneAlertTypes LinphoneAlertType</definition>
+        <argsstring></argsstring>
+        <name>LinphoneAlertType</name>
+        <briefdescription>
+<para>All kinds of alerts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/c-enums.h" line="103" column="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__alert_1ga6ae748115c4e6eca8c599602553232ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_cbs_set_new_alert_triggered</definition>
+        <argsstring>(LinphoneCoreCbs *cbs, LinphoneCoreCbsNewAlertTriggeredCb alert_cb)</argsstring>
+        <name>linphone_core_cbs_set_new_alert_triggered</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa4a52a9cdc319baccd2232dda6681f8f" kindref="member">LinphoneCoreCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <param>
+          <type><ref refid="group__alert_1ga7a16f43166adfefd1d0e91881f09b472" kindref="member">LinphoneCoreCbsNewAlertTriggeredCb</ref></type>
+          <declname>alert_cb</declname>
+        </param>
+        <briefdescription>
+<para>Set the on alert callback. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa4a52a9cdc319baccd2232dda6681f8f" kindref="member">LinphoneCoreCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alert_cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The #LinphoneCoreCbsOnAlertCb callback to call.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="4946" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="4946" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1gadce9e5de1ed4b1b198111d7c4f6d721a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__alert_1ga7a16f43166adfefd1d0e91881f09b472" kindref="member">LinphoneCoreCbsNewAlertTriggeredCb</ref></type>
+        <definition>LinphoneCoreCbsNewAlertTriggeredCb linphone_core_cbs_get_new_alert_triggered</definition>
+        <argsstring>(LinphoneCoreCbs *cbs)</argsstring>
+        <name>linphone_core_cbs_get_new_alert_triggered</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa4a52a9cdc319baccd2232dda6681f8f" kindref="member">LinphoneCoreCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Get the on alert callback. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa4a52a9cdc319baccd2232dda6681f8f" kindref="member">LinphoneCoreCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The #LinphoneCoreCbsOnAlertCb callback called. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="4953" column="37" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="4953" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga3456e6020f3935535334aaa23ec58107" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_enable_alerts</definition>
+        <argsstring>(LinphoneCore *core, bool_t enable)</argsstring>
+        <name>linphone_core_enable_alerts</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>Enable alerts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> for more details. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> . </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether alert reporting is enabled or not. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="4960" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="4960" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1gafde80feb35eba753a23adca92d27fd98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_core_alerts_enabled</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_alerts_enabled</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Returns whether alert reporting is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>See <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> for more details. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> . </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>whether alert reporting is enabled. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="4967" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="4967" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga9a90a2fe2da08980f880b1315de53b6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> *</type>
+        <definition>LinphoneAlertCbs * linphone_alert_cbs_ref</definition>
+        <argsstring>(LinphoneAlertCbs *cbs)</argsstring>
+        <name>linphone_alert_cbs_ref</name>
+        <param>
+          <type><ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Acquire a reference to the alert callbacks object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The same alert callbacks object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" line="43" column="19" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" declline="43" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga1749055c47c5279648c41e271a6efca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_alert_cbs_unref</definition>
+        <argsstring>(LinphoneAlertCbs *cbs)</argsstring>
+        <name>linphone_alert_cbs_unref</name>
+        <param>
+          <type><ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Release reference to the alert callbacks object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" line="49" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" declline="49" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1gaddd85507d2a0ba2516971a0ff6a14d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * linphone_alert_cbs_get_user_data</definition>
+        <argsstring>(const LinphoneAlertCbs *cbs)</argsstring>
+        <name>linphone_alert_cbs_get_user_data</name>
+        <param>
+          <type>const <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve the user pointer associated with the alert callbacks object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The user pointer associated with the alert callbacks object.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" line="56" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" declline="56" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga138dc48422d206efa1cba88ff6bdcd95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_alert_cbs_set_user_data</definition>
+        <argsstring>(LinphoneAlertCbs *cbs, void *user_data)</argsstring>
+        <name>linphone_alert_cbs_set_user_data</name>
+        <param>
+          <type><ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>user_data</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to the alert callbacks object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>user_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user pointer to associate with the alert callbacks object.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" line="63" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" declline="63" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1gaea13911c9d3f4ad9fce617d9aeb2ef10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_alert_cbs_set_terminated</definition>
+        <argsstring>(LinphoneAlertCbs *cbs, LinphoneAlertCbsTerminatedCb terminated)</argsstring>
+        <name>linphone_alert_cbs_set_terminated</name>
+        <param>
+          <type><ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <param>
+          <type><ref refid="group__alert_1gab38c1f2c432287f21f927fc42c26923c" kindref="member">LinphoneAlertCbsTerminatedCb</ref></type>
+          <declname>terminated</declname>
+        </param>
+        <briefdescription>
+<para>Assign a callback for when the alert is terminated. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>on_terminated</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The #LinphoneAlertCbsOnTerminatedCb callback to execute.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" line="69" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" declline="69" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga2d8c163ce177129672438aeb3cfc2d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__alert_1gab38c1f2c432287f21f927fc42c26923c" kindref="member">LinphoneAlertCbsTerminatedCb</ref></type>
+        <definition>LinphoneAlertCbsTerminatedCb linphone_alert_cbs_get_terminated</definition>
+        <argsstring>(LinphoneAlertCbs *cbs)</argsstring>
+        <name>linphone_alert_cbs_get_terminated</name>
+        <param>
+          <type><ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Get the callback for when the alert is terminated. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The #LinphoneAlertCbsOnTerminatedCb callback to execute.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" line="75" column="31" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert-cbs.h" declline="75" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga59903885d61f4138b9bf3a2b55624f11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_alert_type_to_string</definition>
+        <argsstring>(LinphoneAlertType type)</argsstring>
+        <name>linphone_alert_type_to_string</name>
+        <param>
+          <type><ref refid="group__alert_1ga116c694623749c7c381b52c426073d27" kindref="member">LinphoneAlertType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Provide a string describing the alert type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__alert_1ga116c694623749c7c381b52c426073d27" kindref="member">LinphoneAlertType</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="39" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="39" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga2457c696f83ef855b2af5e1b8091fa36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+        <definition>LinphoneAlert * linphone_alert_clone</definition>
+        <argsstring>(const LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_clone</name>
+        <param>
+          <type>const <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Clone the given alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The given alert.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A new alert with exactly same informations that param.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="46" column="16" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="46" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga33eed2eb92502c020b6ae8f5eec4b92a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+        <definition>LinphoneAlert * linphone_alert_ref</definition>
+        <argsstring>(LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_ref</name>
+        <param>
+          <type><ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Take a reference on a <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="52" column="16" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="52" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1gaa7602f19984fd760c940f2c020facce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_alert_unref</definition>
+        <argsstring>(LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_unref</name>
+        <param>
+          <type><ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Release a <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="58" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="58" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga4ac14f67597556cac940d45040ab5ec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>time_t</type>
+        <definition>time_t linphone_alert_get_start_time</definition>
+        <argsstring>(const LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_get_start_time</name>
+        <param>
+          <type>const <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Return the start time of the alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The given alert.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the start time of the alert. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="64" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="64" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga243ac0a716e58fc911d897899f7cc1d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>time_t</type>
+        <definition>time_t linphone_alert_get_end_time</definition>
+        <argsstring>(const LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_get_end_time</name>
+        <param>
+          <type>const <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Return the end time of the alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The given alert.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the end time of the alert. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="70" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="70" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga8f1122fd9303cba290304609e6cbe318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__alert_1ga116c694623749c7c381b52c426073d27" kindref="member">LinphoneAlertType</ref></type>
+        <definition>LinphoneAlertType linphone_alert_get_type</definition>
+        <argsstring>(const LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_get_type</name>
+        <param>
+          <type>const <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Return the type of the alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The given alert.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A <ref refid="group__alert_1ga116c694623749c7c381b52c426073d27" kindref="member">LinphoneAlertType</ref> corresponding to the current alert. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="76" column="20" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="76" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga05967c4ed6055b3bf207957c06fb1d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> *</type>
+        <definition>const LinphoneDictionary * linphone_alert_get_informations</definition>
+        <argsstring>(const LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_get_informations</name>
+        <param>
+          <type>const <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Return more informations about the alerts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The given alert.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A <ref refid="group__dictionary_1ga5bed1605d2f4e4cc44d237c057dc9f53" kindref="member">LinphoneDictionary</ref> containing informations about the current alert.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="82" column="27" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="82" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga58b06d9930caea6848499d9e9f23b697" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> *</type>
+        <definition>LinphoneCall * linphone_alert_get_call</definition>
+        <argsstring>(const LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_get_call</name>
+        <param>
+          <type>const <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Return the call from the alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The given alert.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A <ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref> from the alert.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="88" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="88" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga73d0e561a6315677fdf3de7adb73ee0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_alert_get_state</definition>
+        <argsstring>(const LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_get_state</name>
+        <param>
+          <type>const <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Return the state of the alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The given alert.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if and only if the alert is active. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="94" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="94" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga6d0eab93f33f630fc8d7b89d21b91aa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_alert_add_callbacks</definition>
+        <argsstring>(LinphoneAlert *alert, LinphoneAlertCbs *cbs)</argsstring>
+        <name>linphone_alert_add_callbacks</name>
+        <param>
+          <type><ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <param>
+          <type><ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Add a listener in order to be notified of <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> events. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> object to monitor.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> object holding the callbacks you need.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="100" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="100" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1gaaa007cbc3b91d26b12afd0c9293d3715" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> *</type>
+        <definition>LinphoneAlertCbs * linphone_alert_get_current_callbacks</definition>
+        <argsstring>(const LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_get_current_callbacks</name>
+        <param>
+          <type>const <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Gets the current LinphoneAlertCbs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is meant only to be called from a callback to be able to get the user_data associated with the <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> that is calling the callback. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> that has called the last callback.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="108" column="19" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="108" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1gaf24d307044dec4fa438311980711bb10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_alert_get_callbacks_list</definition>
+        <argsstring>(const LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_get_callbacks_list</name>
+        <param>
+          <type>const <ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Gets the list of listener in the alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The list of <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref>.  <maybenil />   <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="115" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="115" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga949deb73d9ee667236cfa28ce2fbfa9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_alert_remove_callbacks</definition>
+        <argsstring>(LinphoneAlert *alert, LinphoneAlertCbs *cbs)</argsstring>
+        <name>linphone_alert_remove_callbacks</name>
+        <param>
+          <type><ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <param>
+          <type><ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> *</type>
+          <declname>cbs</declname>
+        </param>
+        <briefdescription>
+<para>Removes a <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> object associated to the LinphoneAlert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cbs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaddc38af89608ddd74b2e89b99c8140d9" kindref="member">LinphoneAlertCbs</ref> object to be removed from the LinphoneAlert.  <notnil />   <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="122" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="122" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__alert_1ga2ec1cf79bb36a56cb1782a2a3404fbd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_alert_notify_on_terminated</definition>
+        <argsstring>(LinphoneAlert *alert)</argsstring>
+        <name>linphone_alert_notify_on_terminated</name>
+        <param>
+          <type><ref refid="group__alert_1gad5d0d56e79e00079b04b70ff397d724e" kindref="member">LinphoneAlert</ref> *</type>
+          <declname>alert</declname>
+        </param>
+        <briefdescription>
+<para>Notify the alert if it is terminated. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The given alert.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" line="127" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-alert.h" declline="127" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Managing Alerts. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

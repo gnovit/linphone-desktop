@@ -1,0 +1,1 @@
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libjpeg-turbo\sharedlib\cjpeg16.dir\RelWithDebInfo\cjpeg16.lib

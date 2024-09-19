@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="misc_8h" kind="file" language="C++">
+    <compoundname>misc.h</compoundname>
+    <includes refid="types_8h" local="yes">linphone/types.h</includes>
+    <includedby refid="core_8h" local="yes">core.h</includedby>
+    <sectiondef kind="define">
+      <member refid="group__call__misc_1ga537911929e31ed4ca388ff40a37f97de" kind="define"><name>LINPHONE_VOLUME_DB_LOWEST</name></member>
+      <member refid="group__initializing_1ga735b4f08acd416c740f7ddd6a9791358" kind="define"><name>LC_SIP_TRANSPORT_DISABLED</name></member>
+      <member refid="group__initializing_1gadc507b9a498d5ce572fd219e385ad1f4" kind="define"><name>LC_SIP_TRANSPORT_RANDOM</name></member>
+      <member refid="group__initializing_1ga59ea266df5d16b9954ddf4224eb348ae" kind="define"><name>LC_SIP_TRANSPORT_DONTBIND</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__initializing_1gabed8f81b9df721c0732f1128bc0d4409" kind="function"><name>linphone_stream_type_to_string</name></member>
+      <member refid="group__proxies_1ga38fdcc74fadcd16183cad9210e9e6b15" kind="function"><name>linphone_registration_state_to_string</name></member>
+      <member refid="group__media__parameters_1ga921d8b5d9f187473fb518958ff3af9e4" kind="function"><name>linphone_media_encryption_to_string</name></member>
+      <member refid="group__media__parameters_1gae25287d5c2d909c3286697015d62c8e1" kind="function"><name>linphone_media_direction_to_string</name></member>
+      <member refid="group__media__parameters_1ga4d2ddf6f96a0ee47742caccec34e8bf3" kind="function"><name>linphone_media_encryption_from_string</name></member>
+      <memberdef kind="function" id="misc_8h_1a8426b20b0a2913cf9c1ddd32c4dd38f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_privacy_to_string</definition>
+        <argsstring>(LinphonePrivacy privacy)</argsstring>
+        <name>linphone_privacy_to_string</name>
+        <param>
+          <type><ref refid="group__call__control_1ga69fededca6e3f643995d9dccf2295371" kindref="member">LinphonePrivacy</ref></type>
+          <declname>privacy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="97" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="97" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1adfdc3a1263bf41b1d3f53db33f335698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_subscription_state_to_string</definition>
+        <argsstring>(LinphoneSubscriptionState state)</argsstring>
+        <name>linphone_subscription_state_to_string</name>
+        <param>
+          <type><ref refid="group__event__api_1gae08ee010813d69b0bc487c704b174933" kindref="member">LinphoneSubscriptionState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="99" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="99" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a0436c9ba0a11516562697ab8f931051f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_publish_state_to_string</definition>
+        <argsstring>(LinphonePublishState state)</argsstring>
+        <name>linphone_publish_state_to_string</name>
+        <param>
+          <type><ref refid="group__event__api_1gafb440ee528090b514289e74320923ea2" kindref="member">LinphonePublishState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="101" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="101" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a06be22bdd72a49a85ffd2301990dcc92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_ice_state_to_string</definition>
+        <argsstring>(LinphoneIceState state)</argsstring>
+        <name>linphone_ice_state_to_string</name>
+        <param>
+          <type><ref refid="group__initializing_1gaf4faffc512588eda7db03fab8b03adfb" kindref="member">LinphoneIceState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="103" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="103" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a3088d01b0c5dd5f6a01bcfb1e310d5e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_global_state_to_string</definition>
+        <argsstring>(LinphoneGlobalState gs)</argsstring>
+        <name>linphone_global_state_to_string</name>
+        <param>
+          <type><ref refid="group__initializing_1gae852b5b31d6d5e673de9d2c9b63aca7e" kindref="member">LinphoneGlobalState</ref></type>
+          <declname>gs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="105" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="105" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a5d3b656fe530b066d7a62a0e311b9936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_core_log_collection_upload_state_to_string</definition>
+        <argsstring>(const LinphoneCoreLogCollectionUploadState lcus)</argsstring>
+        <name>linphone_core_log_collection_upload_state_to_string</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaf0a0a9c66291967cbaa7f0aaedc6d37c" kindref="member">LinphoneCoreLogCollectionUploadState</ref></type>
+          <declname>lcus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="108" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="108" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1aec155fef6c9072f49e82f4c07fa59944" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_call_state_to_string</definition>
+        <argsstring>(LinphoneCallState cs)</argsstring>
+        <name>linphone_call_state_to_string</name>
+        <param>
+          <type><ref refid="group__call__control_1gac4844c99582db6399e694411ca3ea76b" kindref="member">LinphoneCallState</ref></type>
+          <declname>cs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="110" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="110" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a26d0ca20c555179dceaa401862d766b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_participant_role_to_string</definition>
+        <argsstring>(LinphoneParticipantRole role)</argsstring>
+        <name>linphone_participant_role_to_string</name>
+        <param>
+          <type><ref refid="group__conference_1gac1b36f796046e4d94ee23435a0de9d54" kindref="member">LinphoneParticipantRole</ref></type>
+          <declname>role</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="112" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="112" declcolumn="13"/>
+      </memberdef>
+      <member refid="group__misc_1gacc9f97e44b3a57078c75fae1984edc48" kind="function"><name>linphone_configuring_state_to_string</name></member>
+      <memberdef kind="function" id="misc_8h_1a661fb082f0920b0eea7acde8f63f76a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_chat_message_state_to_string</definition>
+        <argsstring>(const LinphoneChatMessageState state)</argsstring>
+        <name>linphone_chat_message_state_to_string</name>
+        <param>
+          <type>const <ref refid="group__chatroom_1ga00880fbccc069991b2da15117dd90999" kindref="member">LinphoneChatMessageState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+<para>Returns a <ref refid="group__chatroom_1ga00880fbccc069991b2da15117dd90999" kindref="member">LinphoneChatMessageState</ref> as a string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__chatroom_1ga00880fbccc069991b2da15117dd90999" kindref="member">LinphoneChatMessageState</ref> the value for which we want a string representation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a string representation of the <ref refid="group__chatroom_1ga00880fbccc069991b2da15117dd90999" kindref="member">LinphoneChatMessageState</ref>  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="127" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="127" declcolumn="13"/>
+      </memberdef>
+      <member refid="group__misc_1gaa4217a6990714733cb6bc2aa7afd0da2" kind="function"><name>linphone_reason_to_string</name></member>
+      <memberdef kind="function" id="misc_8h_1ad49c52171ed44a0165e9e8cff461d61c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref></type>
+        <definition>LinphoneTunnelMode linphone_tunnel_mode_from_string</definition>
+        <argsstring>(const char *string)</argsstring>
+        <name>linphone_tunnel_mode_from_string</name>
+        <param>
+          <type>const char *</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+<para>Convert a string into <ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref> enum. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String to convert  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An <ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref> enum. If the passed string is NULL or does not match with any mode, the <ref refid="group__tunnel_1ggac832d7950d88dc22e3d002ffd46a2d36a52d2fc6a079979cffe8bdb3a0b1e2faa" kindref="member">LinphoneTunnelModeDisable</ref> is returned. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="143" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="143" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a28535e3e48329ea0bf5ecf63eb8948d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_tunnel_mode_to_string</definition>
+        <argsstring>(LinphoneTunnelMode mode)</argsstring>
+        <name>linphone_tunnel_mode_to_string</name>
+        <param>
+          <type><ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>Convert a <ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref> enum into string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref> to convert </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>&quot;disable&quot;, &quot;enable&quot; or &quot;auto&quot;  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="150" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="150" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a04b573e871508bb4ba938746bceefe55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_local_player_matroska_supported</definition>
+        <argsstring>(void)</argsstring>
+        <name>linphone_local_player_matroska_supported</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Check whether Matroksa format is supported by the player. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>TRUE if it is supported, FALSE otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="156" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="156" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1aefdc4ff399de282d82ae43321048d14c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_recorder_matroska_supported</definition>
+        <argsstring>(void)</argsstring>
+        <name>linphone_recorder_matroska_supported</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Check whether Matroksa format is supported by the recorder. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>TRUE if it is supported </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="162" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="162" declcolumn="9"/>
+      </memberdef>
+      <member refid="group__misc_1ga1b0e8130eaebfb5422fe34223bfcee26" kind="function"><name>linphone_transport_to_string</name></member>
+      <member refid="group__misc_1ga5035bd2f4cc0434817f33b9423462de8" kind="function"><name>linphone_transport_parse</name></member>
+      <member refid="group__misc_1ga2a3f1c38a3765dfd6388389c99b390f2" kind="function"><name>linphone_error_code_is_retry_after</name></member>
+      <member refid="group__misc_1ga88c0b030dc0ce17d7149a98d4ecdd534" kind="function"><name>linphone_error_code_to_reason</name></member>
+      <member refid="group__misc_1gad159596910f381b7b396a79f97a36e2f" kind="function"><name>linphone_reason_to_error_code</name></member>
+      <member refid="group__misc_1ga70acbf24ed5a7dfb34850d9df9bbe16a" kind="function"><name>linphone_range_ref</name></member>
+      <member refid="group__misc_1gaf40d029a9d2c2bb2609ada01be2dc7aa" kind="function"><name>linphone_range_unref</name></member>
+      <member refid="group__misc_1ga201d07b4f2669aaa601bebc5980ff162" kind="function"><name>linphone_range_get_user_data</name></member>
+      <member refid="group__misc_1ga05bb3c24a98068781b01faa907d50e2a" kind="function"><name>linphone_range_set_user_data</name></member>
+      <member refid="group__misc_1ga8350cbbfa884ef181a763cd4c037011e" kind="function"><name>linphone_range_get_min</name></member>
+      <member refid="group__misc_1ga6d71c9dc4f6020bf8fb73f0989e24796" kind="function"><name>linphone_range_get_max</name></member>
+      <member refid="group__misc_1ga1b2c761b4aa898afbdbc90fd9b554a34" kind="function"><name>linphone_range_set_min</name></member>
+      <member refid="group__misc_1ga7adc952e59cb50e12dcd87ec69ce9c97" kind="function"><name>linphone_range_set_max</name></member>
+      <memberdef kind="function" id="misc_8h_1aa0698cbbbc66e03055cb4f93a62a6c5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED const char *</type>
+        <definition>MS2_DEPRECATED const char * linphone_online_status_to_string</definition>
+        <argsstring>(LinphoneOnlineStatus status)</argsstring>
+        <name>linphone_online_status_to_string</name>
+        <param>
+          <type>LinphoneOnlineStatus</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+<para>Return humain readable presence status. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>status</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<xrefsect id="deprecated_1_deprecated000196"><xreftitle>Deprecated</xreftitle><xrefdescription><para>03/02/2017 Use <ref refid="group__buddy__list_1gad98268f00fb29b50b22b3c3da566e366" kindref="member">LinphonePresenceModel</ref>, <ref refid="group__buddy__list_1gadb1476058b69c4da5e94c7e0d55fd244" kindref="member">LinphonePresenceActivity</ref> and <ref refid="group__buddy__list_1ga8735a0ef979e2526a2847107c7c8776d" kindref="member">linphone_presence_activity_to_string()</ref> instead.  <donotwrap />  </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" line="278" column="28" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h" declline="278" declcolumn="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LINPHONE_MISC_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_MISC_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_VOLUME_DB_LOWEST<sp/>(-120)<sp/></highlight><highlight class="comment">/*<sp/>WARNING:<sp/>keep<sp/>this<sp/>in<sp/>sync<sp/>with<sp/>mediastreamer2/msvolume.h<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LC_SIP_TRANSPORT_DISABLED<sp/>0</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LC_SIP_TRANSPORT_RANDOM<sp/>(-1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LC_SIP_TRANSPORT_DONTBIND<sp/>(-2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__initializing_1gabed8f81b9df721c0732f1128bc0d4409" kindref="member">linphone_stream_type_to_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__initializing_1ga9a98644da41a4a2b6bf9ee57a94844ea" kindref="member">LinphoneStreamType</ref><sp/>type);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__proxies_1ga38fdcc74fadcd16183cad9210e9e6b15" kindref="member">linphone_registration_state_to_string</ref>(<ref refid="group__proxies_1ga698cb4228fac724b9e7c3cc5f499f7a8" kindref="member">LinphoneRegistrationState</ref><sp/>state);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__media__parameters_1ga921d8b5d9f187473fb518958ff3af9e4" kindref="member">linphone_media_encryption_to_string</ref>(<ref refid="group__media__parameters_1ga61f5a2961ec43a0bd91eb1a664a6f111" kindref="member">LinphoneMediaEncryption</ref><sp/>media_encryption);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__media__parameters_1gae25287d5c2d909c3286697015d62c8e1" kindref="member">linphone_media_direction_to_string</ref>(<ref refid="group__call__control_1ga5713e3d5c124a43229438e97be9dd268" kindref="member">LinphoneMediaDirection</ref><sp/>media_direction);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1ga4d2ddf6f96a0ee47742caccec34e8bf3" kindref="member">linphone_media_encryption_from_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*linphone_privacy_to_string(<ref refid="group__call__control_1ga69fededca6e3f643995d9dccf2295371" kindref="member">LinphonePrivacy</ref><sp/>privacy);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*linphone_subscription_state_to_string(<ref refid="group__event__api_1gae08ee010813d69b0bc487c704b174933" kindref="member">LinphoneSubscriptionState</ref><sp/>state);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*linphone_publish_state_to_string(<ref refid="group__event__api_1gafb440ee528090b514289e74320923ea2" kindref="member">LinphonePublishState</ref><sp/>state);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*linphone_ice_state_to_string(<ref refid="group__initializing_1gaf4faffc512588eda7db03fab8b03adfb" kindref="member">LinphoneIceState</ref><sp/>state);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*linphone_global_state_to_string(<ref refid="group__initializing_1gae852b5b31d6d5e673de9d2c9b63aca7e" kindref="member">LinphoneGlobalState</ref><sp/>gs);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">linphone_core_log_collection_upload_state_to_string(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__initializing_1gaf0a0a9c66291967cbaa7f0aaedc6d37c" kindref="member">LinphoneCoreLogCollectionUploadState</ref><sp/>lcus);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*linphone_call_state_to_string(<ref refid="group__call__control_1gac4844c99582db6399e694411ca3ea76b" kindref="member">LinphoneCallState</ref><sp/>cs);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*linphone_participant_role_to_string(<ref refid="group__conference_1gac1b36f796046e4d94ee23435a0de9d54" kindref="member">LinphoneParticipantRole</ref><sp/>role);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1gacc9f97e44b3a57078c75fae1984edc48" kindref="member">linphone_configuring_state_to_string</ref>(<ref refid="group__initializing_1ga35c7973b01a268a82cc0e04966bee4bf" kindref="member">LinphoneConfiguringState</ref><sp/>state);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*linphone_chat_message_state_to_string(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1ga00880fbccc069991b2da15117dd90999" kindref="member">LinphoneChatMessageState</ref><sp/>state);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1gaa4217a6990714733cb6bc2aa7afd0da2" kindref="member">linphone_reason_to_string</ref>(<ref refid="group__misc_1gabe82a1a1ffc3d6b4e0b51a03028513b7" kindref="member">LinphoneReason</ref><sp/>error);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref><sp/>linphone_tunnel_mode_from_string(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*linphone_tunnel_mode_to_string(<ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/>linphone_local_player_matroska_supported(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/>linphone_recorder_matroska_supported(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1ga1b0e8130eaebfb5422fe34223bfcee26" kindref="member">linphone_transport_to_string</ref>(<ref refid="group__linphone__address_1ga3835b7b8ed546312096456602ac0ce1d" kindref="member">LinphoneTransportType</ref><sp/>transport);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__linphone__address_1ga3835b7b8ed546312096456602ac0ce1d" kindref="member">LinphoneTransportType</ref><sp/><ref refid="group__misc_1ga5035bd2f4cc0434817f33b9423462de8" kindref="member">linphone_transport_parse</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*transport);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__misc_1ga2a3f1c38a3765dfd6388389c99b390f2" kindref="member">linphone_error_code_is_retry_after</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>error);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1gabe82a1a1ffc3d6b4e0b51a03028513b7" kindref="member">LinphoneReason</ref><sp/><ref refid="group__misc_1ga88c0b030dc0ce17d7149a98d4ecdd534" kindref="member">linphone_error_code_to_reason</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>error);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gad159596910f381b7b396a79f97a36e2f" kindref="member">linphone_reason_to_error_code</ref>(<ref refid="group__misc_1gabe82a1a1ffc3d6b4e0b51a03028513b7" kindref="member">LinphoneReason</ref><sp/>reason);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga1584d2bdd5daa84d4345a96998b663db" kindref="member">LinphoneRange</ref><sp/>*<ref refid="group__misc_1ga70acbf24ed5a7dfb34850d9df9bbe16a" kindref="member">linphone_range_ref</ref>(<ref refid="group__misc_1ga1584d2bdd5daa84d4345a96998b663db" kindref="member">LinphoneRange</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gaf40d029a9d2c2bb2609ada01be2dc7aa" kindref="member">linphone_range_unref</ref>(<ref refid="group__misc_1ga1584d2bdd5daa84d4345a96998b663db" kindref="member">LinphoneRange</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1ga201d07b4f2669aaa601bebc5980ff162" kindref="member">linphone_range_get_user_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga1584d2bdd5daa84d4345a96998b663db" kindref="member">LinphoneRange</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga05bb3c24a98068781b01faa907d50e2a" kindref="member">linphone_range_set_user_data</ref>(<ref refid="group__misc_1ga1584d2bdd5daa84d4345a96998b663db" kindref="member">LinphoneRange</ref><sp/>*range,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*user_data);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga8350cbbfa884ef181a763cd4c037011e" kindref="member">linphone_range_get_min</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga1584d2bdd5daa84d4345a96998b663db" kindref="member">LinphoneRange</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga6d71c9dc4f6020bf8fb73f0989e24796" kindref="member">linphone_range_get_max</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga1584d2bdd5daa84d4345a96998b663db" kindref="member">LinphoneRange</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga1b2c761b4aa898afbdbc90fd9b554a34" kindref="member">linphone_range_set_min</ref>(<ref refid="group__misc_1ga1584d2bdd5daa84d4345a96998b663db" kindref="member">LinphoneRange</ref><sp/>*range,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>min);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga7adc952e59cb50e12dcd87ec69ce9c97" kindref="member">linphone_range_set_max</ref>(<ref refid="group__misc_1ga1584d2bdd5daa84d4345a96998b663db" kindref="member">LinphoneRange</ref><sp/>*range,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>max);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="comment">/************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>DEPRECATED<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>**********<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal">LINPHONE_PUBLIC<sp/>LINPHONE_DEPRECATED<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*linphone_online_status_to_string(LinphoneOnlineStatus<sp/>status);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LINPHONE_MISC_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/misc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\srtp\srtp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\cipher\cipher.c">
+      <Filter>src\Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\cipher\cipher_test_cases.c">
+      <Filter>src\Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\cipher\null_cipher.c">
+      <Filter>src\Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\cipher\aes_icm_mbedtls.c">
+      <Filter>src\Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\cipher\aes_gcm_mbedtls.c">
+      <Filter>src\Ciphers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\hash\auth.c">
+      <Filter>src\Hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\hash\auth_test_cases.c">
+      <Filter>src\Hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\hash\null_auth.c">
+      <Filter>src\Hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\hash\hmac_mbedtls.c">
+      <Filter>src\Hashes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\kernel\alloc.c">
+      <Filter>src\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\kernel\crypto_kernel.c">
+      <Filter>src\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\kernel\err.c">
+      <Filter>src\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\kernel\key.c">
+      <Filter>src\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\math\datatypes.c">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\replay\rdb.c">
+      <Filter>src\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\replay\rdbx.c">
+      <Filter>src\Replay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\cipher\cipher_test_cases.h">
+      <Filter>src\Ciphers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\hash\auth_test_cases.h">
+      <Filter>src\Hashes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\aes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\aes_icm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\alloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\auth.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\cipher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\cipher_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\crypto_kernel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\crypto_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\datatypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\err.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\hmac.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\integers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\key.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\null_auth.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\null_cipher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\rdb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\rdbx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\crypto\include\sha1.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\include\srtp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\include\srtp_priv.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\srtp\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\srtp\srtp.def">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{AB4164E0-154C-3D65-A77F-51902D98E559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{47AC2185-C21E-37CD-ACAB-4E0D09EB25DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ciphers">
+      <UniqueIdentifier>{EC657983-2140-3E15-8D4D-695EFAD5566A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Hashes">
+      <UniqueIdentifier>{A02DC93E-35A6-31E3-AB5B-2751196C16C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Kernel">
+      <UniqueIdentifier>{DB60B525-0ED6-340F-9218-3154F269010E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{E24D10D5-8E24-3FEF-99FB-D027F1B22770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Replay">
+      <UniqueIdentifier>{8441B0E6-5B73-373A-ACFE-378378D49F0E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

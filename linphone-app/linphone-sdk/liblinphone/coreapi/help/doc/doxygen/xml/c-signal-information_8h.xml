@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-signal-information_8h" kind="file" language="C++">
+    <compoundname>c-signal-information.h</compoundname>
+    <includes refid="c-types_8h" local="yes">linphone/api/c-types.h</includes>
+    <includes refid="c-enums_8h" local="yes">linphone/enums/c-enums.h</includes>
+    <includedby refid="c-api_8h" local="yes">c-api.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__signalInformation_1gac70da951996dfd09fbac0a85d56bb754" kind="function"><name>linphone_signal_information_clone</name></member>
+      <member refid="group__signalInformation_1ga62c463fcc72f386bd3475519d42ef0f3" kind="function"><name>linphone_signal_information_ref</name></member>
+      <member refid="group__signalInformation_1ga0443bb9c3de5d0d6bf28b7463140dc6f" kind="function"><name>linphone_signal_information_unref</name></member>
+      <member refid="group__signalInformation_1ga50645ece7bc3b5a7976d87cc029c2296" kind="function"><name>linphone_signal_information_get_strength</name></member>
+      <member refid="group__signalInformation_1ga941b5b30993268f497f78f02deb81925" kind="function"><name>linphone_signal_information_set_value</name></member>
+      <member refid="group__signalInformation_1ga6626f04c0d5d594960759af319190167" kind="function"><name>linphone_signal_information_get_signal_type</name></member>
+      <member refid="group__signalInformation_1ga96bcc3e5f8ce795221a4d0df1db8e807" kind="function"><name>linphone_signal_information_set_signal_type</name></member>
+      <member refid="group__signalInformation_1gaec6b85065ec1a0f4babd1facad491083" kind="function"><name>linphone_signal_information_get_signal_unit</name></member>
+      <member refid="group__signalInformation_1ga9d106492ba551810bff46dc87b2f12d0" kind="function"><name>linphone_signal_information_set_signal_unit</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2023<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_C_SIGNAL_INFORMATION_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_C_SIGNAL_INFORMATION_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/enums/c-enums.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref><sp/>*</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><ref refid="group__signalInformation_1gac70da951996dfd09fbac0a85d56bb754" kindref="member">linphone_signal_information_clone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref><sp/>*signalInformation);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref><sp/>*</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><ref refid="group__signalInformation_1ga62c463fcc72f386bd3475519d42ef0f3" kindref="member">linphone_signal_information_ref</ref>(<ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref><sp/>*signalInformation);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__signalInformation_1ga0443bb9c3de5d0d6bf28b7463140dc6f" kindref="member">linphone_signal_information_unref</ref>(<ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref><sp/>*signalInformation);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__signalInformation_1ga50645ece7bc3b5a7976d87cc029c2296" kindref="member">linphone_signal_information_get_strength</ref>(<ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref><sp/>*signalInformation);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__signalInformation_1ga941b5b30993268f497f78f02deb81925" kindref="member">linphone_signal_information_set_value</ref>(<ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref><sp/>*signalInformation,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__signalInformation_1ga7642371d0d14babb38d08d175fc128d9" kindref="member">LinphoneSignalType</ref></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><ref refid="group__signalInformation_1ga6626f04c0d5d594960759af319190167" kindref="member">linphone_signal_information_get_signal_type</ref>(<ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref><sp/>*signalInformation);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__signalInformation_1ga96bcc3e5f8ce795221a4d0df1db8e807" kindref="member">linphone_signal_information_set_signal_type</ref>(<ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref><sp/>*signalInformation,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__signalInformation_1ga7642371d0d14babb38d08d175fc128d9" kindref="member">LinphoneSignalType</ref><sp/>type);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__signalInformation_1gadd6ae975bc6574c64505a98bc580c69f" kindref="member">LinphoneSignalStrengthUnit</ref></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><ref refid="group__signalInformation_1gaec6b85065ec1a0f4babd1facad491083" kindref="member">linphone_signal_information_get_signal_unit</ref>(<ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref><sp/>*signalInformation);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__signalInformation_1ga9d106492ba551810bff46dc87b2f12d0" kindref="member">linphone_signal_information_set_signal_unit</ref>(<ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref><sp/>*signalInformation,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__signalInformation_1gadd6ae975bc6574c64505a98bc580c69f" kindref="member">LinphoneSignalStrengthUnit</ref><sp/>unit);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//_L_C_SIGNAL_INFORMATION_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h"/>
+  </compounddef>
+</doxygen>

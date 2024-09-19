@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_0e2ebab0759030a7c3b3d87c706d70ec" kind="dir">
+    <compoundname>linphone-sdk</compoundname>
+    <innerdir refid="dir_b29ab43ae347bf5eec343d20bbe71b9b">liblinphone</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/"/>
+  </compounddef>
+</doxygen>

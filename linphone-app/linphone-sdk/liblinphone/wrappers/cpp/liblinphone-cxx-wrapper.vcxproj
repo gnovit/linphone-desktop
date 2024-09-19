@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{94F8CD5F-F8E2-329E-9B74-0AA4A87954B0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>liblinphone-cxx-wrapper</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\liblinphone-cxx-wrapper.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\coreapi;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\src;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\b7b961434121ef686f8dfad5d0a6661e\linphone.hh.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating include/linphone++/linphone.hh, src/linphone++.cc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory include
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory src
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/wrappers/cpp/genwrapper.py D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/coreapi/help/doc/doxygen/xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\genapixml.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\metadoc.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\metaname.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\abstractapi.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\genwrapper.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\class_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\class_impl.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\enums_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\main_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\help\doc\doxygen\xml\index.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\include\linphone++\linphone.hh;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\src\linphone++.cc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating include/linphone++/linphone.hh, src/linphone++.cc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory include
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory src
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/wrappers/cpp/genwrapper.py D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/coreapi/help/doc/doxygen/xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\genapixml.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\metadoc.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\metaname.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\abstractapi.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\genwrapper.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\class_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\class_impl.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\enums_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\main_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\help\doc\doxygen\xml\index.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\include\linphone++\linphone.hh;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\src\linphone++.cc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating include/linphone++/linphone.hh, src/linphone++.cc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory include
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory src
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/wrappers/cpp/genwrapper.py D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/coreapi/help/doc/doxygen/xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\genapixml.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\metadoc.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\metaname.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\abstractapi.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\genwrapper.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\class_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\class_impl.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\enums_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\main_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\help\doc\doxygen\xml\index.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\include\linphone++\linphone.hh;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\src\linphone++.cc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating include/linphone++/linphone.hh, src/linphone++.cc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory include
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove_directory src
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/wrappers/cpp/genwrapper.py D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/coreapi/help/doc/doxygen/xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\genapixml.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\metadoc.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\metaname.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\tools\abstractapi.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\genwrapper.py;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\class_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\class_impl.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\enums_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\main_header.mustache;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\help\doc\doxygen\xml\index.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\include\linphone++\linphone.hh;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\src\linphone++.cc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\1355ba7b57d47ea58e4efdc9178483ea\liblinphone-cxx-wrapper.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\include\linphone++\linphone.hh;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\src\linphone++.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\CMakeFiles\liblinphone-cxx-wrapper</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\include\linphone++\linphone.hh;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\src\linphone++.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\CMakeFiles\liblinphone-cxx-wrapper</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\include\linphone++\linphone.hh;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\src\linphone++.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\CMakeFiles\liblinphone-cxx-wrapper</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\include\linphone++\linphone.hh;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\src\linphone++.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\CMakeFiles\liblinphone-cxx-wrapper</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/wrappers/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/wrappers/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\Doxyfile.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\LinphoneCxxConfig.cmake.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\doxygen.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/wrappers/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/wrappers/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\Doxyfile.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\LinphoneCxxConfig.cmake.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\doxygen.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/wrappers/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/wrappers/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\Doxyfile.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\LinphoneCxxConfig.cmake.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\doxygen.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/wrappers/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/liblinphone/wrappers/cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\Doxyfile.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\LinphoneCxxConfig.cmake.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\liblinphone\wrappers\cpp\doxygen.dox.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\CMakeFiles\liblinphone-cxx-wrapper">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ZERO_CHECK.vcxproj">
+      <Project>{F070D8A1-EDFC-3AC1-B6E3-02D97BB8861D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\help\doc\doxygen\liblinphone-doc.vcxproj">
+      <Project>{3396DA96-6937-3457-8007-B460541CC292}</Project>
+      <Name>liblinphone-doc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

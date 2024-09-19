@@ -1,0 +1,52 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\AOM\CMAKEFILES\9FA2972BE5DBFD2747F2175F1958EE12\AOM_DSP_RTCD.H.RULE
+setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\msys64\usr\bin\perl.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom/build/cmake/rtcd.pl --arch=x86_64 --sym=aom_dsp_rtcd --config=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/config/aom_config.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom/aom_dsp/aom_dsp_rtcd_defs.pl > D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/config/aom_dsp_rtcd.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\AOM\CMAKEFILES\9FA2972BE5DBFD2747F2175F1958EE12\AOM_SCALE_RTCD.H.RULE
+setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\msys64\usr\bin\perl.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom/build/cmake/rtcd.pl --arch=x86_64 --sym=aom_scale_rtcd --config=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/config/aom_config.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom/aom_scale/aom_scale_rtcd.pl > D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/config/aom_scale_rtcd.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\AOM\CMAKEFILES\9FA2972BE5DBFD2747F2175F1958EE12\AV1_RTCD.H.RULE
+setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\msys64\usr\bin\perl.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom/build/cmake/rtcd.pl --arch=x86_64 --sym=av1_rtcd --config=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/config/aom_config.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom/av1/common/av1_rtcd_defs.pl > D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/config/av1_rtcd.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-SDK\EXTERNAL\AOM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

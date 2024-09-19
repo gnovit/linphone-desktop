@@ -1,0 +1,1981 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__authentication" kind="group">
+    <compoundname>authentication</compoundname>
+    <title>Authentication</title>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__authentication_1ga0f8289c1aab407992864a68869107f4f" prot="public" static="no">
+        <type>struct _LinphoneAuthInfo</type>
+        <definition>typedef struct _LinphoneAuthInfo LinphoneAuthInfo</definition>
+        <argsstring></argsstring>
+        <name>LinphoneAuthInfo</name>
+        <briefdescription>
+<para>Object holding authentication information. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>In most case, authentication information consists of a username and password. If realm isn&apos;t set, it will be deduced automatically from the first authentication challenge as for the hash algorithm. Sometimes, a userid is required by the proxy and then domain can be useful to discriminate different credentials. You can also use this object if you need to use a client certificate.</para>
+<para>Once created and filled, a <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> must be added to the <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> in order to become known and used automatically when needed. Use <ref refid="group__authentication_1ga03f03a4639728803cb2c5ff0bcbbd048" kindref="member">linphone_core_add_auth_info()</ref> for that purpose.</para>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object can take the initiative to request authentication information when needed to the application through the authentication_requested() callback of it&apos;s <ref refid="group__initializing_1gaa4a52a9cdc319baccd2232dda6681f8f" kindref="member">LinphoneCoreCbs</ref>.</para>
+<para>The application can respond to this information request later using <ref refid="group__authentication_1ga03f03a4639728803cb2c5ff0bcbbd048" kindref="member">linphone_core_add_auth_info()</ref>. This will unblock all pending authentication transactions and retry them with authentication headers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="84" column="32" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__authentication_1ga03f03a4639728803cb2c5ff0bcbbd048" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_add_auth_info</definition>
+        <argsstring>(LinphoneCore *core, const LinphoneAuthInfo *info)</argsstring>
+        <name>linphone_core_add_auth_info</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Adds authentication information to the <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>That piece of information will be used during all SIP transactions that require authentication. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> to add.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="2452" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="2452" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gacd50f45b06f41b3c22f07e0c5042e1aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_remove_auth_info</definition>
+        <argsstring>(LinphoneCore *core, const LinphoneAuthInfo *info)</argsstring>
+        <name>linphone_core_remove_auth_info</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Removes an authentication information object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> from which the <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> will be removed.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> to remove.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="2460" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="2460" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga2e14138ccc64d2f75c1dd7bbb69644a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_core_get_auth_info_list</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_auth_info_list</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Returns an unmodifiable list of currently entered <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A list of <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref>.  <bctbxlist>LinphoneAuthInfo</bctbxlist>  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="2468" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="2468" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gaaf2b1180c97ba9d0f711422b4c63e5fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+        <definition>const LinphoneAuthInfo * linphone_core_find_auth_info</definition>
+        <argsstring>(LinphoneCore *core, const char *realm, const char *username, const char *sip_domain)</argsstring>
+        <name>linphone_core_find_auth_info</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>realm</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sip_domain</declname>
+        </param>
+        <briefdescription>
+<para>Find authentication info matching realm, username, domain criteria. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>First of all, (realm,username) pair are searched. If multiple results (which should not happen because realm are supposed to be unique), then domain is added to the search. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>realm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the authentication &apos;realm&apos; (optional)  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the SIP username to be authenticated (mandatory)  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sip_domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the SIP domain name (optional)  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> if found.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="2482" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="2482" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga9945389d6e253e65e17a389d510b7d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_clear_all_auth_info</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_clear_all_auth_info</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Clear all authentication information. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="2498" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="2498" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gab65c42e2cabca846c01cfecd653ed56e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_set_digest_authentication_policy</definition>
+        <argsstring>(LinphoneCore *core, LinphoneDigestAuthenticationPolicy *policy)</argsstring>
+        <name>linphone_core_set_digest_authentication_policy</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type><ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> *</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+<para>Setup a new digest authentication policy applicable for SIP and HTTP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Setup a new digest authentication policy applicable for SIP and HTTP. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="2508" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="2508" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga43c8e4c023ab753f3f7621d320e402a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> *</type>
+        <definition>const LinphoneDigestAuthenticationPolicy * linphone_core_get_digest_authentication_policy</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_digest_authentication_policy</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Get the current digest authentication policy applicable for SIP and HTTP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the current digest authentication policy applicable for SIP and HTTP. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current digest authentication policy.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="2520" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="2520" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gacbb0aa7ed991c4de69ba7986f020e2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+        <definition>MS2_DEPRECATED LinphoneAuthInfo * linphone_core_create_auth_info</definition>
+        <argsstring>(LinphoneCore *core, const char *username, const char *userid, const char *passwd, const char *ha1, const char *realm, const char *domain)</argsstring>
+        <name>linphone_core_create_auth_info</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>userid</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>passwd</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ha1</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>realm</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>domain</declname>
+        </param>
+        <briefdescription>
+<para>Create an authentication information with default values from Linphone core. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String containing the username part of the authentication credentials </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>userid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String containing the username to use to calculate the authentication digest (optional) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>passwd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String containing the password of the authentication credentials (optional, either passwd or ha1 must be set) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ha1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String containing a ha1 hash of the password (optional, either passwd or ha1 must be set) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>realm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String used to discriminate different SIP authentication domains (optional) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String containing the SIP domain for which this authentication information is valid, if it has to be restricted for a single SIP domain. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> with default values set</para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000119"><xreftitle>Deprecated</xreftitle><xrefdescription><para>13/02/2019 use <ref refid="group__initializing_1gac73ee087c6cd6fbe50093bb5421126ae" kindref="member">linphone_factory_create_auth_info()</ref> instead.  <donotwrap />  </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7974" column="34" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7974" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga034dd18662e329c0dcd6a56d2b3d24fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+        <definition>LinphoneAuthInfo * linphone_auth_info_new</definition>
+        <argsstring>(const char *username, const char *userid, const char *passwd, const char *ha1, const char *realm, const char *domain)</argsstring>
+        <name>linphone_auth_info_new</name>
+        <param>
+          <type>const char *</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>userid</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>passwd</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ha1</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>realm</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>domain</declname>
+        </param>
+        <briefdescription>
+<para>Safely cast a belle_sip_object_t into <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="39" column="19" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="39" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga95956f39acf2f7c94887aa83302bbb16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+        <definition>LinphoneAuthInfo * linphone_auth_info_new_for_algorithm</definition>
+        <argsstring>(const char *username, const char *userid, const char *passwd, const char *ha1, const char *realm, const char *domain, const char *algorithm)</argsstring>
+        <name>linphone_auth_info_new_for_algorithm</name>
+        <param>
+          <type>const char *</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>userid</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>passwd</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ha1</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>realm</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>domain</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>algorithm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="46" column="19" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="46" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga8f6833322c978c3a0733090dc73900d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+        <definition>LinphoneAuthInfo * linphone_auth_info_clone</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_clone</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Instantiates a new auth info with values from source. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object to be cloned.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The newly created <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="59" column="19" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="59" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga6e4053c77a14917a68cf91cb59b6efb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+        <definition>LinphoneAuthInfo * linphone_auth_info_ref</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_ref</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Take a reference on a <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="66" column="19" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="66" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga9fdf9803e3d1a3d5325d809fc88a8e8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_unref</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_unref</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Release a <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="72" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="72" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga59f0fb699251c94756f431a5abb28802" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_password</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *password)</argsstring>
+        <name>linphone_auth_info_set_password</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Sets the password. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="79" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="79" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga561a2f389eb90e4d24ac317994960f90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_username</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *username)</argsstring>
+        <name>linphone_auth_info_set_username</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+<para>Sets the username. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The username.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="86" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="86" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga0fcc651b4573b63718812fab6e1a38f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_algorithm</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *algorithm)</argsstring>
+        <name>linphone_auth_info_set_algorithm</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>algorithm</declname>
+        </param>
+        <briefdescription>
+<para>Sets the algorithm to use. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>algorithm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The algorithm.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="93" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="93" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga29d5beab84343f60de05b6107985e3bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_available_algorithms</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const bctbx_list_t *algorithms)</argsstring>
+        <name>linphone_auth_info_set_available_algorithms</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const bctbx_list_t *</type>
+          <declname>algorithms</declname>
+        </param>
+        <briefdescription>
+<para>Sets the available algorithms list without testing unicity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>algorithms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The available algorithms list.  <bctbxlist>const char *</bctbxlist>  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="100" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="100" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga5b2cc9c31cd0cdd2df141a071c27e55f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_add_available_algorithm</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *algorithm)</argsstring>
+        <name>linphone_auth_info_add_available_algorithm</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>algorithm</declname>
+        </param>
+        <briefdescription>
+<para>Add an unique algorithm in the the available algorithms list : Algorithms that already exist will not be added. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>algorithm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The algorithm to add.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="108" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="108" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga47d0484ed1ada27291985c1b067c8cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_userid</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *user_id)</argsstring>
+        <name>linphone_auth_info_set_userid</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>user_id</declname>
+        </param>
+        <briefdescription>
+<para>Sets the user ID. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>user_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The userid. <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="115" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="115" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga4763b505c18dc73b98fe4eedab80f750" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_realm</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *realm)</argsstring>
+        <name>linphone_auth_info_set_realm</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>realm</declname>
+        </param>
+        <briefdescription>
+<para>Sets the realm. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>realm</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The realm.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="122" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="122" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga2957cf6a80162cb096a77e9dd78adbc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_domain</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *domain)</argsstring>
+        <name>linphone_auth_info_set_domain</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>domain</declname>
+        </param>
+        <briefdescription>
+<para>Sets the domain for which this authentication is valid. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The domain.  <maybenil />  This should not be necessary because realm is supposed to be unique and sufficient. However, many SIP servers don&apos;t set realm correctly, then domain has to be used to distinguish between several SIP account bearing the same username. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="132" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="132" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gaddc66a25d05fd36447c292afc368dc50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_ha1</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *ha1)</argsstring>
+        <name>linphone_auth_info_set_ha1</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ha1</declname>
+        </param>
+        <briefdescription>
+<para>Sets the ha1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ha1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The ha1.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="139" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="139" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga4cefc3be56f4b561938a2d2fcfc55a5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_tls_cert</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *tls_cert)</argsstring>
+        <name>linphone_auth_info_set_tls_cert</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>tls_cert</declname>
+        </param>
+        <briefdescription>
+<para>Sets the TLS certificate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tls_cert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The TLS certificate.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="146" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="146" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga4931d6915c2374d75b70566f84dfe863" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_tls_key</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *tls_key)</argsstring>
+        <name>linphone_auth_info_set_tls_key</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>tls_key</declname>
+        </param>
+        <briefdescription>
+<para>Sets the TLS key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tls_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The TLS key.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="153" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="153" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga63f961235193dad483b35456f5bc9718" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_tls_cert_path</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *tls_cert_path)</argsstring>
+        <name>linphone_auth_info_set_tls_cert_path</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>tls_cert_path</declname>
+        </param>
+        <briefdescription>
+<para>Sets the TLS certificate path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tls_cert_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The TLS certificate path.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="160" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="160" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga01177c4818d7751f556d619d3cf492f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_tls_key_path</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *tls_key_path)</argsstring>
+        <name>linphone_auth_info_set_tls_key_path</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>tls_key_path</declname>
+        </param>
+        <briefdescription>
+<para>Sets the TLS key path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tls_key_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The TLS key path.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="167" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="167" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga12a5328639590cbd003a1fde4e361063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_clear_available_algorithms</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_clear_available_algorithms</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Remove all algorithms from the available algorithms list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="173" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="173" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga3269b773e8c8d1bc0cbebbcec7e368d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_set_tls_key_password</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *tls_key_password)</argsstring>
+        <name>linphone_auth_info_set_tls_key_password</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>tls_key_password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="180" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="180" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga35fb6bbca6ba04e171661c3a02056439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_username</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_username</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the username. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The username.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="187" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="187" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gab25db451776cac68b868f0b88a5ad9af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_algorithm</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_algorithm</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the algorithm. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The algorithm.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="194" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="194" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga0a8dc0e9bfb1ba7f5ae9a9f42d82902d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bctbx_list_t *</type>
+        <definition>bctbx_list_t * linphone_auth_info_get_available_algorithms</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_available_algorithms</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets all available algorithms. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A list of available algorithms.  <bctbxlist>const char *</bctbxlist>  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="201" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="201" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga03bfd50d464c85f48e4a86232b175a37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_password</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_password</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the password. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The password.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="208" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="208" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga6da949710ab22dd04b67e5cb47671139" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_userid</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_userid</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the user id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The user id.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="215" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="215" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga054b37b969f9ab17ab905c373ee97523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_realm</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_realm</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the realm. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The realm.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="222" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="222" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga6fe4eef86b558c870e0b59105b082f17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_domain</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_domain</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the domain. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The domain.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="229" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="229" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gaba22ec6fc49da167c2f38627dec76782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_ha1</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_ha1</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the ha1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The ha1.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="236" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="236" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gade82aab370a3eb66aa67cfd70c847a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_tls_cert</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_tls_cert</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the TLS certificate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The TLS certificate.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="243" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="243" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga647a54f1084154650356bc8598f02673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_tls_key</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_tls_key</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the TLS key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The TLS key.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="250" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="250" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gaee409ee5ba55989150116a391641c389" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_tls_cert_path</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_tls_cert_path</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the TLS certificate path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The TLS certificate path.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="257" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="257" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga52385c7ce2c025901ccd3b91cdc640c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_tls_key_path</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_tls_key_path</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the TLS key path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The TLS key path.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="264" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="264" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gae5d3096c788f18dc3a008b5185269a37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_auth_info_get_tls_key_password</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_tls_key_password</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="271" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="271" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga080dc5bc04ac0c4731df9028360a8ad7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_auth_info_is_equal_but_algorithms</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info_1, const LinphoneAuthInfo *auth_info_2)</argsstring>
+        <name>linphone_auth_info_is_equal_but_algorithms</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info_1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info_2</declname>
+        </param>
+        <briefdescription>
+<para>Check if Authinfos are the same without taking account algorithms. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info_1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>auth_info_2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if all fields (Username, UserId, Realm, Domain) are the same. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="279" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="279" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga1b72633f814ef376fc7e5f2a1628b80b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED void</type>
+        <definition>MS2_DEPRECATED void linphone_auth_info_destroy</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_destroy</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Destroys the auth info. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<xrefsect id="deprecated_1_deprecated000303"><xreftitle>Deprecated</xreftitle><xrefdescription><para>13/10/2017 use <ref refid="group__authentication_1ga9fdf9803e3d1a3d5325d809fc88a8e8f" kindref="member">linphone_auth_info_unref()</ref> instead  <donotwrap />  </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="283" column="22" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="283" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga45ee79e48008f4aeec741dcf19d169e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_auth_info_write_config</definition>
+        <argsstring>(LinphoneConfig *config, LinphoneAuthInfo *auth_info, int pos)</argsstring>
+        <name>linphone_auth_info_write_config</name>
+        <param>
+          <type><ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref> *</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="285" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="285" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga8a8835757ab543807b9466965abcd16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+        <definition>LinphoneAuthInfo * linphone_auth_info_new_from_config_file</definition>
+        <argsstring>(LinphoneConfig *config, int pos)</argsstring>
+        <name>linphone_auth_info_new_from_config_file</name>
+        <param>
+          <type><ref refid="group__initializing_1gaf621181934fa2be96ebb2b498fc59cff" kindref="member">LinphoneConfig</ref> *</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="287" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="287" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga08238f0bee5085360eded97218c1a318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED void</type>
+        <definition>MS2_DEPRECATED void linphone_auth_info_set_passwd</definition>
+        <argsstring>(LinphoneAuthInfo *auth_info, const char *passwd)</argsstring>
+        <name>linphone_auth_info_set_passwd</name>
+        <param>
+          <type><ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>passwd</declname>
+        </param>
+        <briefdescription>
+<para>Sets the password. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>passwd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<xrefsect id="deprecated_1_deprecated000301"><xreftitle>Deprecated</xreftitle><xrefdescription><para>13/10/2017 use linphone_auth_info_set_password instead  <donotwrap />  </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="300" column="22" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="300" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga2f2ce0b94c5291ca1f597e87bea574e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED const char *</type>
+        <definition>MS2_DEPRECATED const char * linphone_auth_info_get_passwd</definition>
+        <argsstring>(const LinphoneAuthInfo *auth_info)</argsstring>
+        <name>linphone_auth_info_get_passwd</name>
+        <param>
+          <type>const <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> *</type>
+          <declname>auth_info</declname>
+        </param>
+        <briefdescription>
+<para>Gets the password. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>auth_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__authentication_1ga0f8289c1aab407992864a68869107f4f" kindref="member">LinphoneAuthInfo</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The password. </para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000302"><xreftitle>Deprecated</xreftitle><xrefdescription><para>13/10/2017 use linphone_auth_info_get_password instead  <donotwrap />  </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" line="309" column="28" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-auth-info.h" declline="309" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga8f101f344996c849014f355c99ed8794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> *</type>
+        <definition>LinphoneDigestAuthenticationPolicy * linphone_digest_authentication_policy_ref</definition>
+        <argsstring>(LinphoneDigestAuthenticationPolicy *policy)</argsstring>
+        <name>linphone_digest_authentication_policy_ref</name>
+        <param>
+          <type><ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> *</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+<para>Acquire a reference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The same object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" line="44" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" declline="44" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gaef531d78cd416f43c2443292431f2c31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_digest_authentication_policy_unref</definition>
+        <argsstring>(LinphoneDigestAuthenticationPolicy *policy)</argsstring>
+        <name>linphone_digest_authentication_policy_unref</name>
+        <param>
+          <type><ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> *</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+<para>Release reference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" line="50" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" declline="50" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga7170c5430f0487f9e4b2011088baf295" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_digest_authentication_policy_set_allow_md5</definition>
+        <argsstring>(LinphoneDigestAuthenticationPolicy *policy, bool_t value)</argsstring>
+        <name>linphone_digest_authentication_policy_set_allow_md5</name>
+        <param>
+          <type><ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> *</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set whether MD5 hash algorithm is allowed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The default value is TRUE, in order to maximize interoperability. MD5 is considered as a weak algorithm, some might want to disable it, in which case SHA-256 will be required to perform digest authentication. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a boolean value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" line="60" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" declline="60" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga73147d504f0d1bb9072e6af545bb318e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_digest_authentication_policy_get_allow_md5</definition>
+        <argsstring>(const LinphoneDigestAuthenticationPolicy *policy)</argsstring>
+        <name>linphone_digest_authentication_policy_get_allow_md5</name>
+        <param>
+          <type>const <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> *</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+<para>Get whether MD5 hash algorithm is allowed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The default value is TRUE, in order to maximize interoperability. MD5 is considered as a weak algorithm, some might want to disable it, in which case SHA-256 will be required to perform digest authentication. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" line="72" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" declline="72" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga58ac205903548066632173270919a1d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_digest_authentication_policy_set_allow_no_qop</definition>
+        <argsstring>(LinphoneDigestAuthenticationPolicy *policy, bool_t value)</argsstring>
+        <name>linphone_digest_authentication_policy_set_allow_no_qop</name>
+        <param>
+          <type><ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> *</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set whether digest authentication without &apos;qop=auth&apos; mode is allowed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The default value is TRUE, in order to maximize interoperability. &apos;qop=auth&apos; mode enforces security thanks to the use of a client nonce, which makes password brute forcing more difficult. When set to FALSE, linphone will refuse to authenticate to servers that are not implementing the qop=auth mode. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a boolean value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" line="84" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" declline="84" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga0d572fc46073cc253b4fd5755649fc1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_digest_authentication_policy_get_allow_no_qop</definition>
+        <argsstring>(const LinphoneDigestAuthenticationPolicy *policy)</argsstring>
+        <name>linphone_digest_authentication_policy_get_allow_no_qop</name>
+        <param>
+          <type>const <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> *</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+<para>Get whether digest authentication without &apos;qop=auth&apos; mode is allowed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The default value is TRUE, in order to maximize interoperability. &apos;qop=auth&apos; mode enforces security thanks to the use of a client nonce, which makes password brute forcing more difficult. When set to FALSE, linphone will refuse to authenticate to servers that are not implementing the qop=auth mode. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" line="98" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" declline="98" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1gac88003cf8e026968d6f4de64890df52e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * linphone_digest_authentication_policy_get_user_data</definition>
+        <argsstring>(const LinphoneDigestAuthenticationPolicy *policy)</argsstring>
+        <name>linphone_digest_authentication_policy_get_user_data</name>
+        <param>
+          <type>const <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> *</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve the user pointer associated with the <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The user pointer.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" line="106" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" declline="106" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__authentication_1ga3a9a616de9c6d11000c5655934bc315b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_digest_authentication_policy_set_user_data</definition>
+        <argsstring>(LinphoneDigestAuthenticationPolicy *policy, void *user_data)</argsstring>
+        <name>linphone_digest_authentication_policy_set_user_data</name>
+        <param>
+          <type><ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> *</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>user_data</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to the <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__misc_1ga7be171e6370facc43a0d9fe5ec2c226c" kindref="member">LinphoneDigestAuthenticationPolicy</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>user_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user pointer.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" line="113" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-digest-authentication-policy.h" declline="113" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Managing authentication: userid and passwords. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="im__encryption__engine_8h" kind="file" language="C++">
+    <compoundname>im_encryption_engine.h</compoundname>
+    <includes refid="types_8h" local="yes">linphone/types.h</includes>
+    <includedby refid="core_8h" local="yes">core.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__misc_1gad6e21b616ba959f3e7044f736399ad5a" kind="function"><name>linphone_im_encryption_engine_cbs_ref</name></member>
+      <member refid="group__misc_1ga0f6af75eb9d99e038f53166e7e2a9be6" kind="function"><name>linphone_im_encryption_engine_cbs_unref</name></member>
+      <member refid="group__misc_1ga34fc906d28c0303397796e1f7f188416" kind="function"><name>linphone_im_encryption_engine_cbs_get_user_data</name></member>
+      <member refid="group__misc_1ga294302a628f061102154793cca203fc5" kind="function"><name>linphone_im_encryption_engine_cbs_set_user_data</name></member>
+      <member refid="group__misc_1ga474cb0a651553cff18ebb4dbd52ea8bd" kind="function"><name>linphone_im_encryption_engine_ref</name></member>
+      <member refid="group__misc_1ga92ad6052638dfb58dcafe9eb8d59c263" kind="function"><name>linphone_im_encryption_engine_unref</name></member>
+      <member refid="group__misc_1gac4423f54c66ea4b5137bd96685c1d0a0" kind="function"><name>linphone_im_encryption_engine_get_user_data</name></member>
+      <member refid="group__misc_1ga71e655f99202160dfc303a10fc343db3" kind="function"><name>linphone_im_encryption_engine_set_user_data</name></member>
+      <member refid="group__misc_1ga602c16d83e6f77f9f00370198b98a788" kind="function"><name>linphone_im_encryption_engine_get_core</name></member>
+      <member refid="group__misc_1ga41a1834de1a942e18554635470d21d50" kind="function"><name>linphone_im_encryption_engine_get_callbacks</name></member>
+      <member refid="group__misc_1gaffb6029813b278ad5de55bb1db220816" kind="function"><name>linphone_im_encryption_engine_cbs_get_process_incoming_message</name></member>
+      <member refid="group__misc_1gad4b97a697a0a2aa1e27b627a834093a2" kind="function"><name>linphone_im_encryption_engine_cbs_set_process_incoming_message</name></member>
+      <member refid="group__misc_1gac13201f3003201671efd61d9defe79c3" kind="function"><name>linphone_im_encryption_engine_cbs_get_process_outgoing_message</name></member>
+      <member refid="group__misc_1ga1e6987adff164d6f9645ef36301ceb3b" kind="function"><name>linphone_im_encryption_engine_cbs_set_process_outgoing_message</name></member>
+      <member refid="group__misc_1ga683c12963b489abbc752088a17bbd2f4" kind="function"><name>linphone_im_encryption_engine_cbs_get_process_downloading_file</name></member>
+      <member refid="group__misc_1ga0b283caefd123292213eb3572740dbc3" kind="function"><name>linphone_im_encryption_engine_cbs_set_process_downloading_file</name></member>
+      <member refid="group__misc_1gab771dd5c29691a4c713d149f8abf56a0" kind="function"><name>linphone_im_encryption_engine_cbs_get_process_uploading_file</name></member>
+      <member refid="group__misc_1gaaaf423a527662437ed8604a6f63eb28e" kind="function"><name>linphone_im_encryption_engine_cbs_set_process_uploading_file</name></member>
+      <member refid="group__misc_1ga9a0117fc116c02d3847b2fccccc53f2d" kind="function"><name>linphone_im_encryption_engine_cbs_get_is_encryption_enabled_for_file_transfer</name></member>
+      <member refid="group__misc_1ga67f004257747da9afe7fef92e6f5e88e" kind="function"><name>linphone_im_encryption_engine_cbs_set_is_encryption_enabled_for_file_transfer</name></member>
+      <member refid="group__misc_1gab38e2c931b2fd688c2003c5b0a3d0deb" kind="function"><name>linphone_im_encryption_engine_cbs_get_generate_file_transfer_key</name></member>
+      <member refid="group__misc_1ga6e33dacbdbe1a7edcd5f636a1bc29586" kind="function"><name>linphone_im_encryption_engine_cbs_set_generate_file_transfer_key</name></member>
+      <member refid="group__misc_1gae1eb59540b7e293ce6c70445d08fa19b" kind="function"><name>linphone_im_encryption_engine_new</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LINPHONE_IM_ENCRYPTION_ENGINE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_IM_ENCRYPTION_ENGINE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*<ref refid="group__misc_1gad6e21b616ba959f3e7044f736399ad5a" kindref="member">linphone_im_encryption_engine_cbs_ref</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga0f6af75eb9d99e038f53166e7e2a9be6" kindref="member">linphone_im_encryption_engine_cbs_unref</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1ga34fc906d28c0303397796e1f7f188416" kindref="member">linphone_im_encryption_engine_cbs_get_user_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga294302a628f061102154793cca203fc5" kindref="member">linphone_im_encryption_engine_cbs_set_user_data</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga842e231d1af69ef533afbe1a78e5699b" kindref="member">LinphoneImEncryptionEngine</ref><sp/>*<ref refid="group__misc_1ga474cb0a651553cff18ebb4dbd52ea8bd" kindref="member">linphone_im_encryption_engine_ref</ref>(<ref refid="group__misc_1ga842e231d1af69ef533afbe1a78e5699b" kindref="member">LinphoneImEncryptionEngine</ref><sp/>*imee);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga92ad6052638dfb58dcafe9eb8d59c263" kindref="member">linphone_im_encryption_engine_unref</ref>(<ref refid="group__misc_1ga842e231d1af69ef533afbe1a78e5699b" kindref="member">LinphoneImEncryptionEngine</ref><sp/>*imee);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1gac4423f54c66ea4b5137bd96685c1d0a0" kindref="member">linphone_im_encryption_engine_get_user_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga842e231d1af69ef533afbe1a78e5699b" kindref="member">LinphoneImEncryptionEngine</ref><sp/>*imee);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga71e655f99202160dfc303a10fc343db3" kindref="member">linphone_im_encryption_engine_set_user_data</ref>(<ref refid="group__misc_1ga842e231d1af69ef533afbe1a78e5699b" kindref="member">LinphoneImEncryptionEngine</ref><sp/>*imee,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*<ref refid="group__misc_1ga602c16d83e6f77f9f00370198b98a788" kindref="member">linphone_im_encryption_engine_get_core</ref>(<ref refid="group__misc_1ga842e231d1af69ef533afbe1a78e5699b" kindref="member">LinphoneImEncryptionEngine</ref><sp/>*imee);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><ref refid="group__misc_1ga41a1834de1a942e18554635470d21d50" kindref="member">linphone_im_encryption_engine_get_callbacks</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga842e231d1af69ef533afbe1a78e5699b" kindref="member">LinphoneImEncryptionEngine</ref><sp/>*imee);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga1308a7bf1b6ee22a1787704fcb2d889a" kindref="member">LinphoneImEncryptionEngineCbsIncomingMessageCb</ref></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><ref refid="group__misc_1gaffb6029813b278ad5de55bb1db220816" kindref="member">linphone_im_encryption_engine_cbs_get_process_incoming_message</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><ref refid="group__misc_1gad4b97a697a0a2aa1e27b627a834093a2" kindref="member">linphone_im_encryption_engine_cbs_set_process_incoming_message</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__misc_1ga1308a7bf1b6ee22a1787704fcb2d889a" kindref="member">LinphoneImEncryptionEngineCbsIncomingMessageCb</ref><sp/>cb);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga7c0cc587c51ffe027539cf43a23d4c10" kindref="member">LinphoneImEncryptionEngineCbsOutgoingMessageCb</ref></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><ref refid="group__misc_1gac13201f3003201671efd61d9defe79c3" kindref="member">linphone_im_encryption_engine_cbs_get_process_outgoing_message</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><ref refid="group__misc_1ga1e6987adff164d6f9645ef36301ceb3b" kindref="member">linphone_im_encryption_engine_cbs_set_process_outgoing_message</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__misc_1ga7c0cc587c51ffe027539cf43a23d4c10" kindref="member">LinphoneImEncryptionEngineCbsOutgoingMessageCb</ref><sp/>cb);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1gaff290825e9f221d5a52af718ad951482" kindref="member">LinphoneImEncryptionEngineCbsDownloadingFileCb</ref></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><ref refid="group__misc_1ga683c12963b489abbc752088a17bbd2f4" kindref="member">linphone_im_encryption_engine_cbs_get_process_downloading_file</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><ref refid="group__misc_1ga0b283caefd123292213eb3572740dbc3" kindref="member">linphone_im_encryption_engine_cbs_set_process_downloading_file</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__misc_1gaff290825e9f221d5a52af718ad951482" kindref="member">LinphoneImEncryptionEngineCbsDownloadingFileCb</ref><sp/>cb);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga000637d741d0dcbfb26e610baa11b873" kindref="member">LinphoneImEncryptionEngineCbsUploadingFileCb</ref></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><ref refid="group__misc_1gab771dd5c29691a4c713d149f8abf56a0" kindref="member">linphone_im_encryption_engine_cbs_get_process_uploading_file</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><ref refid="group__misc_1gaaaf423a527662437ed8604a6f63eb28e" kindref="member">linphone_im_encryption_engine_cbs_set_process_uploading_file</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__misc_1ga000637d741d0dcbfb26e610baa11b873" kindref="member">LinphoneImEncryptionEngineCbsUploadingFileCb</ref><sp/>cb);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga1431ec9cb8ef662b89758a04dc8f872b" kindref="member">LinphoneImEncryptionEngineCbsIsEncryptionEnabledForFileTransferCb</ref></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><ref refid="group__misc_1ga9a0117fc116c02d3847b2fccccc53f2d" kindref="member">linphone_im_encryption_engine_cbs_get_is_encryption_enabled_for_file_transfer</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga67f004257747da9afe7fef92e6f5e88e" kindref="member">linphone_im_encryption_engine_cbs_set_is_encryption_enabled_for_file_transfer</ref>(</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs,<sp/><ref refid="group__misc_1ga1431ec9cb8ef662b89758a04dc8f872b" kindref="member">LinphoneImEncryptionEngineCbsIsEncryptionEnabledForFileTransferCb</ref><sp/>cb);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga2d408e2dd4f3bd65f589a7d757c52ff8" kindref="member">LinphoneImEncryptionEngineCbsGenerateFileTransferKeyCb</ref></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><ref refid="group__misc_1gab38e2c931b2fd688c2003c5b0a3d0deb" kindref="member">linphone_im_encryption_engine_cbs_get_generate_file_transfer_key</ref>(<ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga6e33dacbdbe1a7edcd5f636a1bc29586" kindref="member">linphone_im_encryption_engine_cbs_set_generate_file_transfer_key</ref>(</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__misc_1ga93e3cacddafef0c1b05e48b9802e2c73" kindref="member">LinphoneImEncryptionEngineCbs</ref><sp/>*cbs,<sp/><ref refid="group__misc_1ga2d408e2dd4f3bd65f589a7d757c52ff8" kindref="member">LinphoneImEncryptionEngineCbsGenerateFileTransferKeyCb</ref><sp/>cb);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga842e231d1af69ef533afbe1a78e5699b" kindref="member">LinphoneImEncryptionEngine</ref><sp/>*<ref refid="group__misc_1gae1eb59540b7e293ce6c70445d08fa19b" kindref="member">linphone_im_encryption_engine_new</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LINPHONE_IM_ENCRYPTION_ENGINE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/im_encryption_engine.h"/>
+  </compounddef>
+</doxygen>

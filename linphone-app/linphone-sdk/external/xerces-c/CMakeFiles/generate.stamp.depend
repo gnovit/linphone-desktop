@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/xerces-c/CMakeLists.txt
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/xerces-c/config.h.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/xerces-c/src/xercesc/util/Xerces_autoconf_config.hpp.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/xerces-c/test_inline.c

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\x64\RelWithDebInfo\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\x64\RelWithDebInfo\decaf-gen-ed448-ntab</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\x64\RelWithDebInfo\decaf-generator-common-code</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\x64\RelWithDebInfo\decaf-generator-p448</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\ed448goldilocks\x64\RelWithDebInfo\decaf-generator-ed448goldilocks</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

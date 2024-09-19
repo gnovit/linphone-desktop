@@ -1,0 +1,178 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\596F0CFC2AA36F4E1592A90B77CA4463\CRYPTO.HXX.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=global --guard=decaf/crypto.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/decaf/crypto.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/include/decaf/crypto.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\4AF7027F3D91185A479A11D6BF5F379B\DECAF.H.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=global --guard=decaf.h -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/public_include/decaf.tmpl.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\4AF7027F3D91185A479A11D6BF5F379B\DECAF.HXX.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=global --guard=decaf.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/public_include/decaf.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\COMMON.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/public_include/decaf/common.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/common.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\ED255.H.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=curve25519 --guard=decaf/ed255.h -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/ed255.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\ED448.H.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=decaf/ed448.h -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/ed448.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\EDDSA.HXX.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=global --guard=decaf/eddsa.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/eddsa.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/public_include/decaf/eddsa.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\POINT_255.H.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=curve25519 --guard=decaf/point_255.h -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/point_255.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/point.tmpl.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\POINT_448.H.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=ed448goldilocks --guard=decaf/point_448.h -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/point_448.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/point.tmpl.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\SECURE_BUFFER.HXX.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/public_include/decaf/secure_buffer.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/secure_buffer.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\SHA512.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/public_include/decaf/sha512.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/sha512.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\SHA512.HXX.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/public_include/decaf/sha512.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/sha512.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\SHAKE.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/public_include/decaf/shake.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/shake.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\SHAKE.HXX.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/public_include/decaf/shake.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/shake.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\SPONGERNG.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/public_include/decaf/spongerng.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/spongerng.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\SPONGERNG.HXX.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/public_include/decaf/spongerng.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/spongerng.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\74BE6372DC4F93F4DF30E9A4550F61AD\DECAF-GENERATOR-COMMON-CODE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-SDK\EXTERNAL\DECAF\SRC\GENERATOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/generator/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

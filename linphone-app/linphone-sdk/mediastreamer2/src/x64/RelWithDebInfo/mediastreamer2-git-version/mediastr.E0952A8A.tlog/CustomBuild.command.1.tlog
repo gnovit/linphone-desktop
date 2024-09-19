@@ -1,0 +1,20 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\DFDE742FDF171460E942F253B32FFD8E\MEDIASTREAMER2-GIT-VERSION.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-DGIT_EXECUTABLE=C:/Program Files/Git/cmd/git.exe" -DPROJECT_NAME=mediastreamer2 -DPROJECT_VERSION=5.3.0 -DWORK_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src -DTEMPLATE_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/bctoolbox/src/../cmake -DOUTPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/bctoolbox/src/../cmake/BCGitVersion.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-SDK\MEDIASTREAMER2\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

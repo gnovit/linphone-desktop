@@ -21,7 +21,7 @@
 ############################################################################
 
 if(NOT CPACK_PACKAGE_NAME)
-  set(CPACK_PACKAGE_NAME "linphone")
+  set(CPACK_PACKAGE_NAME "vozer")
 endif ()
 
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/../../LICENSE.txt")

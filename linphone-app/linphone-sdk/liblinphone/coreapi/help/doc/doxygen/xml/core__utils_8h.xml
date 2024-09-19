@@ -1,0 +1,698 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="core__utils_8h" kind="file" language="C++">
+    <compoundname>core_utils.h</compoundname>
+    <includes refid="callbacks_8h" local="yes">linphone/callbacks.h</includes>
+    <includes refid="logging_8h" local="yes">linphone/logging.h</includes>
+    <includes refid="types_8h" local="yes">linphone/types.h</includes>
+    <includedby refid="linphonecore__utils_8h" local="yes">linphonecore_utils.h</includedby>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="core__utils_8h_1ae8d995348a8fbf9aa1c629431f4f159a" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* LsdEndOfPlayCallback) (LsdPlayer *p)</definition>
+        <argsstring>)(LsdPlayer *p)</argsstring>
+        <name>LsdEndOfPlayCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="32" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="core__utils_8h_1a7e7704e215f037db58ea3c367cc573ba" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* LinphoneEcCalibrationCallback) (LinphoneCore *lc, LinphoneEcCalibratorStatus status, int delay_ms, void *data)</definition>
+        <argsstring>)(LinphoneCore *lc, LinphoneEcCalibratorStatus status, int delay_ms, void *data)</argsstring>
+        <name>LinphoneEcCalibrationCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="55" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="core__utils_8h_1a27f80f5e55be308f9cbd0e7a2cf4fe92" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* LinphoneEcCalibrationAudioInit) (void *data)</definition>
+        <argsstring>)(void *data)</argsstring>
+        <name>LinphoneEcCalibrationAudioInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="59" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="core__utils_8h_1aa32a27e2339a6f902ef9a37bb3665544" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* LinphoneEcCalibrationAudioUninit) (void *data)</definition>
+        <argsstring>)(void *data)</argsstring>
+        <name>LinphoneEcCalibrationAudioUninit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="60" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="core__utils_8h_1abc756aff30c423cb7dd970aedef79082" prot="public" static="no">
+        <type>bool_t(*</type>
+        <definition>typedef bool_t(* LinphoneCoreIterateHook) (void *data)</definition>
+        <argsstring>)(void *data)</argsstring>
+        <name>LinphoneCoreIterateHook</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="195" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="core__utils_8h_1a012837b84db3f74cf951cc7ddf92792d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void lsd_player_set_callback</definition>
+        <argsstring>(LsdPlayer *p, LsdEndOfPlayCallback cb)</argsstring>
+        <name>lsd_player_set_callback</name>
+        <param>
+          <type>LsdPlayer *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>LsdEndOfPlayCallback</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="34" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="34" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1acfa714494c497920d026b34ce6850987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void lsd_player_set_user_pointer</definition>
+        <argsstring>(LsdPlayer *p, void *up)</argsstring>
+        <name>lsd_player_set_user_pointer</name>
+        <param>
+          <type>LsdPlayer *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="35" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="35" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a9c50d2dab2c781414bbacfd8e1e17cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * lsd_player_get_user_pointer</definition>
+        <argsstring>(const LsdPlayer *p)</argsstring>
+        <name>lsd_player_get_user_pointer</name>
+        <param>
+          <type>const LsdPlayer *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="36" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="36" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a84faa4f0718b7af9cfb9f5aa71765d66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus lsd_player_play</definition>
+        <argsstring>(LsdPlayer *p, const char *filename)</argsstring>
+        <name>lsd_player_play</name>
+        <param>
+          <type>LsdPlayer *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="37" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="37" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1aff4bf264240f7a5a99ca2571cc02eccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus lsd_player_stop</definition>
+        <argsstring>(LsdPlayer *p)</argsstring>
+        <name>lsd_player_stop</name>
+        <param>
+          <type>LsdPlayer *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="38" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="38" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1ae540bb38cbf53f8ac36a5a6965f16332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void lsd_player_enable_loop</definition>
+        <argsstring>(LsdPlayer *p, bool_t loopmode)</argsstring>
+        <name>lsd_player_enable_loop</name>
+        <param>
+          <type>LsdPlayer *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>loopmode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="39" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="39" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1add3207da15bbd8ff1b72fd8fc44075f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t lsd_player_loop_enabled</definition>
+        <argsstring>(const LsdPlayer *p)</argsstring>
+        <name>lsd_player_loop_enabled</name>
+        <param>
+          <type>const LsdPlayer *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="40" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="40" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1ab3735a8dee13031d65de0f2d53d686c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void lsd_player_set_gain</definition>
+        <argsstring>(LsdPlayer *p, float gain)</argsstring>
+        <name>lsd_player_set_gain</name>
+        <param>
+          <type>LsdPlayer *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="41" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="41" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1aa2dd3f96a19da1268233f340f8d704ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneSoundDaemon *</type>
+        <definition>LinphoneSoundDaemon * lsd_player_get_daemon</definition>
+        <argsstring>(const LsdPlayer *p)</argsstring>
+        <name>lsd_player_get_daemon</name>
+        <param>
+          <type>const LsdPlayer *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="42" column="22" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="42" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a96e5f3c05c32e5943eaa8f677a7e7eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneSoundDaemon *</type>
+        <definition>LinphoneSoundDaemon * linphone_sound_daemon_new</definition>
+        <argsstring>(MSFactory *factory, const char *cardname, int rate, int nchannels)</argsstring>
+        <name>linphone_sound_daemon_new</name>
+        <param>
+          <type>MSFactory *</type>
+          <declname>factory</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>cardname</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nchannels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="45" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="45" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1ad4bc4c0fc797c516a26d64b1f1543645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LsdPlayer *</type>
+        <definition>LsdPlayer * linphone_sound_daemon_get_player</definition>
+        <argsstring>(LinphoneSoundDaemon *lsd)</argsstring>
+        <name>linphone_sound_daemon_get_player</name>
+        <param>
+          <type>LinphoneSoundDaemon *</type>
+          <declname>lsd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="46" column="12" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="46" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1ad8cc83d58fe1e52383d579b6c189c7f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_sound_daemon_release_player</definition>
+        <argsstring>(LinphoneSoundDaemon *lsd, LsdPlayer *lsdplayer)</argsstring>
+        <name>linphone_sound_daemon_release_player</name>
+        <param>
+          <type>LinphoneSoundDaemon *</type>
+          <declname>lsd</declname>
+        </param>
+        <param>
+          <type>LsdPlayer *</type>
+          <declname>lsdplayer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="47" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="47" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a8c09e07d07d9d752640a80b97d5da796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_sound_daemon_stop_all_players</definition>
+        <argsstring>(LinphoneSoundDaemon *obj)</argsstring>
+        <name>linphone_sound_daemon_stop_all_players</name>
+        <param>
+          <type>LinphoneSoundDaemon *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="48" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="48" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a1765d32ec6e0e06e2f46675440cb7104" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_sound_daemon_release_all_players</definition>
+        <argsstring>(LinphoneSoundDaemon *obj)</argsstring>
+        <name>linphone_sound_daemon_release_all_players</name>
+        <param>
+          <type>LinphoneSoundDaemon *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="49" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="49" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a54030bd88d0c1291539c1f7088db7cd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_use_sound_daemon</definition>
+        <argsstring>(LinphoneCore *lc, LinphoneSoundDaemon *lsd)</argsstring>
+        <name>linphone_core_use_sound_daemon</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>lc</declname>
+        </param>
+        <param>
+          <type>LinphoneSoundDaemon *</type>
+          <declname>lsd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="50" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="50" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a87dc32eca8b50175dc07760834008eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_sound_daemon_destroy</definition>
+        <argsstring>(LinphoneSoundDaemon *obj)</argsstring>
+        <name>linphone_sound_daemon_destroy</name>
+        <param>
+          <type>LinphoneSoundDaemon *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="51" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="51" declcolumn="7"/>
+      </memberdef>
+      <member refid="group__misc_1ga5fb82bd816c0a8d731035577e75d7272" kind="function"><name>linphone_core_start_echo_calibration</name></member>
+      <member refid="group__misc_1ga1b05ada31344be6811c6a97355539a3d" kind="function"><name>linphone_core_start_echo_canceller_calibration</name></member>
+      <member refid="group__misc_1ga1d3f1dda7e24488dee8e3c1fc67e1fb7" kind="function"><name>linphone_core_start_echo_tester</name></member>
+      <member refid="group__misc_1ga20f25cf0897266e23d67b3372d76f40c" kind="function"><name>linphone_core_stop_echo_tester</name></member>
+      <member refid="group__misc_1gaaf7028ba21365f59cde6d8adc8f76053" kind="function"><name>linphone_core_has_crappy_opengl</name></member>
+      <member refid="group__misc_1gad5a501e3825d968809e0f4a190478900" kind="function"><name>linphone_core_has_builtin_echo_canceller</name></member>
+      <member refid="group__misc_1gab9840f722cc67c91a549971f4094864b" kind="function"><name>linphone_core_is_echo_canceller_calibration_required</name></member>
+      <member refid="group__IOS_1ga3ea1f0a9aed9e41b0a01d3910aec5040" kind="function"><name>linphone_core_start_dtmf_stream</name></member>
+      <member refid="group__IOS_1ga68575acf2217b059c8dbebe7376fd311" kind="function"><name>linphone_core_stop_dtmf_stream</name></member>
+      <member refid="group__IOS_1gadb23bac5c85a68fa794f15aaaacc1149" kind="function"><name>linphone_core_activate_audio_session</name></member>
+      <member refid="group__IOS_1gaadf3b91d1d84b127c5f08849c26d2890" kind="function"><name>linphone_core_configure_audio_session</name></member>
+      <member refid="group__IOS_1ga89142e5e0d49a3b92eb28762ed6800d4" kind="function"><name>linphone_core_enable_callkit</name></member>
+      <member refid="group__IOS_1ga300c4e022c534664e68375b16d9c9eb0" kind="function"><name>linphone_core_audio_route_changed</name></member>
+      <member refid="group__IOS_1gabe42f366db5b1b23f72ba9ab1539a605" kind="function"><name>linphone_core_callkit_enabled</name></member>
+      <member refid="group__IOS_1gadc910ed7b288c9877cc2107242dcb4cc" kind="function"><name>linphone_core_local_permission_enabled</name></member>
+      <memberdef kind="function" id="core__utils_8h_1a5254d4f8787f797a7fcb198482f36383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_add_iterate_hook</definition>
+        <argsstring>(LinphoneCore *lc, LinphoneCoreIterateHook hook, void *hook_data)</argsstring>
+        <name>linphone_core_add_iterate_hook</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>lc</declname>
+        </param>
+        <param>
+          <type>LinphoneCoreIterateHook</type>
+          <declname>hook</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>hook_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="197" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="197" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1af556aeee4ebf8d684231aefebd346f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_remove_iterate_hook</definition>
+        <argsstring>(LinphoneCore *lc, LinphoneCoreIterateHook hook, void *hook_data)</argsstring>
+        <name>linphone_core_remove_iterate_hook</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>lc</declname>
+        </param>
+        <param>
+          <type>LinphoneCoreIterateHook</type>
+          <declname>hook</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>hook_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="199" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="199" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a821ecf8f312d2e3698b5e513dbba0f27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_player_get_callbacks_list</definition>
+        <argsstring>(const LinphonePlayer *player)</argsstring>
+        <name>linphone_player_get_callbacks_list</name>
+        <param>
+          <type>const <ref refid="group__call__control_1gae1497db82144ec61a4303c7e84d1603a" kindref="member">LinphonePlayer</ref> *</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="201" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="201" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a04530067bd58f519c40b386d902d888a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_event_get_callbacks_list</definition>
+        <argsstring>(const LinphoneEvent *ev)</argsstring>
+        <name>linphone_event_get_callbacks_list</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4befcba96583d9e9d9f2b775cccfb2b7" kindref="member">LinphoneEvent</ref> *</type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="202" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="202" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a8d77c598b88ba70177df93e514b26325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_friend_get_callbacks_list</definition>
+        <argsstring>(const LinphoneFriend *linphone_friend)</argsstring>
+        <name>linphone_friend_get_callbacks_list</name>
+        <param>
+          <type>const <ref refid="group__buddy__list_1ga2f0508bab6d8ded431ce8b1a679a1522" kindref="member">LinphoneFriend</ref> *</type>
+          <declname>linphone_friend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="203" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="203" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1ab64e6e47f50b0cb165a136186d3158df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_friend_list_get_callbacks_list</definition>
+        <argsstring>(const LinphoneFriendList *friend_list)</argsstring>
+        <name>linphone_friend_list_get_callbacks_list</name>
+        <param>
+          <type>const <ref refid="group__buddy__list_1ga9094b6db3d193430d8a5f9a899758a21" kindref="member">LinphoneFriendList</ref> *</type>
+          <declname>friend_list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="204" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="204" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a057c013bc7ad0d1fe532db1b2775039d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_logging_service_get_callbacks_list</definition>
+        <argsstring>(const LinphoneLoggingService *log_service)</argsstring>
+        <name>linphone_logging_service_get_callbacks_list</name>
+        <param>
+          <type>const <ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref> *</type>
+          <declname>log_service</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="206" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="206" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1ab19b13e5ca0017a9712e397253bee2ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_account_creator_get_callbacks_list</definition>
+        <argsstring>(const LinphoneAccountCreator *creator)</argsstring>
+        <name>linphone_account_creator_get_callbacks_list</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1gafd6720b4e4e8d51f02511196498238ef" kindref="member">LinphoneAccountCreator</ref> *</type>
+          <declname>creator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="207" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="207" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="core__utils_8h_1a1eb1766d806e45b90984e9cf1d946051" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_xml_rpc_request_get_callbacks_list</definition>
+        <argsstring>(const LinphoneXmlRpcRequest *request)</argsstring>
+        <name>linphone_xml_rpc_request_get_callbacks_list</name>
+        <param>
+          <type>const <ref refid="group__misc_1ga7a93eeab19d58ffc25eff6254f995d53" kindref="member">LinphoneXmlRpcRequest</ref> *</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" line="208" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h" declline="208" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LINPHONE_CORE_UTILS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_CORE_UTILS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/callbacks.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/logging.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*LsdEndOfPlayCallback)(LsdPlayer<sp/>*p);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>lsd_player_set_callback(LsdPlayer<sp/>*p,<sp/>LsdEndOfPlayCallback<sp/>cb);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>lsd_player_set_user_pointer(LsdPlayer<sp/>*p,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*up);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*lsd_player_get_user_pointer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LsdPlayer<sp/>*p);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref><sp/>lsd_player_play(LsdPlayer<sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref><sp/>lsd_player_stop(LsdPlayer<sp/>*p);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>lsd_player_enable_loop(LsdPlayer<sp/>*p,<sp/>bool_t<sp/>loopmode);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/>lsd_player_loop_enabled(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LsdPlayer<sp/>*p);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>lsd_player_set_gain(LsdPlayer<sp/>*p,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gain);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">LINPHONE_PUBLIC<sp/>LinphoneSoundDaemon<sp/>*lsd_player_get_daemon(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LsdPlayer<sp/>*p);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">LINPHONE_PUBLIC<sp/>LinphoneSoundDaemon<sp/>*</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">linphone_sound_daemon_new(MSFactory<sp/>*factory,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cardname,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rate,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nchannels);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">LINPHONE_PUBLIC<sp/>LsdPlayer<sp/>*linphone_sound_daemon_get_player(LinphoneSoundDaemon<sp/>*lsd);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>linphone_sound_daemon_release_player(LinphoneSoundDaemon<sp/>*lsd,<sp/>LsdPlayer<sp/>*lsdplayer);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>linphone_sound_daemon_stop_all_players(LinphoneSoundDaemon<sp/>*obj);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>linphone_sound_daemon_release_all_players(LinphoneSoundDaemon<sp/>*obj);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>linphone_core_use_sound_daemon(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*lc,<sp/>LinphoneSoundDaemon<sp/>*lsd);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>linphone_sound_daemon_destroy(LinphoneSoundDaemon<sp/>*obj);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">/*These<sp/>typedefs<sp/>are<sp/>deprecated,<sp/>but<sp/>we<sp/>don&apos;t<sp/>mark<sp/>them<sp/>LINPHONE_DEPRECATED<sp/>otherwise<sp/>we<sp/>get<sp/>deprecation<sp/>warnings<sp/>with</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>the<sp/>deprecated<sp/>linphone_core_start_echo_calibration()<sp/>that<sp/>make<sp/>use<sp/>of<sp/>them*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*LinphoneEcCalibrationCallback)(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*lc,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__media__parameters_1gab31f1b423ac5b9e1792229c5678f97da" kindref="member">LinphoneEcCalibratorStatus</ref><sp/>status,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>delay_ms,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*LinphoneEcCalibrationAudioInit)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*LinphoneEcCalibrationAudioUninit)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">LINPHONE_DEPRECATED<sp/>LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><ref refid="group__misc_1ga5fb82bd816c0a8d731035577e75d7272" kindref="member">linphone_core_start_echo_calibration</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*lc,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LinphoneEcCalibrationCallback<sp/>cb,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LinphoneEcCalibrationAudioInit<sp/>audio_init_cb,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LinphoneEcCalibrationAudioUninit<sp/>audio_uninit_cb,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*cb_data);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref><sp/><ref refid="group__misc_1ga1b05ada31344be6811c6a97355539a3d" kindref="member">linphone_core_start_echo_canceller_calibration</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref><sp/><ref refid="group__misc_1ga1d3f1dda7e24488dee8e3c1fc67e1fb7" kindref="member">linphone_core_start_echo_tester</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rate);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref><sp/><ref refid="group__misc_1ga20f25cf0897266e23d67b3372d76f40c" kindref="member">linphone_core_stop_echo_tester</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__misc_1gaaf7028ba21365f59cde6d8adc8f76053" kindref="member">linphone_core_has_crappy_opengl</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__misc_1gad5a501e3825d968809e0f4a190478900" kindref="member">linphone_core_has_builtin_echo_canceller</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__misc_1gab9840f722cc67c91a549971f4094864b" kindref="member">linphone_core_is_echo_canceller_calibration_required</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__IOS_1ga3ea1f0a9aed9e41b0a01d3910aec5040" kindref="member">linphone_core_start_dtmf_stream</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__IOS_1ga68575acf2217b059c8dbebe7376fd311" kindref="member">linphone_core_stop_dtmf_stream</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__IOS_1gadb23bac5c85a68fa794f15aaaacc1149" kindref="member">linphone_core_activate_audio_session</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core,<sp/>bool_t<sp/>actived);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__IOS_1gaadf3b91d1d84b127c5f08849c26d2890" kindref="member">linphone_core_configure_audio_session</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__IOS_1ga89142e5e0d49a3b92eb28762ed6800d4" kindref="member">linphone_core_enable_callkit</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core,<sp/>bool_t<sp/>enabled);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal">LINPHONE_DEPRECATED<sp/>LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__IOS_1ga300c4e022c534664e68375b16d9c9eb0" kindref="member">linphone_core_audio_route_changed</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__IOS_1gabe42f366db5b1b23f72ba9ab1539a605" kindref="member">linphone_core_callkit_enabled</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__IOS_1gadc910ed7b288c9877cc2107242dcb4cc" kindref="member">linphone_core_local_permission_enabled</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*core);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>bool_t<sp/>(*LinphoneCoreIterateHook)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>linphone_core_add_iterate_hook(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*lc,<sp/>LinphoneCoreIterateHook<sp/>hook,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*hook_data);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>linphone_core_remove_iterate_hook(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*lc,<sp/>LinphoneCoreIterateHook<sp/>hook,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*hook_data);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bctbx_list_t<sp/>*linphone_player_get_callbacks_list(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1gae1497db82144ec61a4303c7e84d1603a" kindref="member">LinphonePlayer</ref><sp/>*player);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bctbx_list_t<sp/>*linphone_event_get_callbacks_list(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__events_1ga4befcba96583d9e9d9f2b775cccfb2b7" kindref="member">LinphoneEvent</ref><sp/>*ev);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bctbx_list_t<sp/>*linphone_friend_get_callbacks_list(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__buddy__list_1ga2f0508bab6d8ded431ce8b1a679a1522" kindref="member">LinphoneFriend</ref><sp/>*linphone_friend);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bctbx_list_t<sp/>*linphone_friend_list_get_callbacks_list(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__buddy__list_1ga9094b6db3d193430d8a5f9a899758a21" kindref="member">LinphoneFriendList</ref><sp/>*friend_list);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bctbx_list_t<sp/>*</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">linphone_logging_service_get_callbacks_list(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__logging_1gae1681eb46a6cb7585442831ea8a15601" kindref="member">LinphoneLoggingService</ref><sp/>*log_service);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bctbx_list_t<sp/>*linphone_account_creator_get_callbacks_list(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__account__creator_1gafd6720b4e4e8d51f02511196498238ef" kindref="member">LinphoneAccountCreator</ref><sp/>*creator);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bctbx_list_t<sp/>*linphone_xml_rpc_request_get_callbacks_list(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga7a93eeab19d58ffc25eff6254f995d53" kindref="member">LinphoneXmlRpcRequest</ref><sp/>*request);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LINPHONE_CORE_UTILS_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core_utils.h"/>
+  </compounddef>
+</doxygen>

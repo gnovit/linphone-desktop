@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classFlexiAPIClient_1_1Response" kind="class" language="C++" prot="public">
+    <compoundname>FlexiAPIClient::Response</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFlexiAPIClient_1_1Response_1a6a3669cd559027f0c7cd1affeb85d2d5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FlexiAPIClient::Response::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <qualifiedname>FlexiAPIClient::Response::code</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="43" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFlexiAPIClient_1_1Response_1ae143a0fa60d2216ec3cf6f1971266967" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FlexiAPIClient::Response::body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <qualifiedname>FlexiAPIClient::Response::body</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="44" column="8" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFlexiAPIClient_1_1Response_1a8f978cfa7dc451424a3fd70895e73225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Json::Value</type>
+        <definition>Json::Value FlexiAPIClient::Response::json</definition>
+        <argsstring>()</argsstring>
+        <name>json</name>
+        <qualifiedname>FlexiAPIClient::Response::json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="46" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="41" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="41" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classFlexiAPIClient_1_1Response_1ae143a0fa60d2216ec3cf6f1971266967" prot="public" virt="non-virtual"><scope>FlexiAPIClient::Response</scope><name>body</name></member>
+      <member refid="classFlexiAPIClient_1_1Response_1a6a3669cd559027f0c7cd1affeb85d2d5" prot="public" virt="non-virtual"><scope>FlexiAPIClient::Response</scope><name>code</name></member>
+      <member refid="classFlexiAPIClient_1_1Response_1a8f978cfa7dc451424a3fd70895e73225" prot="public" virt="non-virtual"><scope>FlexiAPIClient::Response</scope><name>json</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

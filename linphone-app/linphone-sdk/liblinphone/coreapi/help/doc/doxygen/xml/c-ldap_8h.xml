@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-ldap_8h" kind="file" language="C++">
+    <compoundname>c-ldap.h</compoundname>
+    <includes refid="c-types_8h" local="yes">linphone/api/c-types.h</includes>
+    <includedby refid="c-api_8h" local="yes">c-api.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__ldap_1gaf357ed6d6f1cb83c23778d78d376ef20" kind="function"><name>linphone_ldap_new</name></member>
+      <member refid="group__ldap_1gab6b370de5eb9a218a7ec473855d7b6d0" kind="function"><name>linphone_ldap_new_with_params</name></member>
+      <member refid="group__ldap_1gacae33a3842d116b3865f1d51ca44a9bd" kind="function"><name>linphone_ldap_ref</name></member>
+      <member refid="group__ldap_1ga2f3869a79ea576304740778bd3001727" kind="function"><name>linphone_ldap_unref</name></member>
+      <member refid="group__ldap_1ga7df9f4eeb9270e0058ff5368ec536cc2" kind="function"><name>linphone_ldap_set_params</name></member>
+      <member refid="group__ldap_1ga6862f6f45362e251af927836cd6c9cb7" kind="function"><name>linphone_ldap_get_params</name></member>
+      <member refid="group__ldap_1gade0668e8dd3e266720688cf846566ef2" kind="function"><name>linphone_ldap_get_core</name></member>
+      <member refid="group__ldap_1gabad846e667b6ed53a9673590add209a3" kind="function"><name>linphone_ldap_set_index</name></member>
+      <member refid="group__ldap_1ga2df978f50480ad30e31f237f40bb8122" kind="function"><name>linphone_ldap_get_index</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LINPHONE_LDAP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_LDAP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref><sp/>*<ref refid="group__ldap_1gaf357ed6d6f1cb83c23778d78d376ef20" kindref="member">linphone_ldap_new</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*lc);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref><sp/>*<ref refid="group__ldap_1gab6b370de5eb9a218a7ec473855d7b6d0" kindref="member">linphone_ldap_new_with_params</ref>(<ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*lc,<sp/><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref><sp/>*<ref refid="group__ldap_1gacae33a3842d116b3865f1d51ca44a9bd" kindref="member">linphone_ldap_ref</ref>(<ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref><sp/>*ldap);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__ldap_1ga2f3869a79ea576304740778bd3001727" kindref="member">linphone_ldap_unref</ref>(<ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref><sp/>*ldap);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__ldap_1ga7df9f4eeb9270e0058ff5368ec536cc2" kindref="member">linphone_ldap_set_params</ref>(<ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref><sp/>*ldap,<sp/><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref><sp/>*<ref refid="group__ldap_1ga6862f6f45362e251af927836cd6c9cb7" kindref="member">linphone_ldap_get_params</ref>(<ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref><sp/>*ldap);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref><sp/>*<ref refid="group__ldap_1gade0668e8dd3e266720688cf846566ef2" kindref="member">linphone_ldap_get_core</ref>(<ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref><sp/>*ldap);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__ldap_1gabad846e667b6ed53a9673590add209a3" kindref="member">linphone_ldap_set_index</ref>(<ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref><sp/>*ldap,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__ldap_1ga2df978f50480ad30e31f237f40bb8122" kindref="member">linphone_ldap_get_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref><sp/>*ldap);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LINPHONE_LDAP_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h"/>
+  </compounddef>
+</doxygen>

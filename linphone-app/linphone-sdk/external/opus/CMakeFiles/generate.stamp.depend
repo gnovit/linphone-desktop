@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC-ASM.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake
+C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/opus/CMakeLists.txt
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/opus/OpusConfig.cmake.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/opus/config.h.cmake.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/opus/opus.pc.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/opus/opus_config.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/opus/opus_functions.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/opus/opus_sources.cmake

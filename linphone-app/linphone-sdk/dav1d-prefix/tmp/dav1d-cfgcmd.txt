@@ -1,0 +1,1 @@
+cmd='sh;D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/EP_dav1d_configure.sh'

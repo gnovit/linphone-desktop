@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="event-log-enums_8h" kind="file" language="C++">
+    <compoundname>event-log-enums.h</compoundname>
+    <includedby refid="c-types_8h" local="yes">c-types.h</includedby>
+    <sectiondef kind="enum">
+      <member refid="group__events_1ga43e52b3bc4d4df75621c9fd95cff0e08" kind="enum"><name>_EventLogType</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__events_1ga3a1054e1bfc5ed722b36e993468aa06a" kind="typedef"><name>LinphoneEventLogType</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_EVENT_LOG_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_EVENT_LOG_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>EventLog.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__events_1ga43e52b3bc4d4df75621c9fd95cff0e08" kindref="member">_EventLogType</ref><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a606144c3450eb5a130d9d170d4dd4d2b" kindref="member">LinphoneEventLogTypeNone</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a19a4630375fee820ef2450ba6697153e" kindref="member">LinphoneEventLogTypeConferenceCreated</ref><sp/>=<sp/>1,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08ac55797d36d88dae220ea2f2e849bdfb3" kindref="member">LinphoneEventLogTypeConferenceTerminated</ref><sp/>=<sp/>2,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08ad9f6ac8deae25e2fe86836ab6f136d2e" kindref="member">LinphoneEventLogTypeConferenceCallStarted</ref><sp/>=<sp/>3,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a201d18a1c239b07d980348442b1a2f78" kindref="member">LinphoneEventLogTypeConferenceConnected</ref><sp/>=<sp/>21,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a725e976fe12df06aab4cfcb2f8109b31" kindref="member">LinphoneEventLogTypeConferenceCallEnded</ref><sp/>=<sp/>4,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a9e63083f5247e7ba12dda62bf191f877" kindref="member">LinphoneEventLogTypeConferenceChatMessage</ref><sp/>=<sp/>5,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a75e918cf25a8d2f21d6f557ccfc86c3f" kindref="member">LinphoneEventLogTypeConferenceParticipantAdded</ref><sp/>=<sp/>6,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a33dabf10374f814336a606b1dbc88b72" kindref="member">LinphoneEventLogTypeConferenceParticipantRemoved</ref><sp/>=<sp/>7,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08aa65ddd4cf8c890985ab480cd0ded3a5a" kindref="member">LinphoneEventLogTypeConferenceParticipantRoleUnknown</ref><sp/>=<sp/>25,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08abc05c24f4dd730af2a465fc1c98e0e37" kindref="member">LinphoneEventLogTypeConferenceParticipantRoleSpeaker</ref><sp/>=<sp/>26,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a4104ba0f5587c3d5cec0d0cddd1ec18f" kindref="member">LinphoneEventLogTypeConferenceParticipantRoleListener</ref><sp/>=<sp/>27,<sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08af8e46ef745f89f9ee2fc1c57eabe894f" kindref="member">LinphoneEventLogTypeConferenceParticipantSetAdmin</ref><sp/>=<sp/>8,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08aae15727eaf588b4a8eb1d2a7399f1e04" kindref="member">LinphoneEventLogTypeConferenceParticipantUnsetAdmin</ref><sp/>=<sp/>9,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a8cadf0c40d85d87bff4d6e5d8d678a4c" kindref="member">LinphoneEventLogTypeConferenceParticipantDeviceAdded</ref><sp/>=<sp/>10,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a066fcc736c57119fece19789f692f30a" kindref="member">LinphoneEventLogTypeConferenceParticipantDeviceRemoved</ref><sp/>=<sp/>11,<sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08af9e5226c2562612fcb1ac722daff087c" kindref="member">LinphoneEventLogTypeConferenceParticipantDeviceMediaCapabilityChanged</ref><sp/>=</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>17,<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a35733641a4cb71409701b7b498f3dc19" kindref="member">LinphoneEventLogTypeConferenceParticipantDeviceMediaAvailabilityChanged</ref><sp/>=</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>23,<sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08ad30085b09c3f25f34c92e7d3987d6df6" kindref="member">LinphoneEventLogTypeConferenceParticipantDeviceStatusChanged</ref><sp/>=</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>22,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a7c0746cf3ce42f5aa7d542cdd75d03de" kindref="member">LinphoneEventLogTypeConferenceSubjectChanged</ref><sp/>=<sp/>12,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08ab6952f58b78e04872aa4f08ef7100ef7" kindref="member">LinphoneEventLogTypeConferenceAvailableMediaChanged</ref><sp/>=<sp/>18,<sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a3a840d1f082bb0184850cd886c007088" kindref="member">LinphoneEventLogTypeConferenceSecurityEvent</ref><sp/>=<sp/>13,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a458ec765b29df7cd8b8741ed07e29bbe" kindref="member">LinphoneEventLogTypeConferenceEphemeralMessageLifetimeChanged</ref><sp/>=</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>14,<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a08b08273d20d1eae1ff3049693cf7f54" kindref="member">LinphoneEventLogTypeConferenceEphemeralMessageEnabled</ref><sp/>=</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>15,<sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08ae4bb74bbc6a3d3ca346bcc33aa5f2253" kindref="member">LinphoneEventLogTypeConferenceEphemeralMessageDisabled</ref><sp/>=</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>16,<sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a74c04deccc0149166ecbcfe98d9a8bbc" kindref="member">LinphoneEventLogTypeConferenceEphemeralMessageManagedByAdmin</ref><sp/>=</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>19,<sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a0f1c84cc5d4acbcc8aaa285c0d9d71c6" kindref="member">LinphoneEventLogTypeConferenceEphemeralMessageManagedByParticipants</ref><sp/>=</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>20,<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a8bc592d2e06944b7acd97b733f5e38fb" kindref="member">LinphoneEventLogTypeConferenceChatMessageReaction</ref><sp/>=<sp/>24,<sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}<sp/><ref refid="group__events_1ga3a1054e1bfc5ed722b36e993468aa06a" kindref="member">LinphoneEventLogType</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifndef<sp/>_L_EVENT_LOG_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/event-log-enums.h"/>
+  </compounddef>
+</doxygen>

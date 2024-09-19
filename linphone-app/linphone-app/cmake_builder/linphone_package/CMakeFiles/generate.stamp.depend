@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/InstallRequiredSystemLibraries.cmake
+C:/Program Files/CMake/share/cmake-3.29/Templates/CPackConfig.cmake.in
+C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/application_info.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/assets/qt.conf.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/cmake_builder/linphone_package/CMakeLists.txt
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/cmake_builder/linphone_package/packaging.cmake.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/cmake_builder/linphone_package/windows/install.nsi.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/cmake_builder/linphone_package/windows/uninstall.nsi.in

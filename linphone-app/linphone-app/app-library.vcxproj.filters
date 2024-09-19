@@ -1,0 +1,2660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\AppController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\cli\Cli.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\logger\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\paths\Paths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\providers\AvatarProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\providers\ImageProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\providers\ExternalImageProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\providers\QRCodeProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\providers\ThumbnailProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\proxyModel\ProxyListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\proxyModel\SortFilterProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\translator\DefaultTranslator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\assistant\AssistantModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\authentication\AuthenticationNotifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\call\CallListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\call\CallModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\calls\CallsListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\calls\CallsListProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\camera\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\camera\CameraDummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat\ChatModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-events\ChatCallModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-events\ChatEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-events\ChatMessageListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-events\ChatMessageModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-events\ChatNoticeModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-reaction\ChatReactionModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-reaction\ChatReactionListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-reaction\ChatReactionProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-room\ChatRoomInitializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-room\ChatRoomListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-room\ChatRoomModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-room\ChatRoomProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\codecs\AbstractCodecsModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\codecs\AudioCodecsModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\codecs\VideoCodecsModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conference\ConferenceAddModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conference\ConferenceHelperModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conference\ConferenceListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conference\ConferenceModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conference\ConferenceProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conferenceInfo\ConferenceInfoModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conferenceInfo\ConferenceInfoListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conferenceInfo\ConferenceInfoProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conferenceScheduler\ConferenceScheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conferenceScheduler\ConferenceSchedulerListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contact\ContactModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contact\VcardModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsImporterModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsImporterPluginsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsImporterListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsImporterListProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsListProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\content\ContentModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\content\ContentListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\content\ContentProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\core\CoreHandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\core\CoreListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\core\CoreManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\core\event-count-notifier\AbstractEventCountNotifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\file\FileDownloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\file\FileExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\file\TemporaryFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\file\FileMediaModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\friend\FriendListListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\history\CallHistoryModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\history\CallHistoryListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\history\CallHistoryProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\history\HistoryModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\history\HistoryProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\ldap\LdapModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\ldap\LdapListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\ldap\LdapProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\notifier\Notifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\clipboard\Clipboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\colors\ColorModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\colors\ColorListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\colors\ColorProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\colors\ImageColorsProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\date\DateModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\images\ImageModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\images\ImageListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\images\ImageProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\images\VideoFrameGrabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\text-to-speech\TextToSpeech.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\timeZone\TimeZoneModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\timeZone\TimeZoneListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\timeZone\TimeZoneProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\units\Units.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\spell-checker\SpellChecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantDeviceListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantDeviceModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantDeviceListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantDeviceProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant-imdn\ParticipantImdnStateModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant-imdn\ParticipantImdnStateListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant-imdn\ParticipantImdnStateProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\presence\OwnPresenceModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\presence\Presence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\recorder\RecorderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\recorder\RecorderModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\recorder\RecordingListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\recorder\RecordingProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\search\SearchListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\search\SearchResultModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\search\SearchSipAddressesModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\search\SearchSipAddressesProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\settings\AccountSettingsModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\settings\EmojisSettingsModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\settings\SettingsModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\sip-addresses\SipAddressesModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\sip-addresses\SipAddressesProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\sip-addresses\SipAddressesSorter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\sip-addresses\SipAddressObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\sound-player\SoundPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\telephone-numbers\TelephoneNumbersModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\timeline\TimelineModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\timeline\TimelineListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\timeline\TimelineProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\tunnel\TunnelModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\tunnel\TunnelConfigModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\tunnel\TunnelConfigListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\tunnel\TunnelConfigProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\url-handlers\UrlHandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\LinphoneEnums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\MediastreamerUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\QExifImageHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\UriTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\plugins\PluginsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\single-application\singleapplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\single-application\singleapplication_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\core\event-count-notifier\EventCountNotifierSystemTrayIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\desktop-tools\DesktopToolsWindows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\spell-checker\SpellCheckerWindowsNative.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\vfs\VfsUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library_autogen\MMCBOTXCM2\qrc_i18n.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library_autogen\EWIEGA46WW\qrc_resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\App.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\AppController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\cli\Cli.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\logger\Logger.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\paths\Paths.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\providers\AvatarProvider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\providers\ImageProvider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\providers\ExternalImageProvider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\providers\QRCodeProvider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\providers\ThumbnailProvider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\proxyModel\ProxyAbstractListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\proxyModel\ProxyAbstractMapModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\proxyModel\ProxyAbstractObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\proxyModel\ProxyListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\proxyModel\SortFilterAbstractProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\proxyModel\SortFilterProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\translator\DefaultTranslator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\assistant\AssistantModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\authentication\AuthenticationNotifier.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\call\CallListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\call\CallModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\calls\CallsListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\calls\CallsListProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\camera\Camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\camera\CameraDummy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat\ChatModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-events\ChatCallModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-events\ChatEvent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-events\ChatMessageListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-events\ChatMessageModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-events\ChatNoticeModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-reaction\ChatReactionModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-reaction\ChatReactionListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-reaction\ChatReactionProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-room\ChatRoomInitializer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-room\ChatRoomListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-room\ChatRoomModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\chat-room\ChatRoomProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\codecs\AbstractCodecsModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\codecs\AudioCodecsModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\codecs\VideoCodecsModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\Components.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conference\ConferenceAddModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conference\ConferenceHelperModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conference\ConferenceListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conference\ConferenceModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conference\ConferenceProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conferenceInfo\ConferenceInfoModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conferenceInfo\ConferenceInfoListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conferenceInfo\ConferenceInfoProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conferenceScheduler\ConferenceScheduler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\conferenceScheduler\ConferenceSchedulerListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contact\ContactModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contact\VcardModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsImporterModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsImporterPluginsManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsImporterListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsImporterListProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\contacts\ContactsListProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\content\ContentModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\content\ContentListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\content\ContentProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\core\CoreHandlers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\core\CoreListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\core\CoreManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\core\event-count-notifier\AbstractEventCountNotifier.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\file\FileDownloader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\file\FileExtractor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\file\TemporaryFile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\file\FileMediaModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\friend\FriendListListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\history\CallHistoryModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\history\CallHistoryListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\history\CallHistoryProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\history\HistoryModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\history\HistoryProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\ldap\LdapModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\ldap\LdapListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\ldap\LdapProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\notifier\Notifier.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\clipboard\Clipboard.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\colors\ColorModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\colors\ColorListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\colors\ColorProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\colors\ImageColorsProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\date\DateModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\images\ImageModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\images\ImageListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\images\ImageProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\images\VideoFrameGrabber.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\desktop-tools\DesktopTools.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\text-to-speech\TextToSpeech.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\timeZone\TimeZoneModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\timeZone\TimeZoneListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\timeZone\TimeZoneProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\units\Units.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\spell-checker\SpellChecker.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantDeviceListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantDeviceModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantDeviceListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant\ParticipantDeviceProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\participant-imdn\ParticipantImdnStateModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\presence\OwnPresenceModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\presence\Presence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\recorder\RecorderManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\recorder\RecorderModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\recorder\RecordingListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\recorder\RecordingProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\search\SearchListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\search\SearchResultModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\search\SearchSipAddressesModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\search\SearchSipAddressesProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\settings\AccountSettingsModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\settings\EmojisSettingsModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\settings\SettingsModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\sip-addresses\SipAddressesModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\sip-addresses\SipAddressesProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\sip-addresses\SipAddressesSorter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\sip-addresses\SipAddressObserver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\sound-player\SoundPlayer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\telephone-numbers\TelephoneNumbersModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\timeline\TimelineModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\timeline\TimelineListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\timeline\TimelineProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\tunnel\TunnelModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\tunnel\TunnelConfigModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\tunnel\TunnelConfigListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\tunnel\TunnelConfigProxyModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\url-handlers\UrlHandlers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\Constants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\LinphoneEnums.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\MediastreamerUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\QExifImageHeader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\UriTools.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\Utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\utils\plugins\PluginsManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\single-application\singleapplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\single-application\singleapplication_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\core\event-count-notifier\EventCountNotifierSystemTrayIcon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\other\desktop-tools\DesktopToolsWindows.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\components\vfs\VfsUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\0c7e279f36539388c5c3bc0985beb820\qrc_i18n.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\4a9389c63bf25954c052acb59a143fd4\qrc_resources.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\include\LinphoneApp\PluginExample.json">
+      <Filter>Json</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\assets\languages\i18n.qrc">
+      <Filter>Rc</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\cs.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\da.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\de.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\en.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\es.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\fr_FR.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\hu.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\it.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\ja.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\lt.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\pt_BR.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\ru.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\sv.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\tr.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\uk.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\languages\zh_CN.ts">
+      <Filter>Lang</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\fonts\NotoSans-hinted\NotoSans-BoldItalic.ttf" />
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\fonts\NotoSans-hinted\NotoSans-Bold.ttf" />
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\fonts\NotoSans-hinted\NotoSans-Italic.ttf" />
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\fonts\NotoSans-hinted\NotoSans-Regular.ttf" />
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\fonts\NotoSans-hinted\NotoSansUI-BoldItalic.ttf" />
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\fonts\NotoSans-hinted\NotoSansUI-Bold.ttf" />
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\fonts\NotoSans-hinted\NotoSansUI-Italic.ttf" />
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\fonts\NotoSans-hinted\NotoSansUI-Regular.ttf" />
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\add_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\add_participant_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\admin_selected_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\attachment_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\auto_answer_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\back_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\burger_menu_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\calendar_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\calendar_participants_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_accept_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_chat_secure_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_chat_unsecure_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_history_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_quality_0_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_quality_1_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_quality_2_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_quality_3_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_quality_4_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_menu_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_sign_connected.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_sign_ended.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_sign_incoming.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_sign_outgoing.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\call_sign_paused.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\camera_off_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\camera_on_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\camera_preview_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\cancel_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_amount.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_audio_pause_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_audio_play_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_audio_soundwave_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_audio_preview_pause_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_audio_preview_play_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_audio_preview_stop_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_count.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_delivered.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_error.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_menu_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_is_composing_0.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_is_composing_1.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_is_composing_2.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_is_composing_3.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_micro_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_read.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\chat_room_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\close_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\collapsed_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\conference_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\conference_audio_only_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\conference_layout_grid_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\conference_layout_active_speaker_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\conference_merge_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\contact_add_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\contact_card_photo_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\contact_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\contact_delete_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\contact_edit_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\contact_view_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\current_account_status_online.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\current_account_status_offline.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\current_account_status_dnd.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\current_account_status_busy.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\dialpad_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\declined_incoming_call_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\declined_outgoing_call_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\delete_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\download_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\drop_down_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\edit_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\emoji_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\ended_call_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\expanded_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\file_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\file_sign.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\file_extension_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\file_image_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\filter_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\filter_params_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\folder_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\fullscreen_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\generic_error.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\group_chat_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\hangup_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\history_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\home_account_assistant.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\home_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\home_invite_friends.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\home_use_linphone.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\ics_edit_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\incoming_call_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\led_green.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\led_orange.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\led_red.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\led_white.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\meetings_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\menu_copy_text_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\menu_reply_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\menu_forward_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\menu_imdn_info_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\menu_vdots_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\menu_info_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\menu_devices_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\menu_ephemeral_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\message_sign.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\micro_off_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\micro_on_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\missed_incoming_call_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\missed_outgoing_call_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\move_to_bottom_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\new_call_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\new_chat_group_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\notifications_off_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\notifications_on_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\options_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\outgoing_call_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\panel_arrow_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\panel_hidden_normal.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\panel_hidden_hovered.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\panel_hidden_pressed.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\panel_shown_normal.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\panel_shown_hovered.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\panel_shown_pressed.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\participants_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\pause_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\play_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\recording_sign.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\record_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\recordings_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\rotation_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\remove_participant_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\screen_sharing_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\screenshot_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\search_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\schedule_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\secure_level_unsafe.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\secure_level_1.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\secure_level_2.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\secure_off.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\secure_on.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\secure_pq_zrtp.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\send_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\settings_advanced_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\settings_audio_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\settings_call_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\settings_network_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\settings_sip_accounts_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\settings_video_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\snapshot_sign.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\speaker_off_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\speaker_on_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\stop_fullscreen_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\timer_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\tel_keypad_voicemail_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\thumbnail_video_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\tooltip_arrow_bottom_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\tooltip_arrow_left_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\tooltip_arrow_right_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\tooltip_arrow_top_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\transfer_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\update_sign.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\video_call_accept_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\video_call_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\warning.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\zoom_in_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\zoom_out_custom.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Animations\BusyIndicator.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Constants\Constants.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Dialog\ConfirmDialog.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Dialog\DateTimeDialog.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Dialog\DialogDescription.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Dialog\DialogPlus.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Dialog\DialogTitle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Dialog\FileViewDialog.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\ActionBar.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\ActionButton.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\ActionSwitch.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Buttons\AbstractTextButton.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Buttons\ExclusiveButtons.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Buttons\FileChooserButton.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Buttons\SmallButton.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Buttons\TextButtonA.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Buttons\TextButtonB.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Buttons\TextButtonC.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\CheckBoxText.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\ComboBox.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\ComboBox.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\CommonItemDelegate.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\DroppableTextArea.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\SpellCheckerMenu.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Fields\HexField.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Fields\NumericField.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Fields\PasswordField.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Fields\PortField.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Fields\ScrollableListViewField.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Fields\TextAreaField.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Fields\TextField.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\ListForm.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\ListForm.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\ListItemSelector.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\ListItemSelector.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Mosaic.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\MouseArea.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Placements\FormEmptyLine.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Placements\FormGroup.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Placements\FormHGroup.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Placements\FormLine.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Placements\Form.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Placements\FormTableEntry.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Placements\FormTableLine.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Placements\FormTable.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Placements\FormVGroup.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\RadioButton.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\SearchBox.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Slider.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\StackView.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\StaticListForm.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Switch.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Tab\TabBar.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Tab\TabButton.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\Tab\TabContainer.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Form\TransparentTextInput.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Helpers\DragBox.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Helpers\HoveringMouseArea.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Helpers\InvertedMouseArea.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Helpers\MovableMouseArea.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Image\Icon.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Image\RoundedImage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Indicators\MediaProgressBar.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Indicators\RoundProgressBar.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Indicators\VuMeter.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Menus\ApplicationMenuEntry.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Menus\ApplicationMenu.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Menus\DropDownDynamicMenu.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Menus\DropDownStaticMenuEntry.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Menus\DropDownStaticMenu.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Menus\MenuItem.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Menus\MenuSeparator.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Menus\Menu.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Misc\Borders.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Misc\ForceScrollBar.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Misc\MessageBanner.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Misc\Paned.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Picker\DatePicker.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Picker\EmojiPicker.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Picker\TimePicker.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Popup\DesktopPopup.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Popup\Popup.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Popup\PopupShadow.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Animations\BusyIndicatorStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Dialog\DateTimeDialogStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Dialog\DialogStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Dialog\FileViewDialogStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\ActionBarStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\ActionSwitchStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Buttons\AbstractTextButtonStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Buttons\ExclusiveButtonsStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Buttons\FileChooserButtonStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Buttons\SmallButtonStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Buttons\TextButtonAStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Buttons\TextButtonBStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Buttons\TextButtonCStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\CheckBoxTextStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\ComboBoxStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\CommonItemDelegateStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\DroppableTextAreaStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Fields\NumericFieldStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Fields\TextAreaFieldStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Fields\TextFieldStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\ListFormStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Placements\FormHGroupStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Placements\FormLineStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Placements\FormStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Placements\FormTableLineStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Placements\FormTableStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Placements\FormVGroupStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\RadioButtonStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\SearchBoxStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\SliderStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\StackViewStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\SwitchStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Tab\TabButtonStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\Tab\TabContainerStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Form\TransparentTextInputStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Indicators\MediaProgressBarStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Indicators\RoundProgressBarStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Indicators\VuMeterStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Menus\ApplicationMenuStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Menus\DropDownStaticMenuStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Menus\MenuItemStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Menus\MenuStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Menus\MenuSeparatorStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Misc\ForceScrollBarStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Misc\MessageBannerStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Misc\PanedStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Picker\DatePickerStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Picker\EmojiPickerStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Picker\TimePickerStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Popup\PopupStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Tooltip\TooltipStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Styles\Window\WindowStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Text\Text.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Tooltip\TooltipArea.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Tooltip\Tooltip.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\View\ScrollableListView.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Window\ApplicationWindow.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Window\VirtualWindow.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Window\Window.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Common\Window\Window.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Konami\Konami.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Account\AccountStatus.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Blocks\CardBlock.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Blocks\RequestBlock.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Calls\CallControls.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Calls\Calls.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Calls\Calls.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Calls\CallStatistics.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Calls\ConferenceControls.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Calls\IncallAvatar.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Camera\CameraItem.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Camera\CameraView.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\Chat.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\Chat.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatContent.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatDeliveries.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatFullContent.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatMenu.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatAudioMessage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatAudioPreview.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatCalendarMessage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatConferenceInvitationMessage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatEmojis.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatFileMessage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatFilePreview.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatForwardMessage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatMessagePreview.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatReactions.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatReactionsDetails.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatReplyMessage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatReplyPreview.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\ChatTextMessage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\Event.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\IncomingMessage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\Message.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\Message.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\Notice.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Chat\OutgoingMessage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Codecs\CodecAttribute.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Codecs\CodecLegend.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Codecs\CodecsViewer.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Contact\Avatar.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Contact\ContactDescription.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Contact\ContactMessageCounter.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Contact\Contact.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Dialog\OnlineInstallerDialog.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Dialog\SipAddressDialog.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Dialog\MultimediaParametersDialog.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Dialog\ZrtpTokenAuthenticationDialog.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\File\FileView.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\History\History.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\History\History.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\History\Event.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Menus\SipAddressesMenu.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Menus\IncallMenu.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Misc\MessageCounter.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Notifications\NotificationBasic.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Notifications\NotificationNewVersionAvailable.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Notifications\Notification.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Notifications\NotificationReceivedCall.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Notifications\NotificationReceivedFileMessage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Notifications\NotificationReceivedMessage.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Notifications\NotificationRecordingCompleted.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Notifications\NotificationSnapshotWasTaken.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Presence\PresenceLevel.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\SmartSearchBar\SmartSearchBar.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Sticker\AvatarSticker.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Sticker\CameraSticker.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Sticker\DecorationSticker.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Sticker\Sticker.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Account\AccountStatusStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Blocks\CardBlockStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Blocks\RequestBlockStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Calls\CallControlsStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Calls\CallsStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Calls\CallStatisticsStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Calls\ConferenceControlsStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Camera\CameraViewStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Chat\ChatStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Chat\ChatAudioMessageStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Chat\ChatAudioPreviewStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Chat\ChatEmojisStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Chat\ChatFilePreviewStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Chat\ChatCalendarMessageStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Chat\ChatForwardMessageStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Chat\ChatReactionsDetailsStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Chat\ChatReplyMessageStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Codecs\CodecsViewerStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Contact\AvatarStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Contact\ContactDescriptionStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Contact\ContactMessageCounterStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Contact\ContactStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Dialog\MultimediaParametersDialogStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Dialog\OnlineInstallerDialogStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Dialog\SipAddressDialogStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Dialog\ZrtpTokenAuthenticationDialogStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\File\FileViewStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\History\HistoryStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Menus\SipAddressesMenuStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Menus\IncallMenuStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Misc\MessageCounterStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Notifications\NotificationBasicStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Notifications\NotificationReceivedCallStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Notifications\NotificationReceivedFileMessageStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Notifications\NotificationReceivedMessageStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Notifications\NotificationStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Sticker\AvatarStickerStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Sticker\CameraStickerStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Sticker\DecorationStickerStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Sticker\StickerStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\TelKeypad\TelKeypadStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Timeline\CallTimelineStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\Timeline\TimelineStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\View\ParticipantsListViewStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\View\ParticipantsViewStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Styles\View\SipAddressesViewStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\TelKeypad\TelKeypadButton.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\TelKeypad\TelKeypad.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\TelKeypad\TelKeypad.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Timeline\CallTimeline.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Timeline\CallTimelineItem.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Timeline\Timeline.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Timeline\Timeline.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\Timeline\TimelineItem.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\View\ParticipantsListView.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\View\ParticipantsView.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\modules\Linphone\View\SipAddressesView.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\scripts\Utils\port-tools.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\scripts\Utils\utils.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\AbstractStartingCall.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\CallsWindow.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\CallsWindow.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\Conference.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\Dialogs\CallSipAddress.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\Dialogs\CallTransfer.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\Dialogs\ConferenceManager.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\Incall.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\Incall.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\IncallActiveSpeaker.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\IncallFullscreen.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\IncallGrid.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\IncomingCall.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Calls\WaitingRoom.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Dialog\NewConference.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\ActivateAppSipAccountWithEmail.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\ActivateAppSipAccountWithPhoneNumber.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\AssistantAbstractView.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\AssistantHome.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\CreateAppSipAccount.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\CreateAppSipAccountWithEmail.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\CreateAppSipAccountWithPhoneNumber.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\FetchRemoteConfiguration.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\UseAppSipAccount.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\UseAppSipAccountWithPhoneNumber.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\UseAppSipAccountWithUsername.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Assistant\UseOtherSipAccount.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Calls.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Conferences.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\ContactEdit.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\ContactEdit.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Contacts.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Conversation.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Conversation.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Conversations.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Dialogs\About.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Dialogs\AuthenticationRequest.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Dialogs\AuthenticationRequest.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Dialogs\EphemeralChatRoom.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Dialogs\InfoChatRoom.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Dialogs\InfoEncryption.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Dialogs\ManageAccount.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Dialogs\ManageAccounts.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Dialogs\NewChatRoom.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Dialogs\ParticipantsDevices.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Home.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\HistoryView.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\HistoryView.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\InviteFriends.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\MainWindow.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\MainWindowMenuBar.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\MainWindow.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\MainWindowTopMenuBar.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Main\Recordings.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\Dialogs\SettingsLdapEdit.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\Dialogs\SettingsSipAccountsEdit.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\Dialogs\SettingsSipAccountsEdit.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\Dialogs\SettingsVideoPreview.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsAdvanced.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsAdvanced.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsAudio.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsCallsChat.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsLdap.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsNetwork.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsSipAccounts.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsSipAccounts.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsTunnel.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsUi.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsUi.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsVideo.js">
+      <Filter>Js</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsVideo.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Settings\SettingsWindow.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Calls\CallStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Calls\CallFullscreenStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Calls\CallsWindowStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Calls\ConferenceStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Calls\IncallStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Calls\WaitingRoomStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Calls\Dialogs\CallSipAddressStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Calls\Dialogs\CallTransferStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Calls\Dialogs\ConferenceManagerStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Dialog\NewConferenceStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Assistant\ActivateAppSipAccountWithEmailStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Assistant\ActivateAppSipAccountWithPhoneNumberStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Assistant\AssistantAbstractViewStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Assistant\AssistantHomeStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Assistant\CreateAppSipAccountStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Assistant\FetchRemoteConfigurationStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\AssistantStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Assistant\UseAppSipAccountStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\ConferencesStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\ContactEditStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\ContactsStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\ConversationStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Dialogs\AboutStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Dialogs\AuthenticationRequestStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Dialogs\EphemeralChatRoomStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Dialogs\InfoChatRoomStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Dialogs\InfoEncryptionStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Dialogs\NewChatRoomStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Dialogs\ManageAccountsStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\Dialogs\ParticipantsDevicesStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\HomeStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\InviteFriendsStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\HistoryViewStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\MainWindowStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Main\RecordingsStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Settings\Dialogs\SettingsSipAccountsEditStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Settings\Dialogs\SettingsVideoPreviewStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Settings\SettingsAdvancedStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Settings\SettingsAudioStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Settings\SettingsUiStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\views\App\Styles\Settings\SettingsWindowStyle.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\images\linphone_logo.svg">
+      <Filter>Svg</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ui\dev-modules\Units\Units.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\assets\icon.ico" />
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\resources.qrc">
+      <Filter>Rc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{98EC0B0D-8E4D-398A-8AD0-16738311E97E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF7F9243-A573-322E-B7BE-7F3BE5BD358B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Js">
+      <UniqueIdentifier>{E56ED6D6-D385-3342-852D-1474149DD760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{983627B7-52D5-3DD0-A48E-3F48BA9ECAB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lang">
+      <UniqueIdentifier>{8CBAE899-47FB-36C4-96F6-B9B024062977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qml">
+      <UniqueIdentifier>{87805C64-939A-325E-8F17-0826B469AECC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rc">
+      <UniqueIdentifier>{F75B2C95-A0DB-319C-81C0-285252F28A76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D5A014FD-C7A9-31E0-8F9C-FD4CF18CF7E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Svg">
+      <UniqueIdentifier>{6D1B612B-5E46-36B1-AE43-472410EFF94B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\DFDE742FDF171460E942F253B32FFD8E\MEDIASTREAMER2-BASEDESCS-HEADER.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DAWK_PROGRAM=C:/OpenSSL/bin/awk.exe -DAWK_SCRIPTS_DIR="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/../" -DINPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src -DOUTPUT_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src -DTYPE=base -DSOURCE_FILES="base/eventqueue.c base/mscommon.c base/msfactory.c base/msfilter.c base/msqueue.c base/mssndcard.c base/msticker.c base/msvideopresets.c base/mswebcam.c base/mtu.c base/msasync.c otherfilters/itc.c otherfilters/join.c otherfilters/tee.c otherfilters/void.c" -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/src/generate_descs_header.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-SDK\MEDIASTREAMER2\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mediastreamer2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

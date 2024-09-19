@@ -1,0 +1,10 @@
+-IC:/Qt/5.15.2/msvc2019/include
+-IC:/Qt/5.15.2/msvc2019/include/QtCore
+-IC:/Qt/5.15.2/msvc2019/./mkspecs/win32-msvc
+-ID:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain
+-DUSE_CREDENTIAL_STORE=1
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/moc_keychain.cpp
+D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/keychain.h

@@ -1,0 +1,1131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="struct__LinphoneCoreVTable" kind="struct" language="C++" prot="public">
+    <compoundname>_LinphoneCoreVTable</compoundname>
+    <includes local="no">core.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a706e1ad8826fb8b9e431f654358ecb1f" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gad3277d4d17cd2e8e37d0167f0d81f7b3" kindref="member">LinphoneCoreGlobalStateChangedCb</ref></type>
+        <definition>LinphoneCoreGlobalStateChangedCb _LinphoneCoreVTable::global_state_changed</definition>
+        <argsstring></argsstring>
+        <name>global_state_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::global_state_changed</qualifiedname>
+        <briefdescription>
+<para>Notifies global state changes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="218" column="34" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a2483143cd4b2e2b8ede6f3c916740938" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gad9b2976cbbec1a2ab0360008fcf2ecd1" kindref="member">LinphoneCoreRegistrationStateChangedCb</ref></type>
+        <definition>LinphoneCoreRegistrationStateChangedCb _LinphoneCoreVTable::registration_state_changed</definition>
+        <argsstring></argsstring>
+        <name>registration_state_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::registration_state_changed</qualifiedname>
+        <briefdescription>
+<para>Notifies registration state changes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="219" column="40" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a771c633cfce7bae2cc0160fbd377bf28" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gaa680c67133ac6e4e2f08363d5d83c471" kindref="member">LinphoneCoreCallStateChangedCb</ref></type>
+        <definition>LinphoneCoreCallStateChangedCb _LinphoneCoreVTable::call_state_changed</definition>
+        <argsstring></argsstring>
+        <name>call_state_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::call_state_changed</qualifiedname>
+        <briefdescription>
+<para>Notifies call state changes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="220" column="32" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1aaeba9b7914a3274d4061097575b45717" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga75b1bcd1ecc9262730bca77e1ed81e92" kindref="member">LinphoneCoreNotifyPresenceReceivedCb</ref></type>
+        <definition>LinphoneCoreNotifyPresenceReceivedCb _LinphoneCoreVTable::notify_presence_received</definition>
+        <argsstring></argsstring>
+        <name>notify_presence_received</name>
+        <qualifiedname>_LinphoneCoreVTable::notify_presence_received</qualifiedname>
+        <briefdescription>
+<para>Notify received presence events. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="221" column="38" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a591701ec52886eadffcd718772ffb3a5" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga92aae6f2ee9254824db139c95a3608b8" kindref="member">LinphoneCoreNotifyPresenceReceivedForUriOrTelCb</ref></type>
+        <definition>LinphoneCoreNotifyPresenceReceivedForUriOrTelCb _LinphoneCoreVTable::notify_presence_received_for_uri_or_tel</definition>
+        <argsstring></argsstring>
+        <name>notify_presence_received_for_uri_or_tel</name>
+        <qualifiedname>_LinphoneCoreVTable::notify_presence_received_for_uri_or_tel</qualifiedname>
+        <briefdescription>
+<para>Notify received presence events. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="223" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a94c1c96ebb851f6a686377347a3dc39a" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga1e1df51de6d1042ad39a72d5970851be" kindref="member">LinphoneCoreNewSubscriptionRequestedCb</ref></type>
+        <definition>LinphoneCoreNewSubscriptionRequestedCb _LinphoneCoreVTable::new_subscription_requested</definition>
+        <argsstring></argsstring>
+        <name>new_subscription_requested</name>
+        <qualifiedname>_LinphoneCoreVTable::new_subscription_requested</qualifiedname>
+        <briefdescription>
+<para>Notify about pending presence subscription request. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="225" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a4accf023348cc96fd0ee9faa33ba99e0" prot="public" static="no" mutable="no">
+        <type>MS2_DEPRECATED LinphoneCoreAuthInfoRequestedCb</type>
+        <definition>MS2_DEPRECATED LinphoneCoreAuthInfoRequestedCb _LinphoneCoreVTable::auth_info_requested</definition>
+        <argsstring></argsstring>
+        <name>auth_info_requested</name>
+        <qualifiedname>_LinphoneCoreVTable::auth_info_requested</qualifiedname>
+        <briefdescription>
+<para>Ask the application some authentication information. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000182"><xreftitle>Deprecated</xreftitle><xrefdescription><para>21/09/2016 Use authentication_requested instead. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="227" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ae7385f21c9786a5c5f51449d9409d3d2" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gae0ca646ce3ba6c35822b5ee843462fe2" kindref="member">LinphoneCoreAuthenticationRequestedCb</ref></type>
+        <definition>LinphoneCoreAuthenticationRequestedCb _LinphoneCoreVTable::authentication_requested</definition>
+        <argsstring></argsstring>
+        <name>authentication_requested</name>
+        <qualifiedname>_LinphoneCoreVTable::authentication_requested</qualifiedname>
+        <briefdescription>
+<para>Ask the application some authentication information. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="230" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ae16c00a663001f7aecd5cfbe8fa91fd5" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga5bbef62e015696d52f0ac456d3d744f6" kindref="member">LinphoneCoreCallLogUpdatedCb</ref></type>
+        <definition>LinphoneCoreCallLogUpdatedCb _LinphoneCoreVTable::call_log_updated</definition>
+        <argsstring></argsstring>
+        <name>call_log_updated</name>
+        <qualifiedname>_LinphoneCoreVTable::call_log_updated</qualifiedname>
+        <briefdescription>
+<para>Notifies that call log list has been updated. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="231" column="30" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a2debfb43801b158a48f7203f4559bc97" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gaf7a9c89c3cffa4fafef4ca26f43ca98d" kindref="member">LinphoneCoreCallIdUpdatedCb</ref></type>
+        <definition>LinphoneCoreCallIdUpdatedCb _LinphoneCoreVTable::call_id_updated</definition>
+        <argsstring></argsstring>
+        <name>call_id_updated</name>
+        <qualifiedname>_LinphoneCoreVTable::call_id_updated</qualifiedname>
+        <briefdescription>
+<para>Notifies that callid of a call has been updated. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="232" column="29" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a24426be17d09718b7827fee56d5a54d4" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gabb843dbe575141ab49c76ede2b800e9c" kindref="member">LinphoneCoreCbsMessageReceivedCb</ref></type>
+        <definition>LinphoneCoreCbsMessageReceivedCb _LinphoneCoreVTable::message_received</definition>
+        <argsstring></argsstring>
+        <name>message_received</name>
+        <qualifiedname>_LinphoneCoreVTable::message_received</qualifiedname>
+        <briefdescription>
+<para>a message is received, can be text or external body </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="233" column="34" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1adde5616f05e4f7cdd90e54ddcc41d34c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga36abdcc477b4bd4a2983ef7bfd3f3956" kindref="member">LinphoneCoreCbsMessagesReceivedCb</ref></type>
+        <definition>LinphoneCoreCbsMessagesReceivedCb _LinphoneCoreVTable::messages_received</definition>
+        <argsstring></argsstring>
+        <name>messages_received</name>
+        <qualifiedname>_LinphoneCoreVTable::messages_received</qualifiedname>
+        <briefdescription>
+<para>one or more messages are received, can be text or external body </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="235" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a982365f3887489fd878bf14b17407070" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gaae8e3acdb0a2bc51ef10b60dc2119922" kindref="member">LinphoneCoreCbsMessageReceivedUnableDecryptCb</ref></type>
+        <definition>LinphoneCoreCbsMessageReceivedUnableDecryptCb _LinphoneCoreVTable::message_received_unable_decrypt</definition>
+        <argsstring></argsstring>
+        <name>message_received_unable_decrypt</name>
+        <qualifiedname>_LinphoneCoreVTable::message_received_unable_decrypt</qualifiedname>
+        <briefdescription>
+<para>an encrypted message is received but we can&apos;t decrypt it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="237" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1afb34622357b9a7138db200040878dba2" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga18aea1c8329ef3faeaa33b7c00675442" kindref="member">LinphoneCoreIsComposingReceivedCb</ref></type>
+        <definition>LinphoneCoreIsComposingReceivedCb _LinphoneCoreVTable::is_composing_received</definition>
+        <argsstring></argsstring>
+        <name>is_composing_received</name>
+        <qualifiedname>_LinphoneCoreVTable::is_composing_received</qualifiedname>
+        <briefdescription>
+<para>An is-composing notification has been received. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="238" column="35" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a45d2aeaebc18bd237bee895b92f15c68" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gab38f96217ce96183cf61034f447a5db3" kindref="member">LinphoneCoreDtmfReceivedCb</ref></type>
+        <definition>LinphoneCoreDtmfReceivedCb _LinphoneCoreVTable::dtmf_received</definition>
+        <argsstring></argsstring>
+        <name>dtmf_received</name>
+        <qualifiedname>_LinphoneCoreVTable::dtmf_received</qualifiedname>
+        <briefdescription>
+<para>A dtmf has been received received. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="239" column="28" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a506c7d14f539829d96d80c7ce359017b" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga3809ce88557b31dc17b5a25f909051f3" kindref="member">LinphoneCoreReferReceivedCb</ref></type>
+        <definition>LinphoneCoreReferReceivedCb _LinphoneCoreVTable::refer_received</definition>
+        <argsstring></argsstring>
+        <name>refer_received</name>
+        <qualifiedname>_LinphoneCoreVTable::refer_received</qualifiedname>
+        <briefdescription>
+<para>An out of call refer was received. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="240" column="29" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ad17bcea5511ac6ecdbba00b13c5a41f0" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga65966ad2c69313013e5639cd327ac71c" kindref="member">LinphoneCoreCbsCallGoClearAckSentCb</ref></type>
+        <definition>LinphoneCoreCbsCallGoClearAckSentCb _LinphoneCoreVTable::call_goclear_ack_sent</definition>
+        <argsstring></argsstring>
+        <name>call_goclear_ack_sent</name>
+        <qualifiedname>_LinphoneCoreVTable::call_goclear_ack_sent</qualifiedname>
+        <briefdescription>
+<para>Notifies on sending of GoClear Ack. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="241" column="37" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a31e10f0b8297cf99f3c337352d54c4ad" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga2ab66df7bf00e8862278c4cba555f7f2" kindref="member">LinphoneCoreCallEncryptionChangedCb</ref></type>
+        <definition>LinphoneCoreCallEncryptionChangedCb _LinphoneCoreVTable::call_encryption_changed</definition>
+        <argsstring></argsstring>
+        <name>call_encryption_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::call_encryption_changed</qualifiedname>
+        <briefdescription>
+<para>Notifies on change in the encryption of call streams. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="243" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a4f3e60607b2455c530c0b782bdbda513" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gab668edeef42b8fa3aedd6e596ecf4898" kindref="member">LinphoneCoreCbsCallSendMasterKeyChangedCb</ref></type>
+        <definition>LinphoneCoreCbsCallSendMasterKeyChangedCb _LinphoneCoreVTable::call_send_master_key_changed</definition>
+        <argsstring></argsstring>
+        <name>call_send_master_key_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::call_send_master_key_changed</qualifiedname>
+        <briefdescription>
+<para>Notifies on change of the send master key of call streams. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="245" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a57c66496771ab717c86a92d9d90dab93" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga71f027665adc75b926f2d69db27ee9cd" kindref="member">LinphoneCoreCbsCallReceiveMasterKeyChangedCb</ref></type>
+        <definition>LinphoneCoreCbsCallReceiveMasterKeyChangedCb _LinphoneCoreVTable::call_receive_master_key_changed</definition>
+        <argsstring></argsstring>
+        <name>call_receive_master_key_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::call_receive_master_key_changed</qualifiedname>
+        <briefdescription>
+<para>Notifies on change of the send master key of call streams. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="247" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a9e7176e49c4f45306962c0eea97e8060" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga1ed746cd1cd37dbb31522d994c14b8c0" kindref="member">LinphoneCoreTransferStateChangedCb</ref></type>
+        <definition>LinphoneCoreTransferStateChangedCb _LinphoneCoreVTable::transfer_state_changed</definition>
+        <argsstring></argsstring>
+        <name>transfer_state_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::transfer_state_changed</qualifiedname>
+        <briefdescription>
+<para>Notifies when a transfer is in progress. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="248" column="36" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a635ddd79f5752f7a27402152871a66cc" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga5b2775a59c1ceae9b0e952fcf2cb54e8" kindref="member">LinphoneCoreBuddyInfoUpdatedCb</ref></type>
+        <definition>LinphoneCoreBuddyInfoUpdatedCb _LinphoneCoreVTable::buddy_info_updated</definition>
+        <argsstring></argsstring>
+        <name>buddy_info_updated</name>
+        <qualifiedname>_LinphoneCoreVTable::buddy_info_updated</qualifiedname>
+        <briefdescription>
+<para>a LinphoneFriend&apos;s BuddyInfo has changed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="249" column="32" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a331cc2d86632554b85346f163a188b1c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gae50aa77005e69df0137977b45bc9e832" kindref="member">LinphoneCoreCallStatsUpdatedCb</ref></type>
+        <definition>LinphoneCoreCallStatsUpdatedCb _LinphoneCoreVTable::call_stats_updated</definition>
+        <argsstring></argsstring>
+        <name>call_stats_updated</name>
+        <qualifiedname>_LinphoneCoreVTable::call_stats_updated</qualifiedname>
+        <briefdescription>
+<para>Notifies on refreshing of call&apos;s statistics. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="250" column="32" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1aadaca6d67eee62be103d2add96aba0ba" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga26ae2ee20f564612343d3b27ac7f4b8d" kindref="member">LinphoneCoreInfoReceivedCb</ref></type>
+        <definition>LinphoneCoreInfoReceivedCb _LinphoneCoreVTable::info_received</definition>
+        <argsstring></argsstring>
+        <name>info_received</name>
+        <qualifiedname>_LinphoneCoreVTable::info_received</qualifiedname>
+        <briefdescription>
+<para>Notifies an incoming informational message received. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="251" column="28" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ad74e9de0bfb7eb63fd4aea705304940d" prot="public" static="no" mutable="no">
+        <type><ref refid="group__event__api_1ga3e06431a6e36a1dcb7c0c8dbf2afc176" kindref="member">LinphoneCoreSubscriptionStateChangedCb</ref></type>
+        <definition>LinphoneCoreSubscriptionStateChangedCb _LinphoneCoreVTable::subscription_state_changed</definition>
+        <argsstring></argsstring>
+        <name>subscription_state_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::subscription_state_changed</qualifiedname>
+        <briefdescription>
+<para>Notifies subscription state change. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="252" column="40" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a9f3a9ffd8ab5fbc8b2a510cf2ea79942" prot="public" static="no" mutable="no">
+        <type><ref refid="group__event__api_1gab95eecd70d4b5cde7a6d97b3892175ff" kindref="member">LinphoneCoreCbsNotifySentCb</ref></type>
+        <definition>LinphoneCoreCbsNotifySentCb _LinphoneCoreVTable::notify_sent</definition>
+        <argsstring></argsstring>
+        <name>notify_sent</name>
+        <qualifiedname>_LinphoneCoreVTable::notify_sent</qualifiedname>
+        <briefdescription>
+<para>Notifies a an event notification, see <ref refid="group__event__api_1ga2c2b4c0462aac9b2721a51d0a4bd4cfc" kindref="member">linphone_core_subscribe()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="253" column="29" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a4e50dd528160791435706add7e9dc403" prot="public" static="no" mutable="no">
+        <type><ref refid="group__event__api_1ga781d3878a7f5f8dd007134df999af779" kindref="member">LinphoneCoreNotifyReceivedCb</ref></type>
+        <definition>LinphoneCoreNotifyReceivedCb _LinphoneCoreVTable::notify_received</definition>
+        <argsstring></argsstring>
+        <name>notify_received</name>
+        <qualifiedname>_LinphoneCoreVTable::notify_received</qualifiedname>
+        <briefdescription>
+<para>Notifies a an event notification, see <ref refid="group__event__api_1ga2c2b4c0462aac9b2721a51d0a4bd4cfc" kindref="member">linphone_core_subscribe()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="255" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ab325a5a407731dea9fb9720fe38201a5" prot="public" static="no" mutable="no">
+        <type><ref refid="group__event__api_1ga3b4fc74f9dc384b66df00ea4083aced4" kindref="member">LinphoneCoreSubscribeReceivedCb</ref></type>
+        <definition>LinphoneCoreSubscribeReceivedCb _LinphoneCoreVTable::subscribe_received</definition>
+        <argsstring></argsstring>
+        <name>subscribe_received</name>
+        <qualifiedname>_LinphoneCoreVTable::subscribe_received</qualifiedname>
+        <briefdescription>
+<para>Notifies a subscribe has been received, see <ref refid="group__event__api_1ga2c2b4c0462aac9b2721a51d0a4bd4cfc" kindref="member">linphone_core_subscribe()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="257" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a0c97e13eeffa865030b2c01a4a1925a7" prot="public" static="no" mutable="no">
+        <type><ref refid="group__event__api_1ga5d46e912a055805bf3beb2558b0ab329" kindref="member">LinphoneCorePublishStateChangedCb</ref></type>
+        <definition>LinphoneCorePublishStateChangedCb _LinphoneCoreVTable::publish_state_changed</definition>
+        <argsstring></argsstring>
+        <name>publish_state_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::publish_state_changed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="259" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a36649d323800ed94e646401669dd0b6c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__event__api_1gaa6c2ba56f5f9bb92fdd7f506cd9124f4" kindref="member">LinphoneCorePublishReceivedCb</ref></type>
+        <definition>LinphoneCorePublishReceivedCb _LinphoneCoreVTable::publish_received</definition>
+        <argsstring></argsstring>
+        <name>publish_received</name>
+        <qualifiedname>_LinphoneCoreVTable::publish_received</qualifiedname>
+        <briefdescription>
+<para>Notifies publish state change (only from <ref refid="group__events_1ga4befcba96583d9e9d9f2b775cccfb2b7" kindref="member">LinphoneEvent</ref> api) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Notifies a publish has been received, see linphone_core_pulish() </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="261" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a4bd70f9d456eadfac49f95a4733e67c1" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gaf5e3cf61f49516c43baf52a1a82a756c" kindref="member">LinphoneCoreConfiguringStatusCb</ref></type>
+        <definition>LinphoneCoreConfiguringStatusCb _LinphoneCoreVTable::configuring_status</definition>
+        <argsstring></argsstring>
+        <name>configuring_status</name>
+        <qualifiedname>_LinphoneCoreVTable::configuring_status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="262" column="33" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a5b101f313df29f3ddedcfdba885b4757" prot="public" static="no" mutable="no">
+        <type>MS2_DEPRECATED LinphoneCoreTextMessageReceivedCb</type>
+        <definition>MS2_DEPRECATED LinphoneCoreTextMessageReceivedCb _LinphoneCoreVTable::text_received</definition>
+        <argsstring></argsstring>
+        <name>text_received</name>
+        <qualifiedname>_LinphoneCoreVTable::text_received</qualifiedname>
+        <briefdescription>
+<para>Notifies configuring status changes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>A text message has been received. <xrefsect id="deprecated_1_deprecated000183"><xreftitle>Deprecated</xreftitle><xrefdescription><para>19/11/2015 Use <ref refid="struct__LinphoneCoreVTable_1a24426be17d09718b7827fee56d5a54d4" kindref="member">message_received</ref> instead. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="264" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1aa0a2528da1c12b9ba6a7dae22cbe64e9" prot="public" static="no" mutable="no">
+        <type>MS2_DEPRECATED <ref refid="group__initializing_1ga2638d5a3c0ee81d730f8d8c01961dae9" kindref="member">LinphoneCoreFileTransferRecvCb</ref></type>
+        <definition>MS2_DEPRECATED LinphoneCoreFileTransferRecvCb _LinphoneCoreVTable::file_transfer_recv</definition>
+        <argsstring></argsstring>
+        <name>file_transfer_recv</name>
+        <qualifiedname>_LinphoneCoreVTable::file_transfer_recv</qualifiedname>
+        <briefdescription>
+<para>Callback to store file received attached to a <ref refid="group__chatroom_1gada79c4417919389b5247e254279f7833" kindref="member">LinphoneChatMessage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000184"><xreftitle>Deprecated</xreftitle><xrefdescription><para>19/11/2015 </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="267" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ab1feeaa1140c156442dae0e4653bf167" prot="public" static="no" mutable="no">
+        <type>MS2_DEPRECATED <ref refid="group__initializing_1ga9e0177fa1067054ab80ead140869332f" kindref="member">LinphoneCoreFileTransferSendCb</ref></type>
+        <definition>MS2_DEPRECATED LinphoneCoreFileTransferSendCb _LinphoneCoreVTable::file_transfer_send</definition>
+        <argsstring></argsstring>
+        <name>file_transfer_send</name>
+        <qualifiedname>_LinphoneCoreVTable::file_transfer_send</qualifiedname>
+        <briefdescription>
+<para>Callback to collect file chunk to be sent for a <ref refid="group__chatroom_1gada79c4417919389b5247e254279f7833" kindref="member">LinphoneChatMessage</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000185"><xreftitle>Deprecated</xreftitle><xrefdescription><para>19/11/2015 </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="270" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a2b8d6909518b2ab8dadf9c3208ae179e" prot="public" static="no" mutable="no">
+        <type>MS2_DEPRECATED <ref refid="group__initializing_1ga48bdecd3c20236b741bf8c807a860f16" kindref="member">LinphoneCoreFileTransferProgressIndicationCb</ref></type>
+        <definition>MS2_DEPRECATED LinphoneCoreFileTransferProgressIndicationCb _LinphoneCoreVTable::file_transfer_progress_indication</definition>
+        <argsstring></argsstring>
+        <name>file_transfer_progress_indication</name>
+        <qualifiedname>_LinphoneCoreVTable::file_transfer_progress_indication</qualifiedname>
+        <briefdescription>
+<para>Callback to indicate file transfer progress. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000186"><xreftitle>Deprecated</xreftitle><xrefdescription><para>19/11/2015 </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="273" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a0a74a3a47b6085c20bc18066d48170a0" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gae6a84b63e8831e764389defd2b1c901c" kindref="member">LinphoneCoreNetworkReachableCb</ref></type>
+        <definition>LinphoneCoreNetworkReachableCb _LinphoneCoreVTable::network_reachable</definition>
+        <argsstring></argsstring>
+        <name>network_reachable</name>
+        <qualifiedname>_LinphoneCoreVTable::network_reachable</qualifiedname>
+        <briefdescription>
+<para>Callback to report IP network status (I.E up/down ) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="275" column="32" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a5c4d34c2587402dea1ed08a8cc2f1662" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga681beb66c1505268cf5be9cdfed65a46" kindref="member">LinphoneCoreLogCollectionUploadStateChangedCb</ref></type>
+        <definition>LinphoneCoreLogCollectionUploadStateChangedCb _LinphoneCoreVTable::log_collection_upload_state_changed</definition>
+        <argsstring></argsstring>
+        <name>log_collection_upload_state_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::log_collection_upload_state_changed</qualifiedname>
+        <briefdescription>
+<para>Callback to upload collected logs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="277" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a23e6dd80976b540b656f0f2789e069e3" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga8ce0f8028882192141f84eeb64b38d67" kindref="member">LinphoneCoreLogCollectionUploadProgressIndicationCb</ref></type>
+        <definition>LinphoneCoreLogCollectionUploadProgressIndicationCb _LinphoneCoreVTable::log_collection_upload_progress_indication</definition>
+        <argsstring></argsstring>
+        <name>log_collection_upload_progress_indication</name>
+        <qualifiedname>_LinphoneCoreVTable::log_collection_upload_progress_indication</qualifiedname>
+        <briefdescription>
+<para>Callback to indicate log collection upload progress. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="279" column="5" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a9f9023a392427a0ec6da80cf4a428a68" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga2b655b61f0dff265e881941b7ce7fb06" kindref="member">LinphoneCoreFriendListCreatedCb</ref></type>
+        <definition>LinphoneCoreFriendListCreatedCb _LinphoneCoreVTable::friend_list_created</definition>
+        <argsstring></argsstring>
+        <name>friend_list_created</name>
+        <qualifiedname>_LinphoneCoreVTable::friend_list_created</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="280" column="33" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a960dfc6f1393db4ebe3b0d113aeccc8a" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gaa0df86d6da73105e9b44ebda11a30dcf" kindref="member">LinphoneCoreFriendListRemovedCb</ref></type>
+        <definition>LinphoneCoreFriendListRemovedCb _LinphoneCoreVTable::friend_list_removed</definition>
+        <argsstring></argsstring>
+        <name>friend_list_removed</name>
+        <qualifiedname>_LinphoneCoreVTable::friend_list_removed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="281" column="33" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ae88b01db68b6fbc153edf9040f6e64bc" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga27e338d6826839bee9297219cd000e45" kindref="member">LinphoneCoreCbsCallCreatedCb</ref></type>
+        <definition>LinphoneCoreCbsCallCreatedCb _LinphoneCoreVTable::call_created</definition>
+        <argsstring></argsstring>
+        <name>call_created</name>
+        <qualifiedname>_LinphoneCoreVTable::call_created</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="282" column="30" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a4ef9e178234a64b042436f8b891f1010" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gaf11704fd2cead216fc2bb6baf54f59bf" kindref="member">LinphoneCoreCbsVersionUpdateCheckResultReceivedCb</ref></type>
+        <definition>LinphoneCoreCbsVersionUpdateCheckResultReceivedCb _LinphoneCoreVTable::version_update_check_result_received</definition>
+        <argsstring></argsstring>
+        <name>version_update_check_result_received</name>
+        <qualifiedname>_LinphoneCoreVTable::version_update_check_result_received</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="283" column="51" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a575a4c9171e21d8e53e8e483d899f2c1" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga03d44a98f5064b88febe3592bfb02102" kindref="member">LinphoneCoreCbsConferenceStateChangedCb</ref></type>
+        <definition>LinphoneCoreCbsConferenceStateChangedCb _LinphoneCoreVTable::conference_state_changed</definition>
+        <argsstring></argsstring>
+        <name>conference_state_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::conference_state_changed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="284" column="41" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1accb5d8ae5f0080edb98e8e54833df5a5" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga7c6ba11b74c9fdf4570b95f25dfb0544" kindref="member">LinphoneCoreCbsChatRoomStateChangedCb</ref></type>
+        <definition>LinphoneCoreCbsChatRoomStateChangedCb _LinphoneCoreVTable::chat_room_state_changed</definition>
+        <argsstring></argsstring>
+        <name>chat_room_state_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::chat_room_state_changed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="285" column="39" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1add34ae0c576d8325c092b2e4331c8547" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gadcf0410791ce38fd8d49f7d125d4f90f" kindref="member">LinphoneCoreCbsQrcodeFoundCb</ref></type>
+        <definition>LinphoneCoreCbsQrcodeFoundCb _LinphoneCoreVTable::qrcode_found</definition>
+        <argsstring></argsstring>
+        <name>qrcode_found</name>
+        <qualifiedname>_LinphoneCoreVTable::qrcode_found</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="286" column="30" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a03659806354a1129cbdeb908366414f7" prot="public" static="no" mutable="no">
+        <type><ref refid="group__misc_1gaaa6f2b138aab506fee2e48a77a2e21bc" kindref="member">LinphoneCoreCbsEcCalibrationResultCb</ref></type>
+        <definition>LinphoneCoreCbsEcCalibrationResultCb _LinphoneCoreVTable::ec_calibration_result</definition>
+        <argsstring></argsstring>
+        <name>ec_calibration_result</name>
+        <qualifiedname>_LinphoneCoreVTable::ec_calibration_result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="287" column="38" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ab8ed1650aaed9913688ecf84be0fe4f2" prot="public" static="no" mutable="no">
+        <type><ref refid="group__misc_1ga47e6178273e39f1304b6b658100c30b3" kindref="member">LinphoneCoreCbsEcCalibrationAudioInitCb</ref></type>
+        <definition>LinphoneCoreCbsEcCalibrationAudioInitCb _LinphoneCoreVTable::ec_calibration_audio_init</definition>
+        <argsstring></argsstring>
+        <name>ec_calibration_audio_init</name>
+        <qualifiedname>_LinphoneCoreVTable::ec_calibration_audio_init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="288" column="41" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a0f7b9f0de5bb2385fe8fa841a467f739" prot="public" static="no" mutable="no">
+        <type><ref refid="group__misc_1ga84f9e1ac2c2e0dfb6c9604d6a31a101a" kindref="member">LinphoneCoreCbsEcCalibrationAudioUninitCb</ref></type>
+        <definition>LinphoneCoreCbsEcCalibrationAudioUninitCb _LinphoneCoreVTable::ec_calibration_audio_uninit</definition>
+        <argsstring></argsstring>
+        <name>ec_calibration_audio_uninit</name>
+        <qualifiedname>_LinphoneCoreVTable::ec_calibration_audio_uninit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="289" column="43" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a49e7732df278ff086646de3b6cea2f30" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga9f95254373822c010341b01765c181b1" kindref="member">LinphoneCoreCbsMessageSentCb</ref></type>
+        <definition>LinphoneCoreCbsMessageSentCb _LinphoneCoreVTable::message_sent</definition>
+        <argsstring></argsstring>
+        <name>message_sent</name>
+        <qualifiedname>_LinphoneCoreVTable::message_sent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="290" column="30" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a5abb851a85aa30fc7d03265e76c7e638" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gaa07033e40b8568c4cecd663b791d4d31" kindref="member">LinphoneCoreCbsChatRoomReadCb</ref></type>
+        <definition>LinphoneCoreCbsChatRoomReadCb _LinphoneCoreVTable::chat_room_read</definition>
+        <argsstring></argsstring>
+        <name>chat_room_read</name>
+        <qualifiedname>_LinphoneCoreVTable::chat_room_read</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="291" column="31" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a7de20e64b1a628e9dfd3fec1b9238d98" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga7599f30bda978aa697e5a0a961eac301" kindref="member">LinphoneCoreCbsChatRoomSessionStateChangedCb</ref></type>
+        <definition>LinphoneCoreCbsChatRoomSessionStateChangedCb _LinphoneCoreVTable::chat_room_session_state_changed</definition>
+        <argsstring></argsstring>
+        <name>chat_room_session_state_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::chat_room_session_state_changed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="292" column="46" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a1d278fc50b811e5be21e128e76b4d1c5" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gae7cf5c64486682d34e43aadcbbdf3463" kindref="member">LinphoneCoreCbsChatRoomSubjectChangedCb</ref></type>
+        <definition>LinphoneCoreCbsChatRoomSubjectChangedCb _LinphoneCoreVTable::chat_room_subject_changed</definition>
+        <argsstring></argsstring>
+        <name>chat_room_subject_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::chat_room_subject_changed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="293" column="41" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a5ab032bb80fe660ff1b96d53bc3a70d7" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gabd45b5874844565744167c29f4ac0045" kindref="member">LinphoneCoreCbsChatRoomEphemeralMessageDeleteCb</ref></type>
+        <definition>LinphoneCoreCbsChatRoomEphemeralMessageDeleteCb _LinphoneCoreVTable::chat_room_ephemeral_message_deleted</definition>
+        <argsstring></argsstring>
+        <name>chat_room_ephemeral_message_deleted</name>
+        <qualifiedname>_LinphoneCoreVTable::chat_room_ephemeral_message_deleted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="294" column="49" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ad93e6f649855cdb0c4aae10d3eb02d1f" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga91deb045a9cff2ede53650f006f4e005" kindref="member">LinphoneCoreCbsFirstCallStartedCb</ref></type>
+        <definition>LinphoneCoreCbsFirstCallStartedCb _LinphoneCoreVTable::first_call_started</definition>
+        <argsstring></argsstring>
+        <name>first_call_started</name>
+        <qualifiedname>_LinphoneCoreVTable::first_call_started</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="295" column="35" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a7d1c1e0c8caa2d2fb81342303e93f9e0" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga326c916a322d469c285978ce60573f48" kindref="member">LinphoneCoreCbsLastCallEndedCb</ref></type>
+        <definition>LinphoneCoreCbsLastCallEndedCb _LinphoneCoreVTable::last_call_ended</definition>
+        <argsstring></argsstring>
+        <name>last_call_ended</name>
+        <qualifiedname>_LinphoneCoreVTable::last_call_ended</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="296" column="32" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a45edf4e92e1d9b40cf5405b4b21a3d67" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga265e26680b9539216b4eaf8549d4009c" kindref="member">LinphoneCoreCbsAudioDeviceChangedCb</ref></type>
+        <definition>LinphoneCoreCbsAudioDeviceChangedCb _LinphoneCoreVTable::audio_device_changed</definition>
+        <argsstring></argsstring>
+        <name>audio_device_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::audio_device_changed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="297" column="37" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1abbb242111bac77c90455763b8cb887bc" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga1b5b29724be278bedc139117897fe913" kindref="member">LinphoneCoreCbsAudioDevicesListUpdatedCb</ref></type>
+        <definition>LinphoneCoreCbsAudioDevicesListUpdatedCb _LinphoneCoreVTable::audio_devices_list_updated</definition>
+        <argsstring></argsstring>
+        <name>audio_devices_list_updated</name>
+        <qualifiedname>_LinphoneCoreVTable::audio_devices_list_updated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="298" column="42" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a2c79d951648581f48854b495723d4f8e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga0209a8ed218c9adc84b4cc674e2520f9" kindref="member">LinphoneCoreCbsImeeUserRegistrationCb</ref></type>
+        <definition>LinphoneCoreCbsImeeUserRegistrationCb _LinphoneCoreVTable::imee_user_registration</definition>
+        <argsstring></argsstring>
+        <name>imee_user_registration</name>
+        <qualifiedname>_LinphoneCoreVTable::imee_user_registration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="299" column="39" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1add069c2acf1b3001b8850654051be78d" prot="public" static="no" mutable="no">
+        <type><ref refid="group__misc_1gae16bc896d262a3bcafb68c7ba3f28d69" kindref="member">LinphoneCoreCbsChatRoomExhumedCb</ref></type>
+        <definition>LinphoneCoreCbsChatRoomExhumedCb _LinphoneCoreVTable::chat_room_exhumed</definition>
+        <argsstring></argsstring>
+        <name>chat_room_exhumed</name>
+        <qualifiedname>_LinphoneCoreVTable::chat_room_exhumed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="300" column="34" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a8eb92520730ce2beb17d9df1bf7e2888" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga9831883b0e04c1a0cd9bb79657d84a9d" kindref="member">LinphoneCoreCbsAccountRegistrationStateChangedCb</ref></type>
+        <definition>LinphoneCoreCbsAccountRegistrationStateChangedCb _LinphoneCoreVTable::account_registration_state_changed</definition>
+        <argsstring></argsstring>
+        <name>account_registration_state_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::account_registration_state_changed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="301" column="50" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a96b15de1f0da06dbe4d2268f33d5005e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__event__api_1gaba38ab2c6bb8ac0fbcb115ed525609dc" kindref="member">LinphoneCoreCbsConferenceInfoReceivedCb</ref></type>
+        <definition>LinphoneCoreCbsConferenceInfoReceivedCb _LinphoneCoreVTable::conference_info_received</definition>
+        <argsstring></argsstring>
+        <name>conference_info_received</name>
+        <qualifiedname>_LinphoneCoreVTable::conference_info_received</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="302" column="41" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a6af900143c5df6dee769a2b40c01df55" prot="public" static="no" mutable="no">
+        <type><ref refid="group__event__api_1gab7f63ddd85191fffd386c73ee3ff1a18" kindref="member">LinphoneCoreCbsPushNotificationReceivedCb</ref></type>
+        <definition>LinphoneCoreCbsPushNotificationReceivedCb _LinphoneCoreVTable::push_notification_received</definition>
+        <argsstring></argsstring>
+        <name>push_notification_received</name>
+        <qualifiedname>_LinphoneCoreVTable::push_notification_received</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="303" column="43" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1adf9f81cbd9420bdae1dccb3ac01f3b38" prot="public" static="no" mutable="no">
+        <type><ref refid="group__alert_1ga7a16f43166adfefd1d0e91881f09b472" kindref="member">LinphoneCoreCbsNewAlertTriggeredCb</ref></type>
+        <definition>LinphoneCoreCbsNewAlertTriggeredCb _LinphoneCoreVTable::new_alert_triggered</definition>
+        <argsstring></argsstring>
+        <name>new_alert_triggered</name>
+        <qualifiedname>_LinphoneCoreVTable::new_alert_triggered</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="304" column="36" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a3f9a45e00fd5de5d33bda2934009e591" prot="public" static="no" mutable="no">
+        <type><ref refid="group__event__api_1ga6f465d5f8d78b3be04095ec2b3abd890" kindref="member">LinphoneCoreCbsPreviewDisplayErrorOccurredCb</ref></type>
+        <definition>LinphoneCoreCbsPreviewDisplayErrorOccurredCb _LinphoneCoreVTable::preview_display_error_occurred</definition>
+        <argsstring></argsstring>
+        <name>preview_display_error_occurred</name>
+        <qualifiedname>_LinphoneCoreVTable::preview_display_error_occurred</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="305" column="46" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ac0ce14582d6e5722b3ee8f14bf614b31" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga474a4b8eb6b2b9c8158d3122b9fe214f" kindref="member">LinphoneCoreCbsNewMessageReactionCb</ref></type>
+        <definition>LinphoneCoreCbsNewMessageReactionCb _LinphoneCoreVTable::new_message_reaction</definition>
+        <argsstring></argsstring>
+        <name>new_message_reaction</name>
+        <qualifiedname>_LinphoneCoreVTable::new_message_reaction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="306" column="37" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a701fb3c32ce063e79c246148b34f1489" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga13adc68c7a10c578a304902d63ab29f8" kindref="member">LinphoneCoreCbsReactionRemovedCb</ref></type>
+        <definition>LinphoneCoreCbsReactionRemovedCb _LinphoneCoreVTable::reaction_removed</definition>
+        <argsstring></argsstring>
+        <name>reaction_removed</name>
+        <qualifiedname>_LinphoneCoreVTable::reaction_removed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="307" column="34" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ad3cd4614be90b6b074589f49830d040e" prot="public" static="no" mutable="no">
+        <type>LinphoneCoreCbsReactionRemovedPrivateCb</type>
+        <definition>LinphoneCoreCbsReactionRemovedPrivateCb _LinphoneCoreVTable::reaction_removed_private</definition>
+        <argsstring></argsstring>
+        <name>reaction_removed_private</name>
+        <qualifiedname>_LinphoneCoreVTable::reaction_removed_private</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="308" column="41" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a5f7f38288a8f0d743436e36b0a5905b5" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gae984c90b18e71c928d98630e9ff4149c" kindref="member">LinphoneCoreCbsDefaultAccountChangedCb</ref></type>
+        <definition>LinphoneCoreCbsDefaultAccountChangedCb _LinphoneCoreVTable::default_account_changed</definition>
+        <argsstring></argsstring>
+        <name>default_account_changed</name>
+        <qualifiedname>_LinphoneCoreVTable::default_account_changed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="309" column="40" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1a8afd690ef680342f5a70836c78bf99a9" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gab221663d9ecf838a0187f247cecafa1e" kindref="member">LinphoneCoreCbsAccountAddedCb</ref></type>
+        <definition>LinphoneCoreCbsAccountAddedCb _LinphoneCoreVTable::account_added</definition>
+        <argsstring></argsstring>
+        <name>account_added</name>
+        <qualifiedname>_LinphoneCoreVTable::account_added</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="310" column="31" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ad514da69b3d152bed1d8c71082cdd293" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1ga4fa37ab89058747a20226c137276542d" kindref="member">LinphoneCoreCbsAccountRemovedCb</ref></type>
+        <definition>LinphoneCoreCbsAccountRemovedCb _LinphoneCoreVTable::account_removed</definition>
+        <argsstring></argsstring>
+        <name>account_removed</name>
+        <qualifiedname>_LinphoneCoreVTable::account_removed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="311" column="33" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__LinphoneCoreVTable_1ae86fb9c345a2a304f8ccb7a9730cb6a7" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _LinphoneCoreVTable::user_data</definition>
+        <argsstring></argsstring>
+        <name>user_data</name>
+        <qualifiedname>_LinphoneCoreVTable::user_data</qualifiedname>
+        <briefdescription>
+<para>User data associated with the above callbacks. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="312" column="6" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This structure holds all callbacks that the application should implement. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>None is mandatory.  <donotwrap />  </para>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="217" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" bodystart="217" bodyend="313"/>
+    <listofallmembers>
+      <member refid="struct__LinphoneCoreVTable_1a8afd690ef680342f5a70836c78bf99a9" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>account_added</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a8eb92520730ce2beb17d9df1bf7e2888" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>account_registration_state_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ad514da69b3d152bed1d8c71082cdd293" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>account_removed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a45edf4e92e1d9b40cf5405b4b21a3d67" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>audio_device_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1abbb242111bac77c90455763b8cb887bc" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>audio_devices_list_updated</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a4accf023348cc96fd0ee9faa33ba99e0" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>auth_info_requested</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ae7385f21c9786a5c5f51449d9409d3d2" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>authentication_requested</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a635ddd79f5752f7a27402152871a66cc" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>buddy_info_updated</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ae88b01db68b6fbc153edf9040f6e64bc" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>call_created</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a31e10f0b8297cf99f3c337352d54c4ad" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>call_encryption_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ad17bcea5511ac6ecdbba00b13c5a41f0" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>call_goclear_ack_sent</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a2debfb43801b158a48f7203f4559bc97" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>call_id_updated</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ae16c00a663001f7aecd5cfbe8fa91fd5" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>call_log_updated</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a57c66496771ab717c86a92d9d90dab93" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>call_receive_master_key_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a4f3e60607b2455c530c0b782bdbda513" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>call_send_master_key_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a771c633cfce7bae2cc0160fbd377bf28" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>call_state_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a331cc2d86632554b85346f163a188b1c" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>call_stats_updated</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a5ab032bb80fe660ff1b96d53bc3a70d7" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>chat_room_ephemeral_message_deleted</name></member>
+      <member refid="struct__LinphoneCoreVTable_1add069c2acf1b3001b8850654051be78d" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>chat_room_exhumed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a5abb851a85aa30fc7d03265e76c7e638" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>chat_room_read</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a7de20e64b1a628e9dfd3fec1b9238d98" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>chat_room_session_state_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1accb5d8ae5f0080edb98e8e54833df5a5" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>chat_room_state_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a1d278fc50b811e5be21e128e76b4d1c5" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>chat_room_subject_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a96b15de1f0da06dbe4d2268f33d5005e" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>conference_info_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a575a4c9171e21d8e53e8e483d899f2c1" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>conference_state_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a4bd70f9d456eadfac49f95a4733e67c1" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>configuring_status</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a5f7f38288a8f0d743436e36b0a5905b5" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>default_account_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a45d2aeaebc18bd237bee895b92f15c68" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>dtmf_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ab8ed1650aaed9913688ecf84be0fe4f2" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>ec_calibration_audio_init</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a0f7b9f0de5bb2385fe8fa841a467f739" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>ec_calibration_audio_uninit</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a03659806354a1129cbdeb908366414f7" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>ec_calibration_result</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a2b8d6909518b2ab8dadf9c3208ae179e" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>file_transfer_progress_indication</name></member>
+      <member refid="struct__LinphoneCoreVTable_1aa0a2528da1c12b9ba6a7dae22cbe64e9" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>file_transfer_recv</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ab1feeaa1140c156442dae0e4653bf167" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>file_transfer_send</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ad93e6f649855cdb0c4aae10d3eb02d1f" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>first_call_started</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a9f9023a392427a0ec6da80cf4a428a68" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>friend_list_created</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a960dfc6f1393db4ebe3b0d113aeccc8a" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>friend_list_removed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a706e1ad8826fb8b9e431f654358ecb1f" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>global_state_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a2c79d951648581f48854b495723d4f8e" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>imee_user_registration</name></member>
+      <member refid="struct__LinphoneCoreVTable_1aadaca6d67eee62be103d2add96aba0ba" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>info_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1afb34622357b9a7138db200040878dba2" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>is_composing_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a7d1c1e0c8caa2d2fb81342303e93f9e0" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>last_call_ended</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a23e6dd80976b540b656f0f2789e069e3" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>log_collection_upload_progress_indication</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a5c4d34c2587402dea1ed08a8cc2f1662" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>log_collection_upload_state_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a24426be17d09718b7827fee56d5a54d4" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>message_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a982365f3887489fd878bf14b17407070" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>message_received_unable_decrypt</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a49e7732df278ff086646de3b6cea2f30" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>message_sent</name></member>
+      <member refid="struct__LinphoneCoreVTable_1adde5616f05e4f7cdd90e54ddcc41d34c" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>messages_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a0a74a3a47b6085c20bc18066d48170a0" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>network_reachable</name></member>
+      <member refid="struct__LinphoneCoreVTable_1adf9f81cbd9420bdae1dccb3ac01f3b38" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>new_alert_triggered</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ac0ce14582d6e5722b3ee8f14bf614b31" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>new_message_reaction</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a94c1c96ebb851f6a686377347a3dc39a" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>new_subscription_requested</name></member>
+      <member refid="struct__LinphoneCoreVTable_1aaeba9b7914a3274d4061097575b45717" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>notify_presence_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a591701ec52886eadffcd718772ffb3a5" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>notify_presence_received_for_uri_or_tel</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a4e50dd528160791435706add7e9dc403" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>notify_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a9f3a9ffd8ab5fbc8b2a510cf2ea79942" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>notify_sent</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a3f9a45e00fd5de5d33bda2934009e591" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>preview_display_error_occurred</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a36649d323800ed94e646401669dd0b6c" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>publish_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a0c97e13eeffa865030b2c01a4a1925a7" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>publish_state_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a6af900143c5df6dee769a2b40c01df55" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>push_notification_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1add34ae0c576d8325c092b2e4331c8547" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>qrcode_found</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a701fb3c32ce063e79c246148b34f1489" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>reaction_removed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ad3cd4614be90b6b074589f49830d040e" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>reaction_removed_private</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a506c7d14f539829d96d80c7ce359017b" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>refer_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a2483143cd4b2e2b8ede6f3c916740938" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>registration_state_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ab325a5a407731dea9fb9720fe38201a5" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>subscribe_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ad74e9de0bfb7eb63fd4aea705304940d" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>subscription_state_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a5b101f313df29f3ddedcfdba885b4757" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>text_received</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a9e7176e49c4f45306962c0eea97e8060" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>transfer_state_changed</name></member>
+      <member refid="struct__LinphoneCoreVTable_1ae86fb9c345a2a304f8ccb7a9730cb6a7" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>user_data</name></member>
+      <member refid="struct__LinphoneCoreVTable_1a4ef9e178234a64b042436f8b891f1010" prot="public" virt="non-virtual"><scope>_LinphoneCoreVTable</scope><name>version_update_check_result_received</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="chat-room-enums_8h" kind="file" language="C++">
+    <compoundname>chat-room-enums.h</compoundname>
+    <includedby refid="c-types_8h" local="yes">c-types.h</includedby>
+    <sectiondef kind="enum">
+      <member refid="group__chatroom_1gaf03b5954f17a23b5580145854f4ff971" kind="enum"><name>_LinphoneChatRoomState</name></member>
+      <member refid="group__chatroom_1ga86f003658f542eb69a7eaf8cab31e300" kind="enum"><name>_LinphoneChatRoomCapabilities</name></member>
+      <member refid="group__chatroom_1gab99d65d34b81970c41b8f9009040ec8f" kind="enum"><name>_LinphoneChatRoomBackend</name></member>
+      <member refid="group__chatroom_1gab7a64513958ca4897fe47a6b87e96512" kind="enum"><name>_LinphoneChatRoomEncryptionBackend</name></member>
+      <member refid="group__chatroom_1ga0800143a6e186065e48efb2857893587" kind="enum"><name>_LinphoneChatRoomEphemeralMode</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__chatroom_1ga13b4abe7d992e2eb61fb3f5735bce3ab" kind="typedef"><name>LinphoneChatRoomState</name></member>
+      <member refid="group__chatroom_1ga78a0a1e86e1e8a848cedb214bb0ec60a" kind="typedef"><name>LinphoneChatRoomCapabilities</name></member>
+      <member refid="group__chatroom_1gae5dfe0d31b1121440f5888144c897f99" kind="typedef"><name>LinphoneChatRoomBackend</name></member>
+      <member refid="group__chatroom_1ga62dfb995f6678da46a2dbaf4c2bca33b" kind="typedef"><name>LinphoneChatRoomEncryptionBackend</name></member>
+      <member refid="group__chatroom_1ga9e4ef9e2a2e8787e22ada875d49e2da2" kind="typedef"><name>LinphoneChatRoomEphemeralMode</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_CHAT_ROOM_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_CHAT_ROOM_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight></codeline>
+<codeline lineno="29"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gaf03b5954f17a23b5580145854f4ff971" kindref="member">_LinphoneChatRoomState</ref><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaf03b5954f17a23b5580145854f4ff971a78d66c9cbb4c3f272bd960ceca1d6cf8" kindref="member">LinphoneChatRoomStateNone</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaf03b5954f17a23b5580145854f4ff971a46cd24766deeb04e986c8fad7923c369" kindref="member">LinphoneChatRoomStateInstantiated</ref><sp/>=<sp/>1,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaf03b5954f17a23b5580145854f4ff971a500cb5dc7f95e3ec1acae4332ec8df2a" kindref="member">LinphoneChatRoomStateCreationPending</ref><sp/>=<sp/>2,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaf03b5954f17a23b5580145854f4ff971af77a5e0bc40a183a660a849761905950" kindref="member">LinphoneChatRoomStateCreated</ref><sp/>=<sp/>3,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaf03b5954f17a23b5580145854f4ff971a0f224f96e867ff7b79f1fc8c0f4ecdeb" kindref="member">LinphoneChatRoomStateCreationFailed</ref><sp/>=<sp/>4,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaf03b5954f17a23b5580145854f4ff971a0ed71406fc5c5519e55c239da88c2e80" kindref="member">LinphoneChatRoomStateTerminationPending</ref><sp/>=<sp/>5,<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaf03b5954f17a23b5580145854f4ff971ac258d53aac0fb55e4d2819cd2f1f6971" kindref="member">LinphoneChatRoomStateTerminated</ref><sp/>=<sp/>6,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaf03b5954f17a23b5580145854f4ff971a17c10ac6963deb5bad805f552eaa088c" kindref="member">LinphoneChatRoomStateTerminationFailed</ref><sp/>=<sp/>7,<sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggaf03b5954f17a23b5580145854f4ff971a945194278e58b6bb34d7f980395d8cb0" kindref="member">LinphoneChatRoomStateDeleted</ref><sp/>=<sp/>8,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}<sp/><ref refid="group__chatroom_1ga13b4abe7d992e2eb61fb3f5735bce3ab" kindref="member">LinphoneChatRoomState</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1ga86f003658f542eb69a7eaf8cab31e300" kindref="member">_LinphoneChatRoomCapabilities</ref><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga86f003658f542eb69a7eaf8cab31e300a4c576864e7d5b2bf9d377efa1c5b392a" kindref="member">LinphoneChatRoomCapabilitiesNone</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga86f003658f542eb69a7eaf8cab31e300ad14519aa5f89f32a1aefc1a498261fca" kindref="member">LinphoneChatRoomCapabilitiesBasic</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga86f003658f542eb69a7eaf8cab31e300a9d661efaf656cb9b7d6bc11820cf54b5" kindref="member">LinphoneChatRoomCapabilitiesRealTimeText</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga86f003658f542eb69a7eaf8cab31e300a1503ae6ffa212fe026b5d075b933fc08" kindref="member">LinphoneChatRoomCapabilitiesConference</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga86f003658f542eb69a7eaf8cab31e300aa7424d6a2e634a2efd7f1ebc74a000e9" kindref="member">LinphoneChatRoomCapabilitiesProxy</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga86f003658f542eb69a7eaf8cab31e300a536f2ea5ac54adeccfaf633d2afc09fa" kindref="member">LinphoneChatRoomCapabilitiesMigratable</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>4,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga86f003658f542eb69a7eaf8cab31e300a1d3dcd9fde20e57be967bba943e16d54" kindref="member">LinphoneChatRoomCapabilitiesOneToOne</ref><sp/>=</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>5,<sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga86f003658f542eb69a7eaf8cab31e300a3d1bb8096124e00af012e18e94fa9ba8" kindref="member">LinphoneChatRoomCapabilitiesEncrypted</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>6,<sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga86f003658f542eb69a7eaf8cab31e300ae32a0872fbf4eaabafa06b39f3f600b4" kindref="member">LinphoneChatRoomCapabilitiesEphemeral</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>7<sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}<sp/><ref refid="group__chatroom_1ga78a0a1e86e1e8a848cedb214bb0ec60a" kindref="member">LinphoneChatRoomCapabilities</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gab99d65d34b81970c41b8f9009040ec8f" kindref="member">_LinphoneChatRoomBackend</ref><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggab99d65d34b81970c41b8f9009040ec8faf4aa8110676380ebe4618fea9b67057c" kindref="member">LinphoneChatRoomBackendBasic</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggab99d65d34b81970c41b8f9009040ec8faa5f78d438c4a5c9bd263e8dab2e639d2" kindref="member">LinphoneChatRoomBackendFlexisipChat</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1<sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/><ref refid="group__chatroom_1gae5dfe0d31b1121440f5888144c897f99" kindref="member">LinphoneChatRoomBackend</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1gab7a64513958ca4897fe47a6b87e96512" kindref="member">_LinphoneChatRoomEncryptionBackend</ref><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggab7a64513958ca4897fe47a6b87e96512ad5ddda2f36bb9874b8fe89ca08ec9ccc" kindref="member">LinphoneChatRoomEncryptionBackendNone</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1ggab7a64513958ca4897fe47a6b87e96512a2dcdeff14c0f9072d33d1bca46fa0308" kindref="member">LinphoneChatRoomEncryptionBackendLime</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0<sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}<sp/><ref refid="group__chatroom_1ga62dfb995f6678da46a2dbaf4c2bca33b" kindref="member">LinphoneChatRoomEncryptionBackend</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__chatroom_1ga0800143a6e186065e48efb2857893587" kindref="member">_LinphoneChatRoomEphemeralMode</ref><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga0800143a6e186065e48efb2857893587a246f694624808c7d915b326d9c372e40" kindref="member">LinphoneChatRoomEphemeralModeDeviceManaged</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__chatroom_1gga0800143a6e186065e48efb2857893587aacd693e4f0c4823b32c7c5442b48572e" kindref="member">LinphoneChatRoomEphemeralModeAdminManaged</ref><sp/>=</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}<sp/><ref refid="group__chatroom_1ga9e4ef9e2a2e8787e22ada875d49e2da2" kindref="member">LinphoneChatRoomEphemeralMode</ref>;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifndef<sp/>_L_CHAT_ROOM_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/chat-room-enums.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceUtils" kind="namespace" language="C++">
+    <compoundname>Utils</compoundname>
+    <innerclass refid="classUtils_1_1Version" prot="public">Utils::Version</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="utils_8h_1aef2491d10edf0c410206314046c48a4e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T * Utils::getPtr</definition>
+        <argsstring>(std::shared_ptr&lt; T &gt; &amp;object)</argsstring>
+        <name>getPtr</name>
+        <qualifiedname>Utils::getPtr</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; T &gt; &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="49" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1aeed8b31cd72fbf87b9b402b924ccc776" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T * Utils::getPtr</definition>
+        <argsstring>(const std::shared_ptr&lt; T &gt; &amp;object)</argsstring>
+        <name>getPtr</name>
+        <qualifiedname>Utils::getPtr</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; T &gt; &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="54" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a3dcab6c6e7d4e224c35f1993b4cfc26a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T * Utils::getPtr</definition>
+        <argsstring>(std::unique_ptr&lt; T &gt; &amp;object)</argsstring>
+        <name>getPtr</name>
+        <qualifiedname>Utils::getPtr</qualifiedname>
+        <param>
+          <type>std::unique_ptr&lt; T &gt; &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="59" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1abd81db2ec57e3a5c2a42878846265424" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T * Utils::getPtr</definition>
+        <argsstring>(const std::unique_ptr&lt; T &gt; &amp;object)</argsstring>
+        <name>getPtr</name>
+        <qualifiedname>Utils::getPtr</qualifiedname>
+        <param>
+          <type>const std::unique_ptr&lt; T &gt; &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="64" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ab2cf1c32c972352e3d859f5f1978b816" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T * Utils::getPtr</definition>
+        <argsstring>(T *object)</argsstring>
+        <name>getPtr</name>
+        <qualifiedname>Utils::getPtr</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="69" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1acbb78cb3a8095333b14018868852544f" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T * Utils::getPtr</definition>
+        <argsstring>(T &amp;object)</argsstring>
+        <name>getPtr</name>
+        <qualifiedname>Utils::getPtr</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="74" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ab410d152fa1f9a806b0d7269bb3f2824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Utils::iequals</definition>
+        <argsstring>(const std::string &amp;a, const std::string &amp;b)</argsstring>
+        <name>iequals</name>
+        <qualifiedname>Utils::iequals</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="78" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="78" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a7d1d0dd3b0db69b39f057e6b063b9e34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::toString</definition>
+        <argsstring>(int val)</argsstring>
+        <name>toString</name>
+        <qualifiedname>Utils::toString</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="80" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="80" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a8edf6de827e95dc9e4d8e09bbb0eff86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::toString</definition>
+        <argsstring>(long val)</argsstring>
+        <name>toString</name>
+        <qualifiedname>Utils::toString</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="81" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="81" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a8de896affb67537eb2ca51ec39b90123" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::toString</definition>
+        <argsstring>(long long val)</argsstring>
+        <name>toString</name>
+        <qualifiedname>Utils::toString</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="82" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="82" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a47e3266932bb939300e61dc3285bb67d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::toString</definition>
+        <argsstring>(unsigned val)</argsstring>
+        <name>toString</name>
+        <qualifiedname>Utils::toString</qualifiedname>
+        <param>
+          <type>unsigned</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="83" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a49342c629064818dc93d5816720a8c01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::toString</definition>
+        <argsstring>(unsigned long val)</argsstring>
+        <name>toString</name>
+        <qualifiedname>Utils::toString</qualifiedname>
+        <param>
+          <type>unsigned long</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="84" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="84" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a369289e1f05fcc3f813d0443914aa5ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::toString</definition>
+        <argsstring>(unsigned long long val)</argsstring>
+        <name>toString</name>
+        <qualifiedname>Utils::toString</qualifiedname>
+        <param>
+          <type>unsigned long long</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="85" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="85" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a567efed8764cf05343f6accaae6929b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::toString</definition>
+        <argsstring>(float val)</argsstring>
+        <name>toString</name>
+        <qualifiedname>Utils::toString</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="86" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="86" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a3474487d89bfafc69a783c92c6518335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::toString</definition>
+        <argsstring>(double val)</argsstring>
+        <name>toString</name>
+        <qualifiedname>Utils::toString</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="87" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="87" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ad8b89ba68002ce4d6f65f20c68c59f14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::toString</definition>
+        <argsstring>(long double val)</argsstring>
+        <name>toString</name>
+        <qualifiedname>Utils::toString</qualifiedname>
+        <param>
+          <type>long double</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="88" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="88" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a08ae6f558706e3ac6243388e1f2ac942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::toString</definition>
+        <argsstring>(const void *val)</argsstring>
+        <name>toString</name>
+        <qualifiedname>Utils::toString</qualifiedname>
+        <param>
+          <type>const void *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="89" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="89" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a8289c941d4d3c0ea5e1567336ef4d020" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string Utils::toString</definition>
+        <argsstring>(const T &amp;val)</argsstring>
+        <name>toString</name>
+        <qualifiedname>Utils::toString</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="92" column="21" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="92" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a11c3354de52d2c32057fe16489fa844a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Utils::stoi</definition>
+        <argsstring>(const std::string &amp;str, size_t *idx=0, int base=10)</argsstring>
+        <name>stoi</name>
+        <qualifiedname>Utils::stoi</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="98" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="98" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a90908607c8e7f37fad0cc97ce5ca9f3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long long</type>
+        <definition>long long Utils::stoll</definition>
+        <argsstring>(const std::string &amp;str, size_t *idx=0, int base=10)</argsstring>
+        <name>stoll</name>
+        <qualifiedname>Utils::stoll</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="99" column="12" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="99" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a480940867df245f76d03dff5587de35c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long long</type>
+        <definition>unsigned long long Utils::stoull</definition>
+        <argsstring>(const std::string &amp;str, size_t *idx=0, int base=10)</argsstring>
+        <name>stoull</name>
+        <qualifiedname>Utils::stoull</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="100" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="100" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ad084e1aad5987590668f8be3e1b5540b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Utils::stod</definition>
+        <argsstring>(const std::string &amp;str, size_t *idx=0)</argsstring>
+        <name>stod</name>
+        <qualifiedname>Utils::stod</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="101" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="101" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ac1fe591e7cbe2601250d2dddc445ba75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Utils::stof</definition>
+        <argsstring>(const std::string &amp;str, size_t *idx=0)</argsstring>
+        <name>stof</name>
+        <qualifiedname>Utils::stof</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="102" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="102" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a372558ea9c6255ad1c374ee0f05bf6ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Utils::stob</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>stob</name>
+        <qualifiedname>Utils::stob</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="103" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="103" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ae43cd6be5b46052111a5d0271b84b1b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Utils::stoi</definition>
+        <argsstring>(const char *str, size_t *idx=0, int base=10)</argsstring>
+        <name>stoi</name>
+        <qualifiedname>Utils::stoi</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="105" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="105" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a8de9ad22bd457a4809bdb1172e232414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long long</type>
+        <definition>long long Utils::stoll</definition>
+        <argsstring>(const char *str, size_t *idx=0, int base=10)</argsstring>
+        <name>stoll</name>
+        <qualifiedname>Utils::stoll</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="106" column="12" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="106" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a1d81f441033e4b8f727648935edcc2d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long long</type>
+        <definition>unsigned long long Utils::stoull</definition>
+        <argsstring>(const char *str, size_t *idx=0, int base=10)</argsstring>
+        <name>stoull</name>
+        <qualifiedname>Utils::stoull</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="107" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="107" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1af6172d7404d63ea50095bb43ac724af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Utils::stod</definition>
+        <argsstring>(const char *str, size_t *idx=0)</argsstring>
+        <name>stod</name>
+        <qualifiedname>Utils::stod</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="108" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="108" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1af4ca931f5fb8bfffbff9e2898a74008c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Utils::stof</definition>
+        <argsstring>(const char *str, size_t *idx=0)</argsstring>
+        <name>stof</name>
+        <qualifiedname>Utils::stof</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>idx</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="109" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="109" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a6e0c86f579ca9b1fcd0b0f7273821683" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::stringToLower</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>stringToLower</name>
+        <qualifiedname>Utils::stringToLower</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="111" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="111" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1affc367850dc016235402d3a365de44dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; Utils::stringToLower</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;strs)</argsstring>
+        <name>stringToLower</name>
+        <qualifiedname>Utils::stringToLower</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>strs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="112" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="112" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1acb792171133a05bc47d54f944136cf37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::unicodeToUtf8</definition>
+        <argsstring>(uint32_t ic)</argsstring>
+        <name>unicodeToUtf8</name>
+        <qualifiedname>Utils::unicodeToUtf8</qualifiedname>
+        <param>
+          <type>uint32_t</type>
+          <declname>ic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="114" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="114" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ac149b0f858d2aee3aeb4ffb13f0911c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::unicodeToUtf8</definition>
+        <argsstring>(const std::vector&lt; uint32_t &gt; &amp;chars)</argsstring>
+        <name>unicodeToUtf8</name>
+        <qualifiedname>Utils::unicodeToUtf8</qualifiedname>
+        <param>
+          <type>const std::vector&lt; uint32_t &gt; &amp;</type>
+          <declname>chars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="115" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="115" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a4b9c55c1040b6447d2d39efd6709accb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::cStringToCppString</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>cStringToCppString</name>
+        <qualifiedname>Utils::cStringToCppString</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="117" column="21" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="117" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a7694c0984fb6b62295e9ed1f79ea1ec1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename S</type>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string Utils::join</definition>
+        <argsstring>(const std::vector&lt; T &gt; &amp;elems, const S &amp;delim)</argsstring>
+        <name>join</name>
+        <qualifiedname>Utils::join</qualifiedname>
+        <param>
+          <type>const std::vector&lt; T &gt; &amp;</type>
+          <declname>elems</declname>
+        </param>
+        <param>
+          <type>const S &amp;</type>
+          <declname>delim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="122" column="20" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="122" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a709fc9d3286a8b90de822055fed9ca88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::trim</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>trim</name>
+        <qualifiedname>Utils::trim</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="135" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="135" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a3ac3119e581d6d58f14f3ec00205b2c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::normalizeFilename</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>normalizeFilename</name>
+        <qualifiedname>Utils::normalizeFilename</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="136" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1aeecc4856dde876a0e3f1deb51b491f15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>const T &amp;</type>
+        <definition>const T &amp; Utils::getEmptyConstRefObject</definition>
+        <argsstring>()</argsstring>
+        <name>getEmptyConstRefObject</name>
+        <qualifiedname>Utils::getEmptyConstRefObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="139" column="16" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="139" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1aba9acbc5b148813486efdc7227362805" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Container</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; typename Container::value_type &gt;</type>
+        <definition>std::vector&lt; typename Container::value_type &gt; Utils::toVector</definition>
+        <argsstring>(const Container &amp;l)</argsstring>
+        <name>toVector</name>
+        <qualifiedname>Utils::toVector</qualifiedname>
+        <param>
+          <type>const Container &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="144" column="20" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="144" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a267fba11198d452de3e5388b45545afd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Container</type>
+          </param>
+        </templateparamlist>
+        <type>std::list&lt; typename Container::value_type &gt;</type>
+        <definition>std::list&lt; typename Container::value_type &gt; Utils::toList</definition>
+        <argsstring>(const Container &amp;l)</argsstring>
+        <name>toList</name>
+        <qualifiedname>Utils::toList</qualifiedname>
+        <param>
+          <type>const Container &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="152" column="18" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="152" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ab46fc4429c10de4ccbfd9c8fb0873686" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename cT</type>
+          </param>
+          <param>
+            <type>typename cppT</type>
+          </param>
+          <param>
+            <type>typename std::enable_if&lt; std::is_base_of&lt; bellesip::HybridObject&lt; cT, cppT &gt;, cppT &gt;::value &gt;::type *</type>
+            <defval>nullptr</defval>
+          </param>
+        </templateparamlist>
+        <type>bctbx_list_t *</type>
+        <definition>bctbx_list_t * Utils::listToCBctbxList</definition>
+        <argsstring>(const std::list&lt; std::shared_ptr&lt; cppT &gt; &gt; &amp;l)</argsstring>
+        <name>listToCBctbxList</name>
+        <qualifiedname>Utils::listToCBctbxList</qualifiedname>
+        <param>
+          <type>const std::list&lt; std::shared_ptr&lt; cppT &gt; &gt; &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="161" column="14" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="161" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a8b8854806cb635bcb53ace06ef7e42ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename cT</type>
+          </param>
+          <param>
+            <type>typename cppT</type>
+          </param>
+          <param>
+            <type>typename std::enable_if&lt; std::is_base_of&lt; bellesip::HybridObject&lt; cT, cppT &gt;, cppT &gt;::value &gt;::type *</type>
+            <defval>nullptr</defval>
+          </param>
+        </templateparamlist>
+        <type>std::list&lt; std::shared_ptr&lt; cppT &gt; &gt;</type>
+        <definition>std::list&lt; std::shared_ptr&lt; cppT &gt; &gt; Utils::bctbxListToCppSharedPtrList</definition>
+        <argsstring>(const bctbx_list_t *l)</argsstring>
+        <name>bctbxListToCppSharedPtrList</name>
+        <qualifiedname>Utils::bctbxListToCppSharedPtrList</qualifiedname>
+        <param>
+          <type>const bctbx_list_t *</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="172" column="11" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="172" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a8ef21ad583a46433a81f14aead538d10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>bctbx_list_t *</type>
+        <definition>bctbx_list_t * Utils::listToBctbxList</definition>
+        <argsstring>(const std::list&lt; T &gt; &amp;l)</argsstring>
+        <name>listToBctbxList</name>
+        <qualifiedname>Utils::listToBctbxList</qualifiedname>
+        <param>
+          <type>const std::list&lt; T &gt; &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="182" column="14" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="182" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ab8fda6f9242293965b8f788a0d4a3cf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>std::list&lt; T &gt;</type>
+        <definition>std::list&lt; T &gt; Utils::bctbxListToList</definition>
+        <argsstring>(bctbx_list_t *l)</argsstring>
+        <name>bctbxListToList</name>
+        <qualifiedname>Utils::bctbxListToList</qualifiedname>
+        <param>
+          <type>bctbx_list_t *</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="191" column="11" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" bodystart="191" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a12081c4ad3649f0f81668b52b2ec5943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::tm</type>
+        <definition>std::tm Utils::getTimeTAsTm</definition>
+        <argsstring>(time_t t)</argsstring>
+        <name>getTimeTAsTm</name>
+        <qualifiedname>Utils::getTimeTAsTm</qualifiedname>
+        <param>
+          <type>time_t</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="200" column="10" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="200" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a8690b8cbc1b41556964b7cec769628ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>time_t</type>
+        <definition>time_t Utils::getTmAsTimeT</definition>
+        <argsstring>(const std::tm &amp;t)</argsstring>
+        <name>getTmAsTimeT</name>
+        <qualifiedname>Utils::getTmAsTimeT</qualifiedname>
+        <param>
+          <type>const std::tm &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="201" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="201" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1aac1986c55576baa42a422edd4782cce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::getTimeAsString</definition>
+        <argsstring>(const std::string &amp;format, time_t t)</argsstring>
+        <name>getTimeAsString</name>
+        <qualifiedname>Utils::getTimeAsString</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>time_t</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="202" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="202" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a910fb9fdd8ab8b6bdd3e5537fd9b8967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>time_t</type>
+        <definition>time_t Utils::getStringToTime</definition>
+        <argsstring>(const std::string &amp;format, const std::string &amp;s)</argsstring>
+        <name>getStringToTime</name>
+        <qualifiedname>Utils::getStringToTime</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="203" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="203" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a42179d5527930e97028e4d6138d99ba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::localeToUtf8</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>localeToUtf8</name>
+        <qualifiedname>Utils::localeToUtf8</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="205" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="205" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1aae37fa2d14850bbe64c3a76c7d9e9ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::utf8ToLocale</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>utf8ToLocale</name>
+        <qualifiedname>Utils::utf8ToLocale</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="206" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="206" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a89b0e3731efde7194b9f902490bfbc0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::convertAnyToUtf8</definition>
+        <argsstring>(const std::string &amp;str, const std::string &amp;encoding)</argsstring>
+        <name>convertAnyToUtf8</name>
+        <qualifiedname>Utils::convertAnyToUtf8</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>encoding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="207" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="207" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a0b39bde6b96bad31c28e97999ad53694" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::convertUtf8ToAny</definition>
+        <argsstring>(const std::string &amp;str, const std::string &amp;encoding)</argsstring>
+        <name>convertUtf8ToAny</name>
+        <qualifiedname>Utils::convertUtf8ToAny</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>encoding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="208" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="208" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a177aa8cb4de155c3a731d7e03712f4ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::convert</definition>
+        <argsstring>(const std::string &amp;str, const std::string &amp;fromEncoding, const std::string &amp;toEncoding)</argsstring>
+        <name>convert</name>
+        <qualifiedname>Utils::convert</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>fromEncoding</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>toEncoding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="210" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="210" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a399d29f850f5bee75cf99f887873cdd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::quoteStringIfNotAlready</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>quoteStringIfNotAlready</name>
+        <qualifiedname>Utils::quoteStringIfNotAlready</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="211" column="14" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a9a449d52bac12df33f08a283fedf2024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::map&lt; std::string, <ref refid="classUtils_1_1Version" kindref="compound">Version</ref> &gt;</type>
+        <definition>std::map&lt; std::string, Version &gt; Utils::parseCapabilityDescriptor</definition>
+        <argsstring>(const std::string &amp;descriptor)</argsstring>
+        <name>parseCapabilityDescriptor</name>
+        <qualifiedname>Utils::parseCapabilityDescriptor</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>descriptor</declname>
+        </param>
+        <briefdescription>
+<para>Parse a capability descriptor string such our org.linphone.specs, made of comma separated keyword with optional version numbers: &quot;lime,groupchat/1.1,ephemeral&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If absent, the version number is arbitrary supposed to be 1.0. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="262" column="11" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="262" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ac6b496bb99d487201e9950f4a47a788b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::getSipFragAddress</definition>
+        <argsstring>(const Content &amp;content)</argsstring>
+        <name>getSipFragAddress</name>
+        <qualifiedname>Utils::getSipFragAddress</qualifiedname>
+        <param>
+          <type>const Content &amp;</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="263" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="263" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ae13a14d7fcac6ca9ddfbd0d6c2d4c1aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::getResourceLists</definition>
+        <argsstring>(const std::list&lt; std::shared_ptr&lt; Address &gt; &gt; &amp;addresses)</argsstring>
+        <name>getResourceLists</name>
+        <qualifiedname>Utils::getResourceLists</qualifiedname>
+        <param>
+          <type>const std::list&lt; std::shared_ptr&lt; Address &gt; &gt; &amp;</type>
+          <declname>addresses</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="264" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="264" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ab3e41bbb5f4b52d47db29e00d8eea209" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ConferenceInfo::participant_list_t</type>
+        <definition>ConferenceInfo::participant_list_t Utils::parseResourceLists</definition>
+        <argsstring>(const Content &amp;content)</argsstring>
+        <name>parseResourceLists</name>
+        <qualifiedname>Utils::parseResourceLists</qualifiedname>
+        <param>
+          <type>const Content &amp;</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="265" column="36" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="265" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1a1cc41920d9796de3eeaf671f41604958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ConferenceInfo::participant_list_t</type>
+        <definition>ConferenceInfo::participant_list_t Utils::parseResourceLists</definition>
+        <argsstring>(std::optional&lt; std::reference_wrapper&lt; const Content &gt; &gt; content)</argsstring>
+        <name>parseResourceLists</name>
+        <qualifiedname>Utils::parseResourceLists</qualifiedname>
+        <param>
+          <type>std::optional&lt; std::reference_wrapper&lt; const Content &gt; &gt;</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="266" column="36" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="266" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1aa75c4cce53ffe1f153f6a65e686aa5e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; ConferenceInfo &gt;</type>
+        <definition>std::shared_ptr&lt; ConferenceInfo &gt; Utils::createConferenceInfoFromOp</definition>
+        <argsstring>(SalCallOp *op, bool remote)</argsstring>
+        <name>createConferenceInfoFromOp</name>
+        <qualifiedname>Utils::createConferenceInfoFromOp</qualifiedname>
+        <param>
+          <type>SalCallOp *</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>remote</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="267" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="267" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8h_1ac8bfd5a068f31f7481ca4b9902584a0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Utils::computeHa1ForAlgorithm</definition>
+        <argsstring>(const std::string &amp;userId, const std::string &amp;password, const std::string &amp;realm, const std::string &amp;algorithm)</argsstring>
+        <name>computeHa1ForAlgorithm</name>
+        <qualifiedname>Utils::computeHa1ForAlgorithm</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>userId</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>realm</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>algorithm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="268" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" declline="268" declcolumn="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/utils.h" line="47" column="1"/>
+  </compounddef>
+</doxygen>

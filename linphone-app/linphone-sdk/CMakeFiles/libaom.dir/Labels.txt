@@ -1,0 +1,13 @@
+# Target labels
+ libaom
+# Source files and their labels
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/libaom
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/4f8d2079a2c607df571a5b2018a916c2/libaom.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/dfbc71ab05315a9172d21428d5f04094/libaom-complete.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/5265bb0e01d0c78440b6ced914af0af8/libaom-build.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/5265bb0e01d0c78440b6ced914af0af8/libaom-configure.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/5265bb0e01d0c78440b6ced914af0af8/libaom-download.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/5265bb0e01d0c78440b6ced914af0af8/libaom-install.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/5265bb0e01d0c78440b6ced914af0af8/libaom-mkdir.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/5265bb0e01d0c78440b6ced914af0af8/libaom-patch.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/5265bb0e01d0c78440b6ced914af0af8/libaom-update.rule

@@ -1,0 +1,1760 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__account__creator__request" kind="group">
+    <compoundname>account_creator_request</compoundname>
+    <title>Account_creator_request</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__account__creator__request_1ga376d528e7e23474a49c50c5aff06b32a" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneAccountCreatorStatus</name>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aaeaf79b379ffed5cbd3c02e3e3f7aecb7" prot="public">
+          <name>LinphoneAccountCreatorStatusRequestOk</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Request status. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Request passed </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa7ab81148887bab33ec856ec18ecd8308" prot="public">
+          <name>LinphoneAccountCreatorStatusRequestFailed</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Request failed. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aadac2613a1ce897c197d6dfb22431fc47" prot="public">
+          <name>LinphoneAccountCreatorStatusMissingArguments</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>Request failed due to missing argument(s) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa99044d0d699fe54c6f3beb4e371e0174" prot="public">
+          <name>LinphoneAccountCreatorStatusMissingCallbacks</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Request failed due to missing callback(s) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aaa3966fc0fb1b6c79d6022e25c2d9ce2f" prot="public">
+          <name>LinphoneAccountCreatorStatusAccountCreated</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>Account status. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Account created </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa54652729b435fc098de7a6668ff355a3" prot="public">
+          <name>LinphoneAccountCreatorStatusAccountNotCreated</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+<para>Account not created. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa52fb73e2c8058b50e309c47cc936f6f7" prot="public">
+          <name>LinphoneAccountCreatorStatusAccountExist</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+<para>Account exist. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa56c207be69a56c520a43bcff0ce852dc" prot="public">
+          <name>LinphoneAccountCreatorStatusAccountExistWithAlias</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+<para>Account exist with alias. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa01db7efedc4b5cd3d3917447dee7b4cb" prot="public">
+          <name>LinphoneAccountCreatorStatusAccountNotExist</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+<para>Account not exist. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa4f85b4cdddac12c74850a98cfe16a8cf" prot="public">
+          <name>LinphoneAccountCreatorStatusAliasIsAccount</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+<para>Account was created with Alias. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa0b420cb6e1c027833dfd132a09f68a27" prot="public">
+          <name>LinphoneAccountCreatorStatusAliasExist</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+<para>Alias exist. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aafda3157879e9d93e669eb57105cf86d3" prot="public">
+          <name>LinphoneAccountCreatorStatusAliasNotExist</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+<para>Alias not exist. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa19bb0b4b102f799f7c1600e9f05da1e3" prot="public">
+          <name>LinphoneAccountCreatorStatusAccountActivated</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+<para>Account activated. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa1f01cdd1ec34c2e0ee12d9e0e916750f" prot="public">
+          <name>LinphoneAccountCreatorStatusAccountAlreadyActivated</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+<para>Account already activated. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa8207cdadd8d7c2b71c490b343f222777" prot="public">
+          <name>LinphoneAccountCreatorStatusAccountNotActivated</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+<para>Account not activated. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa342213be9e5f69d78c9f1506a818abbe" prot="public">
+          <name>LinphoneAccountCreatorStatusAccountLinked</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+<para>Account linked. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa829b15909cdee4845ad8f234c029fd2f" prot="public">
+          <name>LinphoneAccountCreatorStatusAccountNotLinked</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+<para>Account not linked. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa79b8e863c8e846e5141fe1ebe05e3d27" prot="public">
+          <name>LinphoneAccountCreatorStatusServerError</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+<para>Server. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>Error server </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa052a61ff2903d7b073ba146fc895895e" prot="public">
+          <name>LinphoneAccountCreatorStatusPhoneNumberInvalid</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+<para>Error cannot send SMS. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa7e90e21e8e1eb15fc7857e18c74dcdc0" prot="public">
+          <name>LinphoneAccountCreatorStatusWrongActivationCode</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+<para>Error key doesn&apos;t match. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aae678ff695d33918087a53ccb82a73289" prot="public">
+          <name>LinphoneAccountCreatorStatusPhoneNumberOverused</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+<para>Error too many SMS sent. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aaf5d0dc1e9960e7c9c2dab39d54245be1" prot="public">
+          <name>LinphoneAccountCreatorStatusAlgoNotSupported</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+<para>Error algo isn&apos;t MD5 or SHA-256. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa325b9ad22e5e2bc947960e4747a2300e" prot="public">
+          <name>LinphoneAccountCreatorStatusUnexpectedError</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+<para>Generic error. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa2e3765d62868ca0c70764dc7863e4069" prot="public">
+          <name>LinphoneAccountCreatorStatusNotImplementedError</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+<para>This API isn&apos;t implemented in the current backend. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aad35d59fff581ffa3ad2ea1db030d2326" prot="public">
+          <name>LinphoneAccountCreatorStatusRequestNotAuthorized</name>
+          <initializer>=
+	    24</initializer>
+          <briefdescription>
+<para>Request has been denied, probably due to invalid auth token. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__account__creator__request_1gga376d528e7e23474a49c50c5aff06b32aa15c5409677a4889f571653149e189b69" prot="public">
+          <name>LinphoneAccountCreatorStatusRequestTooManyRequests</name>
+          <initializer>=
+		25</initializer>
+          <briefdescription>
+<para>Request has been denied, due to too many requests sent in given period. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum describing the status of server request, used by the <ref refid="group__account__creator_1gafd6720b4e4e8d51f02511196498238ef" kindref="member">LinphoneAccountCreator</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="187" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" bodystart="187" bodyend="226"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__account__creator__request_1ga233a10987b54bb195e01d3ed1dabc21c" prot="public" static="no">
+        <type>enum <ref refid="group__account__creator__request_1ga376d528e7e23474a49c50c5aff06b32a" kindref="member">_LinphoneAccountCreatorStatus</ref></type>
+        <definition>typedef enum _LinphoneAccountCreatorStatus LinphoneAccountCreatorStatus</definition>
+        <argsstring></argsstring>
+        <name>LinphoneAccountCreatorStatus</name>
+        <briefdescription>
+<para>Enum describing the status of server request, used by the <ref refid="group__account__creator_1gafd6720b4e4e8d51f02511196498238ef" kindref="member">LinphoneAccountCreator</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="226" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__account__creator__request_1gadf3f573f3bbd13a5766e7bef15a44dc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+        <definition>LinphoneAccountCreatorService * linphone_account_creator_service_new</definition>
+        <argsstring>(void)</argsstring>
+        <name>linphone_account_creator_service_new</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Create a new <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a new <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="48" column="32" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="48" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga2e9501638625d543a5a1146fbb49cc30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+        <definition>LinphoneAccountCreatorService * linphone_account_creator_service_ref</definition>
+        <argsstring>(LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_ref</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Acquire a reference to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The same <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="56" column="31" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="56" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaf89733388305e117a6f746ca47d8fd9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_unref</definition>
+        <argsstring>(LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_unref</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Release a reference to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="63" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="63" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gabde4f594c22e7337bb292468f6120dcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * linphone_account_creator_service_get_user_data</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_user_data</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve the user pointer associated with a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The user pointer associated with the <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="71" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="71" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga462dad88ef3d93dce8968462a380b0c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_user_data</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, void *ud)</argsstring>
+        <name>linphone_account_creator_service_set_user_data</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>ud</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ud</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user pointer to associate with the <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="79" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="79" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga0d30b290c628ca2c60b84f5121da05d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_constructor_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_constructor_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The constructor of account creator requests.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="87" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="87" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga2ef531e83d1c12eb4f63cdb2c7672487" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_constructor_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_constructor_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the constructor of account creator requests. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current constructor of create account request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="97" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="97" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga3a290f6df91fe2ebb69a4ffc65051bbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_destructor_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_destructor_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The destructor.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="105" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="105" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga1ce8a32590814aaa3039324bf590e9dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_destructor_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_destructor_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the destructor of create account request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current destructor of create account request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="115" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="115" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaf74aa9398e6cd45224e86e747160a714" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_create_account_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_create_account_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the create account request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current create account request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="124" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="124" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaf61dfb69e24cd0fa65ab2a593965d0cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_create_account_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_create_account_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The create account request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="132" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="132" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaaea2ffdee36fe4f82a40b87fd2e4f30e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_create_push_account_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_create_push_account_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the create account request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current create account request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="141" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="141" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gab357900fb4835942b9a3d99882d2f98e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_create_push_account_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_create_push_account_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The create account request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="149" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="149" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gab0ebab854c8784e417045ceaea4bd11c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_is_account_exist_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_is_account_exist_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the is account exist request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current is account exist request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="159" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="159" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga0254d93af06c1c21b27dc0f3dda8d086" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_is_account_exist_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_is_account_exist_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The is account exist request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="167" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="167" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga85853c679ebabae6308c0f4f29bd419e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_activate_account_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_activate_account_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the activate account request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current activate account request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="177" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="177" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaa1fab6aebe6f4710594aaec89194bef4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_activate_account_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_activate_account_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The activate account request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="185" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="185" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga931c9fb414fbdab73756e15ceb5fcc39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_is_account_activated_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_is_account_activated_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the is account activated request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current is account activated request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="195" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="195" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga852a92e0dfe99ae351dde59826a51193" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_is_account_activated_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_is_account_activated_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The is account activated request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="204" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="204" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaffd1c4446356e08faf2b8a40da706c3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_link_account_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_link_account_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the link account request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current link account request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="214" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="214" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga08787951e9559bdd6b24ea33f134ee21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_link_account_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_link_account_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The link account request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="222" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="222" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga1fbe155648b078dfd9ccc5cc3c59ae73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_activate_alias_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_activate_alias_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the activate alias request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current link account request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="232" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="232" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gad56944eb00dc12844d0d9baf764eb21a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_activate_alias_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_activate_alias_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The activate alias request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="240" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="240" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga78e908d6999e05af6e955beb10d7406f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_is_alias_used_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_is_alias_used_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the is alias used request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current is alias used request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="250" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="250" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga6752bedaba1749999a26422fb2b345a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_is_alias_used_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_is_alias_used_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The is alias used request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="258" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="258" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga891e882dbd1310de28bd276fcdf1112f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_is_account_linked_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_is_account_linked_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the is account linked request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current is account linked request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="268" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="268" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga295e2b6dc77b7c5474ea297bc68dd78b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_is_account_linked_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_is_account_linked_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The is account linked request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="276" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="276" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga9be8b273b492d7dc26395f3dbf60396c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_recover_account_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_recover_account_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the recover account request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current recover account request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="286" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="286" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga0af9114dc97ca03a0f5fa5a028e97ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_recover_account_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_recover_account_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The recover account request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="294" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="294" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga0ff9ce0c453b8f432d21993006b18835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_update_account_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_update_account_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the update account request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current update account request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="304" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="304" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gae2463c9039d11699b700aab07105ab3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_update_account_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_update_account_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The update account request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="312" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="312" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaddc626329270afa523e996a47b09cff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_confirmation_key_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_confirmation_key_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the confirmation key request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current confirmation key request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="322" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="322" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga7f8b3b08fb280b1dc9dcacb986ff3e3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_confirmation_key_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_confirmation_key_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The confirmation key request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="330" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="330" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga8315e2ffb0e41f68903e3cd90e41a1e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_login_linphone_account_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_login_linphone_account_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the login linphone account request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current login linphone account request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="340" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="340" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaf18b96d9229b798af4185a259cde2010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_login_linphone_account_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_login_linphone_account_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The login linphone account request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="349" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="349" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga22220f049be658bef8a5d8d4e700c9e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_send_token_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_send_token_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the send token request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current login linphone account request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="359" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="359" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaac7afc5f13efa8f66996867ef95d5db1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_send_token_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_send_token_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Request an auth token for account creator backend to be sent by push. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The send token request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="367" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="367" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaba488f509f3924dd4ef02c1eb2dd3bff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_account_creation_request_token_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_account_creation_request_token_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the account creation request token request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The request token cb to be used.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="376" column="36" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="376" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga62af35ed682468663e9b7a999d2f499b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_account_creation_request_token_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_account_creation_request_token_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Set the account creation request token request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The request token cb to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="384" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="384" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaf9cf6a9f74a762fdfb3e5897d6b99b56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_account_creation_token_using_request_token_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_account_creation_token_using_request_token_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the account creation token request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The request token cb to be used.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="392" column="36" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="392" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga0c2e399516799909b42f1b2b9af1e9bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_account_creation_token_using_request_token_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_account_creation_token_using_request_token_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Set the account creation token request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The request token cb to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="400" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="400" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1ga29952a4a59cc96f6227db1d26daf066f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LinphoneAccountCreatorRequestFunc</type>
+        <definition>LinphoneAccountCreatorRequestFunc linphone_account_creator_service_get_create_account_with_token_cb</definition>
+        <argsstring>(const LinphoneAccountCreatorService *service)</argsstring>
+        <name>linphone_account_creator_service_get_create_account_with_token_cb</name>
+        <param>
+          <type>const <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Get the create account with token request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current create account with token request.  <donotwrap />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="409" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="409" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__account__creator__request_1gaf64005be1743e8176502b3e4f5fbb5c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_account_creator_service_set_create_account_with_token_cb</definition>
+        <argsstring>(LinphoneAccountCreatorService *service, LinphoneAccountCreatorRequestFunc cb)</argsstring>
+        <name>linphone_account_creator_service_set_create_account_with_token_cb</name>
+        <param>
+          <type><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> *</type>
+          <declname>service</declname>
+        </param>
+        <param>
+          <type>LinphoneAccountCreatorRequestFunc</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Assign a user pointer to a <ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__account__creator_1ga29e0eb995c7253e1e47d0d0ce07940e1" kindref="member">LinphoneAccountCreatorService</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The create account with token request to be used.  <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" line="418" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/account_creator_service.h" declline="418" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

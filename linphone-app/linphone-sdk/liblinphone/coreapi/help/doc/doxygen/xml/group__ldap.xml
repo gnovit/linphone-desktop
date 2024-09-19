@@ -1,0 +1,2700 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__ldap" kind="group">
+    <compoundname>ldap</compoundname>
+    <title>Ldap</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__ldap_1gaccee55fe5540fdf2d1ed2fbb3a418dc5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneLdapDebugLevel</name>
+        <enumvalue id="group__ldap_1ggaccee55fe5540fdf2d1ed2fbb3a418dc5a90b9c99c58127e6c0df9b550e4d0156b" prot="public">
+          <name>LinphoneLdapDebugLevelOff</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Set OpenLdap verbosity to none. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__ldap_1ggaccee55fe5540fdf2d1ed2fbb3a418dc5acb634880c79c5057a4979f81625c43ff" prot="public">
+          <name>LinphoneLdapDebugLevelVerbose</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Set OpenLdap verbosity to debug level. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum Debug verbosity for OpenLdap. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="504" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="504" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__ldap_1ga88fa8c009c2dd25203ad997753c77ce5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneLdapAuthMethod</name>
+        <enumvalue id="group__ldap_1gga88fa8c009c2dd25203ad997753c77ce5ab4ab5131daa77dc73862ee8e9e326dd6" prot="public">
+          <name>LinphoneLdapAuthMethodAnonymous</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Connection without passwords. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__ldap_1gga88fa8c009c2dd25203ad997753c77ce5aa14155e782c98deba1fb8f6a74512807" prot="public">
+          <name>LinphoneLdapAuthMethodSimple</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Connection with username/password. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum describing how the authentification will be made. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="513" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="513" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__ldap_1ga863e63e799a101b77a332b321b11bb14" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneLdapCertVerificationMode</name>
+        <enumvalue id="group__ldap_1gga863e63e799a101b77a332b321b11bb14afd7c7bcff68c6a652db85d1802896d72" prot="public">
+          <name>LinphoneLdapCertVerificationDefault</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+<para>Use default value defined on core. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__ldap_1gga863e63e799a101b77a332b321b11bb14a0e28246880bf91c6a51223a428513b9a" prot="public">
+          <name>LinphoneLdapCertVerificationDisabled</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Verification is disabled. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__ldap_1gga863e63e799a101b77a332b321b11bb14ad0b400073b5ad6b9fad1357112874ac6" prot="public">
+          <name>LinphoneLdapCertVerificationEnabled</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Verification is enabled. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum describing server certificates verification modes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="522" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="522" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__ldap_1ga0df7343a8442e4ea39023b3cffa80beb" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneLdapCheck</name>
+        <enumvalue id="group__ldap_1gga0df7343a8442e4ea39023b3cffa80beba15be872556bf55f6fd784fe97a6bcdcd" prot="public">
+          <name>LinphoneLdapCheckOk</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>No error. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__ldap_1gga0df7343a8442e4ea39023b3cffa80bebae84b224b170ce64e0f70f522fe94f325" prot="public">
+          <name>LinphoneLdapCheckServerEmpty</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Server field is empty. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__ldap_1gga0df7343a8442e4ea39023b3cffa80beba5027031f516acd00cc7bd20941eb5d34" prot="public">
+          <name>LinphoneLdapCheckServerNotUrl</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>The server is not an url. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__ldap_1gga0df7343a8442e4ea39023b3cffa80beba7204822cfdf79c41cce079d8a636c3d6" prot="public">
+          <name>LinphoneLdapCheckServerNoScheme</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>The server doesn&apos;t contain a scheme. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__ldap_1gga0df7343a8442e4ea39023b3cffa80bebaee8a8ce1b25765fce776df66c166e095" prot="public">
+          <name>LinphoneLdapCheckServerNotLdap</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+<para>The server is not a LDAP scheme. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__ldap_1gga0df7343a8442e4ea39023b3cffa80beba55d0d3fd96bb347363c2199b79fbc352" prot="public">
+          <name>LinphoneLdapCheckServerLdaps</name>
+          <initializer>=
+	    16</initializer>
+          <briefdescription>
+<para>LDAP over SSL is non-standardized and deprecated: ldaps has been specified. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__ldap_1gga0df7343a8442e4ea39023b3cffa80beba7b770ab96b800c9bcc55adc18440ed75" prot="public">
+          <name>LinphoneLdapCheckBaseObjectEmpty</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+<para>Base Object has been specified. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__ldap_1gga0df7343a8442e4ea39023b3cffa80beba9addebf858b93187fe9947bcd28edb30" prot="public">
+          <name>LinphoneLdapCheckMissingFields</name>
+          <initializer>= 64</initializer>
+          <briefdescription>
+<para>Some required fields are missing. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum describing errors in LDAP parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="532" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="532" bodyend="546"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__ldap_1gad2a3795bd50080e7994843c671cb8964" prot="public" static="no">
+        <type>struct _LinphoneLdap</type>
+        <definition>typedef struct _LinphoneLdap LinphoneLdap</definition>
+        <argsstring></argsstring>
+        <name>LinphoneLdap</name>
+        <briefdescription>
+<para>Object that represents a Linphone Ldap. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Use a <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object to configure it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="492" column="28" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="492" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" prot="public" static="no">
+        <type>struct _LinphoneLdapParams</type>
+        <definition>typedef struct _LinphoneLdapParams LinphoneLdapParams</definition>
+        <argsstring></argsstring>
+        <name>LinphoneLdapParams</name>
+        <briefdescription>
+<para>Object that is used to set the different parameters of a <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="498" column="34" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ldap_1gaa687d1e21788677ffb02dbc530fb905e" prot="public" static="no">
+        <type>enum <ref refid="group__ldap_1gaccee55fe5540fdf2d1ed2fbb3a418dc5" kindref="member">_LinphoneLdapDebugLevel</ref></type>
+        <definition>typedef enum _LinphoneLdapDebugLevel LinphoneLdapDebugLevel</definition>
+        <argsstring></argsstring>
+        <name>LinphoneLdapDebugLevel</name>
+        <briefdescription>
+<para>Enum Debug verbosity for OpenLdap. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="507" column="24"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ldap_1gaa46c566a20b118e968c5d1005459c34c" prot="public" static="no">
+        <type>enum <ref refid="group__ldap_1ga88fa8c009c2dd25203ad997753c77ce5" kindref="member">_LinphoneLdapAuthMethod</ref></type>
+        <definition>typedef enum _LinphoneLdapAuthMethod LinphoneLdapAuthMethod</definition>
+        <argsstring></argsstring>
+        <name>LinphoneLdapAuthMethod</name>
+        <briefdescription>
+<para>Enum describing how the authentification will be made. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="516" column="24"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ldap_1ga4c98adeae118cda4e26d869be7c1f0b6" prot="public" static="no">
+        <type>enum <ref refid="group__ldap_1ga863e63e799a101b77a332b321b11bb14" kindref="member">_LinphoneLdapCertVerificationMode</ref></type>
+        <definition>typedef enum _LinphoneLdapCertVerificationMode LinphoneLdapCertVerificationMode</definition>
+        <argsstring></argsstring>
+        <name>LinphoneLdapCertVerificationMode</name>
+        <briefdescription>
+<para>Enum describing server certificates verification modes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="526" column="34"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ldap_1gac06191f6f708d16092616179bba81c33" prot="public" static="no">
+        <type>enum <ref refid="group__ldap_1ga0df7343a8442e4ea39023b3cffa80beb" kindref="member">_LinphoneLdapCheck</ref></type>
+        <definition>typedef enum _LinphoneLdapCheck LinphoneLdapCheck</definition>
+        <argsstring></argsstring>
+        <name>LinphoneLdapCheck</name>
+        <briefdescription>
+<para>Enum describing errors in LDAP parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="546" column="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__ldap_1gac4f130321c789764a4bd600cd94c5ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+        <definition>LinphoneLdapParams * linphone_core_create_ldap_params</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_create_ldap_params</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Create a LDAP params using default values from Linphone core. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Check #linphone_ldap_params to update values. In order to add a new LDAP configuration to Magic search, these parameters must be passed to linphone_core_create_ldap_with_params. Or, use <ref refid="group__ldap_1ga7df9f4eeb9270e0058ff5368ec536cc2" kindref="member">linphone_ldap_set_params()</ref>.</para>
+<para>The newly created LDAP from <ref refid="group__ldap_1ga1cbbe0fcc20a659d2e278000c8aed7d1" kindref="member">linphone_core_create_ldap()</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> with default values set.  <notnil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7068" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7068" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga1cbbe0fcc20a659d2e278000c8aed7d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+        <definition>LinphoneLdap * linphone_core_create_ldap</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_create_ldap</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Create an empty LDAP search. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="group__ldap_1ga7df9f4eeb9270e0058ff5368ec536cc2" kindref="member">linphone_ldap_set_params()</ref> must be call to save the parameters in the configuration file.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> with default values set  <notnil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7079" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7079" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gadf630dcea84c3954c8c35da8ec5900ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+        <definition>LinphoneLdap * linphone_core_create_ldap_with_params</definition>
+        <argsstring>(LinphoneCore *core, LinphoneLdapParams *params)</argsstring>
+        <name>linphone_core_create_ldap_with_params</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Create a LDAP search using given parameters and store them in the configuration file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> with default values set  <notnil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7088" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7088" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gafcbe94d101da17d730570e1994882e50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_clear_ldaps</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_clear_ldaps</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Erase all LDAP from the configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7094" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7094" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga9aa3274cf57e8464801e271bf0ac2b6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_add_ldap</definition>
+        <argsstring>(LinphoneCore *core, LinphoneLdap *ldap)</argsstring>
+        <name>linphone_core_add_ldap</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+          <declname>ldap</declname>
+        </param>
+        <briefdescription>
+<para>Add or update a LDAP server and save it to the configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ldap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The LDAP to add/update.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7101" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7101" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga2014b4bffb114e5b010d82aec9c705f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_remove_ldap</definition>
+        <argsstring>(LinphoneCore *core, LinphoneLdap *ldap)</argsstring>
+        <name>linphone_core_remove_ldap</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+          <declname>ldap</declname>
+        </param>
+        <briefdescription>
+<para>Remove a LDAP from the configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ldap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The LDAP to remove.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7108" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7108" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga2e6e38fe2a418a2ef434f2d9fcdfbf71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bctbx_list_t *</type>
+        <definition>bctbx_list_t * linphone_core_get_ldap_list</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_ldap_list</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Returns a list of entered LDAPs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Items must be freed with <ref refid="group__ldap_1ga2f3869a79ea576304740778bd3001727" kindref="member">linphone_ldap_unref()</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para> <bctbxlist>LinphoneLdap</bctbxlist>  <maybenil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7115" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7115" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga2848cc4512821b813bbcd40297e5e017" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_core_get_chat_messages_aggregation_enabled</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_chat_messages_aggregation_enabled</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Returns whether chat messages grouping is enabled or not. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if received chat messages will be notified as a bundle, FALSE otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7122" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7122" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga8b116ed76a91a96c4675d329cc7be9ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_core_set_chat_messages_aggregation_enabled</definition>
+        <argsstring>(LinphoneCore *core, bool_t enabled)</argsstring>
+        <name>linphone_core_set_chat_messages_aggregation_enabled</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+<para>Sets whether chat messages grouping is enabled or not. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Set [sip] chat_messages_aggregation in your configuration file for the timer, default is 500ms. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>enabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE to wait for chat messages and notify them as at once, FALSE to keep legacy behavior. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7130" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7130" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gabfb011bd434471168c0c10c7bf34a514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__misc_1ga06cc4f9926a5e15e2ec4f9b1305d2936" kindref="member">LinphoneStatus</ref></type>
+        <definition>LinphoneStatus linphone_core_config_sync</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_config_sync</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Writes the config file to disk. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>0 if successful, -1 otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7137" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7137" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gac656ff14da2804a09a2437b83cec3f25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__account_1ga8d550721ff7e32349fcf37cc1c6e5de4" kindref="member">LinphonePushNotificationConfig</ref> *</type>
+        <definition>const LinphonePushNotificationConfig * linphone_core_get_push_notification_config</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_push_notification_config</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Gets the push notification configuration object if it exists. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the <ref refid="group__account_1ga8d550721ff7e32349fcf37cc1c6e5de4" kindref="member">LinphonePushNotificationConfig</ref> if it exists, NULL otherwise.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7145" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7145" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga13d67b0e3f51bf9862325a4834dea8a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_core_get_loaded_plugins</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_loaded_plugins</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Return the list of loaded plugins. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the list of loaded plugins  <bctbxlist>char *</bctbxlist>  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7152" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7152" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gad5449c9b944597e8988360d7f275504f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_core_is_plugin_loaded</definition>
+        <argsstring>(const LinphoneCore *core, const char *name)</argsstring>
+        <name>linphone_core_is_plugin_loaded</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Tells whether a plugin is loaded or not. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the plugin  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A boolean value telling whether the plugin has been loaded </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7160" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7160" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga8eaf24823e0e6901c5b7556b6cfbdacd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED int</type>
+        <definition>MS2_DEPRECATED int linphone_core_get_conference_size</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_conference_size</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Get the number of participants including me, if it in, in the running conference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The local participant is included in the count only if it is in the conference. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of participants including me, if it in. </para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000066"><xreftitle>Deprecated</xreftitle><xrefdescription><para>16/04/2021 Use <ref refid="group__call__control_1ga6f5f8ad8347242a5f7113c5eababd0f0" kindref="member">linphone_conference_get_participant_count()</ref> instead. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7169" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7169" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga2eb2a9cdc0d632b2ea724fc2bdbd54a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MS2_DEPRECATED <ref refid="group__conference_1gaf737b61f13b90ddd6895f7a530aa2165" kindref="member">LinphoneConference</ref> *</type>
+        <definition>MS2_DEPRECATED LinphoneConference * linphone_core_get_conference</definition>
+        <argsstring>(LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_conference</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>Get a pointer on the internal conference object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A pointer on <ref refid="group__conference_1gaf737b61f13b90ddd6895f7a530aa2165" kindref="member">LinphoneConference</ref> or NULL if no conference are going on.  <maybenil />  </para>
+</simplesect>
+<xrefsect id="deprecated_1_deprecated000067"><xreftitle>Deprecated</xreftitle><xrefdescription><para>10/08/2023 Use <ref refid="group__conference_1ga8198efd4e84b2f4f50ded684eff957f4" kindref="member">linphone_core_search_conference()</ref> instead. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="7177" column="36" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="7177" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gaf357ed6d6f1cb83c23778d78d376ef20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+        <definition>LinphoneLdap * linphone_ldap_new</definition>
+        <argsstring>(LinphoneCore *lc)</argsstring>
+        <name>linphone_ldap_new</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>lc</declname>
+        </param>
+        <briefdescription>
+<para>Create a new <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Call * <ref refid="group__ldap_1ga7df9f4eeb9270e0058ff5368ec536cc2" kindref="member">linphone_ldap_set_params()</ref> to store the new LDAP configuration.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The newly created <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> object.  <notnil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" line="43" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" declline="43" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gab6b370de5eb9a218a7ec473855d7b6d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+        <definition>LinphoneLdap * linphone_ldap_new_with_params</definition>
+        <argsstring>(LinphoneCore *lc, LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_new_with_params</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>lc</declname>
+        </param>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Create a new <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref>, associate it with the <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> and store it into the configuration file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The newly created <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> object.  <notnil />   <tobefreed />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" line="52" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" declline="52" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gacae33a3842d116b3865f1d51ca44a9bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+        <definition>LinphoneLdap * linphone_ldap_ref</definition>
+        <argsstring>(LinphoneLdap *ldap)</argsstring>
+        <name>linphone_ldap_ref</name>
+        <param>
+          <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+          <declname>ldap</declname>
+        </param>
+        <briefdescription>
+<para>Take a reference on a <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ldap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" line="59" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" declline="59" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga2f3869a79ea576304740778bd3001727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_unref</definition>
+        <argsstring>(LinphoneLdap *ldap)</argsstring>
+        <name>linphone_ldap_unref</name>
+        <param>
+          <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+          <declname>ldap</declname>
+        </param>
+        <briefdescription>
+<para>Release a <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ldap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" line="65" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" declline="65" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga7df9f4eeb9270e0058ff5368ec536cc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_set_params</definition>
+        <argsstring>(LinphoneLdap *ldap, LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_set_params</name>
+        <param>
+          <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+          <declname>ldap</declname>
+        </param>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Set the <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> used by this <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The parameters will be saved in the configuration file.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ldap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" line="73" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" declline="73" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga6862f6f45362e251af927836cd6c9cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+        <definition>const LinphoneLdapParams * linphone_ldap_get_params</definition>
+        <argsstring>(LinphoneLdap *ldap)</argsstring>
+        <name>linphone_ldap_get_params</name>
+        <param>
+          <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+          <declname>ldap</declname>
+        </param>
+        <briefdescription>
+<para>Get the <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> as read-only object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To make changes, clone the returned object using <ref refid="group__ldap_1ga8ee27ea2f07b067acec37215f99ea95f" kindref="member">linphone_ldap_params_clone()</ref> method, make your changes on it and apply them using with <ref refid="group__ldap_1ga7df9f4eeb9270e0058ff5368ec536cc2" kindref="member">linphone_ldap_set_params()</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ldap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> attached to this ldap.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" line="82" column="27" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" declline="82" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gade0668e8dd3e266720688cf846566ef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+        <definition>LinphoneCore * linphone_ldap_get_core</definition>
+        <argsstring>(LinphoneLdap *ldap)</argsstring>
+        <name>linphone_ldap_get_core</name>
+        <param>
+          <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+          <declname>ldap</declname>
+        </param>
+        <briefdescription>
+<para>Get the <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object to which is associated the <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ldap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object to which is associated the <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref>.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" line="89" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" declline="89" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gabad846e667b6ed53a9673590add209a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_set_index</definition>
+        <argsstring>(LinphoneLdap *ldap, int index)</argsstring>
+        <name>linphone_ldap_set_index</name>
+        <param>
+          <type><ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+          <declname>ldap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Set the index associated to the <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ldap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the Ldap. Can be -1 : it will be determined on save. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" line="96" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" declline="96" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga2df978f50480ad30e31f237f40bb8122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_ldap_get_index</definition>
+        <argsstring>(const LinphoneLdap *ldap)</argsstring>
+        <name>linphone_ldap_get_index</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> *</type>
+          <declname>ldap</declname>
+        </param>
+        <briefdescription>
+<para>Get the index of the <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ldap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gad2a3795bd50080e7994843c671cb8964" kindref="member">LinphoneLdap</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The index of the Ldap </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" line="103" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap.h" declline="103" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga8c1389441eb3fa63efe9b7a4d44b5efe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+        <definition>LinphoneLdapParams * linphone_ldap_params_new</definition>
+        <argsstring>(LinphoneCore *lc)</argsstring>
+        <name>linphone_ldap_params_new</name>
+        <param>
+          <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>lc</declname>
+        </param>
+        <briefdescription>
+<para>Create a new <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> object.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The newly created <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="40" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="40" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga8ee27ea2f07b067acec37215f99ea95f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+        <definition>LinphoneLdapParams * linphone_ldap_params_clone</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_clone</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Instantiate a new <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> with values from source. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object to be cloned.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The newly created <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="47" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="47" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga37b07113effb14a3c157c0f8c013d416" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+        <definition>LinphoneLdapParams * linphone_ldap_params_ref</definition>
+        <argsstring>(LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_ref</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Take a reference on a <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="54" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="54" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga517f3a8b1a2bf3ac1f08a78d0fdb54d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_unref</definition>
+        <argsstring>(LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_unref</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Release a <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="60" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="60" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga9858ce5393d531e73525444d46c6d211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_custom_value</definition>
+        <argsstring>(LinphoneLdapParams *params, const char *key, const char *value)</argsstring>
+        <name>linphone_ldap_params_set_custom_value</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set custom field. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key string.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value string.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="72" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="72" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gac23cb4128f0f17f1d40b3c828b05d540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_ldap_params_get_custom_value</definition>
+        <argsstring>(const LinphoneLdapParams *params, const char *key)</argsstring>
+        <name>linphone_ldap_params_get_custom_value</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Get the value from field. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key string.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The Value associated to the key.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="81" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="81" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gac49c28d0e36028dd2a02f03b4fb219ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_server</definition>
+        <argsstring>(LinphoneLdapParams *params, const char *server)</argsstring>
+        <name>linphone_ldap_params_set_server</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>server</declname>
+        </param>
+        <briefdescription>
+<para>LDAP Server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>eg: ldap:/// for a localhost server or ldap://ldap.example.org/ Default value: &quot;ldap:///&quot;. This field is required.</para>
+<para>You must use &apos;ldap&apos; scheme. &apos;ldaps&apos; for LDAP over SSL is non-standardized and deprecated.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>server</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>LDAP Server address.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="94" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="94" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gacacbb049212ee25ee31c0bbe7f27adf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_ldap_params_get_server</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_server</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the LDAP Server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>LDAP Server address.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="102" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="102" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga9d45f541150f38957d5f470e8b2419f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_bind_dn</definition>
+        <argsstring>(LinphoneLdapParams *params, const char *bind_dn)</argsstring>
+        <name>linphone_ldap_params_set_bind_dn</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>bind_dn</declname>
+        </param>
+        <briefdescription>
+<para>Bind DN to use for bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The bindDN DN is the credential that is used to authenticate against an LDAP. If empty, the connection will be Anonymous. eg: cn=ausername,ou=people,dc=bc,dc=com Default value : &quot;&quot;.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bind_dn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Bind DN to use for bindings.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="112" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="112" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga7ace687c427b6b38bcd191e21804f1c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_ldap_params_get_bind_dn</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_bind_dn</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the Bind DN to use for bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The bindDN DN is the credential that is used to authenticate against an LDAP. If empty, the connection will be Anonymous. eg: cn=ausername,ou=people,dc=bc,dc=com</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The Bind DN to use for bindings.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="121" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="121" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga3defce005ba2c0c5b2b4969935e6c260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_base_object</definition>
+        <argsstring>(LinphoneLdapParams *params, const char *base_object)</argsstring>
+        <name>linphone_ldap_params_set_base_object</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>base_object</declname>
+        </param>
+        <briefdescription>
+<para>BaseObject is a specification for LDAP Search Scopes that specifies that the Search Request should only be performed against the entry specified as the search base DN. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>No entries above it will be considered. This field is required. Default value : &quot;dc=example,dc=com&quot;</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>base_object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The specification.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="133" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="133" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gaaabbc0e7565e32034764b598da6598e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_ldap_params_get_base_object</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_base_object</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the BaseObject. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It is a specification for LDAP Search Scopes that specifies that the Search Request should only be performed against the entry specified as the search base DN. No entries above it will be considered. This field is required.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The specification.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="143" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="143" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga47e15c0919b9a9ff79e49217c1eb7c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_timeout</definition>
+        <argsstring>(LinphoneLdapParams *params, int timeout)</argsstring>
+        <name>linphone_ldap_params_set_timeout</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+<para>Timeout for requests in seconds. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It limits the time for searchs and the value is passed to Ldap with <computeroutput>LDAP_OPT_NETWORK_TIMEOUT</computeroutput>. Default value : 5.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The timeout in seconds. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="154" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="154" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga31c24bdf02f2e05950ced11c1c4895b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_ldap_params_get_timeout</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_timeout</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the timeout for requests in seconds. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The timeout in seconds. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="162" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="162" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga6628f09e44ddad4c717e44df4a1c65f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_timeout_tls_ms</definition>
+        <argsstring>(LinphoneLdapParams *params, int timeout)</argsstring>
+        <name>linphone_ldap_params_set_timeout_tls_ms</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+<para>Timeout for TLS connection in milliseconds. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Default value : 1000.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The timeout in milliseconds. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="171" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="171" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga57ad94867cb4edc39c90fb1d15225fef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_ldap_params_get_timeout_tls_ms</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_timeout_tls_ms</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the timeout for TLS connection in milliseconds. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The timeout in milliseconds. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="179" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="179" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga12e8066fcdb6ef370447b3af11a19d20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_max_results</definition>
+        <argsstring>(LinphoneLdapParams *params, int max_results)</argsstring>
+        <name>linphone_ldap_params_set_max_results</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_results</declname>
+        </param>
+        <briefdescription>
+<para>The max results when requesting searches. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Default value : 5. This value fit for standard cases where only first results are needed. Also, it avoids latency on each searchs.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_results</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The max results when requesting searches. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="190" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="190" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga1243d8ef9df8db12fae0ed5b99cfc30f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_ldap_params_get_max_results</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_max_results</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the max results when requesting searches. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The max results when requesting searches. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="198" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="198" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga08d6b9ea488e9e53a203b930a4af0099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_min_chars</definition>
+        <argsstring>(LinphoneLdapParams *params, int min_chars)</argsstring>
+        <name>linphone_ldap_params_set_min_chars</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>min_chars</declname>
+        </param>
+        <briefdescription>
+<para>The minimum characters needed for doing a search on LDAP servers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Default value : 0.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>min_chars</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The minimum characters needed by a search. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="209" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="209" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga31834af999cade062c7d04fa507dd5c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_ldap_params_get_min_chars</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_min_chars</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the minimum characters needed for doing a search on LDAP servers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The minimum characters needed by a search. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="217" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="217" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga3c812d4d68ad87acd41c29de27672549" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_delay</definition>
+        <argsstring>(LinphoneLdapParams *params, int delay)</argsstring>
+        <name>linphone_ldap_params_set_delay</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+<para>Delay between each search in milliseconds Default value : 500. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delay</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The timeout in milliseconds. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="228" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="228" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gab56107f6baa62fe24b301077f19e2d7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_ldap_params_get_delay</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_delay</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the delay between each search in milliseconds. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The delay in milliseconds. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="236" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="236" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga0c06a9dfb4198d966a2dcc9242c19592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_auth_method</definition>
+        <argsstring>(LinphoneLdapParams *params, LinphoneLdapAuthMethod auth_method)</argsstring>
+        <name>linphone_ldap_params_set_auth_method</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="group__ldap_1gaa46c566a20b118e968c5d1005459c34c" kindref="member">LinphoneLdapAuthMethod</ref></type>
+          <declname>auth_method</declname>
+        </param>
+        <briefdescription>
+<para>Authentification method. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Check <ref refid="group__ldap_1gaa46c566a20b118e968c5d1005459c34c" kindref="member">LinphoneLdapAuthMethod</ref> for authentification values. Default value : LinphoneLdapAuthMethodSimple</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>auth_method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaa46c566a20b118e968c5d1005459c34c" kindref="member">LinphoneLdapAuthMethod</ref>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="247" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="247" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga3695e5a99f4a7db422e6400caec59a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1gaa46c566a20b118e968c5d1005459c34c" kindref="member">LinphoneLdapAuthMethod</ref></type>
+        <definition>LinphoneLdapAuthMethod linphone_ldap_params_get_auth_method</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_auth_method</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the authentification method. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Check <ref refid="group__ldap_1gaa46c566a20b118e968c5d1005459c34c" kindref="member">LinphoneLdapAuthMethod</ref> for authentification values.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__ldap_1gaa46c566a20b118e968c5d1005459c34c" kindref="member">LinphoneLdapAuthMethod</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="256" column="25" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="256" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga27e3f1a42be31d560176ba78a3b90bdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_password</definition>
+        <argsstring>(LinphoneLdapParams *params, const char *password)</argsstring>
+        <name>linphone_ldap_params_set_password</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>The password to pass to server when binding. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Default value : &quot;&quot;.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password to pass to server when binding.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="266" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="266" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gaf5a929b9c581e61b59e67c3abd0b042a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_ldap_params_get_password</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_password</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the password to pass to server when binding. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The password to pass to server when binding.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="274" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="274" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gaa04fca10f786177457e1432134d7e6ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_filter</definition>
+        <argsstring>(LinphoneLdapParams *params, const char *filter)</argsstring>
+        <name>linphone_ldap_params_set_filter</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+<para>The search is based on this filter to search contacts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Default value : &quot;(sn=*%s*)&quot;.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The filter to use.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="284" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="284" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga12c4f0748785d6a41fcb1e873c5991b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_ldap_params_get_filter</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_filter</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the search is based on this filter to search contacts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The filter to use.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="292" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="292" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga167b553fff93176bef76101e854fb16e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_name_attribute</definition>
+        <argsstring>(LinphoneLdapParams *params, const char *name_attribute)</argsstring>
+        <name>linphone_ldap_params_set_name_attribute</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_attribute</declname>
+        </param>
+        <briefdescription>
+<para>Check these attributes to build Name Friend, separated by a comma and the first is the highest priority. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Default value : &quot;sn&quot;.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name_attribute</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The comma separated attributes for the search.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="303" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="303" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga1a97a323f2deb82e18bc045ef4a0906e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_ldap_params_get_name_attribute</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_name_attribute</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the attributes to build Name Friend, separated by a comma and the first is the highest priority. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The comma separated attributes for the search.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="311" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="311" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga4ccfe1c3d17bdc7ed6c279fb70d179db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_sip_attribute</definition>
+        <argsstring>(LinphoneLdapParams *params, const char *sip_attribute)</argsstring>
+        <name>linphone_ldap_params_set_sip_attribute</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sip_attribute</declname>
+        </param>
+        <briefdescription>
+<para>Check these attributes to build the SIP username in address of Friend. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Attributes are separated by a comma. Default value : &quot;mobile,telephoneNumber,homePhone,sn&quot;.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sip_attribute</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The comma separated attributes for building Friend.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="322" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="322" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga1caf240e59ae39c7b45be3c38134cb43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_ldap_params_get_sip_attribute</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_sip_attribute</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Get the attributes to build the SIP username in address of Friend. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Attributes are separated by a comma.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The comma separated attributes for building Friend.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="330" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="330" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga423b5e7a5c198d4716df4bc5051affc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_sip_domain</definition>
+        <argsstring>(LinphoneLdapParams *params, const char *sip_domain)</argsstring>
+        <name>linphone_ldap_params_set_sip_domain</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sip_domain</declname>
+        </param>
+        <briefdescription>
+<para>Add the domain to the sip address(sip:username@domain). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>By default or if it is empty, the domain will be specify while searching on the current proxy account. Default value : &quot;&quot;.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sip_domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SIP domain for the friend.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="342" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="342" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga76ff3a1d3e41b7a72e361ae0bd3c8a7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_ldap_params_get_sip_domain</definition>
+        <argsstring>(const LinphoneLdapParams *param)</argsstring>
+        <name>linphone_ldap_params_get_sip_domain</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+<para>Get the domain to the sip address(sip:username@domain). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The SIP domain for the friend.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="350" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="350" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gaf0d8fc21bb4a2f726f70ec3faf35f817" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_enabled</definition>
+        <argsstring>(LinphoneLdapParams *params, bool_t enable)</argsstring>
+        <name>linphone_ldap_params_set_enabled</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>If this config is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Default value : FALSE.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable or not the LDAP configuration. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="361" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="361" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gaf2753f052a4b6bc19d5ab27e8c210cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_ldap_params_get_enabled</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_enabled</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Return if the configuration is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Enable or not the LDAP configuration. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="369" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="369" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga8cf61a4062ae2c0b25f3fa192d76381c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_enable_sal</definition>
+        <argsstring>(LinphoneLdapParams *params, bool_t enable)</argsstring>
+        <name>linphone_ldap_params_enable_sal</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>The dns resolution is done by Linphone using Sal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It will pass an IP to LDAP. By doing that, the TLS negociation could not check the hostname. You may deactivate the verifications if wanted to force the connection. Default value : FALSE.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable or not the use of sal. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="381" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="381" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gacc149c8bbf217dc70643b14932442f07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_ldap_params_sal_enabled</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_sal_enabled</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Return if the dns resolution is done by Linphone using Sal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It will pass an IP to LDAP. By doing that, the TLS negociation could not check the hostname. You may deactivate the verifications if wanted to force the connection.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Enable or not the use of sal. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="390" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="390" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga50385f02d4285c53a3b728042c69d7de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_enable_tls</definition>
+        <argsstring>(LinphoneLdapParams *params, bool_t enable)</argsstring>
+        <name>linphone_ldap_params_enable_tls</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>Encrypt transactions by LDAP over TLS(StartTLS). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>You must use &apos;ldap&apos; scheme. &apos;ldaps&apos; for LDAP over SSL is non-standardized and deprecated. StartTLS in an extension to the LDAP protocol which uses the TLS protocol to encrypt communication. It works by establishing a normal - i.e. unsecured - connection with the LDAP server before a handshake negotiation between the server and the web services is carried out. Here, the server sends its certificate to prove its identity before the secure connection is established. Default value : TRUE.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable or not the use of TLS. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="404" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="404" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga8f0089faa4fd331c7a0a75254af16f8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_ldap_params_tls_enabled</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_tls_enabled</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Return if transactions are encrypted by LDAP over TLS(StartTLS). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>You must use \&apos;ldap\&apos; scheme. \&apos;ldaps\&apos; for LDAP over SSL is non-standardized and deprecated. StartTLS in an extension to the LDAP protocol which uses the TLS protocol to encrypt communication. It works by establishing a normal - i.e. unsecured - connection with the LDAP server before a handshake negotiation between the server and the web services is carried out. Here, the server sends its certificate to prove its identity before the secure connection is established.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Enable or not the use of TLS. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="416" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="416" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gaed101aad8535b969f43b4e070471ef0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_debug_level</definition>
+        <argsstring>(LinphoneLdapParams *params, LinphoneLdapDebugLevel level)</argsstring>
+        <name>linphone_ldap_params_set_debug_level</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="group__ldap_1gaa687d1e21788677ffb02dbc530fb905e" kindref="member">LinphoneLdapDebugLevel</ref></type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>The debug verbosity level from internal LDAP API. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Values are <ref refid="group__ldap_1gaa687d1e21788677ffb02dbc530fb905e" kindref="member">LinphoneLdapDebugLevel</ref> Default value: LinphoneLdapDebugLevelOff</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaa687d1e21788677ffb02dbc530fb905e" kindref="member">LinphoneLdapDebugLevel</ref> debug level. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="427" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="427" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gaa77476ee798e5d8f8130d613cc02d517" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1gaa687d1e21788677ffb02dbc530fb905e" kindref="member">LinphoneLdapDebugLevel</ref></type>
+        <definition>LinphoneLdapDebugLevel linphone_ldap_params_get_debug_level</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_debug_level</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Return the debug verbosity level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__ldap_1gaa687d1e21788677ffb02dbc530fb905e" kindref="member">LinphoneLdapDebugLevel</ref> debug level. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="435" column="25" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="435" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga8ca079d13de882d99ea35c4ec1e9b709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_ldap_params_set_server_certificates_verification_mode</definition>
+        <argsstring>(LinphoneLdapParams *params, LinphoneLdapCertVerificationMode verify_server_certificates)</argsstring>
+        <name>linphone_ldap_params_set_server_certificates_verification_mode</name>
+        <param>
+          <type><ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="group__ldap_1ga4c98adeae118cda4e26d869be7c1f0b6" kindref="member">LinphoneLdapCertVerificationMode</ref></type>
+          <declname>verify_server_certificates</declname>
+        </param>
+        <briefdescription>
+<para>Specify whether the tls server certificate must be verified when connecting to a LDAP server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Values are <ref refid="group__ldap_1ga4c98adeae118cda4e26d869be7c1f0b6" kindref="member">LinphoneLdapCertVerificationMode</ref> Default value : LinphoneLdapCertVerificationDefault (auto)</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>verify_server_certificates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The TLS verification mode from <ref refid="group__ldap_1ga4c98adeae118cda4e26d869be7c1f0b6" kindref="member">LinphoneLdapCertVerificationMode</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="447" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="447" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1gae7c4d057261954b78064317a309299db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__ldap_1ga4c98adeae118cda4e26d869be7c1f0b6" kindref="member">LinphoneLdapCertVerificationMode</ref></type>
+        <definition>LinphoneLdapCertVerificationMode linphone_ldap_params_get_server_certificates_verification_mode</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_get_server_certificates_verification_mode</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Return whether the tls server certificate must be verified when connecting to a LDAP server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The TLS verification mode from <ref refid="group__ldap_1ga4c98adeae118cda4e26d869be7c1f0b6" kindref="member">LinphoneLdapCertVerificationMode</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="457" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="457" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ldap_1ga6dd1b2f7965c50dd6445f5d19e788404" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_ldap_params_check</definition>
+        <argsstring>(const LinphoneLdapParams *params)</argsstring>
+        <name>linphone_ldap_params_check</name>
+        <param>
+          <type>const <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Check parameters and return what are wrong. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__ldap_1gaeb10214b56d9bd8d97b9db5ea9994296" kindref="member">LinphoneLdapParams</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__ldap_1gac06191f6f708d16092616179bba81c33" kindref="member">LinphoneLdapCheck</ref> values. LinphoneLdapCheckOk if everything is ok. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" line="465" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-ldap-params.h" declline="465" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

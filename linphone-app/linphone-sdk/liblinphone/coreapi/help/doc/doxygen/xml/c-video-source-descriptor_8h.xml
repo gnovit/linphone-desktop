@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-video-source-descriptor_8h" kind="file" language="C++">
+    <compoundname>c-video-source-descriptor.h</compoundname>
+    <includes refid="c-types_8h" local="yes">linphone/api/c-types.h</includes>
+    <includedby refid="c-api_8h" local="yes">c-api.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__call__control_1gae354b04d8da0aa438e1050c727ac05f8" kind="function"><name>linphone_video_source_descriptor_new</name></member>
+      <member refid="group__call__control_1ga5ef7ae449153cd987cac2f64c1ac0cc8" kind="function"><name>linphone_video_source_descriptor_clone</name></member>
+      <member refid="group__call__control_1gaf3268f0a1fb052a0ce770e2b75d113a2" kind="function"><name>linphone_video_source_descriptor_ref</name></member>
+      <member refid="group__call__control_1ga9254475e5d6afe0d74f597bab703f38b" kind="function"><name>linphone_video_source_descriptor_unref</name></member>
+      <member refid="group__call__control_1gad593ad8a991892da354081878fee4104" kind="function"><name>linphone_video_source_descriptor_get_type</name></member>
+      <member refid="group__call__control_1ga4821407481a419db9293807dbc268c80" kind="function"><name>linphone_video_source_descriptor_get_call</name></member>
+      <member refid="group__call__control_1gadf61db9656383c52305724043956be63" kind="function"><name>linphone_video_source_descriptor_set_call</name></member>
+      <member refid="group__call__control_1gadd1ccb33a902602b10374cbbf24953e2" kind="function"><name>linphone_video_source_descriptor_get_camera_id</name></member>
+      <member refid="group__call__control_1ga1cfbd3097d876be1ed138501275dca68" kind="function"><name>linphone_video_source_descriptor_set_camera_id</name></member>
+      <member refid="group__call__control_1ga5a0494d31e319af5358bb1f95c3de5ba" kind="function"><name>linphone_video_source_descriptor_get_image</name></member>
+      <member refid="group__call__control_1ga92e0c46b664c5b68ca5770277d6c6f02" kind="function"><name>linphone_video_source_descriptor_set_image</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LINPHONE_VIDEO_SOURCE_DESCRIPTOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_VIDEO_SOURCE_DESCRIPTOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*<ref refid="group__call__control_1gae354b04d8da0aa438e1050c727ac05f8" kindref="member">linphone_video_source_descriptor_new</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="group__call__control_1ga5ef7ae449153cd987cac2f64c1ac0cc8" kindref="member">linphone_video_source_descriptor_clone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*descriptor);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><ref refid="group__call__control_1gaf3268f0a1fb052a0ce770e2b75d113a2" kindref="member">linphone_video_source_descriptor_ref</ref>(<ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*descriptor);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1ga9254475e5d6afe0d74f597bab703f38b" kindref="member">linphone_video_source_descriptor_unref</ref>(<ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*descriptor);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__call__control_1gab2046656c4b39a41118f3aa8d8d01c91" kindref="member">LinphoneVideoSourceType</ref></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><ref refid="group__call__control_1gad593ad8a991892da354081878fee4104" kindref="member">linphone_video_source_descriptor_get_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*descriptor);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref><sp/>*</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><ref refid="group__call__control_1ga4821407481a419db9293807dbc268c80" kindref="member">linphone_video_source_descriptor_get_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*descriptor);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1gadf61db9656383c52305724043956be63" kindref="member">linphone_video_source_descriptor_set_call</ref>(<ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*descriptor,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1gac0a4861d7c4702c64f7106f2b893c69e" kindref="member">LinphoneCall</ref><sp/>*call);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><ref refid="group__call__control_1gadd1ccb33a902602b10374cbbf24953e2" kindref="member">linphone_video_source_descriptor_get_camera_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*descriptor);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1ga1cfbd3097d876be1ed138501275dca68" kindref="member">linphone_video_source_descriptor_set_camera_id</ref>(<ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*descriptor,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*camera_id);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__call__control_1ga5a0494d31e319af5358bb1f95c3de5ba" kindref="member">linphone_video_source_descriptor_get_image</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*descriptor);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1ga92e0c46b664c5b68ca5770277d6c6f02" kindref="member">linphone_video_source_descriptor_set_image</ref>(<ref refid="group__call__control_1ga116e41113e5616f4346b833309d20a19" kindref="member">LinphoneVideoSourceDescriptor</ref><sp/>*descriptor,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*image_path);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LINPHONE_VIDEO_SOURCE_DESCRIPTOR_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-video-source-descriptor.h"/>
+  </compounddef>
+</doxygen>

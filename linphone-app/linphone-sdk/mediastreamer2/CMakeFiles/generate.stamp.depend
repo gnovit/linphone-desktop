@@ -1,0 +1,84 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/TestBigEndian.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5/Qt5Config.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5/Qt5ModuleLocation.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QInsightTrackerPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfigVersion.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake
+C:/Qt/5.15.2/msvc2019/lib/cmake/Qt5Quick/Qt5Quick_QSGD3D12Adaptation.cmake
+C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/cmake/Modules/FindBCToolbox.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/cmake/Modules/FindBZRTP.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/cmake/Modules/FindOrtp.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/CMakeLists.txt
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindAom.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindBCMatroska2.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindBV16.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindDav1d.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindGSM.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindLibYUV.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindOpus.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindPulseAudio.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindQtAngle.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindSRTP.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindSpeex.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindSpeexDSP.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindTurboJpeg.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/FindVPX.cmake
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/cmake/Mediastreamer2Config.cmake.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mediastreamer2/mediastreamer-config.h.cmake

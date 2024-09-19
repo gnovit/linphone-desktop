@@ -1,0 +1,1 @@
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\bcmatroska2\corec\corec\bcmatroska2-corec-objects.dir\RelWithDebInfo\bcmatroska2-corec-objects.lib

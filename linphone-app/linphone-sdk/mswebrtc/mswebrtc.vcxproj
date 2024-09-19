@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6DE75EF3-DB0E-3247-911C-9F3E75A6FDD6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>mswebrtc</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc\mswebrtc.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\lib\mediastreamer2\plugins\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mswebrtc.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libmswebrtc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\lib\mediastreamer2\plugins\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mswebrtc.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libmswebrtc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\lib\mediastreamer2\plugins\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mswebrtc.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libmswebrtc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\lib\mediastreamer2\plugins\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mswebrtc.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libmswebrtc</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR="Debug";mswebrtc_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR=\"Debug\";mswebrtc_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include\;\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR="Debug";mswebrtc_EXPORTS</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\mediastreamer2.lib;..\..\lib\Debug\ortp.lib;..\..\lib\Debug\bctoolbox.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/lib/Debug/mswebrtc.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/bin/Debug/libmswebrtc.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR="Release";mswebrtc_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR=\"Release\";mswebrtc_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include\;\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR="Release";mswebrtc_EXPORTS</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\mediastreamer2.lib;..\..\lib\Release\ortp.lib;..\..\lib\Release\bctoolbox.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/lib/Release/mswebrtc.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/bin/Release/libmswebrtc.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR="MinSizeRel";mswebrtc_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR=\"MinSizeRel\";mswebrtc_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include\;\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR="MinSizeRel";mswebrtc_EXPORTS</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\mediastreamer2.lib;..\..\lib\MinSizeRel\ortp.lib;..\..\lib\MinSizeRel\bctoolbox.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/lib/MinSizeRel/mswebrtc.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/bin/MinSizeRel/libmswebrtc.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR="RelWithDebInfo";mswebrtc_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR=\"RelWithDebInfo\";mswebrtc_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include\;\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_ALLOW_KEYWORD_MACROS;NDEBUG;HAVE_CONFIG_H;WEBRTC_WIN;CMAKE_INTDIR="RelWithDebInfo";mswebrtc_EXPORTS</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\include;\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mediastreamer2\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\include;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\ortp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\mediastreamer2.lib;..\..\lib\RelWithDebInfo\ortp.lib;..\..\lib\RelWithDebInfo\bctoolbox.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/lib/RelWithDebInfo/mswebrtc.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/bin/RelWithDebInfo/libmswebrtc.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mswebrtc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mswebrtc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Modules\FindBCToolbox.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Modules\FindMediastreamer2.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\config.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mswebrtc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mswebrtc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Modules\FindBCToolbox.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Modules\FindMediastreamer2.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\config.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mswebrtc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mswebrtc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Modules\FindBCToolbox.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Modules\FindMediastreamer2.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\config.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/mswebrtc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/mswebrtc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Modules\FindBCToolbox.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Modules\FindMediastreamer2.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\config.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mswebrtc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\mswebrtc.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\fft4g.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\ring_buffer.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\spl_sqrt.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\real_fft.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\filter_ar_fast_q12.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\complex_bit_reverse.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\spl_init.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\splitting_filter.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\spl_sqrt_floor.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\levinson_durbin.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\filter_ar.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\get_scaling_square.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_fractional.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\downsample_fast.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\filter_ma_fast_q12.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\auto_corr_to_refl_coef.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\auto_correlation.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\refl_coef_to_lpc.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\dot_product_with_scale.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\copy_set_operations.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\cross_correlation.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\sqrt_of_one_minus_x_squared.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\ilbc_specific_functions.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_by_2.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\complex_fft.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_48khz.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\energy.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\get_hanning_window.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\randomization_functions.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\vector_scaling_operations.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\resample_by_2_internal.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\lpc_to_refl_coef.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\min_max_operations.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\signal_processing\division_operations.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\aec.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\aec_splitting_filter.cc">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_core.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_rdft.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_resampler.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\echo_cancellation.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\base\checks.cc" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\audio_util.cc">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\sparse_fir_filter.cc">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\system_wrappers\source\cpu_features.cc" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\three_band_filter_bank.cc">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) -std=c++11</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\utility\delay_estimator.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\utility\delay_estimator_wrapper.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_core_sse2.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_processing\aec\aec_rdft_sse2.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\ilbc.c">
+      <ObjectFileName>$(IntDir)/ilbc.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\abs_quant.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\abs_quant_loop.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\augmented_cb_corr.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\bw_expand.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\cb_construct.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\cb_mem_energy_augmentation.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\cb_mem_energy.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\cb_mem_energy_calc.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\cb_search.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\cb_search_core.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\cb_update_best_index.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\chebyshev.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\comp_corr.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\constants.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\create_augmented_vec.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\decode.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\decode_residual.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\decoder_interpolate_lsf.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\do_plc.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\encode.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\energy_inverse.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\enhancer.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\enhancer_interface.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\enh_upsample.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\filtered_cb_vecs.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\frame_classify.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\gain_dequant.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\gain_quant.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\get_cd_vec.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\get_lsp_poly.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\get_sync_seq.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\hp_input.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\hp_output.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\ilbc.c">
+      <ObjectFileName>$(IntDir)/webrtc/webrtc/modules/audio_coding/codecs/ilbc/ilbc.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\index_conv_dec.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\index_conv_enc.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\init_decode.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\init_encode.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\interpolate.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\interpolate_samples.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\lpc_encode.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\lsf_check.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\lsf_interpolate_to_poly_dec.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\lsf_interpolate_to_poly_enc.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\lsf_to_lsp.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\lsf_to_poly.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\lsp_to_lsf.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\my_corr.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\nearest_neighbor.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\pack_bits.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\poly_to_lsf.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\poly_to_lsp.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\refiner.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\simple_interpolate_lsf.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\simple_lpc_analysis.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\simple_lsf_dequant.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\simple_lsf_quant.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\smooth.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\smooth_out_data.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\sort_sq.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\split_vq.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\state_construct.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\state_search.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\swap_bytes.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\unpack_bits.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\vq3.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\vq4.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\window32_w32.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\modules\audio_coding\codecs\ilbc\xcorr_coef.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\vad.cc">
+      <ObjectFileName>$(IntDir)/vad.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\vad.cc">
+      <ObjectFileName>$(IntDir)/webrtc/webrtc/common_audio/vad/vad.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\vad_core.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\vad_filterbank.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\vad_gmm.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\vad_sp.c" />
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\mswebrtc\webrtc\webrtc\common_audio\vad\webrtc_vad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ZERO_CHECK.vcxproj">
+      <Project>{F070D8A1-EDFC-3AC1-B6E3-02D97BB8861D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\bctoolbox\src\bctoolbox.vcxproj">
+      <Project>{6B3DA815-5E7C-3D96-B13F-FB066008D48C}</Project>
+      <Name>bctoolbox</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\mediastreamer2\src\mediastreamer2.vcxproj">
+      <Project>{9841668E-7709-3DB9-BD6D-C83CECB71D95}</Project>
+      <Name>mediastreamer2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\ortp\src\ortp.vcxproj">
+      <Project>{12317849-588F-348F-9D3C-DF3E7D6E569F}</Project>
+      <Name>ortp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

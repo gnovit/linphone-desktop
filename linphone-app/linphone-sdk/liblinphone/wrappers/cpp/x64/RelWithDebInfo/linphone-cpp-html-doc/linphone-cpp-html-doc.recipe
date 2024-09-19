@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\x64\RelWithDebInfo\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\coreapi\help\doc\doxygen\x64\RelWithDebInfo\liblinphone-doc</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\x64\RelWithDebInfo\liblinphone-cxx-wrapper</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\liblinphone\wrappers\cpp\x64\RelWithDebInfo\linphone-cpp-html-doc</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

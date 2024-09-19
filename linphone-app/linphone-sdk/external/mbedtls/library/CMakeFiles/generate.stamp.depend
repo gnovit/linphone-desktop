@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/mbedtls/library/CMakeLists.txt
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/mbedtls/library/error.c
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/mbedtls/library/psa_crypto_driver_wrappers.c
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/mbedtls/library/ssl_debug_helpers_generated.c
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/mbedtls/library/version_features.c

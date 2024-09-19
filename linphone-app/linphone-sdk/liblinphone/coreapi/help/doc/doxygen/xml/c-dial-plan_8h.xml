@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-dial-plan_8h" kind="file" language="C++">
+    <compoundname>c-dial-plan.h</compoundname>
+    <includes refid="c-types_8h" local="yes">linphone/api/c-types.h</includes>
+    <includedby refid="c-api_8h" local="yes">c-api.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__misc_1gaa43fec26ae4e0e4f52cf83095c6abb51" kind="function"><name>linphone_dial_plan_ref</name></member>
+      <member refid="group__misc_1ga9a241b0c1530e12b1d18f51387646629" kind="function"><name>linphone_dial_plan_unref</name></member>
+      <member refid="group__misc_1ga85b4acd484eef77500d563a1726dc75c" kind="function"><name>linphone_dial_plan_get_country</name></member>
+      <member refid="group__misc_1ga61c6c8789144249a694db6bba5edc491" kind="function"><name>linphone_dial_plan_get_iso_country_code</name></member>
+      <member refid="group__misc_1gacaf47447550f3a67caef2f91899851d1" kind="function"><name>linphone_dial_plan_get_country_calling_code</name></member>
+      <member refid="group__misc_1ga13b3ee839e7380d2dd349c84fb9b91f8" kind="function"><name>linphone_dial_plan_get_national_number_length</name></member>
+      <member refid="group__misc_1ga042853033588999656bca7ead082781b" kind="function"><name>linphone_dial_plan_get_international_call_prefix</name></member>
+      <member refid="group__misc_1ga1e3a0d0a3da91c448b1e45b1ca70a8e2" kind="function"><name>linphone_dial_plan_get_flag</name></member>
+      <member refid="group__misc_1gadf2204eb2ab519f7b40be868387b9e3a" kind="function"><name>linphone_dial_plan_lookup_ccc_from_iso</name></member>
+      <member refid="group__misc_1ga38c2e82076bbde91124ae8867320a43c" kind="function"><name>linphone_dial_plan_lookup_ccc_from_e164</name></member>
+      <member refid="group__misc_1gaa025b37b93d2ec5a78e65dd84786fc82" kind="function"><name>linphone_dial_plan_get_all_list</name></member>
+      <member refid="group__misc_1gabb1585b98a89fcbf930c62230e15f5b6" kind="function"><name>linphone_dial_plan_by_ccc</name></member>
+      <member refid="group__misc_1ga691d63b4954a27b9022ef15e767612d7" kind="function"><name>linphone_dial_plan_by_ccc_as_int</name></member>
+      <member refid="group__misc_1ga4d245283b692635d3afab17367b5fbcf" kind="function"><name>linphone_dial_plan_is_generic</name></member>
+      <member refid="group__misc_1gaa1526909d080000797569077d6064f31" kind="function"><name>linphone_dial_plan_get_all</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_C_DIAL_PLAN_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_C_DIAL_PLAN_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*<ref refid="group__misc_1gaa43fec26ae4e0e4f52cf83095c6abb51" kindref="member">linphone_dial_plan_ref</ref>(<ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*dial_plan);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga9a241b0c1530e12b1d18f51387646629" kindref="member">linphone_dial_plan_unref</ref>(<ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*dial_plan);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1ga85b4acd484eef77500d563a1726dc75c" kindref="member">linphone_dial_plan_get_country</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*dial_plan);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1ga61c6c8789144249a694db6bba5edc491" kindref="member">linphone_dial_plan_get_iso_country_code</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*dial_plan);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1gacaf47447550f3a67caef2f91899851d1" kindref="member">linphone_dial_plan_get_country_calling_code</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*dial_plan);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga13b3ee839e7380d2dd349c84fb9b91f8" kindref="member">linphone_dial_plan_get_national_number_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*dial_plan);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1ga042853033588999656bca7ead082781b" kindref="member">linphone_dial_plan_get_international_call_prefix</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*dial_plan);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1ga1e3a0d0a3da91c448b1e45b1ca70a8e2" kindref="member">linphone_dial_plan_get_flag</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*dial_plan);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gadf2204eb2ab519f7b40be868387b9e3a" kindref="member">linphone_dial_plan_lookup_ccc_from_iso</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*iso);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga38c2e82076bbde91124ae8867320a43c" kindref="member">linphone_dial_plan_lookup_ccc_from_e164</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*e164);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">LINPHONE_PUBLIC<sp/>bctbx_list_t<sp/>*<ref refid="group__misc_1gaa025b37b93d2ec5a78e65dd84786fc82" kindref="member">linphone_dial_plan_get_all_list</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*<ref refid="group__misc_1gabb1585b98a89fcbf930c62230e15f5b6" kindref="member">linphone_dial_plan_by_ccc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ccc);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*<ref refid="group__misc_1ga691d63b4954a27b9022ef15e767612d7" kindref="member">linphone_dial_plan_by_ccc_as_int</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ccc);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__misc_1ga4d245283b692635d3afab17367b5fbcf" kindref="member">linphone_dial_plan_is_generic</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*ccc);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="comment">/************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>DEPRECATED<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>**********<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">LINPHONE_PUBLIC<sp/>LINPHONE_DEPRECATED<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gac958ea188a68f9a7e4ddb9ccd11ea11a" kindref="member">LinphoneDialPlan</ref><sp/>*<ref refid="group__misc_1gaa1526909d080000797569077d6064f31" kindref="member">linphone_dial_plan_get_all</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifndef<sp/>_L_C_DIAL_PLAN_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-dial-plan.h"/>
+  </compounddef>
+</doxygen>

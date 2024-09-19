@@ -1,0 +1,13 @@
+# Target labels
+ dav1d
+# Source files and their labels
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/dav1d
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/4f8d2079a2c607df571a5b2018a916c2/dav1d.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/dfbc71ab05315a9172d21428d5f04094/dav1d-complete.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/68124567236a024a0f27ef57be34196a/dav1d-build.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/68124567236a024a0f27ef57be34196a/dav1d-configure.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/68124567236a024a0f27ef57be34196a/dav1d-download.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/68124567236a024a0f27ef57be34196a/dav1d-install.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/68124567236a024a0f27ef57be34196a/dav1d-mkdir.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/68124567236a024a0f27ef57be34196a/dav1d-patch.rule
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/CMakeFiles/68124567236a024a0f27ef57be34196a/dav1d-update.rule

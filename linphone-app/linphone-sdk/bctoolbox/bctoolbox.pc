@@ -1,0 +1,10 @@
+# This is a comment
+prefix=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT
+exec_prefix=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT
+
+Name:  bctoolbox
+Description: A common set of tools used by Belledonne Communication's softwares
+Version: 5.3.0
+Libs: -LD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/lib -lbctoolbox
+Libs.private: 
+Cflags: -ID:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include

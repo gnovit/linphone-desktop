@@ -1,0 +1,58 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\9FB78CB94F1AE1868022B373EF62D59C\EDDSA.C.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=curve25519 --guard=curve25519/eddsa.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/curve25519/eddsa.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\9FB78CB94F1AE1868022B373EF62D59C\ELLIGATOR.C.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=curve25519 --guard=curve25519/elligator.c -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/c/curve25519/elligator.c D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/elligator.tmpl.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\ED255.HXX.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=curve25519 --guard=decaf/ed255.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/ed255.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/eddsa.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\092505CB5DC3115D8CFD4B827176B0AB\POINT_255.HXX.RULE
+setlocal
+C:\Python310\python.exe D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/generator/template.py --per=curve --item=curve25519 --guard=decaf/point_255.hxx -o D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/GENERATED/include/decaf/point_255.hxx D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/decaf/src/per_curve/point.tmpl.hxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\CMAKEFILES\E97A58DA208DF2464CCD0849FB43ACCA\DECAF-GENERATOR-CURVE25519.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-SDK\EXTERNAL\DECAF\SRC\GENERATOR\CURVE25519\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/decaf/src/generator/curve25519/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

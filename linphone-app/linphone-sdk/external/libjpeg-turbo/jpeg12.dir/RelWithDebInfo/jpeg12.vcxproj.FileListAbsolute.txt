@@ -1,0 +1,1 @@
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\libjpeg-turbo\jpeg12.dir\RelWithDebInfo\jpeg12.lib

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_bf983fa3a76e572e9bf5e3a7686b0366" kind="dir">
+    <compoundname>utils</compoundname>
+    <innerfile refid="algorithm_8h">algorithm.h</innerfile>
+    <innerfile refid="enum-generator_8h">enum-generator.h</innerfile>
+    <innerfile refid="enum-mask_8h">enum-mask.h</innerfile>
+    <innerfile refid="fs_8h">fs.h</innerfile>
+    <innerfile refid="general_8h">general.h</innerfile>
+    <innerfile refid="magic-macros_8h">magic-macros.h</innerfile>
+    <innerfile refid="traits_8h">traits.h</innerfile>
+    <innerfile refid="utils_8h">utils.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,10 @@
+# This is a comment
+prefix=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT
+exec_prefix=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/bin
+includedir=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include
+
+Name: oRTP 
+Description: Implement the RFC3550 (RTP) with a easy to use API with high and low level access.
+Version: 5.3.0
+Libs: -LD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/lib -lortp 
+Cflags: -ID:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include 

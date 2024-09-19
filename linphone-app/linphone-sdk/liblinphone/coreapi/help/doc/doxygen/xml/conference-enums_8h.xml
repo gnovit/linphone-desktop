@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="conference-enums_8h" kind="file" language="C++">
+    <compoundname>conference-enums.h</compoundname>
+    <includedby refid="c-types_8h" local="yes">c-types.h</includedby>
+    <sectiondef kind="enum">
+      <member refid="group__conference_1gac1a31b7b9e678344745afd5fce4d8b1f" kind="enum"><name>_LinphoneConferenceState</name></member>
+      <member refid="group__conference_1ga2a27eb66cbe424a196602daf91cbb8bb" kind="enum"><name>_LinphoneConferenceLayout</name></member>
+      <member refid="group__conference_1ga026e32ba8ea58e6dbe12d5e347a1f177" kind="enum"><name>_LinphoneConferenceJoiningMode</name></member>
+      <member refid="group__conference_1gab773fdef9e467c23620988c563d295e6" kind="enum"><name>_LinphoneConferenceParticipantListType</name></member>
+      <member refid="group__conference_1gaf58c52b7639db4e6aa90addcf3616c19" kind="enum"><name>_LinphoneConferenceSecurityLevel</name></member>
+      <member refid="group__conference_1gaf537d45eb7a4500f4d1fc7963b03a3d4" kind="enum"><name>_LinphoneConferenceSchedulerState</name></member>
+      <member refid="group__conference_1gacc6946df27ba57783dd50f9d72e1ea1b" kind="enum"><name>_LinphoneConferenceInfoState</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__conference_1ga27a069a0a4402a95040ded11004fabe8" kind="typedef"><name>LinphoneConferenceState</name></member>
+      <member refid="group__conference_1gad1d8564551449d897653842a9ac64066" kind="typedef"><name>LinphoneConferenceLayout</name></member>
+      <member refid="group__conference_1ga0fec671ac3870ab5344d5ed49035ca4d" kind="typedef"><name>LinphoneConferenceJoiningMode</name></member>
+      <member refid="group__conference_1ga71aaabc893e6d6586502b10888b4c929" kind="typedef"><name>LinphoneConferenceParticipantListType</name></member>
+      <member refid="group__conference_1gae3ecdeb95be4ead799b1b40211f0c741" kind="typedef"><name>LinphoneConferenceSecurityLevel</name></member>
+      <member refid="group__conference_1ga7a9ab01b66f80dc3b4a94307418e3be8" kind="typedef"><name>LinphoneConferenceSchedulerState</name></member>
+      <member refid="group__conference_1ga5b88fd3ef5ed836b03fcb72f3f80298c" kind="typedef"><name>LinphoneConferenceInfoState</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_CONFERENCE_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_CONFERENCE_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight></codeline>
+<codeline lineno="29"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__conference_1gac1a31b7b9e678344745afd5fce4d8b1f" kindref="member">_LinphoneConferenceState</ref><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggac1a31b7b9e678344745afd5fce4d8b1fa2216a073916b12e2bc2706b0fca72acf" kindref="member">LinphoneConferenceStateNone</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggac1a31b7b9e678344745afd5fce4d8b1fa834f9229f02e86d732efa1d62b092c0a" kindref="member">LinphoneConferenceStateInstantiated</ref><sp/>=<sp/>1,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggac1a31b7b9e678344745afd5fce4d8b1fab2631c4d938d7b3dd33e1989cb8e5bf3" kindref="member">LinphoneConferenceStateCreationPending</ref><sp/>=<sp/>2,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggac1a31b7b9e678344745afd5fce4d8b1fafd79f35f6a15b841f229051daedb2f0f" kindref="member">LinphoneConferenceStateCreated</ref><sp/>=<sp/>3,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggac1a31b7b9e678344745afd5fce4d8b1fa39fd872e3a1fe7b0d0b9d22a3227b57e" kindref="member">LinphoneConferenceStateCreationFailed</ref><sp/>=<sp/>4,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggac1a31b7b9e678344745afd5fce4d8b1fa8047cd13e8c16d171fe4777ef076f64f" kindref="member">LinphoneConferenceStateTerminationPending</ref><sp/>=<sp/>5,<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggac1a31b7b9e678344745afd5fce4d8b1fa496d2140aafeed83aab20e62ae24ea2e" kindref="member">LinphoneConferenceStateTerminated</ref><sp/>=<sp/>6,<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggac1a31b7b9e678344745afd5fce4d8b1fa19fbb689da2aca79114b3aa302d9b357" kindref="member">LinphoneConferenceStateTerminationFailed</ref><sp/>=<sp/>7,<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggac1a31b7b9e678344745afd5fce4d8b1fa2c1d373084cbc947610d4b27d11e145d" kindref="member">LinphoneConferenceStateDeleted</ref><sp/>=<sp/>8,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}<sp/><ref refid="group__conference_1ga27a069a0a4402a95040ded11004fabe8" kindref="member">LinphoneConferenceState</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga2a27eb66cbe424a196602daf91cbb8bb" kindref="member">_LinphoneConferenceLayout</ref><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga2a27eb66cbe424a196602daf91cbb8bba483545a00cbc7a525a15fe8938dbea85" kindref="member">LinphoneConferenceLayoutGrid</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga2a27eb66cbe424a196602daf91cbb8bba2b4234ce497eb316d982342c4f46f223" kindref="member">LinphoneConferenceLayoutActiveSpeaker</ref><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}<sp/><ref refid="group__conference_1gad1d8564551449d897653842a9ac64066" kindref="member">LinphoneConferenceLayout</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga026e32ba8ea58e6dbe12d5e347a1f177" kindref="member">_LinphoneConferenceJoiningMode</ref><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga026e32ba8ea58e6dbe12d5e347a1f177a68e1c7fddc35eed135d04c26028d5199" kindref="member">LinphoneConferenceJoiningModeDialIn</ref><sp/>=<sp/>0,<sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga026e32ba8ea58e6dbe12d5e347a1f177adabfb76f639f1a61ecd87d7f46fe34d4" kindref="member">LinphoneConferenceJoiningModeDialOut</ref><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}<sp/><ref refid="group__conference_1ga0fec671ac3870ab5344d5ed49035ca4d" kindref="member">LinphoneConferenceJoiningMode</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__conference_1gab773fdef9e467c23620988c563d295e6" kindref="member">_LinphoneConferenceParticipantListType</ref><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggab773fdef9e467c23620988c563d295e6a70c992899d1c43224307c27f973c96c2" kindref="member">LinphoneConferenceParticipantListTypeClosed</ref><sp/>=</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggab773fdef9e467c23620988c563d295e6a7fac226e9f9da0060f6dcd05136deab1" kindref="member">LinphoneConferenceParticipantListTypeOpen</ref><sp/>=</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1,<sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}<sp/><ref refid="group__conference_1ga71aaabc893e6d6586502b10888b4c929" kindref="member">LinphoneConferenceParticipantListType</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__conference_1gaf58c52b7639db4e6aa90addcf3616c19" kindref="member">_LinphoneConferenceSecurityLevel</ref><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggaf58c52b7639db4e6aa90addcf3616c19ab458e701c520a5e11fe025d3d65d0b18" kindref="member">LinphoneConferenceSecurityLevelNone</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggaf58c52b7639db4e6aa90addcf3616c19a36ea9f66256ad15509b8b5a8392bc880" kindref="member">LinphoneConferenceSecurityLevelPointToPoint</ref><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggaf58c52b7639db4e6aa90addcf3616c19af38131a0cc839a75a805ba8bd9852a22" kindref="member">LinphoneConferenceSecurityLevelEndToEnd</ref><sp/>=<sp/>2,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}<sp/><ref refid="group__conference_1gae3ecdeb95be4ead799b1b40211f0c741" kindref="member">LinphoneConferenceSecurityLevel</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__conference_1gaf537d45eb7a4500f4d1fc7963b03a3d4" kindref="member">_LinphoneConferenceSchedulerState</ref><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggaf537d45eb7a4500f4d1fc7963b03a3d4a141115251a614e0655b96bc21827d122" kindref="member">LinphoneConferenceSchedulerStateIdle</ref><sp/>=<sp/>0,<sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggaf537d45eb7a4500f4d1fc7963b03a3d4accb79ac7d43a8d43b8eb43d5fda56572" kindref="member">LinphoneConferenceSchedulerStateError</ref><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggaf537d45eb7a4500f4d1fc7963b03a3d4a8dd65dde62757a6e08d2d3e92c6d7876" kindref="member">LinphoneConferenceSchedulerStateAllocationPending</ref><sp/>=<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggaf537d45eb7a4500f4d1fc7963b03a3d4adad8688bbb40bba2ac74fd4e9e4371e9" kindref="member">LinphoneConferenceSchedulerStateReady</ref><sp/>=<sp/>3,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggaf537d45eb7a4500f4d1fc7963b03a3d4a179bbf40bad510bc386a703318226021" kindref="member">LinphoneConferenceSchedulerStateUpdating</ref><sp/>=<sp/>4,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}<sp/><ref refid="group__conference_1ga7a9ab01b66f80dc3b4a94307418e3be8" kindref="member">LinphoneConferenceSchedulerState</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WARNING:<sp/>Conference<sp/>info<sp/>state<sp/>may<sp/>be<sp/>stored<sp/>in<sp/>the<sp/>database,<sp/>therefore<sp/>do<sp/>not<sp/>modify<sp/>the<sp/>integer<sp/>value<sp/>of<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//<sp/>enumeration<sp/>items</highlight></codeline>
+<codeline lineno="110"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__conference_1gacc6946df27ba57783dd50f9d72e1ea1b" kindref="member">_LinphoneConferenceInfoState</ref><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggacc6946df27ba57783dd50f9d72e1ea1ba74332017a999f281dae30a5cb12d8010" kindref="member">LinphoneConferenceInfoStateNew</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggacc6946df27ba57783dd50f9d72e1ea1bade0176bb93196e92f7a47eee0d693a13" kindref="member">LinphoneConferenceInfoStateUpdated</ref><sp/>=<sp/>1,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggacc6946df27ba57783dd50f9d72e1ea1ba2d14108a41cf78a54c10db3f82d1dd72" kindref="member">LinphoneConferenceInfoStateCancelled</ref><sp/>=<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}<sp/><ref refid="group__conference_1ga5b88fd3ef5ed836b03fcb72f3f80298c" kindref="member">LinphoneConferenceInfoState</ref>;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifndef<sp/>_L_CONFERENCE_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/conference-enums.h"/>
+  </compounddef>
+</doxygen>

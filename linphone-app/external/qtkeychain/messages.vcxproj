@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BB0546FB-8D48-39FC-97AC-57F07CA43F16}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>messages</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\messages.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Qt\5.15.2\msvc2019\include;C:\Qt\5.15.2\msvc2019\include\QtCore;C:\Qt\5.15.2\msvc2019\.\mkspecs\win32-msvc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Qt\5.15.2\msvc2019\include;C:\Qt\5.15.2\msvc2019\include\QtCore;C:\Qt\5.15.2\msvc2019\.\mkspecs\win32-msvc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Qt\5.15.2\msvc2019\include;C:\Qt\5.15.2\msvc2019\include\QtCore;C:\Qt\5.15.2\msvc2019\.\mkspecs\win32-msvc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Qt\5.15.2\msvc2019\include;C:\Qt\5.15.2\msvc2019\include\QtCore;C:\Qt\5.15.2\msvc2019\.\mkspecs\win32-msvc;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\6bda3b81ad21af2310da5053be421841\qtkeychain_de.ts.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_de.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_de.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_de.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_de.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_de.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_de.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_de.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_de.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\0270fefde5e8063c85a756a1ec1a218d\qtkeychain_de.qm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtkeychain_de.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_de.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_de.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_de.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtkeychain_de.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_de.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_de.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_de.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtkeychain_de.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_de.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_de.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_de.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtkeychain_de.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_de.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_de.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_de.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_de.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\6bda3b81ad21af2310da5053be421841\qtkeychain_fr.ts.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_fr.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_fr.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_fr.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_fr.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_fr.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_fr.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_fr.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_fr.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\0270fefde5e8063c85a756a1ec1a218d\qtkeychain_fr.qm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtkeychain_fr.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_fr.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_fr.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_fr.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtkeychain_fr.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_fr.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_fr.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_fr.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtkeychain_fr.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_fr.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_fr.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_fr.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtkeychain_fr.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_fr.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_fr.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_fr.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_fr.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\6bda3b81ad21af2310da5053be421841\qtkeychain_ro.ts.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_ro.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ro.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_ro.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ro.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_ro.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ro.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_ro.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ro.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\0270fefde5e8063c85a756a1ec1a218d\qtkeychain_ro.qm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtkeychain_ro.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_ro.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ro.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ro.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtkeychain_ro.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_ro.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ro.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ro.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtkeychain_ro.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_ro.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ro.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ro.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtkeychain_ro.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ro.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_ro.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ro.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ro.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\6bda3b81ad21af2310da5053be421841\qtkeychain_ru.ts.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_ru.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ru.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_ru.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ru.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_ru.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ru.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_ru.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ru.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\0270fefde5e8063c85a756a1ec1a218d\qtkeychain_ru.qm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtkeychain_ru.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_ru.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ru.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ru.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtkeychain_ru.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_ru.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ru.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ru.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtkeychain_ru.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_ru.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ru.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ru.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtkeychain_ru.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_ru.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_ru.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_ru.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ru.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\6bda3b81ad21af2310da5053be421841\qtkeychain_zh.ts.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_zh.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_zh.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_zh.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_zh.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_zh.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_zh.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lupdate.exe @D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/qtkeychain_zh.ts_lst_file -ts D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\androidkeystore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\gnomekeyring_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_android.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_haiku.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_unix.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\keychain_win.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\libsecret_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore.cpp;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\plaintextstore_p.h;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\testclient.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_zh.ts</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\0270fefde5e8063c85a756a1ec1a218d\qtkeychain_zh.qm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qtkeychain_zh.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_zh.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_zh.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_zh.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qtkeychain_zh.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_zh.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_zh.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_zh.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qtkeychain_zh.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_zh.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_zh.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_zh.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qtkeychain_zh.qm</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.15.2\msvc2019\bin\lrelease.exe D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/translations/qtkeychain_zh.ts -qm D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/qtkeychain_zh.qm
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\translations\qtkeychain_zh.ts;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_zh.qm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\af8f9ce26bd7ffdc04acc439ea16c860\messages.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_de.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_fr.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ro.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ru.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_zh.qm;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\CMakeFiles\messages</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_de.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_fr.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ro.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ru.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_zh.qm;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\CMakeFiles\messages</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_de.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_fr.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ro.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ru.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_zh.qm;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\CMakeFiles\messages</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_de.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_fr.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ro.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_ru.qm;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\qtkeychain_zh.qm;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\CMakeFiles\messages</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\exportheader.cmake.in;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\QtKeychainConfig.cmake.in;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMGeneratePriFile.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMQueryQt.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMSetupVersion.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\QtVersionOption.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\exportheader.cmake.in;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\QtKeychainConfig.cmake.in;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMGeneratePriFile.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMQueryQt.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMSetupVersion.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\QtVersionOption.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\exportheader.cmake.in;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\QtKeychainConfig.cmake.in;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMGeneratePriFile.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMQueryQt.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMSetupVersion.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\QtVersionOption.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/external/qtkeychain/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/external/qtkeychain/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\exportheader.cmake.in;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.15.2\msvc2019\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\QtKeychainConfig.cmake.in;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMGeneratePriFile.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMQueryQt.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\ECMSetupVersion.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\external\qtkeychain\cmake\Modules\QtVersionOption.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\external\qtkeychain\CMakeFiles\messages">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ZERO_CHECK.vcxproj">
+      <Project>{F070D8A1-EDFC-3AC1-B6E3-02D97BB8861D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,2 @@
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/Autotools/CMakeFiles/edit_cache.dir
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/Autotools/CMakeFiles/rebuild_cache.dir

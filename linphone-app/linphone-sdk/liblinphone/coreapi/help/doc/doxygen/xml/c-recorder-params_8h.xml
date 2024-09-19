@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-recorder-params_8h" kind="file" language="C++">
+    <compoundname>c-recorder-params.h</compoundname>
+    <includes refid="c-types_8h" local="yes">linphone/api/c-types.h</includes>
+    <includedby refid="c-api_8h" local="yes">c-api.h</includedby>
+    <includedby refid="c-recorder_8h" local="yes">c-recorder.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__call-control_1ga93596890e47320b12f4f945aa24bccb2" kind="function"><name>linphone_recorder_params_new</name></member>
+      <member refid="group__call-control_1ga7b48a51c82bbd09cbd4125fa1ad5dcdb" kind="function"><name>linphone_recorder_params_clone</name></member>
+      <member refid="group__call-control_1ga0fb78a1ea6d864e457086b317e12766d" kind="function"><name>linphone_recorder_params_ref</name></member>
+      <member refid="group__call-control_1ga74a9024486b1b38868ce8e36bfe0d02a" kind="function"><name>linphone_recorder_params_unref</name></member>
+      <member refid="group__call-control_1ga4fcda63adf92d0a5100b5159d26177e1" kind="function"><name>linphone_recorder_params_set_audio_device</name></member>
+      <member refid="group__call-control_1ga16109ec6694cf61f4c850218aa7576c2" kind="function"><name>linphone_recorder_params_get_audio_device</name></member>
+      <member refid="group__call-control_1ga39201e2c33781acda1ce9b65a8273e36" kind="function"><name>linphone_recorder_params_set_webcam_name</name></member>
+      <member refid="group__call-control_1ga2d3147af9cdef669b2edd117048ea057" kind="function"><name>linphone_recorder_params_get_webcam_name</name></member>
+      <member refid="group__call-control_1ga6bdb971236ce8c517eab70546f778644" kind="function"><name>linphone_recorder_params_set_video_codec</name></member>
+      <member refid="group__call-control_1gac409a21a4af8298982ab636cbb5e39d6" kind="function"><name>linphone_recorder_params_get_video_codec</name></member>
+      <member refid="group__call-control_1gaa70bdd6fb75d10f03dc7f87ed1c9d41d" kind="function"><name>linphone_recorder_params_set_file_format</name></member>
+      <member refid="group__call-control_1ga9e1cea386ba2eeac788e214a64198236" kind="function"><name>linphone_recorder_params_get_file_format</name></member>
+      <member refid="group__call-control_1ga0fe08b7134c33c17a8f7ebfda9398c40" kind="function"><name>linphone_recorder_params_set_window_id</name></member>
+      <member refid="group__call-control_1ga422b4b06647f62af969b25e2c7030b8c" kind="function"><name>linphone_recorder_params_get_window_id</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LINPHONE_RECORDER_PARAMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_RECORDER_PARAMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/api/c-types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*<ref refid="group__call-control_1ga93596890e47320b12f4f945aa24bccb2" kindref="member">linphone_recorder_params_new</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*<ref refid="group__call-control_1ga7b48a51c82bbd09cbd4125fa1ad5dcdb" kindref="member">linphone_recorder_params_clone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*<ref refid="group__call-control_1ga0fb78a1ea6d864e457086b317e12766d" kindref="member">linphone_recorder_params_ref</ref>(<ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__call-control_1ga74a9024486b1b38868ce8e36bfe0d02a" kindref="member">linphone_recorder_params_unref</ref>(<ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__call-control_1ga4fcda63adf92d0a5100b5159d26177e1" kindref="member">linphone_recorder_params_set_audio_device</ref>(<ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref><sp/>*device);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__audio_1ga3e0f04ddec2aea45e1d14bb4caafacfc" kindref="member">LinphoneAudioDevice</ref><sp/>*</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><ref refid="group__call-control_1ga16109ec6694cf61f4c850218aa7576c2" kindref="member">linphone_recorder_params_get_audio_device</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__call-control_1ga39201e2c33781acda1ce9b65a8273e36" kindref="member">linphone_recorder_params_set_webcam_name</ref>(<ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*webcam_name);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__call-control_1ga2d3147af9cdef669b2edd117048ea057" kindref="member">linphone_recorder_params_get_webcam_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__call-control_1ga6bdb971236ce8c517eab70546f778644" kindref="member">linphone_recorder_params_set_video_codec</ref>(<ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*video_codec);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__call-control_1gac409a21a4af8298982ab636cbb5e39d6" kindref="member">linphone_recorder_params_get_video_codec</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__call-control_1gaa70bdd6fb75d10f03dc7f87ed1c9d41d" kindref="member">linphone_recorder_params_set_file_format</ref>(<ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__call__control_1gaa5b0f4d3066824e02a1d538bc79389ab" kindref="member">LinphoneRecorderFileFormat</ref><sp/>format);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__call__control_1gaa5b0f4d3066824e02a1d538bc79389ab" kindref="member">LinphoneRecorderFileFormat</ref></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><ref refid="group__call-control_1ga9e1cea386ba2eeac788e214a64198236" kindref="member">linphone_recorder_params_get_file_format</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__call-control_1ga0fe08b7134c33c17a8f7ebfda9398c40" kindref="member">linphone_recorder_params_set_window_id</ref>(<ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*window_id);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__call-control_1ga422b4b06647f62af969b25e2c7030b8c" kindref="member">linphone_recorder_params_get_window_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__call__control_1gabe530764cf2edfab727e336448e54de1" kindref="member">LinphoneRecorderParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LINPHONE_RECORDER_PARAMS_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-recorder-params.h"/>
+  </compounddef>
+</doxygen>

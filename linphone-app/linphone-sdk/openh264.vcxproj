@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{95CA1382-96F6-3748-8E97-215063966F53}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>openh264</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/tmp/openh264-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Debug/openh264-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/tmp/openh264-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Release/openh264-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/MinSizeRel -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/tmp/openh264-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/MinSizeRel/openh264-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/RelWithDebInfo -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/tmp/openh264-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/RelWithDebInfo/openh264-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No download step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Debug/openh264-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-source_dirinfo.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No download step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Release/openh264-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-source_dirinfo.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No download step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/MinSizeRel/openh264-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-source_dirinfo.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No download step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/RelWithDebInfo/openh264-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-source_dirinfo.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Debug/openh264-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-update-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No update step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Release/openh264-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-update-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No update step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/MinSizeRel/openh264-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-update-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No update step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/RelWithDebInfo/openh264-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-update-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Debug/openh264-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-patch-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Release/openh264-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-patch-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/MinSizeRel/openh264-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-patch-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/RelWithDebInfo/openh264-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\openh264-patch-info.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Debug/openh264-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-cfgcmd.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No configure step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Release/openh264-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-cfgcmd.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No configure step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/MinSizeRel/openh264-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-cfgcmd.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No configure step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/RelWithDebInfo/openh264-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-cfgcmd.txt;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing build step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/openh264-build-Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Debug/openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing build step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/openh264-build-Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Release/openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing build step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/openh264-build-MinSizeRel.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/MinSizeRel/openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing build step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/openh264-build-RelWithDebInfo.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/RelWithDebInfo/openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\cc5d5059cebe400baab198e14b15f33e\openh264-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing install step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/openh264-install-Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Debug/openh264-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing install step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/openh264-install-Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Release/openh264-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing install step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/openh264-install-MinSizeRel.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/MinSizeRel/openh264-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing install step for 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/openh264-install-RelWithDebInfo.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/RelWithDebInfo/openh264-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\dfbc71ab05315a9172d21428d5f04094\openh264-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/Debug/openh264-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Debug/openh264-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-install;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-mkdir;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-download;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-update;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-patch;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-configure;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Debug\openh264-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\Debug\openh264-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/Release/openh264-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/Release/openh264-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-install;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-mkdir;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-download;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-update;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-patch;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-configure;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\Release\openh264-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\Release\openh264-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/MinSizeRel/openh264-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/MinSizeRel/openh264-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-install;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-mkdir;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-download;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-update;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-patch;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-configure;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\MinSizeRel\openh264-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\MinSizeRel\openh264-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'openh264'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/RelWithDebInfo/openh264-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/openh264-prefix/src/openh264-stamp/RelWithDebInfo/openh264-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-install;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-mkdir;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-download;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-update;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-patch;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-configure;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\src\openh264-stamp\RelWithDebInfo\openh264-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\RelWithDebInfo\openh264-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\4f8d2079a2c607df571a5b2018a916c2\openh264.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\Debug\openh264-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\openh264</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\Release\openh264-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\openh264</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\MinSizeRel\openh264-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\openh264</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\RelWithDebInfo\openh264-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\openh264</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\Autotools\Autotools.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\dav1d-prefix\tmp\dav1d-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\vpx-prefix\tmp\vpx-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\cmake\BCToolboxCMakeUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\BCProjects.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\ExternalDependencies.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\LinphoneSdkUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Options.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_install.sh.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\Autotools\Autotools.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\dav1d-prefix\tmp\dav1d-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\vpx-prefix\tmp\vpx-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\cmake\BCToolboxCMakeUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\BCProjects.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\ExternalDependencies.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\LinphoneSdkUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Options.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_install.sh.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\Autotools\Autotools.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\dav1d-prefix\tmp\dav1d-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\vpx-prefix\tmp\vpx-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\cmake\BCToolboxCMakeUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\BCProjects.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\ExternalDependencies.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\LinphoneSdkUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Options.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_install.sh.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\Autotools\Autotools.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\dav1d-prefix\tmp\dav1d-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\libaom-prefix\tmp\libaom-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\openh264-prefix\tmp\openh264-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\vpx-prefix\tmp\vpx-mkdirs.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\bctoolbox\cmake\BCToolboxCMakeUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Autotools\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\BCProjects.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\CheckBuildToolsDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\ExternalDependencies.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\LinphoneSdkUtils.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Meson\install.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Options.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformCommon.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\PlatformDesktop.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_build.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_configure.sh.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\cmake\Windows\vpx_install.sh.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\CMakeFiles\openh264">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\ZERO_CHECK.vcxproj">
+      <Project>{F070D8A1-EDFC-3AC1-B6E3-02D97BB8861D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

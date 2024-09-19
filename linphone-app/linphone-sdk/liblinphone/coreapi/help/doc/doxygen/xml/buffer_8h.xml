@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="buffer_8h" kind="file" language="C++">
+    <compoundname>buffer.h</compoundname>
+    <includes refid="types_8h" local="yes">linphone/types.h</includes>
+    <includedby refid="core_8h" local="yes">core.h</includedby>
+    <sectiondef kind="func">
+      <member refid="group__misc_1gac2cf7f9328119c52d7878f30f073ff7f" kind="function"><name>linphone_buffer_new</name></member>
+      <member refid="group__misc_1gacb3cc8392f42e8ff9fe5360358d93b1c" kind="function"><name>linphone_buffer_new_from_data</name></member>
+      <member refid="group__misc_1gad300cb5a6fdcfcd846b35da184e132bc" kind="function"><name>linphone_buffer_new_from_string</name></member>
+      <member refid="group__misc_1gaa2c3e1cbb1e262ebef8744635c30d43d" kind="function"><name>linphone_buffer_ref</name></member>
+      <member refid="group__misc_1ga423146ddd503413de5dbddf27c373e2d" kind="function"><name>linphone_buffer_unref</name></member>
+      <member refid="group__misc_1gade08c8e79b779541346a4e1f42e918a1" kind="function"><name>linphone_buffer_get_user_data</name></member>
+      <member refid="group__misc_1ga51017bedc0c1222fdaa3581c8ec8aa4e" kind="function"><name>linphone_buffer_set_user_data</name></member>
+      <member refid="group__misc_1ga4dfe3ba6d046bcce75af3076b389a12c" kind="function"><name>linphone_buffer_get_content</name></member>
+      <member refid="group__misc_1gae87fbd97f38a664e2fb10a9074e620d0" kind="function"><name>linphone_buffer_set_content</name></member>
+      <member refid="group__misc_1ga6c0abf6744c174650637e68bf28ad47c" kind="function"><name>linphone_buffer_get_string_content</name></member>
+      <member refid="group__misc_1ga8537c5f3da986f2a50631078ae031466" kind="function"><name>linphone_buffer_set_string_content</name></member>
+      <member refid="group__misc_1gabeeb25bd0d4460a42fecb6dd6e1a62ae" kind="function"><name>linphone_buffer_get_size</name></member>
+      <member refid="group__misc_1ga9d725ea087b5d7670287573c2b0a7964" kind="function"><name>linphone_buffer_set_size</name></member>
+      <member refid="group__misc_1ga449783c814a3f009ae7cee6a4ff43ed1" kind="function"><name>linphone_buffer_is_empty</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LINPHONE_BUFFER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINPHONE_BUFFER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;linphone/types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*<ref refid="group__misc_1gac2cf7f9328119c52d7878f30f073ff7f" kindref="member">linphone_buffer_new</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*<ref refid="group__misc_1gacb3cc8392f42e8ff9fe5360358d93b1c" kindref="member">linphone_buffer_new_from_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*data,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*<ref refid="group__misc_1gad300cb5a6fdcfcd846b35da184e132bc" kindref="member">linphone_buffer_new_from_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*data);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">LINPHONE_PUBLIC<sp/><ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*<ref refid="group__misc_1gaa2c3e1cbb1e262ebef8744635c30d43d" kindref="member">linphone_buffer_ref</ref>(<ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*buffer);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga423146ddd503413de5dbddf27c373e2d" kindref="member">linphone_buffer_unref</ref>(<ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*buffer);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1gade08c8e79b779541346a4e1f42e918a1" kindref="member">linphone_buffer_get_user_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*buffer);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga51017bedc0c1222fdaa3581c8ec8aa4e" kindref="member">linphone_buffer_set_user_data</ref>(<ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*buffer,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*user_data);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*<ref refid="group__misc_1ga4dfe3ba6d046bcce75af3076b389a12c" kindref="member">linphone_buffer_get_content</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*buffer);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gae87fbd97f38a664e2fb10a9074e620d0" kindref="member">linphone_buffer_set_content</ref>(<ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*buffer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*content,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="group__misc_1ga6c0abf6744c174650637e68bf28ad47c" kindref="member">linphone_buffer_get_string_content</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*buffer);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga8537c5f3da986f2a50631078ae031466" kindref="member">linphone_buffer_set_string_content</ref>(<ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*buffer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*content);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__misc_1gabeeb25bd0d4460a42fecb6dd6e1a62ae" kindref="member">linphone_buffer_get_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*buffer);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">LINPHONE_PUBLIC<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga9d725ea087b5d7670287573c2b0a7964" kindref="member">linphone_buffer_set_size</ref>(<ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*buffer,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">LINPHONE_PUBLIC<sp/>bool_t<sp/><ref refid="group__misc_1ga449783c814a3f009ae7cee6a4ff43ed1" kindref="member">linphone_buffer_is_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__misc_1ga888e911d654b9cf07b994538c28160de" kindref="member">LinphoneBuffer</ref><sp/>*buffer);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LINPHONE_BUFFER_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/buffer.h"/>
+  </compounddef>
+</doxygen>

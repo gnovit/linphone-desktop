@@ -1,0 +1,10 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\AOM\CMAKEFILES\FFA2BB4A995A2616067AE31D2213C465\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/AOM.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

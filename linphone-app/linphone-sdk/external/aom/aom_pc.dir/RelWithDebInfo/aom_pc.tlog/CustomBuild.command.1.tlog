@@ -1,0 +1,20 @@
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-APP\LINPHONE-SDK\EXTERNAL\AOM\CMAKEFILES\999DE1802547053FEF9A7ACBF8028FBC\AOM.PC.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DAOM_CONFIG_DIR=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom -DAOM_ROOT=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -DCMAKE_INSTALL_PREFIX=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT -DCMAKE_INSTALL_BINDIR=bin -DCMAKE_INSTALL_INCLUDEDIR=include -DCMAKE_INSTALL_LIBDIR=lib -DCMAKE_PROJECT_NAME=AOM -DCONFIG_MULTITHREAD=1 -DCONFIG_TUNE_VMAF=0 -DCONFIG_TUNE_BUTTERAUGLI=0 -DCONFIG_SALIENCY_MAP=0 -DCONFIG_TFLITE=0 -DHAVE_PTHREAD_H=0 -P D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom/build/cmake/pkg_config.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT\VOZER\VOZER_NINJA\LINPHONE-DESKTOP\LINPHONE-SDK\EXTERNAL\AOM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

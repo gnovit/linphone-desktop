@@ -1,0 +1,16 @@
+# Opus codec reference implementation pkg-config file
+
+prefix=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT
+exec_prefix=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT
+libdir=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/lib
+includedir=D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include
+
+Name: Opus
+Description: Opus IETF audio codec ( build)
+URL: https://opus-codec.org/
+Version: 0.8.0
+Requires:
+Conflicts:
+Libs: -LD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/lib -lopus
+Libs.private: LIBM-NOTFOUND
+Cflags: -ID:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/opus

@@ -1,0 +1,24 @@
+mkdir -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/
+cp -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx/vpx/vp8.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/vp8.h
+mkdir -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/
+cp -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx/vpx/vp8cx.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/vp8cx.h
+mkdir -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/
+cp -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx/vpx/vpx_ext_ratectrl.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/vpx_ext_ratectrl.h
+mkdir -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/
+cp -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx/vpx/vp8dx.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/vp8dx.h
+mkdir -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/
+cp -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx/vpx/vpx_codec.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/vpx_codec.h
+mkdir -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/
+cp -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx/vpx/vpx_frame_buffer.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/vpx_frame_buffer.h
+mkdir -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/
+cp -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx/vpx/vpx_image.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/vpx_image.h
+mkdir -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/
+cp -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx/vpx/vpx_integer.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/vpx_integer.h
+mkdir -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/
+cp -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx/vpx/vpx_decoder.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/vpx_decoder.h
+mkdir -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/
+cp -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/libvpx/vpx/vpx_encoder.h D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/vpx/vpx_encoder.h
+mkdir -p D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/lib/x64/
+cp -p x64/Release/vpxmd.lib D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/lib/x64/vpxmd.lib
+make[1]: Nothing to be done for 'install'.
+make[1]: Nothing to be done for 'install'.

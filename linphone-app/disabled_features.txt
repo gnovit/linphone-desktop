@@ -1,0 +1,48 @@
+Disabled features:
+ * HW Sanitizer, Enable Android HW sanitizer
+ * Sanitizer, Enable Clang sanitizer
+ * Strict, Pass strict flags to the compiler.
+ * Doc, Enable documentation generation with Doxygen.
+ * Tools, Enable tools binary compilation.
+ * GPL third parties, Usage of GPL third-party code (FFmpeg).
+ * AMRNB, AMR narrow-band audio encoding/decoding support (require license) (needs ENABLE_NON_FREE_FEATURES=ON).
+ * AMRWB, AMR wide-band audio encoding/decoding support (require license) (needs ENABLE_NON_FREE_FEATURES=ON).
+ * Codec2, Codec2 audio encoding/decoding support.
+ * G726, G726 audio encoding/decoding support.
+ * G729, G.729 audio encoding/decoding support (needs ENABLE_GPL_THIRD_PARTIES=ON).
+ * G729B CNG, G.729 annex B confort noise generation (needs ENABLE_GPL_THIRD_PARTIES=ON).
+ * ISAC, ISAC audio encoding/decoding support.
+ * Silk, Silk audio encoding/decoding support.
+ * Theora, Theora video encoding/decoding support.
+ * WebRTC AECM, WebRTC echo canceller for mobile support.
+ * H263, H263 video encoding/decoding support (require license) (needs ENABLE_FFMPEG=ON and ENABLE_NON_FREE_FEATURES=ON).
+ * H263p, H263+ video encoding/decoding support (require license) (needs ENABLE_FFMPEG=ON and ENABLE_NON_FREE_FEATURES=ON).
+ * MPEG4, MPEG4 video encoding/decoding support (require license) (needs ENABLE_FFMPEG=ON and ENABLE_NON_FREE_FEATURES=ON).
+ * Embedded OpenH264, Embed the openh264 library instead of downloading it from Cisco (needs ENABLE_OPENH264=ON).
+ * V4L, Ability to capture and display video using libv4l2 (needs ENABLE_VIDEO=ON).
+ * MSWinRTVideo, Build mswinrtvid mediastreamer plugin (Deprecated).
+ * Daemon, Enable Linphone Daemon.
+ * DNS_SERVICE, Enable Apple DNS Service. Available on Mac and iOS. Incompatible with ENABLE_MDNS=ON.
+ * Example Plugin, Enable build of the liblinphone example plugin.
+ * mDNS, Multicast DNS support.
+ * Microsoft Store App, Enable build for Microsoft Store.
+ * PCAP, PCAP support.
+ * RTP Map always in SDP, Always include rtpmap in SDP.
+ * Tunnel, Enable build of tunnel.
+ * Ekt Server Plugin, Enable build of the EKT server plugin.
+ * LIME, Enable Linphone IM Encryption support in Liblinphone (Deprecated, use ENABLE_LIME_X3DH=ON instead).
+ * PQCrypto, Post Quantum Cryptography (require license) (needs ENABLE_NON_FREE_FEATURES=ON).
+ * CSharp wrapper, Build the C# wrapper from Liblinphone.
+ * Java wrapper, Build the Java wrapper from Liblinphone.
+ * Swift wrapper, Build the Swift wrapper sources from Liblinphone.
+ * Swift wrapper compilation, Compile and package the swift wrapper framework (needs ENABLE_SWIFT_WRAPPER=ON).
+ * Swift doc, Build the Swift doc from Liblinphone (needs ENABLE_SWIFT_WRAPPER=ON).
+ * AAudio, AAudio Android sound card for Android 8+.
+ * Oboe, Oboe Android sound card for Android 8+.
+ * Camera2, Android capture filter using Camera2 API for Android 8+ (needs ENABLE_VIDEO=ON).
+ * USE_ALLOCA, Use alloca for stack arrays (on non-C99 compilers)
+ * CUSTOM_MODES, Enable non-Opus modes, e.g. 44.1 kHz & 2^n frames
+ * BUILD_PROGRAMS, Build programs
+ * FIXED_POINT, compile as fixed-point (for machines without a fast enough FPU)
+ * X86_PRESUME_SSE4_1, assume target CPU has SSE4_1 support
+ * X86_PRESUME_AVX, assume target CPU has AVX support

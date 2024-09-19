@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\x64\RelWithDebInfo\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\curve25519\x64\RelWithDebInfo\decaf-gen-c25519-ntab</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\x64\RelWithDebInfo\decaf-generator-common-code</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\curve25519\x64\RelWithDebInfo\decaf-generator-p25519</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\generator\curve25519\x64\RelWithDebInfo\decaf-generator-curve25519</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

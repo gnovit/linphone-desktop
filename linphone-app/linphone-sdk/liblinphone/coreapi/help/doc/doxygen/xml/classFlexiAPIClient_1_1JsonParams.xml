@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classFlexiAPIClient_1_1JsonParams" kind="class" language="C++" prot="public">
+    <compoundname>FlexiAPIClient::JsonParams</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFlexiAPIClient_1_1JsonParams_1ae2600981a1de413de2b0996388615db7" prot="public" static="no" mutable="no">
+        <type>Json::Value</type>
+        <definition>Json::Value FlexiAPIClient::JsonParams::jsonParameters</definition>
+        <argsstring></argsstring>
+        <name>jsonParameters</name>
+        <qualifiedname>FlexiAPIClient::JsonParams::jsonParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="51" column="13" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFlexiAPIClient_1_1JsonParams_1a51e0bce87eefcb3ff757c6e35f90d077" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FlexiAPIClient::JsonParams::push</definition>
+        <argsstring>(string key, string value)</argsstring>
+        <name>push</name>
+        <qualifiedname>FlexiAPIClient::JsonParams::push</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="53" column="6" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1_1JsonParams_1ae35a2a26bf198a7e23692282620c272f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FlexiAPIClient::JsonParams::empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>FlexiAPIClient::JsonParams::empty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="57" column="6" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classFlexiAPIClient_1_1JsonParams_1ae4f2eabac266d84c90e139c14168a359" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string FlexiAPIClient::JsonParams::json</definition>
+        <argsstring>()</argsstring>
+        <name>json</name>
+        <qualifiedname>FlexiAPIClient::JsonParams::json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="61" column="8" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="61" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="49" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="49" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classFlexiAPIClient_1_1JsonParams_1ae35a2a26bf198a7e23692282620c272f" prot="public" virt="non-virtual"><scope>FlexiAPIClient::JsonParams</scope><name>empty</name></member>
+      <member refid="classFlexiAPIClient_1_1JsonParams_1ae4f2eabac266d84c90e139c14168a359" prot="public" virt="non-virtual"><scope>FlexiAPIClient::JsonParams</scope><name>json</name></member>
+      <member refid="classFlexiAPIClient_1_1JsonParams_1ae2600981a1de413de2b0996388615db7" prot="public" virt="non-virtual"><scope>FlexiAPIClient::JsonParams</scope><name>jsonParameters</name></member>
+      <member refid="classFlexiAPIClient_1_1JsonParams_1a51e0bce87eefcb3ff757c6e35f90d077" prot="public" virt="non-virtual"><scope>FlexiAPIClient::JsonParams</scope><name>push</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

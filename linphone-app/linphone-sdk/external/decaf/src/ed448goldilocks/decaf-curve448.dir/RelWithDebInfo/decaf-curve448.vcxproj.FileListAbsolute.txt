@@ -1,0 +1,1 @@
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\decaf\src\ed448goldilocks\decaf-curve448.dir\RelWithDebInfo\decaf-curve448.lib

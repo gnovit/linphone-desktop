@@ -1,0 +1,10 @@
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/openldap/libraries/liblber/lber.dir/Debug/assert.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/openldap/libraries/liblber/lber.dir/Debug/bprint.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/openldap/libraries/liblber/lber.dir/Debug/debug.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/openldap/libraries/liblber/lber.dir/Debug/decode.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/openldap/libraries/liblber/lber.dir/Debug/encode.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/openldap/libraries/liblber/lber.dir/Debug/io.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/openldap/libraries/liblber/lber.dir/Debug/memory.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/openldap/libraries/liblber/lber.dir/Debug/options.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/openldap/libraries/liblber/lber.dir/Debug/sockbuf.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/openldap/libraries/liblber/lber.dir/Debug/nt_err.obj

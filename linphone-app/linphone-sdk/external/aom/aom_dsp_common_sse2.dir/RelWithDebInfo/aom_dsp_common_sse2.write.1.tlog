@@ -1,0 +1,14 @@
+^D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_dsp\x86\aom_high_subpixel_8t_sse2.asm
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\RelWithDebInfo\aom_high_subpixel_8t_sse2.obj
+^D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_dsp\x86\aom_high_subpixel_bilinear_sse2.asm
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\RelWithDebInfo\aom_high_subpixel_bilinear_sse2.obj
+^D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_dsp\x86\aom_subpixel_8t_sse2.asm
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\RelWithDebInfo\aom_subpixel_8t_sse2.obj
+^D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_dsp\x86\aom_subpixel_bilinear_sse2.asm
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\RelWithDebInfo\aom_subpixel_bilinear_sse2.obj
+^D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_dsp\x86\highbd_intrapred_asm_sse2.asm
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\RelWithDebInfo\highbd_intrapred_asm_sse2.obj
+^D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_dsp\x86\intrapred_asm_sse2.asm
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\RelWithDebInfo\intrapred_asm_sse2.obj
+^D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_dsp\x86\inv_wht_sse2.asm
+D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\RelWithDebInfo\inv_wht_sse2.obj

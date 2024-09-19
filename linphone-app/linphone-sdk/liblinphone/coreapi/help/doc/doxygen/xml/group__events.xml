@@ -1,0 +1,933 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__events" kind="group">
+    <compoundname>events</compoundname>
+    <title>Events</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__events_1ga43e52b3bc4d4df75621c9fd95cff0e08" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_EventLogType</name>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a606144c3450eb5a130d9d170d4dd4d2b" prot="public">
+          <name>LinphoneEventLogTypeNone</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>No defined event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a19a4630375fee820ef2450ba6697153e" prot="public">
+          <name>LinphoneEventLogTypeConferenceCreated</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Conference (created) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08ac55797d36d88dae220ea2f2e849bdfb3" prot="public">
+          <name>LinphoneEventLogTypeConferenceTerminated</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>Conference (terminated) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08ad9f6ac8deae25e2fe86836ab6f136d2e" prot="public">
+          <name>LinphoneEventLogTypeConferenceCallStarted</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Conference call (start) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a201d18a1c239b07d980348442b1a2f78" prot="public">
+          <name>LinphoneEventLogTypeConferenceConnected</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+<para>Conference call (connected) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a725e976fe12df06aab4cfcb2f8109b31" prot="public">
+          <name>LinphoneEventLogTypeConferenceCallEnded</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>Conference call (end) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a9e63083f5247e7ba12dda62bf191f877" prot="public">
+          <name>LinphoneEventLogTypeConferenceChatMessage</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+<para>Conference chat message event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a75e918cf25a8d2f21d6f557ccfc86c3f" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantAdded</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+<para>Conference participant (added) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a33dabf10374f814336a606b1dbc88b72" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantRemoved</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+<para>Conference participant (removed) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08aa65ddd4cf8c890985ab480cd0ded3a5a" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantRoleUnknown</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+<para>Conference participant (role unknown) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08abc05c24f4dd730af2a465fc1c98e0e37" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantRoleSpeaker</name>
+          <initializer>= 26</initializer>
+          <briefdescription>
+<para>Conference participant (role speaker) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a4104ba0f5587c3d5cec0d0cddd1ec18f" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantRoleListener</name>
+          <initializer>= 27</initializer>
+          <briefdescription>
+<para>Conference participant (role listener) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08af8e46ef745f89f9ee2fc1c57eabe894f" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantSetAdmin</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+<para>Conference participant (set admin) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08aae15727eaf588b4a8eb1d2a7399f1e04" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantUnsetAdmin</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+<para>Conference participant (unset admin) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a8cadf0c40d85d87bff4d6e5d8d678a4c" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantDeviceAdded</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+<para>Conference participant device (added) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a066fcc736c57119fece19789f692f30a" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantDeviceRemoved</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+<para>Conference participant device (removed) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08af9e5226c2562612fcb1ac722daff087c" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantDeviceMediaCapabilityChanged</name>
+          <initializer>=
+	    17</initializer>
+          <briefdescription>
+<para>Conference participant device (media capability changed) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a35733641a4cb71409701b7b498f3dc19" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantDeviceMediaAvailabilityChanged</name>
+          <initializer>=
+	    23</initializer>
+          <briefdescription>
+<para>Conference participant device (media availability changed) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08ad30085b09c3f25f34c92e7d3987d6df6" prot="public">
+          <name>LinphoneEventLogTypeConferenceParticipantDeviceStatusChanged</name>
+          <initializer>=
+	    22</initializer>
+          <briefdescription>
+<para>Conference participant device (left) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a7c0746cf3ce42f5aa7d542cdd75d03de" prot="public">
+          <name>LinphoneEventLogTypeConferenceSubjectChanged</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+<para>Conference subject event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08ab6952f58b78e04872aa4f08ef7100ef7" prot="public">
+          <name>LinphoneEventLogTypeConferenceAvailableMediaChanged</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+<para>Conference available media event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a3a840d1f082bb0184850cd886c007088" prot="public">
+          <name>LinphoneEventLogTypeConferenceSecurityEvent</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+<para>Conference encryption security event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a458ec765b29df7cd8b8741ed07e29bbe" prot="public">
+          <name>LinphoneEventLogTypeConferenceEphemeralMessageLifetimeChanged</name>
+          <initializer>=
+	    14</initializer>
+          <briefdescription>
+<para>Conference ephemeral message (ephemeral message lifetime changed) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a08b08273d20d1eae1ff3049693cf7f54" prot="public">
+          <name>LinphoneEventLogTypeConferenceEphemeralMessageEnabled</name>
+          <initializer>=
+	    15</initializer>
+          <briefdescription>
+<para>Conference ephemeral message (ephemeral message enabled) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08ae4bb74bbc6a3d3ca346bcc33aa5f2253" prot="public">
+          <name>LinphoneEventLogTypeConferenceEphemeralMessageDisabled</name>
+          <initializer>=
+	    16</initializer>
+          <briefdescription>
+<para>Conference ephemeral message (ephemeral message disabled) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a74c04deccc0149166ecbcfe98d9a8bbc" prot="public">
+          <name>LinphoneEventLogTypeConferenceEphemeralMessageManagedByAdmin</name>
+          <initializer>=
+	    19</initializer>
+          <briefdescription>
+<para>Conference ephemeral message (ephemeral message settings managed by admin) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a0f1c84cc5d4acbcc8aaa285c0d9d71c6" prot="public">
+          <name>LinphoneEventLogTypeConferenceEphemeralMessageManagedByParticipants</name>
+          <initializer>=
+	    20</initializer>
+          <briefdescription>
+<para>Conference ephemeral message (ephemeral message settings managed by participants) event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga43e52b3bc4d4df75621c9fd95cff0e08a8bc592d2e06944b7acd97b733f5e38fb" prot="public">
+          <name>LinphoneEventLogTypeConferenceChatMessageReaction</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+<para>Reaction event to a chat message. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para><ref refid="group__events_1ga3a1054e1bfc5ed722b36e993468aa06a" kindref="member">LinphoneEventLogType</ref> is used to indicate the type of an event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Useful for cast. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/event-log-enums.h" line="34" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/event-log-enums.h" bodystart="34" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__events_1ga2c2b8c691054de14fdb4f0232bb6786e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_SecurityEventType</name>
+        <enumvalue id="group__events_1gga2c2b8c691054de14fdb4f0232bb6786ea7c680b1e297ea35a8eb42eb17a331c52" prot="public">
+          <name>LinphoneSecurityEventTypeNone</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Event is not a security event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga2c2b8c691054de14fdb4f0232bb6786ea2b44ae6f5eca98d3c1d25e200e0e0eb9" prot="public">
+          <name>LinphoneSecurityEventTypeSecurityLevelDowngraded</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Chatroom security level downgraded event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga2c2b8c691054de14fdb4f0232bb6786ea7f144fec2349907372f44a6cc258629d" prot="public">
+          <name>LinphoneSecurityEventTypeParticipantMaxDeviceCountExceeded</name>
+          <initializer>=
+	    2</initializer>
+          <briefdescription>
+<para>Participant has exceeded the maximum number of device event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga2c2b8c691054de14fdb4f0232bb6786eabbaf22b410d28e7ecc51411b01a09bfb" prot="public">
+          <name>LinphoneSecurityEventTypeEncryptionIdentityKeyChanged</name>
+          <initializer>=
+	    3</initializer>
+          <briefdescription>
+<para>Peer device instant messaging encryption identity key has changed event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__events_1gga2c2b8c691054de14fdb4f0232bb6786eae11dde32c4c7fabbbfc66a510c70b469" prot="public">
+          <name>LinphoneSecurityEventTypeManInTheMiddleDetected</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>Man in the middle detected event. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para><ref refid="group__events_1ga4b156df57ddbf280a1e208fa9c2e6af2" kindref="member">LinphoneSecurityEventType</ref> is used to indicate the type of security event. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/security-event-enums.h" line="31" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/security-event-enums.h" bodystart="31" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__events_1ga4befcba96583d9e9d9f2b775cccfb2b7" prot="public" static="no">
+        <type>struct _LinphoneEvent</type>
+        <definition>typedef struct _LinphoneEvent LinphoneEvent</definition>
+        <argsstring></argsstring>
+        <name>LinphoneEvent</name>
+        <briefdescription>
+<para>Object representing an event state, which is subcribed or published. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="group__event__api_1ga6fa5835d4bcd1a75a4ade66d85f4ecd1" kindref="member">linphone_core_publish()</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__event__api_1ga2c2b4c0462aac9b2721a51d0a4bd4cfc" kindref="member">linphone_core_subscribe()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="462" column="29" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__events_1ga2bfe820c484ca3634c46a622bdebb3db" prot="public" static="no">
+        <type>struct _LinphoneEventCbs</type>
+        <definition>typedef struct _LinphoneEventCbs LinphoneEventCbs</definition>
+        <argsstring></argsstring>
+        <name>LinphoneEventCbs</name>
+        <briefdescription>
+<para>An object to handle the callbacks for handling the LinphoneEvent operations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="468" column="32" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" prot="public" static="no">
+        <type>struct _LinphoneEventLog</type>
+        <definition>typedef struct _LinphoneEventLog LinphoneEventLog</definition>
+        <argsstring></argsstring>
+        <name>LinphoneEventLog</name>
+        <briefdescription>
+<para>Object that represents an event that must be stored in database. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>For example, all chat related events are wrapped in an <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref>, and many callbacks use this kind of type as parameter.</para>
+<para>Use <ref refid="group__events_1gaf26cfcbb3dcb28e52127b417e0bc9bd3" kindref="member">linphone_event_log_get_type()</ref> to get the <ref refid="group__events_1ga3a1054e1bfc5ed722b36e993468aa06a" kindref="member">LinphoneEventLogType</ref> it refers to, and then you can use one of the accessor methods to get the underlying object, for example <ref refid="group__events_1ga5f712984df3291b0e561f28d07fcb7b1" kindref="member">linphone_event_log_get_chat_message()</ref> for a <ref refid="group__chatroom_1gada79c4417919389b5247e254279f7833" kindref="member">LinphoneChatMessage</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" line="481" column="32" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-types.h" bodystart="481" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__events_1ga3a1054e1bfc5ed722b36e993468aa06a" prot="public" static="no">
+        <type>enum <ref refid="group__events_1ga43e52b3bc4d4df75621c9fd95cff0e08" kindref="member">_EventLogType</ref></type>
+        <definition>typedef enum _EventLogType LinphoneEventLogType</definition>
+        <argsstring></argsstring>
+        <name>LinphoneEventLogType</name>
+        <briefdescription>
+<para><ref refid="group__events_1ga3a1054e1bfc5ed722b36e993468aa06a" kindref="member">LinphoneEventLogType</ref> is used to indicate the type of an event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Useful for cast. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/event-log-enums.h" line="71" column="22"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__events_1ga4b156df57ddbf280a1e208fa9c2e6af2" prot="public" static="no">
+        <type>enum <ref refid="group__events_1ga2c2b8c691054de14fdb4f0232bb6786e" kindref="member">_SecurityEventType</ref></type>
+        <definition>typedef enum _SecurityEventType LinphoneSecurityEventType</definition>
+        <argsstring></argsstring>
+        <name>LinphoneSecurityEventType</name>
+        <briefdescription>
+<para><ref refid="group__events_1ga4b156df57ddbf280a1e208fa9c2e6af2" kindref="member">LinphoneSecurityEventType</ref> is used to indicate the type of security event. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/security-event-enums.h" line="39" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__events_1ga88d50efbe12ebf178e498a76cf833876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+        <definition>LinphoneEventLog * linphone_event_log_ref</definition>
+        <argsstring>(LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_ref</name>
+        <param>
+          <type><ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Increment reference count of <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="46" column="19" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="46" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1ga42062ca200d9f83ec55ed0a399a7b678" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_event_log_unref</definition>
+        <argsstring>(LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_unref</name>
+        <param>
+          <type><ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Decrement reference count of <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>When dropped to zero, memory is freed. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="52" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="52" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1gaf26cfcbb3dcb28e52127b417e0bc9bd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__events_1ga3a1054e1bfc5ed722b36e993468aa06a" kindref="member">LinphoneEventLogType</ref></type>
+        <definition>LinphoneEventLogType linphone_event_log_get_type</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_type</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the type of a event log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__events_1ga3a1054e1bfc5ed722b36e993468aa06a" kindref="member">LinphoneEventLogType</ref> type </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="59" column="23" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="59" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1ga1bde003702aa4a4445b762f52b8777f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>time_t</type>
+        <definition>time_t linphone_event_log_get_creation_time</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_creation_time</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the creation time of a event log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The event creation time </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="66" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="66" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1ga86a7ceb11f26cf0a657a8321614f9a6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_event_log_delete_from_database</definition>
+        <argsstring>(LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_delete_from_database</name>
+        <param>
+          <type><ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Delete event log from database. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="72" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="72" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1gaf05a6c51f6f6d631ee3fe843a0015277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>const LinphoneAddress * linphone_event_log_get_peer_address</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_peer_address</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the peer address of a conference event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The peer <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref>.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="83" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="83" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1ga5959d3c41d7b68db7a823a4cfb9e1b74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>const LinphoneAddress * linphone_event_log_get_local_address</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_local_address</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the local address of a conference event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The local <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref>.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="90" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="90" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1gac10e05d8b8a77b523111c31c64ee1423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int linphone_event_log_get_notify_id</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_notify_id</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the notify id of a conference notified event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The conference notify id. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="101" column="15" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="101" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1gaa78e5dbdc44da2e5aeb83e604f6aad83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref> *</type>
+        <definition>LinphoneCallLog * linphone_event_log_get_call_log</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_call_log</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the call log of a conference call event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The conference <ref refid="group__call__logs_1gab700f6646681d1f4614a049892bc764a" kindref="member">LinphoneCallLog</ref>.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="112" column="18" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="112" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1ga875c0f544c679f841a931d2a5f18f793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__conference_1ga8b9689daf029f49b83e898b61129be2e" kindref="member">LinphoneConferenceInfo</ref> *</type>
+        <definition>LinphoneConferenceInfo * linphone_event_log_get_conference_info</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_conference_info</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the conference info of a conference call event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The conference <ref refid="group__conference_1ga8b9689daf029f49b83e898b61129be2e" kindref="member">LinphoneConferenceInfo</ref>.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="119" column="25" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="119" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1ga5f712984df3291b0e561f28d07fcb7b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__chatroom_1gada79c4417919389b5247e254279f7833" kindref="member">LinphoneChatMessage</ref> *</type>
+        <definition>LinphoneChatMessage * linphone_event_log_get_chat_message</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_chat_message</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the chat message of a conference chat message event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The conference <ref refid="group__chatroom_1gada79c4417919389b5247e254279f7833" kindref="member">LinphoneChatMessage</ref>.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="130" column="22" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="130" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1gae2fb9eda10b678eda68ba8a6fd56b1fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>const LinphoneAddress * linphone_event_log_get_participant_address</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_participant_address</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the participant address of a conference participant event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A ConferenceParticipantEvent object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The conference participant <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref>.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="141" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="141" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1ga94a13340b694f00643251fd67a808d35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>const LinphoneAddress * linphone_event_log_get_device_address</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_device_address</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the device address of a conference participant device event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The conference device <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref>.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="152" column="24" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="152" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1ga5bfc03b4eda33a76bc15214bdfa2ba03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__events_1ga4b156df57ddbf280a1e208fa9c2e6af2" kindref="member">LinphoneSecurityEventType</ref></type>
+        <definition>LinphoneSecurityEventType linphone_event_log_get_security_event_type</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_security_event_type</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the type of security event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__events_1ga4b156df57ddbf280a1e208fa9c2e6af2" kindref="member">LinphoneSecurityEventType</ref> type. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="163" column="28" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="163" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1gab2d7e245aa35316a2a290355b333a9a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> *</type>
+        <definition>const LinphoneAddress * linphone_event_log_get_security_event_faulty_device_address</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_security_event_faulty_device_address</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the faulty device address of a conference security event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="group__linphone__address_1ga805d79aa8486fc79616c979fe9a51021" kindref="member">LinphoneAddress</ref> of the faulty device.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="171" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="171" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1ga4f9b8a3f3701ffcd12ba1505bb4410af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_event_log_get_subject</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_subject</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the subject of a conference subject event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The conference subject.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="182" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="182" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__events_1gac2b5871637956497e508d95b5870e0c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long linphone_event_log_get_ephemeral_message_lifetime</definition>
+        <argsstring>(const LinphoneEventLog *event_log)</argsstring>
+        <name>linphone_event_log_get_ephemeral_message_lifetime</name>
+        <param>
+          <type>const <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> *</type>
+          <declname>event_log</declname>
+        </param>
+        <briefdescription>
+<para>Returns the ephemeral message lifetime of a conference ephemeral message event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Ephemeral lifetime means the time before an ephemeral message which has been viewed gets deleted. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event_log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="group__events_1ga4264d40d3c78b6ffbc27a61d8c81134b" kindref="member">LinphoneEventLog</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The ephemeral message lifetime. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" line="194" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-event-log.h" declline="194" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{15B1D058-4CAC-397E-80E4-D069D3BB9DB8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>aom</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">aom.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">aom</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">aom.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">aom</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">aom.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">aom</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">aom.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">aom</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats\;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\apps;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\common;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\examples;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\stats;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\third_party\libyuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.29\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindMsys.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeCCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeCXXCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeRCCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeSystem.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\config\aom_config.asm.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\config\aom_config.h.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_dsp\aom_dsp.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_mem\aom_mem.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_ports\aom_ports.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_scale\aom_scale.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_util\aom_util.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\av1\av1.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_config.c.template;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_config_defaults.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_configure.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_experiment_deps.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_install.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_optimization.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\compiler_flags.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\compiler_tests.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\cpu.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\sanitizers.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\util.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\test\test.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\test\test_data_util.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.29\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindMsys.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeCCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeCXXCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeRCCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeSystem.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\config\aom_config.asm.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\config\aom_config.h.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_dsp\aom_dsp.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_mem\aom_mem.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_ports\aom_ports.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_scale\aom_scale.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_util\aom_util.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\av1\av1.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_config.c.template;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_config_defaults.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_configure.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_experiment_deps.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_install.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_optimization.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\compiler_flags.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\compiler_tests.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\cpu.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\sanitizers.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\util.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\test\test.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\test\test_data_util.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.29\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindMsys.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeCCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeCXXCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeRCCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeSystem.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\config\aom_config.asm.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\config\aom_config.h.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_dsp\aom_dsp.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_mem\aom_mem.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_ports\aom_ports.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_scale\aom_scale.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_util\aom_util.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\av1\av1.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_config.c.template;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_config_defaults.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_configure.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_experiment_deps.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_install.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_optimization.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\compiler_flags.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\compiler_tests.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\cpu.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\sanitizers.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\util.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\test\test.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\test\test_data_util.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/external/aom -BD:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom --check-stamp-file D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/aom/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeASM_NASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestASM_NASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.29\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindMsys.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.props.in;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeASM_NASMCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeCCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeCXXCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeRCCompiler.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\3.29.6\CMakeSystem.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\config\aom_config.asm.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\config\aom_config.h.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_dsp\aom_dsp.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_mem\aom_mem.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_ports\aom_ports.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_scale\aom_scale.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\aom_util\aom_util.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\av1\av1.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_config.c.template;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_config_defaults.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_configure.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_experiment_deps.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_install.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\aom_optimization.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\compiler_flags.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\compiler_tests.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\cpu.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\sanitizers.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\build\cmake\util.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\test\test.cmake;D:\git\vozer\vozer_ninja\linphone-desktop\linphone-sdk\external\aom\test\test_data_util.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_obj.dir\$(Configuration)\aom_config.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_obj.dir\$(Configuration)\aom_codec.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_obj.dir\$(Configuration)\aom_decoder.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_obj.dir\$(Configuration)\aom_encoder.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_obj.dir\$(Configuration)\aom_image.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_obj.dir\$(Configuration)\aom_integer.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_rtcd.dir\$(Configuration)\aom_dsp_rtcd.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_rtcd.dir\$(Configuration)\aom_scale_rtcd.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_rtcd.dir\$(Configuration)\av1_rtcd.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\aom_convolve.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\bitreader_buffer.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\bitwriter_buffer.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\blend_a64_hmask.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\blend_a64_mask.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\blend_a64_vmask.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\entcode.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\fft.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\intrapred.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\loopfilter.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\odintrin.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.dir\$(Configuration)\subtract.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\avg.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\binary_codes_writer.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\bitwriter.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\blk_sse_sum.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\entenc.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\fwd_txfm.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\grain_table.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\noise_model.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\noise_util.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\psnr.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\quantize.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\sad.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\sad_av1.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\sse.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\ssim.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\sum_squares.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.dir\$(Configuration)\variance.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\$(Configuration)\aom_high_subpixel_8t_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\$(Configuration)\aom_high_subpixel_bilinear_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\$(Configuration)\aom_subpixel_8t_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\$(Configuration)\aom_subpixel_bilinear_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\$(Configuration)\highbd_intrapred_asm_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\$(Configuration)\intrapred_asm_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.dir\$(Configuration)\inv_wht_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\aom_convolve_copy_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\aom_subpixel_8t_intrin_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\aom_asm_stubs.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\fft_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\highbd_intrapred_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\intrapred_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\loopfilter_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\highbd_convolve_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2_intrinsics.dir\$(Configuration)\highbd_loopfilter_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2.dir\$(Configuration)\sad4d_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2.dir\$(Configuration)\sad_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2.dir\$(Configuration)\subpel_variance_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2.dir\$(Configuration)\subtract_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2.dir\$(Configuration)\highbd_sad4d_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2.dir\$(Configuration)\highbd_sad_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2.dir\$(Configuration)\highbd_subpel_variance_impl_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2.dir\$(Configuration)\highbd_variance_impl_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2.dir\$(Configuration)\ssim_sse2_x86_64.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\avg_intrin_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\fwd_txfm_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\quantize_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\blk_sse_sum_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\sum_squares_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\variance_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\jnt_sad_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\highbd_adaptive_quantize_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\highbd_quantize_intrin_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\highbd_subtract_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.dir\$(Configuration)\highbd_variance_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_ssse3.dir\$(Configuration)\aom_subpixel_8t_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_ssse3.dir\$(Configuration)\aom_subpixel_bilinear_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_ssse3_intrinsics.dir\$(Configuration)\aom_subpixel_8t_intrin_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_ssse3_intrinsics.dir\$(Configuration)\intrapred_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_ssse3_intrinsics.dir\$(Configuration)\highbd_convolve_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_ssse3.dir\$(Configuration)\fwd_txfm_ssse3_x86_64.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_ssse3.dir\$(Configuration)\quantize_ssse3_x86_64.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_ssse3_intrinsics.dir\$(Configuration)\masked_sad_intrin_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_ssse3_intrinsics.dir\$(Configuration)\masked_sad4d_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_ssse3_intrinsics.dir\$(Configuration)\masked_variance_intrin_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_ssse3_intrinsics.dir\$(Configuration)\quantize_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_ssse3_intrinsics.dir\$(Configuration)\variance_impl_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_ssse3_intrinsics.dir\$(Configuration)\jnt_variance_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse4_1_intrinsics.dir\$(Configuration)\blend_a64_hmask_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse4_1_intrinsics.dir\$(Configuration)\blend_a64_mask_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse4_1_intrinsics.dir\$(Configuration)\blend_a64_vmask_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse4_1_intrinsics.dir\$(Configuration)\intrapred_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse4_1_intrinsics.dir\$(Configuration)\avg_intrin_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse4_1_intrinsics.dir\$(Configuration)\sse_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse4_1_intrinsics.dir\$(Configuration)\highbd_variance_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx_intrinsics.dir\$(Configuration)\aom_quantize_avx.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\aom_convolve_copy_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\aom_subpixel_8t_intrin_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\fft_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\intrapred_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\loopfilter_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\blend_a64_mask_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\highbd_convolve_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_avx2_intrinsics.dir\$(Configuration)\highbd_loopfilter_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\avg_intrin_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\masked_sad_intrin_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\subtract_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\highbd_quantize_intrin_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\highbd_adaptive_quantize_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\quantize_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\sad4d_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\sad_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\highbd_sad_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\sad_impl_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\variance_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\sse_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\variance_impl_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\blk_sse_sum_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\sum_squares_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.dir\$(Configuration)\highbd_variance_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp.dir\$(Configuration)\aom_av1_no_op.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp.dir\$(Configuration)\aom_dsp_no_op.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_mem.dir\$(Configuration)\aom_mem.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_ports.dir\$(Configuration)\float.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_util.dir\$(Configuration)\aom_thread.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_scale.dir\$(Configuration)\aom_scale.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_scale.dir\$(Configuration)\gen_scalers.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_scale.dir\$(Configuration)\yv12config.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_scale.dir\$(Configuration)\yv12extend.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\args_helper.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\arg_defs.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\alloccommon.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\av1_inv_txfm1d.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\av1_inv_txfm2d.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\av1_loopfilter.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\av1_txfm.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\blockd.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\cdef.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\cdef_block.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\cfl.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\common_data.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\convolve.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\debugmodes.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\entropy.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\entropymode.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\entropymv.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\frame_buffers.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\idct.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\mvref_common.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\obu_util.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\pred_common.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\quant_common.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\reconinter.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\reconintra.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\resize.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\restoration.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\scale.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\scan.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\seg_common.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\thread_common.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\tile_common.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\timing.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\txb_common.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.dir\$(Configuration)\warped_motion.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\av1_cx_iface.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\aq_complexity.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\aq_cyclicrefresh.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\aq_variance.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\allintra_vis.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\av1_fwd_txfm1d.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\av1_fwd_txfm2d.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\av1_quantize.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\bitstream.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\compound_type.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\context_tree.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\cost.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\encodeframe.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\encodeframe_utils.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\encodemb.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\encodemv.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\encode_strategy.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\encoder.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\encoder_utils.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\encodetxb.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\ethread.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\extend.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\external_partition.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\hash.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\hash_motion.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\hybrid_fwd_txfm.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\interp_search.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\level.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\lookahead.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\mcomp.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\ml.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\motion_search_facade.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\mv_prec.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\palette.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\partition_search.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\partition_strategy.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\pickcdef.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\picklpf.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\ratectrl.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\rd.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\rdopt.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\nonrd_pickmode.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\nonrd_opt.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\reconinter_enc.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\segmentation.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\speed_features.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\superres_scale.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\svc_layercontext.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\thirdpass.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\tokenize.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\tx_search.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\txb_rdopt.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\intra_mode_search.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\wedge_utils.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\var_based_part.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\av1_noise_estimate.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\fast.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\fast_9.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\nonmax.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\vector.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.dir\$(Configuration)\dwt.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\cdef_block_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\cfl_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\convolve_2d_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\convolve_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\jnt_convolve_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\warp_plane_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse2_intrinsics.dir\$(Configuration)\wiener_convolve_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2.dir\$(Configuration)\dct_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2.dir\$(Configuration)\error_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\av1_fwd_txfm_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\av1_k_means_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\av1_quantize_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\encodetxb_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\error_intrin_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\reconinter_enc_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\temporal_filter_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\wedge_utils_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\highbd_block_error_intrin_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2_intrinsics.dir\$(Configuration)\highbd_temporal_filter_sse2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse3_intrinsics.dir\$(Configuration)\ml_sse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\av1_inv_txfm_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\cdef_block_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\cfl_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\jnt_convolve_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\resize_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\highbd_convolve_2d_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\highbd_wiener_convolve_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_ssse3_intrinsics.dir\$(Configuration)\reconinter_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_ssse3_intrinsics.dir\$(Configuration)\reconinter_enc_ssse3.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\av1_convolve_horiz_rs_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\av1_convolve_scale_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\av1_txfm_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\cdef_block_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\filterintra_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\highbd_inv_txfm_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\intra_edge_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\reconinter_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\selfguided_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\warp_plane_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\highbd_convolve_2d_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\highbd_jnt_convolve_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.dir\$(Configuration)\highbd_warp_plane_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_ssse3.dir\$(Configuration)\av1_quantize_ssse3_x86_64.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\av1_fwd_txfm1d_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\av1_fwd_txfm2d_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\encodetxb_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\highbd_fwd_txfm_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\rdopt_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse4_intrinsics.dir\$(Configuration)\av1_highbd_quantize_sse4.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse42_intrinsics.dir\$(Configuration)\hash_sse42.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\av1_inv_txfm_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\cdef_block_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\cfl_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\convolve_2d_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\convolve_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\highbd_inv_txfm_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\jnt_convolve_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\reconinter_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\selfguided_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\warp_plane_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\wiener_convolve_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\highbd_convolve_2d_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\highbd_jnt_convolve_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\highbd_wiener_convolve_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.dir\$(Configuration)\highbd_warp_affine_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\av1_quantize_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\error_intrin_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\av1_fwd_txfm2d_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\highbd_fwd_txfm_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\wedge_utils_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\encodetxb_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\rdopt_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\av1_k_means_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\temporal_filter_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\av1_highbd_quantize_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\highbd_block_error_intrin_avx2.obj" />
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.dir\$(Configuration)\highbd_temporal_filter_avx2.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\ZERO_CHECK.vcxproj">
+      <Project>{C2267573-73E6-3F5A-B05F-597E31D0599F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common.vcxproj">
+      <Project>{E3F0964D-1625-3525-AF4F-EBB5F2049852}</Project>
+      <Name>aom_av1_common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_avx2_intrinsics.vcxproj">
+      <Project>{6D056C7D-601F-3D1D-9AD4-FFC625A55F92}</Project>
+      <Name>aom_av1_common_avx2_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse2_intrinsics.vcxproj">
+      <Project>{3413D503-780B-31FA-8359-5AF4237E78F0}</Project>
+      <Name>aom_av1_common_sse2_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_sse4_intrinsics.vcxproj">
+      <Project>{FE3B183F-AF80-3708-A9A9-270E5B21CF53}</Project>
+      <Name>aom_av1_common_sse4_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_common_ssse3_intrinsics.vcxproj">
+      <Project>{2ABC48B1-45ED-3962-985A-82D27C2BEBD5}</Project>
+      <Name>aom_av1_common_ssse3_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder.vcxproj">
+      <Project>{3273BEC8-8100-3AC2-8D06-39D13AFCFFD4}</Project>
+      <Name>aom_av1_encoder</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_avx2_intrinsics.vcxproj">
+      <Project>{B3EA250B-13D8-35C4-9B63-3D6ACCBDAA9C}</Project>
+      <Name>aom_av1_encoder_avx2_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2.vcxproj">
+      <Project>{54616DFF-1AA3-3908-B571-E68D9FDCCE48}</Project>
+      <Name>aom_av1_encoder_sse2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse2_intrinsics.vcxproj">
+      <Project>{1174A973-2E74-3E3F-A30F-3462E6F26A0B}</Project>
+      <Name>aom_av1_encoder_sse2_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse3_intrinsics.vcxproj">
+      <Project>{C4C3901E-3DD2-3D1D-8FA2-07656E35ECAE}</Project>
+      <Name>aom_av1_encoder_sse3_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse42_intrinsics.vcxproj">
+      <Project>{4BA486D2-8900-32B7-86A1-70FCCB7EF962}</Project>
+      <Name>aom_av1_encoder_sse42_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_sse4_intrinsics.vcxproj">
+      <Project>{B1B9E4BC-65C2-315D-A567-E655885C4FBA}</Project>
+      <Name>aom_av1_encoder_sse4_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_ssse3.vcxproj">
+      <Project>{263D661D-4D12-39F0-93EB-FFCF9D6548D0}</Project>
+      <Name>aom_av1_encoder_ssse3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_av1_encoder_ssse3_intrinsics.vcxproj">
+      <Project>{0F0ECFB1-BBD8-30FB-B1D6-F0ECFA9A73F1}</Project>
+      <Name>aom_av1_encoder_ssse3_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp.vcxproj">
+      <Project>{051BF00F-F2B7-3B83-B1B3-763AE758B9DD}</Project>
+      <Name>aom_dsp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common.vcxproj">
+      <Project>{121A879A-DE06-3817-8C5A-A854EBB64E46}</Project>
+      <Name>aom_dsp_common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_avx2_intrinsics.vcxproj">
+      <Project>{44CE4113-178B-366E-8B58-65ABC2D20B9D}</Project>
+      <Name>aom_dsp_common_avx2_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2.vcxproj">
+      <Project>{C8DB1D7A-7A39-3567-841B-E21AA0B6D24C}</Project>
+      <Name>aom_dsp_common_sse2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse2_intrinsics.vcxproj">
+      <Project>{D56C6C80-CA2C-3E1B-9E99-853B958D7F65}</Project>
+      <Name>aom_dsp_common_sse2_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_sse4_1_intrinsics.vcxproj">
+      <Project>{CA8D3337-544C-3015-BAFB-D6B45ACF197D}</Project>
+      <Name>aom_dsp_common_sse4_1_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_ssse3.vcxproj">
+      <Project>{C861D97D-81DA-3769-BEBF-A32CBBCFE0AD}</Project>
+      <Name>aom_dsp_common_ssse3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_common_ssse3_intrinsics.vcxproj">
+      <Project>{8D29DB5C-A8BE-3AD9-A211-D8C016F50D4E}</Project>
+      <Name>aom_dsp_common_ssse3_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder.vcxproj">
+      <Project>{348D4738-2D8D-343D-BDA3-D7BCFCE8E553}</Project>
+      <Name>aom_dsp_encoder</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx2_intrinsics.vcxproj">
+      <Project>{495B3EC6-E2B7-37EC-86E6-81CAF54409DF}</Project>
+      <Name>aom_dsp_encoder_avx2_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_avx_intrinsics.vcxproj">
+      <Project>{2F9CE1A8-E67D-39FA-9D24-7937B8A4E137}</Project>
+      <Name>aom_dsp_encoder_avx_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2.vcxproj">
+      <Project>{23626B0D-00BF-37FF-8962-D87B023F07CA}</Project>
+      <Name>aom_dsp_encoder_sse2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse2_intrinsics.vcxproj">
+      <Project>{7B74EF97-2EEA-38B9-A595-47545A536BE6}</Project>
+      <Name>aom_dsp_encoder_sse2_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_sse4_1_intrinsics.vcxproj">
+      <Project>{4793689E-41F1-3E1B-AA67-4ABE84F11D76}</Project>
+      <Name>aom_dsp_encoder_sse4_1_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_ssse3.vcxproj">
+      <Project>{CA7D768E-59A1-3C17-905B-40D5E2674B6D}</Project>
+      <Name>aom_dsp_encoder_ssse3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_dsp_encoder_ssse3_intrinsics.vcxproj">
+      <Project>{9E4C7DAC-E610-3631-9668-5B5493280CA8}</Project>
+      <Name>aom_dsp_encoder_ssse3_intrinsics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_mem.vcxproj">
+      <Project>{98669A3E-788D-32D5-999F-ACE84AB33033}</Project>
+      <Name>aom_mem</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_obj.vcxproj">
+      <Project>{83FFDCAA-2DE8-394C-A990-1AA84CBC2F27}</Project>
+      <Name>aom_obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_ports.vcxproj">
+      <Project>{B606CE94-3DB5-3241-B3F0-CAAF5A544003}</Project>
+      <Name>aom_ports</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_rtcd.vcxproj">
+      <Project>{DC4875C4-E0F7-3917-BBCE-C54B8219934E}</Project>
+      <Name>aom_rtcd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_scale.vcxproj">
+      <Project>{586D5DF7-D2F1-37E0-B46A-0558ABCDBD35}</Project>
+      <Name>aom_scale</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-sdk\external\aom\aom_util.vcxproj">
+      <Project>{D4E604FF-BA04-3520-BD3E-C95A313BACD4}</Project>
+      <Name>aom_util</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.29\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

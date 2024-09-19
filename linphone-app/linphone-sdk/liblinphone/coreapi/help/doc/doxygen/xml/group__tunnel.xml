@@ -1,0 +1,1631 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__tunnel" kind="group">
+    <compoundname>tunnel</compoundname>
+    <title>Tunnel</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__tunnel_1gac832d7950d88dc22e3d002ffd46a2d36" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneTunnelMode</name>
+        <enumvalue id="group__tunnel_1ggac832d7950d88dc22e3d002ffd46a2d36a52d2fc6a079979cffe8bdb3a0b1e2faa" prot="public">
+          <name>LinphoneTunnelModeDisable</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>The tunnel is disabled. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__tunnel_1ggac832d7950d88dc22e3d002ffd46a2d36aff4e1cb7aeacdc18ea31844b98ac3aaa" prot="public">
+          <name>LinphoneTunnelModeEnable</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>The tunnel is enabled. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__tunnel_1ggac832d7950d88dc22e3d002ffd46a2d36a7b5180b37f9211cc046f0f77dda8a39f" prot="public">
+          <name>LinphoneTunnelModeAuto</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>The tunnel is enabled automatically if it is required. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum describing the tunnel modes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="1260" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" bodystart="1260" bodyend="1264"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__tunnel_1gafac6fdea7804b750849d0df376b45052" prot="public" static="no">
+        <type>struct _LinphoneTunnel</type>
+        <definition>typedef struct _LinphoneTunnel LinphoneTunnel</definition>
+        <argsstring></argsstring>
+        <name>LinphoneTunnel</name>
+        <briefdescription>
+<para>Linphone tunnel object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="1248" column="30" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" bodystart="1248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" prot="public" static="no">
+        <type>struct _LinphoneTunnelConfig</type>
+        <definition>typedef struct _LinphoneTunnelConfig LinphoneTunnelConfig</definition>
+        <argsstring></argsstring>
+        <name>LinphoneTunnelConfig</name>
+        <briefdescription>
+<para>Tunnel settings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="1254" column="36" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" bodystart="1254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" prot="public" static="no">
+        <type>enum <ref refid="group__tunnel_1gac832d7950d88dc22e3d002ffd46a2d36" kindref="member">_LinphoneTunnelMode</ref></type>
+        <definition>typedef enum _LinphoneTunnelMode LinphoneTunnelMode</definition>
+        <argsstring></argsstring>
+        <name>LinphoneTunnelMode</name>
+        <briefdescription>
+<para>Enum describing the tunnel modes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/types.h" line="1264" column="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__tunnel_1ga6c411bd114b1e45806dbbb7c02912b35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_core_tunnel_available</definition>
+        <argsstring>(void)</argsstring>
+        <name>linphone_core_tunnel_available</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>True if tunnel support was compiled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>TRUE if library was built with tunnel, FALSE otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="5235" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="5235" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga0ff8f942efef8daebbb114e56325d55b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+        <definition>LinphoneTunnel * linphone_core_get_tunnel</definition>
+        <argsstring>(const LinphoneCore *core)</argsstring>
+        <name>linphone_core_get_tunnel</name>
+        <param>
+          <type>const <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+          <declname>core</declname>
+        </param>
+        <briefdescription>
+<para>get tunnel instance if available </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>core object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> or NULL if not available.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" line="5243" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/core.h" declline="5243" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga927cacaa98bf34c657a485edf3ec72c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+        <definition>LinphoneTunnelConfig * linphone_tunnel_config_new</definition>
+        <argsstring>(void)</argsstring>
+        <name>linphone_tunnel_config_new</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Create a new tunnel configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="109" column="23" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="109" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga348ce5a77ce93a98a1fe6b13b749ae8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+        <definition>LinphoneTunnel * linphone_tunnel_ref</definition>
+        <argsstring>(LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_ref</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Take a reference on a <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> whose the ref counter will be increased.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Pointer on the freshly refed <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref>.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="116" column="17" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="116" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga6a0c447395a5fa9df2b46e73f3c53c00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_unref</definition>
+        <argsstring>(LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_unref</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Release a reference on a <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> whose the ref counter will be decreased.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="122" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="122" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gaa9aa35dec6f48eb437da5a0a79a75ac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_config_set_host</definition>
+        <argsstring>(LinphoneTunnelConfig *tunnel_config, const char *host)</argsstring>
+        <name>linphone_tunnel_config_set_host</name>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>host</declname>
+        </param>
+        <briefdescription>
+<para>Set the IP address or hostname of the tunnel server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tunnel server IP address or hostname.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="129" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="129" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gae9a4e4ee538f9db905b67ae15535ef27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_tunnel_config_get_host</definition>
+        <argsstring>(const LinphoneTunnelConfig *tunnel_config)</argsstring>
+        <name>linphone_tunnel_config_get_host</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <briefdescription>
+<para>Get the IP address or hostname of the tunnel server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The tunnel server IP address or hostname.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="136" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="136" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga377b22f138d009e5eb9be3eaa114e735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_config_set_port</definition>
+        <argsstring>(LinphoneTunnelConfig *tunnel_config, int port)</argsstring>
+        <name>linphone_tunnel_config_set_port</name>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+<para>Set tls port of server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tunnel server TLS port, recommended value is 443 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="143" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="143" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga2c870bad3dd8132313420afb9937f414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_tunnel_config_get_port</definition>
+        <argsstring>(const LinphoneTunnelConfig *tunnel_config)</argsstring>
+        <name>linphone_tunnel_config_get_port</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <briefdescription>
+<para>Get the TLS port of the tunnel server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The TLS port of the tunnel server </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="150" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="150" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga629bce8921b7933f0c95f26a66f9127b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_config_set_host2</definition>
+        <argsstring>(LinphoneTunnelConfig *tunnel_config, const char *host)</argsstring>
+        <name>linphone_tunnel_config_set_host2</name>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>host</declname>
+        </param>
+        <briefdescription>
+<para>Set the IP address or hostname of the second tunnel server when using dual tunnel client. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tunnel server IP address or hostname.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="157" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="157" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga506ecc0e83de2622b73c503ee8992a4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_tunnel_config_get_host2</definition>
+        <argsstring>(const LinphoneTunnelConfig *tunnel_config)</argsstring>
+        <name>linphone_tunnel_config_get_host2</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <briefdescription>
+<para>Get the IP address or hostname of the second tunnel server when using dual tunnel client. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The tunnel server IP address or hostname.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="164" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="164" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gaf7c35ddeb25739776715596e7a65a76c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_config_set_port2</definition>
+        <argsstring>(LinphoneTunnelConfig *tunnel_config, int port)</argsstring>
+        <name>linphone_tunnel_config_set_port2</name>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+<para>Set tls port of the second server when using dual tunnel client. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tunnel server TLS port, recommended value is 443 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="171" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="171" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga887a4997c148f3841d995d827fbe22a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_tunnel_config_get_port2</definition>
+        <argsstring>(const LinphoneTunnelConfig *tunnel_config)</argsstring>
+        <name>linphone_tunnel_config_get_port2</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <briefdescription>
+<para>Get the TLS port of the second tunnel server when using dual tunnel client. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The TLS port of the tunnel server </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="178" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="178" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga133641f7ddfc6d743045fb4a10ba52c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_config_set_remote_udp_mirror_port</definition>
+        <argsstring>(LinphoneTunnelConfig *tunnel_config, int remote_udp_mirror_port)</argsstring>
+        <name>linphone_tunnel_config_set_remote_udp_mirror_port</name>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>remote_udp_mirror_port</declname>
+        </param>
+        <briefdescription>
+<para>Set the remote port on the tunnel server side used to test UDP reachability. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is used when the mode is set auto, to detect whether the tunnel has to be enabled or not. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>remote_udp_mirror_port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The remote port on the tunnel server side used to test UDP reachability, set to -1 to disable the feature </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="187" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="187" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gaaf0a4faa5f4c1a2ad7600597b2392353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_tunnel_config_get_remote_udp_mirror_port</definition>
+        <argsstring>(const LinphoneTunnelConfig *tunnel_config)</argsstring>
+        <name>linphone_tunnel_config_get_remote_udp_mirror_port</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <briefdescription>
+<para>Get the remote port on the tunnel server side used to test UDP reachability. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is used when the mode is set auto, to detect whether the tunnel has to be enabled or not. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The remote port on the tunnel server side used to test UDP reachability </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="196" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="196" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga61abecb770d35201fcd817e8497d85ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_config_set_delay</definition>
+        <argsstring>(LinphoneTunnelConfig *tunnel_config, int delay)</argsstring>
+        <name>linphone_tunnel_config_set_delay</name>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+<para>Set the UDP packet round trip delay in ms for a tunnel configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delay</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The UDP packet round trip delay in ms considered as acceptable (recommended value is 1000 ms). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="203" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="203" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gaee6e5f86bc1e68bd8587f9e5d5f1daa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int linphone_tunnel_config_get_delay</definition>
+        <argsstring>(const LinphoneTunnelConfig *tunnel_config)</argsstring>
+        <name>linphone_tunnel_config_get_delay</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <briefdescription>
+<para>Get the UDP packet round trip delay in ms for a tunnel configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The UDP packet round trip delay in ms. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="210" column="6" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="210" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gab07ecb82c935325b1bde3830656747cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+        <definition>LinphoneTunnelConfig * linphone_tunnel_config_ref</definition>
+        <argsstring>(LinphoneTunnelConfig *tunnel_config)</argsstring>
+        <name>linphone_tunnel_config_ref</name>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <briefdescription>
+<para>Increment the refcount of <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="217" column="23" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="217" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gaaaa5d1f8934d5983fb7de6373abbda11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_config_unref</definition>
+        <argsstring>(LinphoneTunnelConfig *tunnel_config)</argsstring>
+        <name>linphone_tunnel_config_unref</name>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <briefdescription>
+<para>Decrement the refcount of <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="223" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="223" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gafc4455be425867b5cd7f0a69368b31e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_config_set_user_data</definition>
+        <argsstring>(LinphoneTunnelConfig *tunnel_config, void *user_data)</argsstring>
+        <name>linphone_tunnel_config_set_user_data</name>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>user_data</declname>
+        </param>
+        <briefdescription>
+<para>Store a user data in the tunnel config object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the tunnel config  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>user_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the user data.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="230" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="230" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga7a17f8fc438f5a30859f1b5834692ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * linphone_tunnel_config_get_user_data</definition>
+        <argsstring>(LinphoneTunnelConfig *tunnel_config)</argsstring>
+        <name>linphone_tunnel_config_get_user_data</name>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve user data from the tunnel config. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the tunnel config  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the user data.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="237" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="237" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga762cc31830da8eb5736017e690ced895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_add_server</definition>
+        <argsstring>(LinphoneTunnel *tunnel, LinphoneTunnelConfig *tunnel_config)</argsstring>
+        <name>linphone_tunnel_add_server</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <briefdescription>
+<para>Add a tunnel server configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="244" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="244" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gabf2355476ef1e2e28da5d09fb9713ae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_remove_server</definition>
+        <argsstring>(LinphoneTunnel *tunnel, LinphoneTunnelConfig *tunnel_config)</argsstring>
+        <name>linphone_tunnel_remove_server</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <param>
+          <type><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> *</type>
+          <declname>tunnel_config</declname>
+        </param>
+        <briefdescription>
+<para>Remove a tunnel server configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tunnel_config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="251" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="251" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga4c9ccba78c3f0652792c9918cb9314bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bctbx_list_t *</type>
+        <definition>const bctbx_list_t * linphone_tunnel_get_servers</definition>
+        <argsstring>(const LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_get_servers</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Get added servers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The list of servers.  <bctbxlist>LinphoneTunnelConfig</bctbxlist>  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="258" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="258" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga691d163b762cbf5e159883feab1e9ab4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_clean_servers</definition>
+        <argsstring>(LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_clean_servers</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Remove all tunnel server addresses previously entered with <ref refid="group__tunnel_1ga762cc31830da8eb5736017e690ced895" kindref="member">linphone_tunnel_add_server()</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="264" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="264" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga2ff9779aefdb5455c3509d75cf89a88c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_set_mode</definition>
+        <argsstring>(LinphoneTunnel *tunnel, LinphoneTunnelMode mode)</argsstring>
+        <name>linphone_tunnel_set_mode</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <param>
+          <type><ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>Set the tunnel mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The tunnel mode can be &apos;enable&apos;, &apos;disable&apos; or &apos;auto&apos; If the mode is set to &apos;auto&apos;, the tunnel manager will try to established an RTP session with the tunnel server on the UdpMirrorPort. If the connection fail, the tunnel is automatically activated whereas the tunnel is automatically disabled if the connection succeed. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The desired <ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="275" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="275" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gaf526043ec604b44782b5eedc2a806a40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref></type>
+        <definition>LinphoneTunnelMode linphone_tunnel_get_mode</definition>
+        <argsstring>(const LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_get_mode</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Get the tunnel mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current <ref refid="group__tunnel_1ga1b2222ae532fc890503a7b3404793100" kindref="member">LinphoneTunnelMode</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="282" column="21" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="282" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gaacfe8d9491972b0f0d405b8c51efc1f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_enable_dual_mode</definition>
+        <argsstring>(LinphoneTunnel *tunnel, bool_t dual_mode_enabled)</argsstring>
+        <name>linphone_tunnel_enable_dual_mode</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>dual_mode_enabled</declname>
+        </param>
+        <briefdescription>
+<para>Sets whether or not to use the dual tunnel client mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>By default this feature is disabled. After enabling it, add a server with 2 hosts and 2 ports for the feature to work. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dual_mode_enabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE to enable it, FALSE to disable it </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="291" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="291" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga43424accb2eed18dd9fb0aee0403bd2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_tunnel_dual_mode_enabled</definition>
+        <argsstring>(const LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_dual_mode_enabled</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Get the dual tunnel client mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if dual tunnel client mode is enabled, FALSE otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="298" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="298" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gaf5236ffc93b2a983fcb888c0f4614d85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_tunnel_get_activated</definition>
+        <argsstring>(const LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_get_activated</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Returns whether the tunnel is activated. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If mode is set to auto, this gives indication whether the automatic detection determined that tunnel was necessary or not. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref>  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if tunnel is in use, FALSE otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="306" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="306" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga047ca9bc9546a6c5bffb27209b0a7706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_tunnel_connected</definition>
+        <argsstring>(const LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_connected</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Check whether the tunnel is connected. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A boolean value telling if the tunnel is connected </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="313" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="313" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga1676eda6a96c9bd730a873124459ac9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_reconnect</definition>
+        <argsstring>(LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_reconnect</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Force reconnection to the tunnel server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is useful when the device switches from wifi to Edge/3G or vice versa. In most cases the tunnel client socket won&apos;t be notified promptly that its connection is now zombie, so it is recommended to call this method that will cause the lost connection to be closed and new connection to be issued. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="322" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="322" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gafc4e154bec332ad975c373e205f66795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_enable_sip</definition>
+        <argsstring>(LinphoneTunnel *tunnel, bool_t enable)</argsstring>
+        <name>linphone_tunnel_enable_sip</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>Set whether SIP packets must be directly sent to a UA or pass through the tunnel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If true, SIP packets shall pass through the tunnel </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="329" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="329" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga92b4df41ad2c71ce4e59de5acd37674b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool_t</type>
+        <definition>bool_t linphone_tunnel_sip_enabled</definition>
+        <argsstring>(const LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_sip_enabled</name>
+        <param>
+          <type>const <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Check whether tunnel is set to transport SIP packets. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A boolean value telling whether SIP packets shall pass through the tunnel </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="336" column="9" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="336" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gae0718a3a72763c91b63a2afe67205d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_set_http_proxy</definition>
+        <argsstring>(LinphoneTunnel *tunnel, const char *host, int port, const char *username, const char *passwd)</argsstring>
+        <name>linphone_tunnel_set_http_proxy</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>host</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>passwd</declname>
+        </param>
+        <briefdescription>
+<para>Set an optional http proxy to go through when connecting to tunnel server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>http proxy host  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>http proxy port </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional http proxy username if the proxy request authentication. Currently only basic authentication is supported. Use NULL if not needed.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>passwd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional http proxy password. Use NULL if not needed.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="347" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="347" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gab41bfb94d11b7c31d09ab65776f7e701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_get_http_proxy</definition>
+        <argsstring>(LinphoneTunnel *tunnel, const char **host, int *port, const char **username, const char **passwd)</argsstring>
+        <name>linphone_tunnel_get_http_proxy</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>host</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>passwd</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve optional http proxy configuration previously set with <ref refid="group__tunnel_1gae0718a3a72763c91b63a2afe67205d8b" kindref="member">linphone_tunnel_set_http_proxy()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>http proxy host </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>http proxy port </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional http proxy username if the proxy request authentication. Currently only basic authentication is supported. Use NULL if not needed.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>passwd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional http proxy password. Use NULL if not needed.  <maybenil />   <donotwrap />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="360" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="360" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga3f0eb1ebe109c8c58c7e92c7d2226423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_set_http_proxy_auth_info</definition>
+        <argsstring>(LinphoneTunnel *tunnel, const char *username, const char *passwd)</argsstring>
+        <name>linphone_tunnel_set_http_proxy_auth_info</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>passwd</declname>
+        </param>
+        <briefdescription>
+<para>Set authentication info for the http proxy. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>User name  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>passwd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="370" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="370" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga3a5641a297865afb5353149b8dfb04d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_set_username</definition>
+        <argsstring>(LinphoneTunnel *tunnel, const char *username)</argsstring>
+        <name>linphone_tunnel_set_username</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+<para>Set the username. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Required for tunnel TLS client authentification. Certificate Altname or CName should be sip:&lt;tunnel_username&gt;&lt;tunnel_domain&gt; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The username.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="379" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="379" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gaaa2407d7acf97b02eae305d9f326b2e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_tunnel_get_username</definition>
+        <argsstring>(LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_get_username</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Get the username. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The username.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="386" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="386" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1gab0868c3151a2fd6ecaf28e0795620143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_set_domain</definition>
+        <argsstring>(LinphoneTunnel *tunnel, const char *domain)</argsstring>
+        <name>linphone_tunnel_set_domain</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>domain</declname>
+        </param>
+        <briefdescription>
+<para>Set the domain. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Required for tunnel TLS client authentification. Certificate Altname or CName should be sip:&lt;tunnel_username&gt;&lt;tunnel_domain&gt; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The domain.  <maybenil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="395" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="395" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga265f2d821a9c410066f4627d0278a59f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * linphone_tunnel_get_domain</definition>
+        <argsstring>(LinphoneTunnel *tunnel)</argsstring>
+        <name>linphone_tunnel_get_domain</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <briefdescription>
+<para>Get the domain. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tunnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> object  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The domain.  <maybenil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="402" column="13" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="402" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__tunnel_1ga58485cb859eabb7cbdda267780cb17c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_tunnel_simulate_udp_loss</definition>
+        <argsstring>(LinphoneTunnel *tunnel, bool_t enabled)</argsstring>
+        <name>linphone_tunnel_simulate_udp_loss</name>
+        <param>
+          <type><ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref> *</type>
+          <declname>tunnel</declname>
+        </param>
+        <param>
+          <type>bool_t</type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="404" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" declline="404" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group__tunnel_1ga60fead31e5ef822855a9a622eb6bd834" prot="public" static="no">
+        <name>LINPHONE_TUNNEL</name>
+        <param><defname>obj</defname></param>
+        <initializer>BELLE_SIP_CAST(obj, <ref refid="group__tunnel_1gafac6fdea7804b750849d0df376b45052" kindref="member">LinphoneTunnel</ref>)</initializer>
+        <briefdescription>
+<para>Linphone tunnel aims is to bypass IP traffic blocking due to aggressive firewalls which typically only authorize TCP traffic with destination port 443. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><linebreak/>
+ Its principle is tunneling all SIP and/or RTP traffic through a single secure https connection up to a detunnelizer server. <linebreak/>
+ This set of methods enhance <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> functionalities in order to provide an easy to use API to <itemizedlist>
+<listitem><para>provision tunnel servers IP addresses and ports. This functionality is an option not implemented under GPL. Availability can be check at runtime using function <ref refid="group__tunnel_1ga6c411bd114b1e45806dbbb7c02912b35" kindref="member">linphone_core_tunnel_available()</ref> </para>
+</listitem>
+<listitem><para>start/stop the tunneling service </para>
+</listitem>
+<listitem><para>perform auto-detection whether tunneling is required, based on a test of sending/receiving a flow of UDP packets.</para>
+</listitem>
+</itemizedlist>
+It takes in charge automatically the SIP registration procedure when connecting or disconnecting to a tunnel server. No other action on <ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> is required to enable full operation in tunnel mode.</para>
+<para><linebreak/>
+ Provision is done using object <ref refid="group__tunnel_1gac8bf0e2203614a6380c2e274d58663d7" kindref="member">LinphoneTunnelConfig</ref> created by function <ref refid="group__tunnel_1ga927cacaa98bf34c657a485edf3ec72c8" kindref="member">linphone_tunnel_config_new()</ref>. Functions <ref refid="group__tunnel_1gaa9aa35dec6f48eb437da5a0a79a75ac1" kindref="member">linphone_tunnel_config_set_host()</ref> and <ref refid="group__tunnel_1ga377b22f138d009e5eb9be3eaa114e735" kindref="member">linphone_tunnel_config_set_port()</ref> allow to point to tunnel server IP/port. Once set, use function <ref refid="group__tunnel_1ga762cc31830da8eb5736017e690ced895" kindref="member">linphone_tunnel_add_server()</ref> to provision a tunnel server. <linebreak/>
+ Finally tunnel mode configuration is achieved by function <ref refid="group__tunnel_1ga2ff9779aefdb5455c3509d75cf89a88c" kindref="member">linphone_tunnel_set_mode()</ref>. <linebreak/>
+ Tunnel connection status can be checked using function <ref refid="group__tunnel_1ga047ca9bc9546a6c5bffb27209b0a7706" kindref="member">linphone_tunnel_connected()</ref>.</para>
+<para>Bellow pseudo code that can be use to configure, enable, check state and disable tunnel functionality:</para>
+<para><programlisting><codeline><highlight class="normal">LinphoneTunnel<sp/>*tunnel<sp/>=<sp/>linphone_core_get_tunnel(linphone_core);</highlight></codeline>
+<codeline><highlight class="normal">LinphoneTunnelConfig<sp/>*config=linphone_tunnel_config_new();<sp/>//instantiate<sp/>tunnel<sp/>configuration</highlight></codeline>
+<codeline><highlight class="normal">linphone_tunnel_config_set_host(config,<sp/>&quot;tunnel.linphone.org&quot;);<sp/>//set<sp/>tunnel<sp/>server<sp/>host<sp/>address</highlight></codeline>
+<codeline><highlight class="normal">linphone_tunnel_config_set_port(config,<sp/>443);<sp/>//set<sp/>tunnel<sp/>server<sp/>port</highlight></codeline>
+<codeline><highlight class="normal">linphone_tunnel_add_server(tunnel,<sp/>config);<sp/>//provision<sp/>tunnel<sp/>config</highlight></codeline>
+<codeline><highlight class="normal">linphone_tunnel_set_mode(tunnel,<sp/>LinphoneTunnelModeEnable);<sp/>//activate<sp/>the<sp/>tunnel<sp/>unconditional</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">while<sp/>(!linphone_tunnel_connected(tunnel))<sp/>{<sp/>//wait<sp/>for<sp/>tunnel<sp/>to<sp/>be<sp/>ready</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>linphone_core_iterate(linphone_core);<sp/>//schedule<sp/>core<sp/>main<sp/>loop</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ms_sleep(100);<sp/>//wait<sp/>100ms</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">LinphoneCall<sp/>*call<sp/>=<sp/>linphone_core_invite(linphone_core,&quot;sip:foo@example.org&quot;);<sp/>//place<sp/>an<sp/>outgoing<sp/>call</highlight></codeline>
+<codeline><highlight class="normal">linphone_call_ref(call);<sp/>//acquire<sp/>a<sp/>reference<sp/>on<sp/>the<sp/>call<sp/>to<sp/>avoid<sp/>deletion<sp/>after<sp/>completion</highlight></codeline>
+<codeline><highlight class="normal">//...</highlight></codeline>
+<codeline><highlight class="normal">linphone_core_terminate_call(linphone_core,call);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">while<sp/>(linphone_call_get_state(call)<sp/>!=<sp/>LinphoneCallReleased)<sp/>{<sp/>//wait<sp/>for<sp/>call<sp/>to<sp/>be<sp/>in<sp/>release<sp/>state</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>linphone_core_iterate(linphone_core);<sp/>//schedule<sp/>core<sp/>main<sp/>loop</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ms_sleep(100);<sp/>//wait<sp/>100ms</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">linphone_tunnel_set_mode(tunnel,<sp/>LinphoneTunnelModeDisable);<sp/>//deactivate<sp/>tunnel</highlight></codeline>
+<codeline><highlight class="normal">linphone_call_unref(call);<sp/>//release<sp/>reference<sp/>on<sp/>the<sp/>call</highlight></codeline>
+</programlisting> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" line="99" column="9" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/tunnel.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

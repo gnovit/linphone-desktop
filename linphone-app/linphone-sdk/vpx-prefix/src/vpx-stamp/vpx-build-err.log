@@ -1,0 +1,17 @@
+generating filter 'Source Files' from 266 files
+generating filter 'Header Files' from 134 files
+generating filter 'Build Files' from 16 files
+generating filter 'References' from 6 files
+Ignored files list (6 items) is:
+    CHANGELOG
+    vpx_scale/vpx_scale_rtcd.pl
+    vpx_dsp/vpx_dsp_rtcd_defs.pl
+    vp8/common/rtcd_defs.pl
+    build/make/version.sh
+    build/make/rtcd.pl
+generating filter 'Source Files' from 146 files
+generating filter 'Header Files' from 68 files
+generating filter 'Build Files' from 3 files
+generating filter 'References' from 1 files
+Ignored files list (1 items) is:
+    vp8/common/rtcd_defs.pl

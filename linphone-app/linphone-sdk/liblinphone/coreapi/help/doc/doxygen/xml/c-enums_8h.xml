@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="c-enums_8h" kind="file" language="C++">
+    <compoundname>c-enums.h</compoundname>
+    <includedby refid="c-alert_8h" local="yes">c-alert.h</includedby>
+    <includedby refid="c-signal-information_8h" local="yes">c-signal-information.h</includedby>
+    <includedby refid="core_8h" local="yes">core.h</includedby>
+    <sectiondef kind="enum">
+      <member refid="group__alert_1ga3d61265f35a84a92709fad3a833ac7b6" kind="enum"><name>_LinphoneAlertTypes</name></member>
+      <member refid="group__signalInformation_1gabeee2d41ecc843832076bc2680be0dc6" kind="enum"><name>_LinphoneSignalType</name></member>
+      <member refid="group__signalInformation_1ga44a7ba337f3e0f7a063498c43553175e" kind="enum"><name>_LinphoneSignalStrengthUnit</name></member>
+      <member refid="group__media__parameters_1gaeb62d715f58b30497e48f5886ac966cc" kind="enum"><name>_LinphoneCodecPriorityPolicy</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__alert_1ga116c694623749c7c381b52c426073d27" kind="typedef"><name>LinphoneAlertType</name></member>
+      <member refid="group__signalInformation_1ga7642371d0d14babb38d08d175fc128d9" kind="typedef"><name>LinphoneSignalType</name></member>
+      <member refid="group__signalInformation_1gadd6ae975bc6574c64505a98bc580c69f" kind="typedef"><name>LinphoneSignalStrengthUnit</name></member>
+      <member refid="group__media__parameters_1gaa8bdf2179709165a1d79c9241cd6a553" kind="typedef"><name>LinphoneCodecPriorityPolicy</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_C_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_C_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>Global<sp/>enums,<sp/>not<sp/>bound<sp/>to<sp/>any<sp/>object.</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__alert_1ga3d61265f35a84a92709fad3a833ac7b6" kindref="member">_LinphoneAlertTypes</ref><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a917c45e2410160b1fc68e2959f74c7cb" kindref="member">LinphoneAlertQoSCameraMisfunction</ref>,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6ac5798e9cfe3a9557436b344f0d070f37" kindref="member">LinphoneAlertQoSCameraLowFramerate</ref>,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a1f53b6bbd04fbb2540853247d50b6c0f" kindref="member">LinphoneAlertQoSVideoStalled</ref>,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a2c23daa99f3f9eccf7ff528fb9f35c1f" kindref="member">LinphoneAlertQoSHighLossLateRate</ref>,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a098797a5fea1359dc408baa60297a246" kindref="member">LinphoneAlertQoSHighRemoteLossRate</ref>,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a451d9876d18bbbb79e0ceddc07924f7d" kindref="member">LinphoneAlertQoSBurstOccured</ref>,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6af14b2859a18262b381417c4a7d19c0f1" kindref="member">LinphoneAlertQoSRetransmissionFailures</ref>,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a687243a068042d4e85f898e4824478e3" kindref="member">LinphoneAlertQoSLowDownloadBandwidthEstimation</ref>,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6af2e42c50cd5963eb1a61910e7158043d" kindref="member">LinphoneAlertQoSLowQualityReceivedVideo</ref>,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a7c065819eb74af17b21346a042b53bbd" kindref="member">LinphoneAlertQoSLowQualitySentVideo</ref>,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6ace0806006e45a738dc519755d95aca96" kindref="member">LinphoneAlertQoSLowSignal</ref>,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__alert_1gga3d61265f35a84a92709fad3a833ac7b6a85eeb8cd8ab93b4336e310b15c677d62" kindref="member">LinphoneAlertQoSLostSignal</ref></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}<sp/><ref refid="group__alert_1ga116c694623749c7c381b52c426073d27" kindref="member">LinphoneAlertType</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__signalInformation_1gabeee2d41ecc843832076bc2680be0dc6" kindref="member">_LinphoneSignalType</ref><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LinphoneSignalTypeWifi<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LinphoneSignalTypeMobile<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LinphoneSignalTypeOther<sp/>=<sp/>2</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}<sp/><ref refid="group__signalInformation_1ga7642371d0d14babb38d08d175fc128d9" kindref="member">LinphoneSignalType</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__signalInformation_1ga44a7ba337f3e0f7a063498c43553175e" kindref="member">_LinphoneSignalStrengthUnit</ref><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LinphoneSignalStrengthUnitRssi<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LinphoneSignalStrengthUnitDbm<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}<sp/><ref refid="group__signalInformation_1gadd6ae975bc6574c64505a98bc580c69f" kindref="member">LinphoneSignalStrengthUnit</ref>;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__media__parameters_1gaeb62d715f58b30497e48f5886ac966cc" kindref="member">_LinphoneCodecPriorityPolicy</ref><sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__media__parameters_1ggaeb62d715f58b30497e48f5886ac966ccab4aefc265fecdf47dda8a6ced7c9daad" kindref="member">LinphoneCodecPriorityPolicyBasic</ref><sp/>=</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__media__parameters_1ggaeb62d715f58b30497e48f5886ac966ccab98adec09f747e7ad7f2347bd6cc0b46" kindref="member">LinphoneCodecPriorityPolicyAuto</ref><sp/>=</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}<sp/><ref refid="group__media__parameters_1gaa8bdf2179709165a1d79c9241cd6a553" kindref="member">LinphoneCodecPriorityPolicy</ref>;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/c-enums.h"/>
+  </compounddef>
+</doxygen>

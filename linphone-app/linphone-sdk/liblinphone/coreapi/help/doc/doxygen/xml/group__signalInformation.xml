@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__signalInformation" kind="group">
+    <compoundname>signalInformation</compoundname>
+    <title>SignalInformation</title>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__signalInformation_1gabeee2d41ecc843832076bc2680be0dc6" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneSignalType</name>
+        <enumvalue id="group__signalInformation_1ggabeee2d41ecc843832076bc2680be0dc6a06d22d32618bc042c2db3435d18b84ff" prot="public">
+          <name>LinphoneSignalTypeWifi</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__signalInformation_1ggabeee2d41ecc843832076bc2680be0dc6a0e8ee12fd9de934fe89997c14c175d5f" prot="public">
+          <name>LinphoneSignalTypeMobile</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__signalInformation_1ggabeee2d41ecc843832076bc2680be0dc6ab7e1c1d2f7f89b7ce81bfbdc9e9307d4" prot="public">
+          <name>LinphoneSignalTypeOther</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>All signal types that a device can use. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/c-enums.h" line="109" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/c-enums.h" bodystart="109" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__signalInformation_1ga44a7ba337f3e0f7a063498c43553175e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_LinphoneSignalStrengthUnit</name>
+        <enumvalue id="group__signalInformation_1gga44a7ba337f3e0f7a063498c43553175ea8f0fb804d0f6f0a748a4514818548fc0" prot="public">
+          <name>LinphoneSignalStrengthUnitRssi</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__signalInformation_1gga44a7ba337f3e0f7a063498c43553175ea326995485ea28c85dece2bb870d4673a" prot="public">
+          <name>LinphoneSignalStrengthUnitDbm</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>All signal units that a device can use. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/c-enums.h" line="118" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/c-enums.h" bodystart="118" bodyend="121"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__signalInformation_1ga7642371d0d14babb38d08d175fc128d9" prot="public" static="no">
+        <type>enum <ref refid="group__signalInformation_1gabeee2d41ecc843832076bc2680be0dc6" kindref="member">_LinphoneSignalType</ref></type>
+        <definition>typedef enum _LinphoneSignalType LinphoneSignalType</definition>
+        <argsstring></argsstring>
+        <name>LinphoneSignalType</name>
+        <briefdescription>
+<para>All signal types that a device can use. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/c-enums.h" line="113" column="20"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__signalInformation_1gadd6ae975bc6574c64505a98bc580c69f" prot="public" static="no">
+        <type>enum <ref refid="group__signalInformation_1ga44a7ba337f3e0f7a063498c43553175e" kindref="member">_LinphoneSignalStrengthUnit</ref></type>
+        <definition>typedef enum _LinphoneSignalStrengthUnit LinphoneSignalStrengthUnit</definition>
+        <argsstring></argsstring>
+        <name>LinphoneSignalStrengthUnit</name>
+        <briefdescription>
+<para>All signal units that a device can use. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/c-enums.h" line="121" column="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__signalInformation_1gac70da951996dfd09fbac0a85d56bb754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> *</type>
+        <definition>LinphoneSignalInformation * linphone_signal_information_clone</definition>
+        <argsstring>(const LinphoneSignalInformation *signalInformation)</argsstring>
+        <name>linphone_signal_information_clone</name>
+        <param>
+          <type>const <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> *</type>
+          <declname>signalInformation</declname>
+        </param>
+        <briefdescription>
+<para>Clone the given signalInformation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>signalInformation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The given signalInformation.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A new signalInformation with exactly same informations that param.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" line="41" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" declline="41" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__signalInformation_1ga62c463fcc72f386bd3475519d42ef0f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> *</type>
+        <definition>LinphoneSignalInformation * linphone_signal_information_ref</definition>
+        <argsstring>(LinphoneSignalInformation *signalInformation)</argsstring>
+        <name>linphone_signal_information_ref</name>
+        <param>
+          <type><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> *</type>
+          <declname>signalInformation</declname>
+        </param>
+        <briefdescription>
+<para>Take a reference on a <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>signalInformation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the same <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> object.  <notnil />  </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" line="48" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" declline="48" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__signalInformation_1ga0443bb9c3de5d0d6bf28b7463140dc6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_signal_information_unref</definition>
+        <argsstring>(LinphoneSignalInformation *signalInformation)</argsstring>
+        <name>linphone_signal_information_unref</name>
+        <param>
+          <type><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> *</type>
+          <declname>signalInformation</declname>
+        </param>
+        <briefdescription>
+<para>Release a <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>signalInformation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" line="54" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" declline="54" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__signalInformation_1ga50645ece7bc3b5a7976d87cc029c2296" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float linphone_signal_information_get_strength</definition>
+        <argsstring>(LinphoneSignalInformation *signalInformation)</argsstring>
+        <name>linphone_signal_information_get_strength</name>
+        <param>
+          <type><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> *</type>
+          <declname>signalInformation</declname>
+        </param>
+        <briefdescription>
+<para>Get the value of the <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>signalInformation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A float containing the value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" line="60" column="8" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" declline="60" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__signalInformation_1ga941b5b30993268f497f78f02deb81925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_signal_information_set_value</definition>
+        <argsstring>(LinphoneSignalInformation *signalInformation, float value)</argsstring>
+        <name>linphone_signal_information_set_value</name>
+        <param>
+          <type><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> *</type>
+          <declname>signalInformation</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set a new value to a <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>signalInformation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a float containing the new value to set. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" line="66" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" declline="66" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__signalInformation_1ga6626f04c0d5d594960759af319190167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__signalInformation_1ga7642371d0d14babb38d08d175fc128d9" kindref="member">LinphoneSignalType</ref></type>
+        <definition>LinphoneSignalType linphone_signal_information_get_signal_type</definition>
+        <argsstring>(LinphoneSignalInformation *signalInformation)</argsstring>
+        <name>linphone_signal_information_get_signal_type</name>
+        <param>
+          <type><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> *</type>
+          <declname>signalInformation</declname>
+        </param>
+        <briefdescription>
+<para>Get the <ref refid="group__signalInformation_1ga7642371d0d14babb38d08d175fc128d9" kindref="member">LinphoneSignalType</ref> of the <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>signalInformation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A <ref refid="group__signalInformation_1ga7642371d0d14babb38d08d175fc128d9" kindref="member">LinphoneSignalType</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" line="73" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" declline="73" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__signalInformation_1ga96bcc3e5f8ce795221a4d0df1db8e807" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_signal_information_set_signal_type</definition>
+        <argsstring>(LinphoneSignalInformation *signalInformation, LinphoneSignalType type)</argsstring>
+        <name>linphone_signal_information_set_signal_type</name>
+        <param>
+          <type><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> *</type>
+          <declname>signalInformation</declname>
+        </param>
+        <param>
+          <type><ref refid="group__signalInformation_1ga7642371d0d14babb38d08d175fc128d9" kindref="member">LinphoneSignalType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Set a new <ref refid="group__signalInformation_1ga7642371d0d14babb38d08d175fc128d9" kindref="member">LinphoneSignalType</ref> to a <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>signalInformation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new <ref refid="group__signalInformation_1ga7642371d0d14babb38d08d175fc128d9" kindref="member">LinphoneSignalType</ref> to set. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" line="79" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" declline="79" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__signalInformation_1gaec6b85065ec1a0f4babd1facad491083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__signalInformation_1gadd6ae975bc6574c64505a98bc580c69f" kindref="member">LinphoneSignalStrengthUnit</ref></type>
+        <definition>LinphoneSignalStrengthUnit linphone_signal_information_get_signal_unit</definition>
+        <argsstring>(LinphoneSignalInformation *signalInformation)</argsstring>
+        <name>linphone_signal_information_get_signal_unit</name>
+        <param>
+          <type><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> *</type>
+          <declname>signalInformation</declname>
+        </param>
+        <briefdescription>
+<para>Get the <ref refid="group__signalInformation_1gadd6ae975bc6574c64505a98bc580c69f" kindref="member">LinphoneSignalStrengthUnit</ref> value of the <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>signalInformation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A <ref refid="group__signalInformation_1gadd6ae975bc6574c64505a98bc580c69f" kindref="member">LinphoneSignalStrengthUnit</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" line="87" column="1" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" declline="87" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__signalInformation_1ga9d106492ba551810bff46dc87b2f12d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void linphone_signal_information_set_signal_unit</definition>
+        <argsstring>(LinphoneSignalInformation *signalInformation, LinphoneSignalStrengthUnit unit)</argsstring>
+        <name>linphone_signal_information_set_signal_unit</name>
+        <param>
+          <type><ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> *</type>
+          <declname>signalInformation</declname>
+        </param>
+        <param>
+          <type><ref refid="group__signalInformation_1gadd6ae975bc6574c64505a98bc580c69f" kindref="member">LinphoneSignalStrengthUnit</ref></type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+<para>Set a new <ref refid="group__signalInformation_1gadd6ae975bc6574c64505a98bc580c69f" kindref="member">LinphoneSignalStrengthUnit</ref> to a <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>signalInformation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group__alert_1gaa85f968e2cb3e0ec77cd424e6fd32e1b" kindref="member">LinphoneSignalInformation</ref> object.  <notnil />  </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new <ref refid="group__signalInformation_1gadd6ae975bc6574c64505a98bc580c69f" kindref="member">LinphoneSignalStrengthUnit</ref> to set. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" line="93" column="7" declfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/api/c-signal-information.h" declline="93" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

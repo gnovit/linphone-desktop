@@ -1,0 +1,10 @@
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/aom/aom.h
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/aom/aom_codec.h
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/aom/aom_frame_buffer.h
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/aom/aom_image.h
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/aom/aom_integer.h
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/aom/aomcx.h
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/aom/aom_encoder.h
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/include/aom/aom_external_partition.h
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/lib/pkgconfig/aom.pc
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/OUTPUT/lib/aom.lib

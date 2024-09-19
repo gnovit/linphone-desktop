@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\linphone-qt_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\src\app\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\linphone-qt_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\linphone-qt_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\linphone-qt_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\mocs_compilation_Debug.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\App.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\AppController.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\Cli.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\Logger.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\Paths.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\AvatarProvider.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ImageProvider.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ExternalImageProvider.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\QRCodeProvider.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ThumbnailProvider.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ProxyListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SortFilterProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\DefaultTranslator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\AssistantModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\AuthenticationNotifier.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\CallListener.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\CallModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\CallsListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\CallsListProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\Camera.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\CameraDummy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatCallModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatEvent.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatMessageListener.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatMessageModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatNoticeModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatReactionModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatReactionListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatReactionProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatRoomInitializer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatRoomListener.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatRoomModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ChatRoomProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\AbstractCodecsModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\AudioCodecsModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\VideoCodecsModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ConferenceAddModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ConferenceHelperModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ConferenceListener.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ConferenceModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ConferenceProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ConferenceInfoModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ConferenceInfoListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ConferenceInfoProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ConferenceScheduler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ConferenceSchedulerListener.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ContactModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\VcardModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ContactsImporterModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ContactsImporterPluginsManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ContactsImporterListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ContactsImporterListProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ContactsListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ContactsListProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ContentModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ContentListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ContentProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\CoreHandlers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\CoreListener.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\CoreManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\AbstractEventCountNotifier.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\FileDownloader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\FileExtractor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TemporaryFile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\FileMediaModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\FriendListListener.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\CallHistoryModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\CallHistoryListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\CallHistoryProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\HistoryModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\HistoryProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\LdapModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\LdapListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\LdapProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\Notifier.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\Clipboard.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ColorModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ColorListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ColorProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ImageColorsProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\DateModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ImageModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ImageListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ImageProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\VideoFrameGrabber.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TextToSpeech.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TimeZoneModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TimeZoneListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TimeZoneProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\Units.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SpellChecker.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ParticipantModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ParticipantListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ParticipantProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ParticipantDeviceListener.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ParticipantDeviceModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ParticipantDeviceListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ParticipantDeviceProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ParticipantImdnStateModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ParticipantImdnStateListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\ParticipantImdnStateProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\OwnPresenceModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\Presence.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\RecorderManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\RecorderModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\RecordingListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\RecordingProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SearchListener.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SearchResultModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SearchSipAddressesModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SearchSipAddressesProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\AccountSettingsModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\EmojisSettingsModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SettingsModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SipAddressesModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SipAddressesProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SipAddressesSorter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SipAddressObserver.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SoundPlayer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TelephoneNumbersModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TimelineModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TimelineListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TimelineProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TunnelModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TunnelConfigModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TunnelConfigListModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\TunnelConfigProxyModel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\UrlHandlers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\Constants.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\LinphoneEnums.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\MediastreamerUtils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\QExifImageHeader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\UriTools.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\Utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\PluginsManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\singleapplication.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\singleapplication_p.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\EventCountNotifierSystemTrayIcon.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\DesktopToolsWindows.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\SpellCheckerWindowsNative.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\VfsUtils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\qrc_i18n.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\qrc_resources.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\mocs_compilation_Release.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\mocs_compilation_MinSizeRel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\app-library.dir\$(Configuration)\mocs_compilation_RelWithDebInfo.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\git\vozer\vozer_ninja\linphone-desktop\linphone-app\linphone-app\appDetailsWindows.rc">
+      <Filter>Rc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{D9FD6D20-DAB0-3626-A095-CFA51D37BFD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rc">
+      <UniqueIdentifier>{F75B2C95-A0DB-319C-81C0-285252F28A76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D5A014FD-C7A9-31E0-8F9C-FD4CF18CF7E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

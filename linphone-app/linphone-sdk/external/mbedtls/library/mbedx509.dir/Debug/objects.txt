@@ -1,0 +1,8 @@
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/mbedtls/library/mbedx509.dir/Debug/pkcs7.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/mbedtls/library/mbedx509.dir/Debug/x509.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/mbedtls/library/mbedx509.dir/Debug/x509_create.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/mbedtls/library/mbedx509.dir/Debug/x509_crl.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/mbedtls/library/mbedx509.dir/Debug/x509_crt.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/mbedtls/library/mbedx509.dir/Debug/x509_csr.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/mbedtls/library/mbedx509.dir/Debug/x509write_crt.obj
+D:/git/vozer/vozer_ninja/linphone-desktop/linphone-app/linphone-sdk/external/mbedtls/library/mbedx509.dir/Debug/x509write_csr.obj

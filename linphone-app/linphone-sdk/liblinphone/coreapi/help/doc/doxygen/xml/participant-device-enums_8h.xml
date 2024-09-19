@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="participant-device-enums_8h" kind="file" language="C++">
+    <compoundname>participant-device-enums.h</compoundname>
+    <includedby refid="c-types_8h" local="yes">c-types.h</includedby>
+    <sectiondef kind="enum">
+      <member refid="group__conference_1ga4166b59e94231ab631328aee2e5f58e8" kind="enum"><name>_LinphoneParticipantDeviceState</name></member>
+      <member refid="group__conference_1gaf849c3f9c8fa8ba463dd339813399db0" kind="enum"><name>_LinphoneParticipantDeviceJoiningMethod</name></member>
+      <member refid="group__conference_1gab17a6a992e0c1b400e4dd94d8a7240e6" kind="enum"><name>_LinphoneParticipantDeviceDisconnectionMethod</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__conference_1ga4825ccb5d7757d92578ae37ec4527b64" kind="typedef"><name>LinphoneParticipantDeviceState</name></member>
+      <member refid="group__conference_1ga2e167e3aed9bde3a3a1c78a13fb09210" kind="typedef"><name>LinphoneParticipantDeviceJoiningMethod</name></member>
+      <member refid="group__conference_1gab1282540864d06cdd5dadbe649447817" kind="typedef"><name>LinphoneParticipantDeviceDisconnectionMethod</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2010-2022<sp/>Belledonne<sp/>Communications<sp/>SARL.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>Liblinphone</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>(see<sp/>https://gitlab.linphone.org/BC/public/liblinphone).</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>as</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>published<sp/>by<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>License,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Affero<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>this<sp/>program.<sp/>If<sp/>not,<sp/>see<sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_L_PARTICIPANT_DEVICE_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_L_PARTICIPANT_DEVICE_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WARNING:<sp/>Participant<sp/>device<sp/>state<sp/>may<sp/>be<sp/>stored<sp/>in<sp/>the<sp/>database<sp/>(as<sp/>it<sp/>is<sp/>done<sp/>by<sp/>the<sp/>conference<sp/>server),<sp/>therefore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>do<sp/>not<sp/>modify<sp/>the<sp/>integer<sp/>value<sp/>of<sp/>the<sp/>enumeration<sp/>items</highlight></codeline>
+<codeline lineno="31"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__conference_1ga4166b59e94231ab631328aee2e5f58e8" kindref="member">_LinphoneParticipantDeviceState</ref><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga4166b59e94231ab631328aee2e5f58e8a917bfdfa7f3d81d16fbfbbcc2f2b34f2" kindref="member">LinphoneParticipantDeviceStateJoining</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga4166b59e94231ab631328aee2e5f58e8acf61f822c37e0ce80510a59d1c44fb22" kindref="member">LinphoneParticipantDeviceStatePresent</ref><sp/>=</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1,<sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga4166b59e94231ab631328aee2e5f58e8ae345228cbaffa991c4e5e74bdab31208" kindref="member">LinphoneParticipantDeviceStateLeaving</ref><sp/>=<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga4166b59e94231ab631328aee2e5f58e8aa49f0400fe2acf201d71601662fb1240" kindref="member">LinphoneParticipantDeviceStateLeft</ref><sp/>=<sp/>3,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga4166b59e94231ab631328aee2e5f58e8a5caba74186d71470fdf36b71a53cb1bd" kindref="member">LinphoneParticipantDeviceStateScheduledForJoining</ref><sp/>=</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4,<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga4166b59e94231ab631328aee2e5f58e8a766da3e2e42876aa8fa5f8a29922653c" kindref="member">LinphoneParticipantDeviceStateScheduledForLeaving</ref><sp/>=</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5,<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga4166b59e94231ab631328aee2e5f58e8a0b9c6003a6256fd0d927574563129b10" kindref="member">LinphoneParticipantDeviceStateOnHold</ref><sp/>=<sp/>6,<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga4166b59e94231ab631328aee2e5f58e8aa2b29b25e2d30e9a731e359cb6600c6d" kindref="member">LinphoneParticipantDeviceStateAlerting</ref><sp/>=<sp/>7,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1gga4166b59e94231ab631328aee2e5f58e8ae3298282ce18874170cd43ac7709b4fa" kindref="member">LinphoneParticipantDeviceStateMutedByFocus</ref><sp/>=<sp/>8<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}<sp/><ref refid="group__conference_1ga4825ccb5d7757d92578ae37ec4527b64" kindref="member">LinphoneParticipantDeviceState</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__conference_1gaf849c3f9c8fa8ba463dd339813399db0" kindref="member">_LinphoneParticipantDeviceJoiningMethod</ref><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggaf849c3f9c8fa8ba463dd339813399db0ad613963d735d54ca589508d46cdd2439" kindref="member">LinphoneParticipantDeviceJoiningMethodDialedIn</ref><sp/>=<sp/>0,<sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggaf849c3f9c8fa8ba463dd339813399db0ad99093645b04b0156e0112dc0849b499" kindref="member">LinphoneParticipantDeviceJoiningMethodDialedOut</ref><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggaf849c3f9c8fa8ba463dd339813399db0aad1b037e8ba153dd25292590bd8f5c35" kindref="member">LinphoneParticipantDeviceJoiningMethodFocusOwner</ref><sp/>=<sp/>2<sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}<sp/><ref refid="group__conference_1ga2e167e3aed9bde3a3a1c78a13fb09210" kindref="member">LinphoneParticipantDeviceJoiningMethod</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group__conference_1gab17a6a992e0c1b400e4dd94d8a7240e6" kindref="member">_LinphoneParticipantDeviceDisconnectionMethod</ref><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggab17a6a992e0c1b400e4dd94d8a7240e6a300bcf7fedc4fc86462effb24befa89c" kindref="member">LinphoneParticipantDeviceDisconnectionMethodBooted</ref><sp/>=<sp/>0,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggab17a6a992e0c1b400e4dd94d8a7240e6a449e62f91b487ea4c0b03a6883ea8e98" kindref="member">LinphoneParticipantDeviceDisconnectionMethodDeparted</ref><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggab17a6a992e0c1b400e4dd94d8a7240e6aa52600ddc6239dee3b67cb1e055c61c2" kindref="member">LinphoneParticipantDeviceDisconnectionMethodBusy</ref><sp/>=<sp/>2,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__conference_1ggab17a6a992e0c1b400e4dd94d8a7240e6a8b463969c517434c943b33a9607c1730" kindref="member">LinphoneParticipantDeviceDisconnectionMethodFailed</ref><sp/>=</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3<sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}<sp/><ref refid="group__conference_1gab1282540864d06cdd5dadbe649447817" kindref="member">LinphoneParticipantDeviceDisconnectionMethod</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ifndef<sp/>_L_PARTICIPANT_DEVICE_ENUMS_H_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/enums/participant-device-enums.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classFlexiAPIClient_1_1Callbacks" kind="class" language="C++" prot="public">
+    <compoundname>FlexiAPIClient::Callbacks</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classFlexiAPIClient_1_1Callbacks_1aed2fc0a1427af4c67188afbb4488ff09" prot="public" static="no" mutable="no">
+        <type>function&lt; void(const <ref refid="classFlexiAPIClient_1_1Response" kindref="compound">Response</ref> &amp;)&gt;</type>
+        <definition>function&lt;void(const Response &amp;)&gt; FlexiAPIClient::Callbacks::success</definition>
+        <argsstring></argsstring>
+        <name>success</name>
+        <qualifiedname>FlexiAPIClient::Callbacks::success</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="71" column="10" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFlexiAPIClient_1_1Callbacks_1ad3e65351f8150a14d7c13e7b98853b63" prot="public" static="no" mutable="no">
+        <type>function&lt; void(const <ref refid="classFlexiAPIClient_1_1Response" kindref="compound">Response</ref> &amp;)&gt;</type>
+        <definition>function&lt;void(const Response &amp;)&gt; FlexiAPIClient::Callbacks::error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <qualifiedname>FlexiAPIClient::Callbacks::error</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="72" column="10" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFlexiAPIClient_1_1Callbacks_1aba2cfe32fb8aeeee3329c0b175cc7dcd" prot="public" static="no" mutable="no">
+        <type><ref refid="group__initializing_1gaa5cf635b82dd338e7ee2dd3599d05f0a" kindref="member">LinphoneCore</ref> *</type>
+        <definition>LinphoneCore* FlexiAPIClient::Callbacks::core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>FlexiAPIClient::Callbacks::core</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="73" column="14" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" line="69" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/flexi-api-client.h" bodystart="69" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classFlexiAPIClient_1_1Callbacks_1aba2cfe32fb8aeeee3329c0b175cc7dcd" prot="public" virt="non-virtual"><scope>FlexiAPIClient::Callbacks</scope><name>core</name></member>
+      <member refid="classFlexiAPIClient_1_1Callbacks_1ad3e65351f8150a14d7c13e7b98853b63" prot="public" virt="non-virtual"><scope>FlexiAPIClient::Callbacks</scope><name>error</name></member>
+      <member refid="classFlexiAPIClient_1_1Callbacks_1aed2fc0a1427af4c67188afbb4488ff09" prot="public" virt="non-virtual"><scope>FlexiAPIClient::Callbacks</scope><name>success</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

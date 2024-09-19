@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structIsMapContainer" kind="struct" language="C++" prot="public">
+    <compoundname>IsMapContainer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Private::IsMapContainerImpl&lt; T, U &gt;::type</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IsMapContainer&lt; T &gt;</label>
+        <link refid="structIsMapContainer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Private::IsMapContainerImpl&lt; T &gt;::type</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>IsMapContainer&lt; T &gt;</label>
+        <link refid="structIsMapContainer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Private::IsMapContainerImpl&lt; T &gt;::type</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/traits.h" line="52" column="1" bodyfile="D:/git/vozer/vozer_ninja/linphone-desktop/linphone-sdk/liblinphone/include/linphone/utils/traits.h" bodystart="52" bodyend="52"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
